@@ -44,13 +44,14 @@ span {
 
 .card-column {
   display: none;
-  width: 80%;
+  width: 50%!important;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 15%;
   text-align: center;
 }
 
 #techdiv {
+  widt
 }
 
 .navbtn {
@@ -96,4 +97,22 @@ i {
   background-color: wheat;
   border-radius: 25px 25px 25px 25px;
   display:none;
+}
+
+.clubs {
+  position: fixed;
+  top:5%;
+  width: 80%;
+  left:10%;
+  right: 10%;
+}
+
+.club-btn {
+    background: none;
+    border: none;
+}
+
+.club_icon {
+  width: 100px;
+  z-index: -1000;
 }

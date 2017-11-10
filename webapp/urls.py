@@ -6,5 +6,7 @@ urlpatterns = [
 	url(r'^$', views.index),
     url(r'team', views.team),
     url(r'events', views.events),
-    url(r'events/(?P<name>.+)',views.details,name='details')
+    url(r'dashboard', views.dashboard),
+    url(r'events/(?P<name>.+)',views.details,name='details'),
+    url(r'register/(?P<eventname>.+)',views.eventregister,name='eventregister')
 ]

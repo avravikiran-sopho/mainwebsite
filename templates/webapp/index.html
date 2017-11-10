@@ -2,15 +2,27 @@
 <html>
 <head>
 	<title>Home</title>
+	<meta name="google-signin-client_id" content="562564065281-vieaesrlht65nerlj9nsecvvupr2e91f.apps.googleusercontent.com">
 </head>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
 <body>
+	
 	{{ user.get_username }}
+	
 	<a href="/events">Events</a>
 	<a href="/team">Team</a>
 	{% if user.is_authenticated %}
 	<li style="font-weight: bold"><a href="/login/logout/"></span>Logout</a></li>
+	<li style="font-weight: bold"><a href="/dashboard/"></span>Dash</a></li>
 	{% else %}
 	<li style="font-weight: bold"><a href="login"></span> Login/SignUp</a></li>
 	{% endif %}
+
 </body>
+<script type="text/javascript">
+	{% if message %}
+	alert ( "{{ message }}" );
+	{% endif %}
+</script>
 </html>
