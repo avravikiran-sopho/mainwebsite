@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Dashboard</title>
-</head>
-<body>
-	{{ events }}
-	<h1>Name:{{ user.get_username }}</h1>
-	<h1>Name:{{ user.id }}</h1>
-	<h1>Email:{{ user.email }}</h1>
-	<h1>College:{{ profile.college }}</h1>
-	<h1>mobile:{{ profile.mobile }}</h1>
-	<h1>City:{{ profile.city }}</h1>
-	{% for event in events %}
-	<h1>Events: {{ event.event }}<h1>
-	{% endfor %}
 
 
+{{ events }}
+<h1>Name:{{ user.get_username }}</h1>
+<h1>Name:{{ user.id }}</h1>
+<h1>Email:{{ user.email }}</h1>
+<h1>College:{{ profile.college }}</h1>
+<h1>mobile:{{ profile.mobile }}</h1>
+<h1>City:{{ profile.city }}</h1>
+{% for event in events %}
+<h1>Events: {{ event.event }}<h1>
+{% endfor %}
 
-	
-	
-
-</body>

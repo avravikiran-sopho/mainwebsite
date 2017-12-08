@@ -1,0 +1,33 @@
+
+.nav-link {
+	color:white;
+}
+
+.cover {
+	width:100%;
+}
+
+.content {
+	text-align: center;
+	border: solid gray 1px;
+	background-color: lightgray;
+}
+
+.container {
+	text-align: center;
+}
+
+.question {
+	border:solid gray 1px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding:1%;
+}
+
+.inputfield {
+	width: 50%;
+	text-align: center;
+}

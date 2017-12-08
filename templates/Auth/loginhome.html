@@ -1,156 +1,129 @@
+
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/loginhome.css' %}">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<meta name="google-signin-client_id" content="562564065281-vieaesrlht65nerlj9nsecvvupr2e91f.apps.googleusercontent.com">
+{% include "base.html" %}
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-		  		<div class="panel panel-login">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-xs-6">
-								<a href="#" class="active" onclick="showLogin()" id="login-form-link">Login</a>
-							</div>
-							<div class="col-xs-6">
-								<a href="#" id="register-form-link" onclick="showRegister()">Register</a>
-							</div>
-						</div>
-						<hr>
-					</div>
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-lg-12">
-								<form id="login-form" action="do_login/" method="post" role="form" style="display: block;">
-									{% csrf_token %} 
-									<div class="form-group">
-										{{LoginForm.username}}
-									</div>
-									<div class="form-group">
-										{{LoginForm.password}}
-									</div>						
-									<div class="form-group">
-										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3">
-												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
-											</div>
-										</div>
-									</div>
+	<link href="{% static 'css/icon.css' %}" rel='stylesheet' type='text/css'>
+	<link href="{% static 'css/icon2.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/normalize.css' %}" rel='stylesheet' type='text/css'>
+	<link href="{% static 'css/csslogin.css' %}" rel='stylesheet' type='text/css'>		
+	<script type="text/javascript">
 
-								</form>
-								<form id="register-form" action="do_register/" method="post" role="form" style="display: none;">
-									<!-- <div class="g-signin2" data-onsuccess="onSignIn"></div>
-									<a href="#" onclick="signOut();">Sign out</a> -->
-									{% csrf_token %} 
-									<img width=100 height=100 src="" alt="profile pic" id="pic">
-									<div class="form-group">
-										{{RegisterForm.username}}
-									</div>
-									<div class="form-group">
-										{{RegisterForm.email}}
-									</div>
-									<div class="form-group">
-										{{RegisterForm.password1}}
-									</div>
-									<div class="form-group">
-										{{RegisterForm.password2}}
-									</div>
-									<div class="form-group">
-										{{ ProfileForm.college }}
-									</div>
-									<div class="form-group">
-										{{ ProfileForm.mobile }}
-									</div>
-									<div class="form-group">
-										{{ ProfileForm.city }}
-									</div>
-									
-									<div class="form-group">
-										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3">
-												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
+		{% if message %}
+		alert ( "{{ message }}" );
+		{% endif %}
+
+	 	function cambiar_login() {
+	 		document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_login";  
+			document.querySelector('.cont_form_login').style.display = "block";
+			document.querySelector('.cont_form_sign_up').style.opacity = "0";
+			setTimeout(function(){
+				document.querySelector('.cont_form_login').style.opacity = "1"; },400);
+				setTimeout(function(){
+					document.querySelector('.cont_form_sign_up').style.display = "none";
+				},200);
+		}
+
+		function cambiar_sign_up(at) {
+			document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_sign_up";
+			document.querySelector('.cont_form_sign_up').style.display = "block";
+			document.querySelector('.cont_form_login').style.opacity = "0";
+			setTimeout(function(){
+				document.querySelector('.cont_form_sign_up').style.opacity = "1";
+			},100);
+			setTimeout(function(){
+				document.querySelector('.cont_form_login').style.display = "none";},
+				400);
+		}    
+
+		function ocultar_login_sign_up() {
+			document.querySelector('.cont_forms').className = "cont_forms";  
+			document.querySelector('.cont_form_sign_up').style.opacity = "0";               
+			document.querySelector('.cont_form_login').style.opacity = "0";
+			setTimeout(function(){
+				document.querySelector('.cont_form_sign_up').style.display = "none";
+				document.querySelector('.cont_form_login').style.display = "none";
+			},500);}
+	</script>
+
+	<div class="cont_login">
+		<div class="cont_info_log_sign_up">
+      		<div class="col_md_login">
+				<div class="cont_ba_opcitiy">
+        			<h2>LOGIN</h2>  
+  					<p>Welcome Back!!!</p> 
+  					<button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+  				</div>
+  			</div>
+			<div class="col_md_sign_up">
+				<div class="cont_ba_opcitiy">
+  					<h2>SIGN UP</h2>
+  					<p>Join Us Now!!!</p>
+  					<button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
 				</div>
-			</div>
-		</div>
+  			</div>
+        </div>    
+	    <div class="cont_back_info">
+	    	<div class="cont_img_back_grey">
+	        <img height=100% src="{% static 'img/formimg.jpg' %}" alt="" />
+	    </div>
 	</div>
-</body>
+	<div class="cont_forms" >
+	    <div class="cont_img_back_">
+	    	<img height=100% src="{% static 'img/formimg.jpg' %}" alt="" />
+	    </div>
+	    <form method="post" action="do_login/">
+	    {% csrf_token %}
+	 	<div class="cont_form_login">
+			<a href="#" onclick="ocultar_login_sign_up()" ><md-icon class="material-icons arrow-left1" role="img" aria-label="back" style="margin-left: -0.5em;">arrow_back</md-icon></a>
+	   		<h2 style="color: white;">LOGIN</h2>	   		
+			<md-icon class="material-icons" role="img" aria-label="mail">mail</md-icon>
+	 		<!-- <input type="text" placeholder=" Email" /> -->
+	 		{{ LoginForm.username }}
+			<md-icon class="material-icons" role="img" aria-label="vpn_key">vpn_key</md-icon>
+			<!-- <input type="password" placeholder="Password" /> -->
+			{{ LoginForm.password }}
+			<div class="button-container button-water-fill wave-blue">
+	          	<div class="filler">
+	              	<div class="button">
+	                	<button class="submit_btn"><i style="color: white;">LOGIN</i></button>
+	              	</div>
+	          	</div>
+	      	</div>	      	
+	  	</div>
+	  	</form>
+	  	<br>
 
-<script type="text/javascript">
-	// function onSignIn(googleUser) {
-	//   var profile = googleUser.getBasicProfile();
-	//   console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-	//   console.log('Name: ' + profile.getName());
-	//   console.log('Image URL: ' + profile.getImageUrl());
-	//   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 
-	//   document.getElementById('name').value = profile.getName();
-	//   document.getElementById('email').value = profile.getEmail();
-	//   document.getElementById('pic').src = profile.getImageUrl();
-
-	// }
-
- //    function signOut() {
- //    	var auth2 = gapi.auth2.getAuthInstance();
-	//     auth2.signOut().then(function () {
-	//       console.log('User signed out.');
-	//     });
-	// }
-
-	{% if register %}
-	showRegister();
-	{% endif %}
-
-	{% if message %}
-	alert ( "{{ message }}" );
-	{% endif %}
-
-	function fade(element) {
-	    var op = 1;  // initial opacity
-	    var timer = setInterval(function () {
-	        if (op <= 0.1){
-	            clearInterval(timer);
-	            element.style.display = 'none';
-	        }
-	        element.style.opacity = op;
-	        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-	        op -= op * 0.1;
-	    }, 2);
-	}
-
-	function unfade(element) {
-	    var op = 0.1;  // initial opacity
-	    element.style.display = 'block';
-	    var timer = setInterval(function () {
-	        if (op >= 1){
-	            clearInterval(timer);
-	        }
-	        element.style.opacity = op;
-	        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-	        op += op * 0.1;
-	    }, 2);
-	}
-	function showRegister() {
-	 	document.getElementById("login-form-link").className = "";
-	 	fade(document.getElementById("login-form"))
-	 	unfade(document.getElementById("register-form"))
-	 	document.getElementById("register-form-link").className = "active";
- 	}
-
-	function showLogin() {
-	 	document.getElementById("register-form-link").className = "";
-	 	fade(document.getElementById("register-form"))
-	 	unfade(document.getElementById("login-form"))
-	 	document.getElementById("login-form-link").className = "active";
- 	}
-
-</script>
+	  	<form action="do_register/" method="post">
+	  	{% csrf_token %}
+	   	<div class="cont_form_sign_up">
+			<a href="#" onclick="ocultar_login_sign_up()"><md-icon class="material-icons arrow-left1" role="img" aria-label="back" style="margin-left: -0.5em;">arrow_back</md-icon></a>
+	     	<h2 style="color: white;">SIGN UP</h2>
+			<md-icon class="material-icons" role="img" aria-label="edit">edit</md-icon>
+			{{ RegisterForm.username }}
+			<md-icon class="material-icons" role="img" aria-label="home">home</md-icon>
+			{{ ProfileForm.college }}
+			<md-icon class="material-icons" role="img" aria-label="home">home</md-icon>
+			{{ ProfileForm.city }}
+			<md-icon class="material-icons" role="img" aria-label="phone">phone</md-icon>
+			{{ ProfileForm.mobile }}
+			<md-icon class="material-icons" role="img" aria-label="mail">mail</md-icon>
+			{{ RegisterForm.email }}
+			<md-icon class="material-icons" role="img" aria-label="vpn_key">vpn_key</md-icon>
+			{{ RegisterForm.password1 }}
+			<md-icon class="material-icons" role="img" aria-label="vpn_key">vpn_key</md-icon>
+			{{ RegisterForm.password2 }}
+			{{ ProfileForm.gender }}
+		  	<!-- Male<input type="radio" name="gender" value="male" > 
+		  	Female<input type="radio" name="gender" value="female">  -->
+			<div class="button-container button-water-fill wave-blue">
+	        	<div class="filler">
+	              	<div class="button">
+	                	<button class="submit_btn"><i style="color: white;">SIGN UP</i></button>
+	              	</div>
+	          	</div>
+	      	</div>
+	    </div>
+		</form>
+	</div>
+	

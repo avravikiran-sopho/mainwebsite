@@ -1,0 +1,61 @@
+
+{% load static %}
+{% include "base.html" %}
+
+<body>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/elmatrico/style.css' %}">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="/">
+	    <img src="{% static 'img/logo.png' %}" width=25% alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <!-- <li class="nav-item">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li> -->
+	      {% if user.is_authenticated %}
+	      <li class="nav-item">
+	        <a class="nav-link" href="/login/logout/">{{ user.get_username }}</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/login/logout/">Logout</a>
+	      </li>
+	      {% else %}
+	      <li class="nav-item">
+	        <a class="nav-link" href="/login">Login/SignUp</a>
+	      </li>
+	      {% endif %}
+	    </ul>
+	  </div>
+	</nav>
+	
+	<div class="container cover"><img src="{% static 'img/matlab.png' %}" width=100%;></div><br>
+	<div class="container content">
+		<h1>ELMATRICO</h1>
+	</div>
+
+
+	{% if user.is_authenticated %}
+	<div class="container question">
+		<p>sdccccccccccccjnljbnlcjbnljsd<br>asvcsdvsvs</p>	  	
+	</div>
+	<div class="container">
+	{% block content %}
+		<form method="post" enctype="multipart/form-data">
+			{% csrf_token %}
+			{{ form.as_p }}
+			<button type="submit">Upload</button>
+		</form>
+	{% endblock %}
+	{% endif %}
+	</div>
+</body>
+
+</html>

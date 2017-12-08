@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Auth',
     'webapp',
+    'elmatrico',
     
 ]
 
@@ -144,3 +145,7 @@ EMAIL_HOST_USER = 'avenkataravikiran@gmail.com'
 EMAIL_HOST_PASSWORD = 'Avrkiran@123'
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

@@ -22,6 +22,9 @@ def team(request):
 def events(request):
 	return render(request,'webapp/events.html')
 
+def pronites(request):
+	return render(request,'webapp/pronites.html')
+
 @login_required
 def dashboard(request):	
 	profile = Profile.objects.get(user = request.user)

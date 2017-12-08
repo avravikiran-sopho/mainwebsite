@@ -53,9 +53,6 @@ def Register(request):
 			password1 = form1.cleaned_data['password1']
 			password2 = form1.cleaned_data['password2']
 			profile = form2.save(commit=False)
-			college = form2.cleaned_data['college']
-			mobile = form2.cleaned_data['mobile']
-			city = form2.cleaned_data['city']
 			if password1 == password2:
 				user.set_password(password1)
 				user.save()
@@ -65,6 +62,7 @@ def Register(request):
 				new_object.college = form2.cleaned_data['college']
 				new_object.mobile = form2.cleaned_data['mobile']
 				new_object.city = form2.cleaned_data['city']
+				new_object.gender = form2.cleaned_data['gender']
 				new_object.save()
 				current_site = get_current_site(request)
 				mesage = render_to_string('acc_active_email.html', {

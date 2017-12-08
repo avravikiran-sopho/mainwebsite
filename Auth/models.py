@@ -6,7 +6,10 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 
 # Create your models here.
-
+GENDER_CHOICES = (
+   ('male', 'male'),
+   ('female', 'female')
+)
 
 class Profile(models.Model):
 
@@ -14,6 +17,7 @@ class Profile(models.Model):
     college = models.TextField(max_length=500, blank=True)
     mobile = models.IntegerField(blank=True)
     city = models.TextField(max_length=500, blank=True)
+    gender = models.CharField(choices=GENDER_CHOICES, max_length=128)
     def __str__(self):
        return str(self.user)
 # @receiver(post_save, sender=User)

@@ -1,25 +1,7 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Team | ELAN & &eta;vision 2018</title>
-   <link rel="icon" href="" type="image/x-icon">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="ηvision is the techno-management fest of IIT Hyderabad.">
-   <meta name="copyright" content="ELAN & ηvision 2018">
-  <meta name="author" content="ELAN & ηvision 2018">
-   <meta name="keyword" content="workshops, iith, techy workshops, robotics, android, elan,nvision,elan & nvision,vision,techno,tech,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,robots,sponsors,games,awesome,workshops,kludge,infero,cephid,ecell,robotics,equilibria,torque,electronica">
-   <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     {% load static %}
-	  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="{% static 'css/team.css' %}">
-    <script src="{% static 'assets/js/scroll.min.js' %}"></script>
-	</head>
+    {% include "base.html" %}
+    
 	<body>
     <div class="l-menu">
       <ul class="m-list">
@@ -41,12 +23,15 @@
 
 
 		<div id="wrap">
+      <div class="picture">
+        <img class="img-big" src="{% static 'img/team/srujan.JPG' %}" alt="Card image cap">
+      </div>
 
       <div id="one">
         <div class="container">
           <div class="card" style="margin-top:10%" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/srujan.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/srujan.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Srujan Bazar</p>
@@ -66,7 +51,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/chirayu.jpg' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/chirayu.jpg' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Chirayu Kothari</p>
@@ -82,7 +67,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/surya.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/surya.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Surya Pramod</p>
@@ -96,7 +81,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/irfan.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/irfan.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Irfan Ali</p>
@@ -110,7 +95,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/akshay.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/akshay.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Akshay Raghavan</p>
@@ -124,7 +109,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/shruthi.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/shruthi.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Shruti Agarawal</p>
@@ -138,7 +123,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/harshita.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/harshita.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Harshita Chitla</p>
@@ -158,7 +143,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/siva.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/siva.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Siva Satvik</p>
@@ -175,7 +160,7 @@
           
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/gitanjali.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/gitanjali.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Gitanjali Mannepalli</p>
@@ -189,7 +174,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/shashank.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/shashank.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Shashank Varanasi</p>
@@ -203,7 +188,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/akshita.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/akshita.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Akshita Ramya</p>
@@ -218,7 +203,7 @@
           
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/anvesh.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/anvesh.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Anvesh Bendalam</p>
@@ -232,7 +217,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/charan.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/charan.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Sri Charan</p>
@@ -246,7 +231,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/uma.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/uma.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Uma Reddy</p>
@@ -260,7 +245,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/prabath.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/prabath.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Prabath Goutham</p>
@@ -274,7 +259,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/vishwa.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/vishwa.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Vishwajith Rathod</p>
@@ -294,7 +279,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/suprabath.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/suprabath.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Suprabath Reddy</p>
@@ -310,7 +295,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/aravind.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/aravind.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Aravind Ganesh</p>
@@ -324,7 +309,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/shivrag.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/shivrag.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Shivarag Reddy</p>
@@ -338,7 +323,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/bharadwaj.jpg' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/bharadwaj.jpg' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Siripuram Sai Bharadwaj</p>
@@ -358,7 +343,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/nanda.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/nanda.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Nanda Kumar</p>
@@ -374,7 +359,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/kabir.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/kabir.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Kabir Sharda</p>
@@ -388,7 +373,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/laxmiganna.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/laxmiganna.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Laxmi Ganna</p>
@@ -402,7 +387,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/pramudith.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/pramudith.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Pramudit Tripathi</p>
@@ -416,7 +401,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/tejas.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/tejas.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Tejas Ananda</p>
@@ -430,7 +415,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/jeel.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/jeel.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Jeel Bhavasar</p>
@@ -448,9 +433,9 @@
 
       <div id="six">
         <div class="container">
-          <div class="card" >
+          <div class="card" id="shivom">
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/shivom.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/shivom.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Shivom Taank</p>
@@ -462,11 +447,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="card" >
+          <div class="card" id="madhur">
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/madhur.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/madhur.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Madhur Gupta</p>
@@ -478,9 +461,9 @@
               </div>
             </div>
           </div>
-          <div class="card" >
+          <div class="card" id="adharsh" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/adharsh.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/adharsh.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Adarsh Mathai</p>
@@ -492,9 +475,9 @@
               </div>
             </div>
           </div>
-          <div class="card" >
+          <div class="card" id="arjun">
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/arjun.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/arjun.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Arjun Manoj</p>
@@ -506,9 +489,9 @@
               </div>
             </div>
           </div>
-          <div class="card" >
+          <div class="card" id="sudhanshu">
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/sudhanshu.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/sudhanshu.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Sudhanshu Chawhan</p>
@@ -520,9 +503,9 @@
               </div>
             </div>
           </div>
-          <div class="card" >
+          <div class="card" id="eldo">
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/eldo.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/eldo.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Eldho Shajan</p>
@@ -534,9 +517,9 @@
               </div>
             </div>
           </div>
-          <div class="card" >
+          <div class="card" id="ninad">
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/ninad.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/ninad.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Ninad Akolekar</p>
@@ -548,9 +531,9 @@
               </div>
             </div>
           </div>
-          <div class="card" >
+          <div class="card" id="kiran">
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/kiran.jpg' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/kiran.jpg' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Ravi Kiran</p>
@@ -569,7 +552,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/aman.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/aman.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Aman Chaurasia</p>
@@ -585,7 +568,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/ashish.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/ashish.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Sai Ashish</p>
@@ -599,7 +582,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/laxmi.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/laxmi.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">lakshmi Mangu</p>
@@ -613,7 +596,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/piyush.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/piyush.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Piyush Udhan</p>
@@ -627,7 +610,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/uwais.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/uwais.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Uwais Ulde</p>
@@ -641,7 +624,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/roshini.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/roshini.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Roshni Pande</p>
@@ -655,7 +638,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/deep.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/deep.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Deep Diwani</p>
@@ -674,7 +657,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/yash.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/yash.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Yash Pitroda</p>
@@ -690,7 +673,7 @@
         <div class="container">
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/sahil.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/sahil.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Sahil Khobragade</p>
@@ -704,7 +687,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/bharadwaja.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/bharadwaja.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Bharadwaja Ryali</p>
@@ -718,7 +701,7 @@
           </div>
           <div class="card" >
             <div class="img-div">
-              <img class="card-img" src="{% static 'assets/img/team/neeraj.JPG' %}" alt="Card image cap">
+              <img class="card-img" src="{% static 'img/team/neeraj.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
               <p class="card-title">Neeraj tak</p>
@@ -732,15 +715,28 @@
           </div>
         </div>
       </div>
-
-
 		</div>
-
-
-
-	</body>
-
+  </body>
 		<script>
+      var name;
+      $(".card").hover(function(){
+        $(this).find(".card-content").slideDown();
+        $(this).find(".socialbtns").slideDown();
+        var x = $(this).attr('id');
+          var name = "static/img/team/"+x+".JPG"
+          console.log(name); 
+         $('.img-big').fadeOut(500, function() {            
+            $('.img-big').attr("src",name);
+            $('.img-big').fadeIn(500);            
+        });}, function(){   
+          var x = $(this).attr('id');
+          var name = "static/img/team/"+x+".JPG"
+          console.log(name);       
+          $(this).find(".card-content").slideUp(0);
+          $(this).find(".socialbtns").slideUp(0);
+          $('.img-big').attr("src",name);
+      });
+
 		$.extend($.scrollTo.defaults,{
 			axis:'x',duration:1000
 		});
