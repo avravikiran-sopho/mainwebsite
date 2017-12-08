@@ -20,7 +20,7 @@ def index(request):
 		form = DocumentForm(request.POST, request.FILES)
 		if form.is_valid():
 			form.save()
-			return redirect('home')
+			return render(request,'elmatrico/index.html')
         else:
         	form = DocumentForm()
         	return render(request, 'elmatrico/index.html', {
