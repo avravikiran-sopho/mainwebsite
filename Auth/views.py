@@ -12,6 +12,7 @@ from .tokens import account_activation_token
 from django.template.loader import render_to_string
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.contrib.auth.models import User
+from django.core.exceptions import ValidationError
 
 
 # Create your views here.
@@ -32,11 +33,13 @@ def Login(request):
 			if user is not None:
 				login(request,user)
 				return redirect(home)
-			else:				
-				message = "Invalid username or password"
+			else:
+				message = "username or password is incorrect"
+				# raise forms.ValidationError("Invalid username or password")
+				return redirect(home)
 				return render(request,'Auth/loginhome.html',{'message':message,'LoginForm':LoginForm})
 		else:
-			message = "Formis not valid"
+			message = "Form is not valid"
 			return render(request,'Auth/loginhome.html',{'message':message,'LoginForm':LoginForm})
 	else:
 		return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
@@ -76,7 +79,7 @@ def Register(request):
 				email = EmailMessage(mail_subject, mesage, to=[to_email])
 				email.send()
 				message = "Open link in mail to confirm registration"
-				return render(request,'webapp/index.html',{'message':message})
+				return render(request,'elmatrico/index.html',{'message':message})
 			else:
 				message = "Password dont match"
 			return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
@@ -123,3 +126,5 @@ def activate(request, uidb64, token):
         return redirect(home)
     else:
         return HttpResponse('Activation link is invalid!')
+
+

@@ -8,15 +8,15 @@
 }
 
 .content {
-	text-align: center;
+	text-align: left;
 	border: solid gray 1px;
 	background-color: lightgray;
 }
 
-.container {
-	text-align: center;
-}
+.btn {
+	margin: 0 2%;
 
+}
 .question {
 	border:solid gray 1px;
 	margin-top: 1%;
@@ -25,9 +25,28 @@
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	padding:1%;
+	font-size: 20px;
+	text-align: left!important;
 }
 
-.inputfield {
+.container {
+	font-size: 20px;
+	border-radius: 15px;
+}
+/*.inputfield {
 	width: 50%;
 	text-align: center;
+}*/
+
+.list {
+	width: 40%;
+	margin: auto;
+}
+
+.rules {
+	display: none;
+}
+
+.submission {
+	display: none;
 }
