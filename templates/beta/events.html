@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+  <head>
+      <link rel="shortcut icon" href="favicon.png' %}" type="image/x-icon">
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'img/beta/events/apple-icon.png' %}">
+    <link rel="icon" type="image/png" href="{% static 'img/beta/events/favicon.png' %}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>ELAN & &eta;vision 2017 | IIT Hyderabad</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <!-- CSS Files -->
+    
+    <link href="{% static 'css/beta/bootstrap.min.css' %}" rel="stylesheet" />
+   	<link rel="stylesheet" href="{% static 'css/beta/navbar.css' %}">
+    <link href="{% static 'css/beta/animatism.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/beta/events.css' %}" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/beta/team.css' %}">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="0">
+
+	<!-- Navbar -->
+    <nav class="navbar navbar-ct-blue navbar-transparent" role="navigation" style="padding-top:15px;text-align:center">
+      <div class="container" style="width:90%!important;max-width:3000px;margin:0;padding:0;margin:auto">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand navbar-brand-logo" href="/">
+                <div class="logo nav-logo"><img src="{% static 'img/beta/logo-big.png' %}" style="max-width: 100%;"/></div>
+              </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="btn-2" href="about">
+                            <p>About</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-2" href="sponsors">
+                            <p>Previous Sponsors</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-2" href="workshops">
+                            <p>Workshops</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-2 active" href="events">
+                            <p>Events</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="btn-2" href="team">
+                            <p>Team</p>
+                        </a>
+                    </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+<!--  end navbar -->
+    <h1 class="text-center">Events</h1>
+    <hr>
+
+    <!--Events-->
+    <div class="button-group filters-button-group " style="margin:auto;width:60%;text-align:center;">
+      <button class="cat button is-checked" data-filter="*">All</button>
+      <button class="cat button" data-filter=".branding">Biggies</button>
+      <button class="cat button" data-filter=".webdesign">Culti</button>
+      <button class="cat button" data-filter=".technical">Techy</button>
+      <button class="cat button" data-filter=".printdesign">Infi</button>
+      <button class="cat button" data-filter=".photography">Litr</button>
+      <button class="cat button" data-filter=".online">Online</button>
+    </div>
+    <div class=eventcontainer>
+			<div class="events branding" data-category="branding">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic1.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>ELAN-<span>E-JUNG</span></h4>
+						<p>Watch as the stage is converted into a battlefield as the bands sweat it out in a winner-get-all-no-holds-barred contest.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ELAN-E-JUNG</p>
+			</div>
+      <div class="events branding">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic2.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Manthan</h4>
+						<p>Lose yourself in the lilting guitar music dished out by the score.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">MANTHAN</p>
+			</div>
+      <div class="events branding">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic3.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>CAMPUS PRINCESS <span>AUDITION</span></h4>
+						<p>Zonal auditions held in ELAN 2016 , adjudged by Aafreen Vaz</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">CAMPUS PRINCESS</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic4.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>BREAKFREE</h4>
+						<p>A competition where the dancers must captivate the audience with their immense dancing talent.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">BREAKFREE</p>
+			</div>
+
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic5.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>LOOSE YOUR <span>FEET</span></h4>
+						<p>Shake a leg.<br>Twist your body.<br>Break your neck.<br>It's time to LET GO.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">LOOSE YOUR FEET</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic6.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>NRITYANJALI</h4>
+						<p>A perfect traditional touch for the cultural extravaganza.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">NRUTHYANJALI</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic7.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>JUST<span> DUET</span></h4>
+						<p>A perfect event for a pair of dancers.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">JUST DUET</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic8.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>VIBRAZIONE</h4>
+						<p>A battle of singing where the contestants pellbind with their harmonious notes.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">VIBRAZONE</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic9.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>FACE<span> PAINTING</span></h4>
+						<p>Wanna have some fun with painting?. You think you can have a face funkier than infamous "THE MASK".</p>
+						<a href="#"></a>
+					</figcaption>
+				</figure>
+        <p class="title">FACE PAINTING</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic10.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>NAIL<span> ART</span></h4>
+						<p>Can you add your intricate details creatively on much smaller canvas like finger nails?</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">NAIL ART</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic11.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>MEHNDI<span> ART</span></h4>
+						<p>Let the henna flow out of your cones and let's see what color it brings to your life.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">MEHENDI ART</p>
+			</div>
+      <div class="events webdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic12.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>CLAY<span> MODELLING</span></h4>
+						<p>Come! Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay!</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">CLAY MODELLING</p>
+			</div>
+      <div class="events printdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic13.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>WALK <span>THE RAMP</span></h4>
+						<p>Most anticipated event that depicts the zenith of glitziness and glamour.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">THE RAMP</p>
+			</div>
+      <div class="events printdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic14.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>MINUTE TO<br><span> WIN IT</span></h4>
+						<p>This contains the traditional one minute games to end a tiring day. The events will be simple and fun-filled.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">MINUTE TO WIN IT</p>
+			</div>
+      <div class="events printdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic15.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>LAN<span> GAMING</span></h4>
+						<p>Everyone's a gamer.<br>Not everyone's a winner.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">LAN GAMING</p>
+			</div>
+      <div class="events printdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic16.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>FINAL<span> DESTINATION</span></h4>
+						<p>Scratch your head to think and scratch your leg if you fall!!</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">FINAL DESTINATION</p>
+			</div>
+      <div class="events printdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic17.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>MAD<span> ADS</span></h4>
+						<p>The participants need to produce an AD for the product (funny or crazy) given to them.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">MAD ADS</p>
+			</div>
+      <div class="events printdesign">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic18.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>CONVERSATION<span> COFFEE</span></h4>
+						<p>This event basically aims at the interaction of our august crowd among themselves.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">CONVERSATION COFFEE</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic19.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>ROBO<span> WARS</span></h4>
+						<p>I can't hear you over the sounds of robots being destroyed.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ROBO WARS</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/robo_epic.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>ROBO<span> Quiddish</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ROBO QUIDDITCH</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/salesman.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Salesman<span> of Fest<span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">SALESMAN OF FEST</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic20.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>HACK<span> A MAZE</span></h4>
+						<p>Amaze all by coding your way out of the maze.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">HACK A MAZE</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic21.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>ROBO<span> SOCCER</span></h4>
+						<p>This is where you will find the smallest footallers in town.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ROBO SOCCER</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic22.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>BRIDGE<span> BUILDER</span></h4>
+						<p>Can your work hold off against more than waht you bargained for?</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">BRIDGE BUILDER</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic23.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>AQUA<span> ROCKET</span></h4>
+						<p>As in life, make the best of what little you are provided with.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">AQUA ROCKET</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic24.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>PROJECT<span> X</span></h4>
+						<p>As in life, make the best of what little you are provided with.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">PROJECT X</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic25.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>BUILD<span> A GAZE</span></h4>
+						<p>Fashion your own telescope and take a peak into the space.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">BUILD A GAZE</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic26.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>ELECTRONIC<span> CHAMP</span></h4>
+						<p>Are you wired to win?</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ELECTRONIC CHAMP</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/portfolio_pic27.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>PIRATES</h4>
+						<p>Stay afloat to stay alive.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">PIRATES</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/algo.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Algorithma</h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ALGORITHMA</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/sciencequiz.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Sci-Tech <span>Quiz</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">SCI-TECH QUIZ</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/pitch.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Crowd <span>Pitch</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">CROWD PITCH</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/poster_presentation.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Poster <span>Presentation</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">POSTER PRESENTATION</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/paperplane.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Paper <span>Plane</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">PAPER PLANE</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/paperpt.png' %}" alt="img16"/>
+					<figcaption>
+						<h4>Paper <span>Presentation</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">PAPER PRESENTATION</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/ojo_cada.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Cad <span>pro</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">CAD PRO</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/junkyard_wars.png' %}" alt="img16"/>
+					<figcaption>
+						<h4>Junkyard <span>Wars</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">JUNKYARD WARS</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/jugaadit.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Jugaad <span>IT</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">JUGAAD IT</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/hackathon.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Reality <span>Hack</hack></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">REALITY HACK</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/galileo.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Galileo <span>Project</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">GALILEO PROJECT</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/quadcopter.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Quadcopter</h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">QUADCOPTER</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/pro_quest.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Pro <span>Quest</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">PRO QUEST</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+  				<img src="{% static 'img/beta/events/enigma.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Enigma</h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ENIGMA</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/dtmf_race.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>DTMF <span>Race</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">DTMF RACE</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/drift_king.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Drift <span>King</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">DRIFT KING</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/circuithunt.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Circuit <span>Hunt</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">CIRCUIT HUNT</p>
+			</div>
+      <div class="events technical">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/auto_quiz.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>Automobile<span>Quiz</span></h4>
+						<p></p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">AUTOMOBILE QUIZ</p>
+			</div>
+      <div class="events photography">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/mrdetective.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>MR.<span> DETECTIVE</span></h4>
+						<p>Unravel all the clues hidden in plain sight and be the first to get to the bottom of the mystery.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">MR. DETECTIVE</p>
+			</div>
+      <div class="events photography">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/wheel-of-fortune.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>WHEEL OF<span> FORTUNE</span></h4>
+						<p>A fun event that combines luck and knowledge,point determined by the number spun on the wheel.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">WHEEL OF FORTUNE</p>
+			</div>
+      <div class="events photography">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/quizzes.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>QUIZ<span> CONCLAVE</span></h4>
+						<p>Set of themed quizzes, and there's one for everybody. The jacks of all trades participate in various rounds of the general quiz.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">QUIZ CONCLAVE</p>
+			</div>
+      <div class="events photography">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/jam.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>JUST A<span> MINUTE</span></h4>
+						<p>You've got a minute to win it.<br>Good Luck.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">JUST A MINUTE</p>
+			</div>
+      <div class="events photography">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/businessquiz.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>BUSINESS<span> QUIZ</span></h4>
+						<p>Trade and Beyond in association with Elan , IIT Hyderabad Invited students for its campus quiz during the fest</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">BUSINESS QUIZ</p>
+			</div>
+      <div class="events online">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/pixeladda.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>PIXEL<span> ADDA</span></h4>
+						<p>Get behind the lens and shoot away.<br>Picture with maximum likes wins.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">PIXEL ADDA</p>
+			</div>
+      <div class="events online">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/zodiac.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>ZODIAC</h4>
+						<p>Be ready for mind wars in our exhilarating online event.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">ZODIAC</p>
+			</div>
+      <div class="events online">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/sweetheart.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>SWEET<span> HEART</span></h4>
+						<p>Pour your soul into the paper and tell your beloved how much you care.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">SWEET HEART</p>
+			</div>
+      <div class="events online">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/tweetatale.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>TWEET<span>-A-TALE</span></h4>
+						<p>Tragedy, suspense, romance, comedy, fantasy or biography- you'd be surprised at what you can do with 140 characters!</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">TWEET T TALE</p>
+			</div>
+      <div class="events online">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/twistit.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>TWIST<span> IT</span></h4>
+						<p>Ever wondered what would’ve happened if Cinderella never left her shoe behind? Or, if Snow White hadn’t met the dwarves?</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">TWIST IT</p>
+			</div>
+      <div class="events online">
+				<figure class="effect-bubba">
+					<img src="{% static 'img/beta/events/tellatale.jpg' %}" alt="img16"/>
+					<figcaption>
+						<h4>TELL<span>-A-TALE</span></h4>
+						<p>Here's your chance to break free from the convention and pen down a story of few words.</p>
+						<a href="#">View more</a>
+					</figcaption>
+				</figure>
+        <p class="title">TELL A TALE</p>
+			</div>
+      <div class="events online">
+        <figure class="effect-bubba">
+          <img src="{% static 'img/beta/events/skipit.jpg' %}" alt="img16"/>
+          <figcaption>
+            <h4>SKIP<span> IT</span></h4>
+            <p>Have you ever realized how difficult it is to ignore a certain letter of the alphabet completely?</p>
+            <a href="#">View more</a>
+          </figcaption>
+        </figure>
+        <p class="title">SKIP IT</p>
+      </div>
+      <div class="events online">
+        <figure class="effect-bubba">
+          <img src="{% static 'img/beta/events/whatsapp.jpg' %}" alt="img16"/>
+          <figcaption>
+            <h4>STATE<span> YOUR STATUS</span></h4>
+            <p>WhatsApp statuses are a way of letting all our friends know about our day in a line or two.</p>
+            <a href="#">View more</a>
+          </figcaption>
+        </figure>
+        <p class="title">STATE YOUR STATUS</p>
+      </div>
+
+                    </div></div></div>
+    <div class="footer"><a target="_blank" href="https://twitter.com/elan_iith"><img class="footerimg" src="./assets/img/footer/twitter.png' %}"></a><a target="_blank" href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="./assets/img/footer/fb.png' %}"></a><a target="_blank" href="https://www.instagram.com/elan_and_nvision/"><img class="footerimg" src="./assets/img/footer/insta.png' %}"></a>
+    <a target="_blank" href="https://www.youtube.com/user/ElanIITHyderabad"><img class="footerimg" src="./assets/img/footer/yt.png' %}"></a></div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type=text/javascript src="{% static 'js/beta/events.js' %}"></script>
+          <script type=text/javascript src="{% static 'js/beta/isotope.pkgd.min.js' %}"></script>
+    <script src='http://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+
+
+  </body>
+<html>

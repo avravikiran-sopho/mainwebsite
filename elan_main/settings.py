@@ -25,9 +25,6 @@ SECRET_KEY = 'vxy@k6)m6snn0icpu*x4^gfq7ottt2z3ps=qgjpg@kh=i+8iso'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -150,5 +147,5 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-ALLOWED_HOSTS = [u'139.59.71.180']
+ALLOWED_HOSTS = [u'139.59.71.180',u'127.0.0.1']
 
