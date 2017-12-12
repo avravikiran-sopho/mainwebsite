@@ -6,7 +6,7 @@
     font-size: 14px;
     /*background-color: #000;*/
     background-color: #0a0a02!important;
-    background-image: url('static/img/beta/texture.png')!important;
+    background-image: url('/static/img/beta/texture.png')!important;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .navbar ul
