@@ -71,7 +71,7 @@
 	    <div class="cont_img_back_">
 	    	<img height=100% src="{% static 'img/formimg.jpg' %}" alt="" />
 	    </div>
-	    <form method="post" action="do_login/">
+	    <form method="post" action="/do_login">
 	    {% csrf_token %}
 	 	<div class="cont_form_login">
 			<a href="#" onclick="ocultar_login_sign_up()" ><md-icon class="material-icons arrow-left1" role="img" aria-label="back" style="margin-left: -0.5em;">arrow_back</md-icon></a>
@@ -94,7 +94,7 @@
 	  	<br>
 
 
-	  	<form action="do_register/" method="post">
+	  	<form action="/do_register" method="post">
 	  	{% csrf_token %}
 	   	<div class="cont_form_sign_up">
 			<a href="#" onclick="ocultar_login_sign_up()"><md-icon class="material-icons arrow-left1" role="img" aria-label="back" style="margin-left: -0.5em;">arrow_back</md-icon></a>
