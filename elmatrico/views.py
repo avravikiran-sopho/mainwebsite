@@ -24,9 +24,12 @@ def index(request):
         	new_object.document = request.FILES['document']
         	new_object.uploaded_at = localtime(now())
         	new_object.save()
-        	return render(request, 'elmatrico/index.html', {
-	    		'doc': doc
-	    	})
+        	user = request.user
+            doc = Document.objects.get(user=user)
+            return render(request, 'elmatrico/index.html', {
+                'doc': doc
+            })
+        
     else:
     	try:
     		user = request.user
