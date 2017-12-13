@@ -20,7 +20,6 @@ from django.http import HttpResponseRedirect
 def index(request):
 	return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 
-
 def beta(request):
 	return render( request,'beta/index.html' )
 
@@ -33,11 +32,11 @@ def Login(request):
 			user = authenticate(username=username,password=password)
 			if user is not None:
 				login(request,user)
+				
 				return HttpResponseRedirect("/elmatrico")
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")
-				return redirect(beta)
 				return render(request,'Auth/loginhome.html',{'message':message,'LoginForm':LoginForm})
 		else:
 			message = "Form is not valid"
