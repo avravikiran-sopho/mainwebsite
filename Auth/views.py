@@ -20,7 +20,7 @@ def index(request):
 	return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 
 def home(request):
-	return render(request,'webapp/index.html')
+	return render(request,'beta/index.html')
 
 
 def Login(request):
@@ -84,7 +84,7 @@ def Register(request):
 				message = "Password dont match"
 			return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
 		else:
-			message = "Form is valid no"
+			message = "username already exists"
 			return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
 	else:
 		return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'register':register})

@@ -147,5 +147,5 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-ALLOWED_HOSTS = [u'elan.org.in',u'139.59.71.180',u'nvision.org.in']
+ALLOWED_HOSTS = [u'elan.org.in',u'139.59.71.180',u'nvision.org.in',u'127.0.0.1']
 
