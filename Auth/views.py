@@ -13,15 +13,16 @@ from django.template.loader import render_to_string
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
+from django.http import HttpResponseRedirect
 
 
 # Create your views here.
 def index(request):
 	return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 
-def home(request):
-	return render(request,'beta/index.html')
 
+def beta(request):
+	return render( request,'beta/index.html' )
 
 def Login(request):
 	if request.method == "POST":
@@ -32,17 +33,19 @@ def Login(request):
 			user = authenticate(username=username,password=password)
 			if user is not None:
 				login(request,user)
-				return redirect(home)
+				return HttpResponseRedirect("/elmatrico")
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")
-				return redirect(home)
+				return redirect(beta)
 				return render(request,'Auth/loginhome.html',{'message':message,'LoginForm':LoginForm})
 		else:
 			message = "Form is not valid"
 			return render(request,'Auth/loginhome.html',{'message':message,'LoginForm':LoginForm})
 	else:
 		return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
+
+
 
 def Register(request):
 	register = 'register'
