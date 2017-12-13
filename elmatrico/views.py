@@ -16,15 +16,15 @@ def index(request):
     if request.method == 'POST':
         form = DocumentForm(request.POST, request.FILES)
         if form.is_valid():
-        	form.user = request.user
-        	doc = form.save(commit=False)
-        	new_object = Document()
-        	new_object.user = request.user
-        	doc = request.FILES['document']
-        	new_object.document = request.FILES['document']
-        	new_object.uploaded_at = localtime(now())
-        	new_object.save()
-        	user = request.user
+            form.user = request.user
+            doc = form.save(commit=False)
+            new_object = Document()
+            new_object.user = request.user
+            doc = request.FILES['document']
+            new_object.document = request.FILES['document']
+            new_object.uploaded_at = localtime(now())
+            new_object.save()
+            user = request.user
             doc = Document.objects.get(user=user)
             return render(request, 'elmatrico/index.html', {
                 'doc': doc
