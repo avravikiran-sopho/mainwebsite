@@ -1,13 +1,13 @@
 from django.contrib.auth.models import User
 from django import forms
 from .models import Profile
-CHOICES=[('male','male'),
-         ('female','female')]
+CHOICES=[('Male','Male'),
+         ('Female','Female')]
 
 
 class LoginForm(forms.Form):
 	username = forms.CharField(widget = forms.TextInput(attrs=
-		{'name':"username",'id':"username",'class':"logininput",'placeholder':"Email"}))
+		{'name':"username",'id':"username",'required':'required','placeholder':"Email"}))
 	password = forms.CharField(widget = forms.PasswordInput(attrs=
 		{'name':'password','id':'password','class':"logininput",'placeholder':'Password'}))
 
@@ -19,7 +19,7 @@ class ProfileForm(forms.ModelForm):
 	mobile = forms.CharField(widget=forms.NumberInput(attrs=
 		{'name':"mobile",'id':"mobile",'placeholder':"mobile"}))
 	city = forms.CharField(widget=forms.TextInput(attrs=
-		{'name':"city",'id':"city",'placeholder':"city"}))
+		{'name':"city",'id':"city",'placeholder':"Address",'rows':"3"}))
 	gender = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect(attrs=
 		{'name':"gender",'id':"gender",}))
 
