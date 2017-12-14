@@ -18,7 +18,7 @@ from django.http import HttpResponseRedirect
 
 # Create your views here.
 def index(request):
-	return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
+	return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 
 def beta(request):
 	return render( request,'beta/index.html' )
@@ -37,12 +37,12 @@ def Login(request):
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")
-				return render(request,'Auth/loginhome.html',{'message':message,'LoginForm':LoginForm})
+				return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm})
 		else:
 			message = "Form is not valid"
-			return render(request,'Auth/loginhome.html',{'message':message,'LoginForm':LoginForm})
+			return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm})
 	else:
-		return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
+		return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 
 
 
@@ -84,12 +84,12 @@ def Register(request):
 				return render(request,'elmatrico/index.html',{'message':message})
 			else:
 				message = "Password dont match"
-			return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
+			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
 		else:
 			message = "username already exists"
-			return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
+			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
 	else:
-		return render(request,'Auth/loginhome.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'register':register})
+		return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'register':register})
 
 
 
