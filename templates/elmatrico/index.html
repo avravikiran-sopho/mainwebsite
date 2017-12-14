@@ -43,7 +43,7 @@
 	
 	<div class="container cover"><img src="{% static 'img/matlab.png' %}" width=100%;></div><br>
 	<div class="container content">
-		<h1 style="text-align:center">ELMATRICO</h1>   
+		<h1 style="text-align:center">EL MATRICO</h1>   
 		
 		{% if user.is_authenticated %}
     	<div class="container rules" style="display: block">
@@ -59,21 +59,21 @@
 		</div>
 		<div class="container submission" style="display: block">
 			<h3>Submission Rules</h3>
-			<ul style="width:100%;">
-			<li>The Matlab code and the answer should be submitted as a zip file in the portal itself.</li>
+			<ul>
+			<li>The Matlab code(‘.m’ files) and the answers(output files like Graphs, Images and wav files etc) of all the questions should be submitted as a zip file in the portal itself.</li>
 			<li>Participants are expected to follow the naming convention.</li>
-			<li>Matlab code and the answer of each question should be given name according to the question number itself.<br>
-			   example: answers code for question 1 should be submitted as 
-			"< question_1_code>" and answer as "< question_1_ans />" </li>
-			<li>submission is not allowed after the set deadline.</li>
-			<li>The submission is one time submission, check properly before submitting.</li>
-			<li>The organiser verdict is final</li>
-			</ul>	
+			<li>Matlab code and the answer of each question should be given name according to the question number itself .                                                                                       Example : answers for question 1 should be submitted as < question_1_code.m > and answer as < question_1_ans ></li>
+			<li>Zip file should be named as < ELANID.zip ></li>
+			Example: EN18IITH00001.zip<br>
+			<li>Submission is not allowed after the set deadline.</li>
+			<li>It is one time submission, check properly before submitting.</li>
+			</li>The organiser verdict is final.</li>
+
 		</div>
     {% else %}
     <p style="text-align:justify">Computer Simulations is an important aspect in the engineering world. This increases the demand for people who can use MATLAB and Simulink well.<br>
 		ELAN & Nvision presents "EL MATRICO", an online event to inspire students acquaint with MATLAB and compete to show their potential to the world! Every year, hundreds of contestants compete with budding programmers from all over India to earn the coveted top spot,in this online contest.<br>
-		Exciting prizes from mathworks awaits for participants who successfully complete easy and moderate questions.<br>
+		Exciting prizes from <b>MathWorks</b> awaits for participants who successfully complete easy and moderate questions.<br>
 		Login to read Problem statements, Rules and more…
 		</p>
     <p style="text-align: center;"><a href="/login"><button class="btn btn-primary">Login / Sign Up</button></a></p>
@@ -110,7 +110,7 @@
 		<button style="float: right;" type="button" class="btn btn-success">Easy</button>
 		<h3>Question 5</h3>
 		<p>Solve the system of linear equation given below<br>
-		</p><p>$$ x-2y+3z=7 $$</p><p>$$ 2x+y+z=4 $$</p><p>$$ -3x-2y-2z=-10 $$</p>		
+		</p><p>$$ x-2y+3z=7 $$</p><p>$$ 2x+y+z=4 $$</p><p>$$ -3x+2y-2z=-10 $$</p>		
 	</div>
 	<div class="container question">
 		<button style="float: right;" type="button" class="btn btn-success">Easy</button>
@@ -120,7 +120,7 @@
 	<div class="container question">
 		<button style="float: right;" type="button" class="btn btn-danger">Hard</button>
 		<h3>Question 7</h3>
-		<p>Create a space time model for a rigid rod with the equation of motion,<br>$${ d^2O \over dt^2 } = -10sinO - 2{ dO \over dt } + u $$<br> where u is the torque applied and phi is the angle made by the rod with its initial position
+		<p>Create a space time model for a rigid rod with the equation of motion,<br>$${ d^2 Φ \over dt^2 } = -10sinΦ - 2{ dΦ \over dt } + u $$<br> where u is the torque applied and phi is the angle made by the rod with its initial position
 		U can make a state space model on simulink or code
 		</p>		
 	</div>
@@ -165,16 +165,15 @@
 	<div class="container question">
 		<button style="float: right;" type="button" class="btn btn-success">Easy</button>
 		<h3>Question 13</h3>
-		<p>$$ (y-3)^2 = 16x  $$</p>
 		<p>Plot Horizontal Asymptotes and Absolute Maxima and Minima and inflection points for below function</p>
 		$$ F(x) = { 3x^2+4x-1 \over 2x^2+4 } $$		
 	</div>
-	<div class="container question" style="text-align: center;">
+	<div class="container question" style="text-align: center;margin-bottom:5%">
 		{% if doc %}
-			<p style="text-align: center">You have submitted {{ doc.document }}</p>
-	        <p style="text-align: center">Submitted at {{ doc.uploaded_at }}</p>
+			<p style="margin:auto;width:50%;text-align: center">You have submitted {{ doc.document }}</p>
+	        <p style="margin:auto;width:50%;">Submitted at {{ doc.uploaded_at }}</p>
         {% else %}
-        <form method="post" enctype="multipart/form-data">
+        <form method="post" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 		    {% csrf_token %}
 		    {{ form.as_p }}
 		    <button type="submit">Upload</button>
@@ -185,7 +184,7 @@
 	
 	{% endif %}
 
-	<div class="footer" style="text-align: center;background-color: #eeeeee;">For any technical issues, contact to web@elan.org.in</div>
+	<div class="footer" style="text-align: center;background-color: #eeeeee;bottom: 0;left:0;position: fixed;width: 100%;">For any technical issues, contact to web@elan.org.in</div>
 </body>
 <script type="text/javascript">
 	$()

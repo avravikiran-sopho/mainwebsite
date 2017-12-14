@@ -4,7 +4,7 @@ from .models import Document
 
 class DocumentForm(forms.ModelForm):
 	document = forms.FileField(widget = forms.FileInput(attrs=
-		{'name':'myfile','id':'file'}))
+		{'name':'myfile','id':'file','placeholder':'Upload your zip file'}))
 	class Meta:
 		model = Document
 		fields = ('document', )
