@@ -14,6 +14,7 @@ GENDER_CHOICES = (
 class Profile(models.Model):
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+    full_name = models.TextField(max_length=500,blank=True)
     college = models.TextField(max_length=500, blank=True)
     mobile = models.IntegerField(blank=True)
     city = models.TextField(max_length=1000, blank=True)

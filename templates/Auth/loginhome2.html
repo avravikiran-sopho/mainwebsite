@@ -149,24 +149,9 @@ make it thinner, then set it to again wrap around the entire parent element.
                 <p> 
                     <i class="fa fa-user" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="usernamesignup" class="uname">Username</label> -->
-                    {{ RegisterForm.username }}
+                    {{ ProfileForm.full_name }}
                 </p>
-                <p> 
-                    <i class="fa fa-envelope" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
-                    <!-- <label for="emailsignup" class="youmail">E-mail</label> -->
-                    {{ RegisterForm.email }} 
-                </p>
-                <p> 
-                    <i class="fa fa-key" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
-                    <!-- <label for="passwordsignup" class="youpasswd">Password</label> -->
-                    {{ RegisterForm.password1 }}
-                </p>
-                <p> 
-                    <i class="fa fa-key" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
-                    <!-- <label for="passwordsignup_confirm" class="youpasswd">Confirm Password </label> -->
-                    {{ RegisterForm.password2 }}
-                </p>
-                <p> 
+              <p> 
                     <i class="fa fa-graduation-cap" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="college" class="uname">College</label> -->
                     {{ ProfileForm.college }}
@@ -184,6 +169,22 @@ make it thinner, then set it to again wrap around the entire parent element.
                 <p>
                   {{ ProfileForm.gender }}
                 </p>
+                <p> 
+                    <i class="fa fa-envelope" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
+                    <!-- <label for="emailsignup" class="youmail">E-mail</label> -->
+                    {{ RegisterForm.username }} 
+                </p>
+                <p> 
+                    <i class="fa fa-key" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
+                    <!-- <label for="passwordsignup" class="youpasswd">Password</label> -->
+                    {{ RegisterForm.password1 }}
+                </p>
+                <p> 
+                    <i class="fa fa-key" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
+                    <!-- <label for="passwordsignup_confirm" class="youpasswd">Confirm Password </label> -->
+                    {{ RegisterForm.password2 }}
+                </p>
+                
                                 
                  <p class="signin button" style="text-align: center;"> 
 									<input type="submit" value="Sign up"/> 

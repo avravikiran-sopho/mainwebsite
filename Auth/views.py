@@ -51,6 +51,8 @@ def Register(request):
 	if request.method == "POST":
 		form1 = RegisterForm(request.POST)
 		form2 = ProfileForm(request.POST)
+		print form1.errors
+		print form2.errors
 		if form1.is_valid() & form2.is_valid():
 			user = form1.save(commit=False)
 			user.is_active = False
@@ -68,6 +70,7 @@ def Register(request):
 				new_object.mobile = form2.cleaned_data['mobile']
 				new_object.city = form2.cleaned_data['city']
 				new_object.gender = form2.cleaned_data['gender']
+				new_object.full_name = form2.cleaned_data['full_name']
 				new_object.save()
 				current_site = get_current_site(request)
 				mesage = render_to_string('acc_active_email.html', {
