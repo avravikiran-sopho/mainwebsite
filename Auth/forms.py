@@ -1,8 +1,8 @@
 from django.contrib.auth.models import User
 from django import forms
 from .models import Profile
-CHOICES=[('Male','Male'),
-         ('Female','Female')]
+CHOICES=[('male','Male'),
+         ('female','Female')]
 
 
 class LoginForm(forms.Form):
