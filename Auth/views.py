@@ -27,7 +27,7 @@ def Login(request):
 	if request.method == "POST":
 		form = LoginForm(request.POST)
 		if form.is_valid():
-			username = form.cleaned_data['username']
+			username = ['username']
 			password = form.cleaned_data['password']
 			user = authenticate(username=username,password=password)
 			if user is not None:
@@ -83,8 +83,8 @@ def Register(request):
 				to_email = form1.cleaned_data.get('email')
 				email = EmailMessage(mail_subject, mesage, to=[to_email])
 				email.send()
-				message = "Open link in mail to confirm registration"
-				return render(request,'elmatrico/index.html',{'message':message})
+				login(request,user)
+				return render(request,'elmatrico/index.html')
 			else:
 				message = "Password dont match"
 			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
