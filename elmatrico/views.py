@@ -6,6 +6,8 @@ from django.contrib.auth.decorators import login_required
 from .models import Document
 from django.utils.timezone import localtime, now
 from django.core.exceptions import ValidationError
+from django.contrib.auth.models import User
+from Auth.models import Profile
 # Create your views here.
 # def index(request):
 # 	return render(request,'elmatrico/index.html')
@@ -26,21 +28,27 @@ def index(request):
             new_object.save()
             user = request.user
             doc = Document.objects.get(user=user)
+            profile = Profile.objects.get(user = request.user)
             return render(request, 'elmatrico/index.html', {
-                'doc': doc
+                'doc': doc,
+                'profile':profile,
             })
         
     else:
     	try:
-    		user = request.user
-    		doc = Document.objects.get(user=user)
-    		return render(request, 'elmatrico/index.html', {
-    			'doc': doc
+            user = request.user
+            doc = Document.objects.get(user=user)
+            profile = Profile.objects.get(user = request.user)
+            return render(request, 'elmatrico/index.html', {
+    			'doc': doc,
+                'profile':profile,
     		})
         except:
-	    	form = DocumentForm()
-	    	return render(request, 'elmatrico/index.html', {
-	    		'form': form
+            profile = Profile.objects.get(user = request.user)
+            form = DocumentForm()
+            return render(request, 'elmatrico/index.html', {
+                'form': form,
+                'profile':profile,
 	    	})
 
 def file_size(value): # add this to some file where you can import it from

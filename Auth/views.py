@@ -23,6 +23,10 @@ def index(request):
 def beta(request):
 	return render( request,'beta/index.html' )
 
+def home(request):
+	profile = Profile.objects.get(user = request.user)
+	return render(request,'elmatrico/index.html',{'profile':profile})
+
 def Login(request):
 	if request.method == "POST":
 		form = LoginForm(request.POST)
@@ -31,8 +35,9 @@ def Login(request):
 			password = form.cleaned_data['password']
 			user = authenticate(username=username,password=password)
 			if user is not None:
+				print user.id
 				login(request,user)
-
+				
 				return HttpResponseRedirect("/elmatrico")
 			else:
 				message = "username or password is incorrect"
@@ -65,12 +70,14 @@ def Register(request):
 				user.save()
 				new_object=Profile()
 				# recent_user = authenticate(username=username,password=password1)
+				user = User.objects.get(username=username)
 				new_object.user = User.objects.get(username=username)
 				new_object.college = form2.cleaned_data['college']
 				new_object.mobile = form2.cleaned_data['mobile']
 				new_object.city = form2.cleaned_data['city']
 				new_object.gender = form2.cleaned_data['gender']
 				new_object.full_name = form2.cleaned_data['full_name']
+				new_object.elanids = user.id
 				new_object.save()
 				# current_site = get_current_site(request)
 				# mesage = render_to_string('acc_active_email.html', {
@@ -84,8 +91,7 @@ def Register(request):
 				# email = EmailMessage(mail_subject, mesage, to=[to_email])
 				# email.send()
 				login(request,user)
-				profile = Profile.objects.get(user = request.user)
-				return render(request,'elmatrico/index.html',{'profile':profile})
+				return HttpResponseRedirect("/elmatrico")
 			else:
 				message = "Password dont match"
 			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
