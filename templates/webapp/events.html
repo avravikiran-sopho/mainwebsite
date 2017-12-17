@@ -26,7 +26,7 @@
     <div class="container events-box">
         <div class="row">
             <div class="col-xs-2 down-parallelogram" id="pr1" >
-                <img class="img-display" src="{% static 'img/events/culti.png' %}" alt="technical" >
+                <img class="img-display" src="{% static 'img/events/culti.jpg' %}" alt="technical" >
                 <div class="img-overlay" id="cultimg">
                     <div class="text">Cultural</div>
                 </div>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="col-xs-2 col-xs-2-mod up-parallelogram" id="pr4">
-                <img class="img-display" src="{% static 'img/events/litr.png' %}" alt="technical">
+                <img class="img-display" src="{% static 'img/events/litr.jpg' %}" alt="technical">
                 <div class="img-overlay" id="#litr-btn">
                     <div class="text">Litr</div>
                 </div>
@@ -267,7 +267,7 @@
 <script>
     $('#pr1').mouseenter( function(){ 
         $('#pr1').fadeIn(function(){
-            $('.stretch').attr("src","{% static 'img/events/culti_bg.png' %}");
+            $('.stretch').attr("src","{% static 'img/events/culti_bg.jpg' %}");
             $('#background').fadeIn();
             $('#pr2').css("opacity",0.01);
             $('#pr3').css("opacity",0.01);
@@ -329,7 +329,7 @@
     });
     $('#pr4').mouseenter( function(){ 
         $('#pr4').fadeIn(function(){
-            $('.stretch').attr("src","{% static 'img/events/litr_bg.png' %}");
+            $('.stretch').attr("src","{% static 'img/events/litr_bg.jpg' %}");
             $('#pr1').css("opacity",0.01);
             $('#pr2').css("opacity",0.01);
             $('#pr3').css("opacity",0.01);
