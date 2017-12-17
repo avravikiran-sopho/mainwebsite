@@ -55,7 +55,7 @@ def Register(request):
 		print form2.errors
 		if form1.is_valid() & form2.is_valid():
 			user = form1.save(commit=False)
-			user.is_active = False
+			# user.is_active = False
 			username = form1.cleaned_data['username']
 			password1 = form1.cleaned_data['password1']
 			password2 = form1.cleaned_data['password2']
@@ -72,17 +72,17 @@ def Register(request):
 				new_object.gender = form2.cleaned_data['gender']
 				new_object.full_name = form2.cleaned_data['full_name']
 				new_object.save()
-				current_site = get_current_site(request)
-				mesage = render_to_string('acc_active_email.html', {
-					'user':user, 
-					'domain':current_site.domain,
-					'uid': urlsafe_base64_encode(force_bytes(user.pk)),
-					'token': account_activation_token.make_token(user),
-				})
-				mail_subject = 'Activate your ElanNvision account.'
-				to_email = form1.cleaned_data.get('email')
-				email = EmailMessage(mail_subject, mesage, to=[to_email])
-				email.send()
+				# current_site = get_current_site(request)
+				# mesage = render_to_string('acc_active_email.html', {
+				# 	'user':user, 
+				# 	'domain':current_site.domain,
+				# 	'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+				# 	'token': account_activation_token.make_token(user),
+				# })
+				# mail_subject = 'Activate your ElanNvision account.'
+				# to_email = form1.cleaned_data.get('email')
+				# email = EmailMessage(mail_subject, mesage, to=[to_email])
+				# email.send()
 				login(request,user)
 				return render(request,'elmatrico/index.html')
 			else:
