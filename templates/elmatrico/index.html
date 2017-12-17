@@ -47,10 +47,11 @@
 	
 	<div class="container cover" style="margin: auto;text-align: center;"><img src="{% static 'img/el-matrico.png' %}" width=80%;></div>
 	<div class="container cover" style="margin: :auto;text-align: center;"><img src="{% static 'img/mathworks.png' %}" width=60%;></div><br>
+	{% if user.is_authenticated %}
 	<div class="container content">
 		<h1 style="text-align:center">EL MATRICO</h1>   
 		
-		{% if user.is_authenticated %}
+		
     	<div class="container rules" style="display: block">
 			<h3>General Rules</h3>
 			<ul style="width:100%;">
@@ -73,9 +74,13 @@
 			<li>Submission is not allowed after the set deadline.</li>
 			<li>It is one time submission, check properly before submitting.</li>
 			</li>The organiser verdict is final.</li>
+		</ul>
 
 		</div>
     {% else %}
+	</div>
+	<div class="container content" style="margin-bottom: 10%;">
+		<h1 style="text-align:center">EL MATRICO</h1>   
     <p style="text-align:justify">Computer Simulations is an important aspect in the engineering world. This increases the demand for people who can use MATLAB and Simulink well.<br>
 		ELAN & Nvision presents "EL MATRICO", an online event to inspire students acquaint with MATLAB and compete to show their potential to the world! Every year, hundreds of contestants compete with budding programmers from all over India to earn the coveted top spot,in this online contest.<br>
 		Exciting prizes from <b>MathWorks</b> awaits for participants who successfully complete easy and moderate questions.<br>
