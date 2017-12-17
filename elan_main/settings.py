@@ -149,3 +149,13 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 ALLOWED_HOSTS = [u'elan.org.in',u'139.59.71.180',u'nvision.org.in',u'127.0.0.1']
 
+CONTENT_TYPES = ['image', 'video']
+# 2.5MB - 2621440
+# 5MB - 5242880
+# 10MB - 10485760
+# 20MB - 20971520
+# 50MB - 5242880
+# 100MB - 104857600
+# 250MB - 214958080
+# 500MB - 429916160
+MAX_UPLOAD_SIZE = "5242880"

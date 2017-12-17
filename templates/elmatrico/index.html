@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'css/elmatrico/style.css' %}">
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+
 	<script type="text/javascript">
 		{% if message %}
 		alert ( "{{ message }}" );
@@ -43,7 +45,8 @@
 	  </div>
 	</nav>
 	
-	<div class="container cover"><img src="{% static 'img/matlab.png' %}" width=100%;></div><br>
+	<div class="container cover" style="margin: auto;text-align: center;"><img src="{% static 'img/el-matrico.png' %}" width=80%;></div>
+	<div class="container cover" style="margin: :auto;text-align: center;"><img src="{% static 'img/mathworks.png' %}" width=60%;></div><br>
 	<div class="container content">
 		<h1 style="text-align:center">EL MATRICO</h1>   
 		
@@ -176,12 +179,15 @@
 	<div class="container question" style="text-align: center;margin-bottom:5%">
 		{% if doc %}
 			<p style="margin:auto;width:50%;text-align: center">You have submitted {{ doc.document }}</p>
-	        <p style="margin:auto;width:50%;">Submitted at {{ doc.uploaded_at }}</p>
+	        <p style="margin:auto;width:50%;text-align: center;">Submitted at {{ doc.uploaded_at }}</p>
         {% else %}
-        <form method="post" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
+        <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 		    {% csrf_token %}
 		    {{ form.as_p }}
-		    <button type="submit">Upload</button>
+		    <button  class ="btn btn-primary" type="submit">Upload</button>
+		    <div class="upload-btn-wrapper">  
+			  
+			</div>
         </form>
         
         {% endif %}
@@ -192,6 +198,19 @@
 	<div class="footer" style="text-align: center;background-color: #eeeeee;bottom: 0;left:0;position: fixed;width: 100%;">For any technical issues, contact to web@elan.org.in</div>
 </body>
 <script>
+
+	$("#form").submit(function() {
+  if (window.File && window.FileReader && window.FileList && window.Blob) {
+    var file = $('#id_file')[0].files[0];
+
+    if (file && file.size > 2 * 1024 * 1024) {
+      alert("File " + file.name + " of type " + file.type + " is too big");
+      return false;
+    }
+  }
+});
+
+
 // Set the date we're counting down to
 var countDownDate = new Date("Dec 26, 2017 0:0:0").getTime();
 

@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required 
 from .models import Document
 from django.utils.timezone import localtime, now
-
+from django.core.exceptions import ValidationError
 # Create your views here.
 # def index(request):
 # 	return render(request,'elmatrico/index.html')
@@ -42,3 +42,8 @@ def index(request):
 	    	return render(request, 'elmatrico/index.html', {
 	    		'form': form
 	    	})
+
+def file_size(value): # add this to some file where you can import it from
+    limit = 2 * 1024 * 1024
+    if value.size > limit:
+        raise ValidationError('File too large. Size should not exceed 2 MiB.')
