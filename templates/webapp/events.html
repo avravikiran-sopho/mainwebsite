@@ -1,177 +1,449 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Team</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	  {% load static %}
-	  <script src="{% static 'scroll.min.js' %}"></script>
-    <script src="{% static 'assets/js/isotope.pkgd.min.js' %}"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="{% static 'events.css' %}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 
-	</head>
-	<body>
-    <h1>{{ user.username }}</h1>
+
+  {% load static %}
+  {% include "base.html" %}
+  <title>Events | ELAN & ηvision 2018</title>
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <!--{% load static %}-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/events.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+
+
+
+
+
+    <!--<h1>{{ user.username }}</h1>
     <h1>{{ user.profile.mobile }}</h1>
     <h1>{{ user.profile. }}</h1>
-    
-    <div class="events-box">     
-      <img class="img1 tiles" id="cultimg" src="{% static 'cultural.jpg' %}" alt="cultural">
-      <img class="img1 tiles" id="techimg" src="{% static 'technical.jpg' %}" alt="technical">
+--><div class="logo-div">
+      <a href="/"><img src="/static/img/logo.png" class="logo"></a>
     </div>
-
-
+    <div id="background">
+        <img src="" class="stretch" alt="" />
+    </div>
+    <div class="container events-box">
+        <div class="row">
+            <div class="col-xs-2 down-parallelogram" id="pr1" >
+                <img class="img-display" src="{% static 'img/events/culti.png' %}" alt="technical" >
+                <div class="img-overlay" id="cultimg">
+                    <div class="text">Cultural</div>
+                </div>
+            </div>
+            <div class="col-xs-2 col-xs-2-mod up-parallelogram" id="pr2">
+                <img class="img-display" src="{% static 'img/events/techy.jpg' %}" alt="technical" id="techimg">
+                <div class="img-overlay" id="techimg">
+                    <div class="text">Technical</div>
+                </div>
+            </div>
+            <div class="col-xs-2 col-xs-2-mod down-parallelogram" id="pr5">
+                <img class="img-display" src="{% static 'img/events/online.jpg' %}" alt="technical">
+                <div class="img-overlay" id="#online-btn">
+                    <div class="text">Online</div>
+                </div>
+            </div>
+            <div class="col-xs-2 col-xs-2-mod up-parallelogram" id="pr4">
+                <img class="img-display" src="{% static 'img/events/litr.png' %}" alt="technical">
+                <div class="img-overlay" id="#litr-btn">
+                    <div class="text">Litr</div>
+                </div>
+            </div>
+            
+          <div class="col-xs-2 col-xs-2-mod down-parallelogram" id="pr3">
+                <img class="img-display" src="{% static 'img/events/biggy.jpg' %}" alt="technical">
+                <div class="img-overlay" id="#biggies-btn">
+                    <div class="text">Biggies</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="navbtn">
-      <img src="{% static 'up.png' %}" class="navimg1" width="100px">
-      <img src="{% static 'up.png' %}" class="navimg1" width="100px" style="float:right">
+        <img src="{% static 'img/events/up.png' %}" class="navimg1" width="50px">
+        <img src="{% static 'img/events/up.png' %}" class="navimg1" width="50px" style="float:right">
     </div>
     <div class="card-column" id="techdiv">
-      <div class="clubs filters-button-group button-group">
-        <img class="club_icon" src="{% static 'icon.png' %}"><button class="club-btn" data-filter=".kludge">KLUDGE</button>
-        <img class="club_icon" src="{% static 'icon.png' %}"><button class="club-btn" data-filter=".inferro">INFERRO</button>
-        <img class="club_icon" src="{% static 'icon.png' %}"><button class="club-btn" data-filter=".lambda">LAMBA</button>
-        <img class="club_icon" src="{% static 'icon.png' %}"><button class="club-btn" data-filter=".equilibria">EQUILIBRIA</button>
-        <img class="club_icon" src="{% static 'icon.png' %}"><button class="club-btn" data-filter=".cepiehd">CEPIEHD</button>
-        <img class="club_icon" src="{% static 'icon.png' %}"><button class="club-btn" data-filter=".torque">TORQUE</button>
-      </div>
+        <div class="filters-button-group button-group">
+            <div class="clubs1">
+                <div class="container">
+                    <button class='buttonx five' data-filter=".kludge">
+                <div class='layer'>Hacking</div>
+                   Kludge
+                </button>
+                    <button class='buttonx five' data-filter=".inferro">
+                <div class='layer'>Programming</div>
+                   Infero
+                </button>
+                    <button class='buttonx five' data-filter=".lambda">
+                <div class='layer'>Developers</div>
+                   Lambda
+                </button>
+                    <button class='buttonx five' data-filter=".equilibria">
+                <div class='layer'>IDK</div>
+                  Equilibria 
+                </button>
+                    <button class='buttonx five' data-filter=".cepiehd">
+                <div class='layer'>Astronomy</div>
+                   Cepiehd
+                </button>
+                    <button class='buttonx five' data-filter=".torque">
+                <div class='layer'>Automotive</div>
+                   Torque
+                </button>
+                </div>
+            </div>
+            <!-- <div class="clubs2">
+                <div class="container">
+                    <button class='buttonx five' data-filter=".kludge">
+                <div class='layer'>Hacking</div>
+                   Kludge
+                </button>
+                    <button class='buttonx five' data-filter=".inferro">
+                <div class='layer'>Programming</div>
+                   Infero
+                </button>
+                    <button class='buttonx five' data-filter=".lambda">
+                <div class='layer'>Developers</div>
+                   Lambda
+                </button>
+                    <button class='buttonx five' data-filter=".equilibria">
+                <div class='layer'>IDK</div>
+                  Equilibria 
+                </button>
+                    <button class='buttonx five' data-filter=".cepiehd">
+                <div class='layer'>Astronomy</div>
+                   Cepiehd
+                </button>
+                    <button class='buttonx five' data-filter=".torque">
+                <div class='layer'>Automotive</div>
+                   Torque
+                </button>
+                </div>
+            </div> -->
+        </div>
+        <div class="card text-center events kludge" id="robowars">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+            </div>
+        </div>
+        <div class="card text-center events kludge">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
 
-      <div class="card text-center events kludge" id="robowars">
-        <img class="card-img-top img-fluid" src="{% static 'technical.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">ROBO WARS</h4>          
+            </div>
         </div>
-      </div>
-      <div class="card text-center events kludge">
-        <img class="card-img-top img-fluid" src="{% static 'technical.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center events kludge">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center events kludge">
-        <img class="card-img-top img-fluid" src="{% static 'technical.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center events cepiehd">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center events cepiehd">
-        <img class="card-img-top img-fluid" src="{% static 'technical.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center events torque">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center events torque">
-        <img class="card-img-top img-fluid" src="{% static 'technical.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center events torque">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center events torque">
-        <img class="card-img-top img-fluid" src="{% static 'technical.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center events inferro">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center events inferro">
-        <img class="card-img-top img-fluid" src="{% static 'technical.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
-        </div>
-      </div>  
     </div>
 
-
     <div class="card-column" id="cultdiv">
-      <div class="card text-center" id="elanejung">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Elan-E-Jung</h4>
-          
+        <div class="card text-center" id="elanejung">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Elan-E-Jung</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div> 
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>
-      <div class="card text-center">
-        <img class="card-img-top img-fluid" src="{% static 'cultural.jpg' %}" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+            </div>
         </div>
-      </div>   
     </div>
 
     <div class="event-details">
-      <h1>Event Name</h1>
-      <h2>Details</h2>
-      <h3>Rules</h3>
-      <h4>Fee</h4>
-      {% if user.is_authenticated %}
-      <a id="reglink" href=""><button><h5>Register</h5></button></a>
-      {% else %}      
-      <a id="" href="/login"><button><h5>Login for Register</h5></button></a>
-      {% endif %}
+        <h1>Event Name</h1>
+        <h2>Details</h2>
+        <h3>Rules</h3>
+        <h4>Fee</h4> {% if user.is_authenticated %}
+        <a id="reglink" href="">
+            <button>
+                <h5>Register</h5></button>
+        </a>
+        {% else %}
+        <a id="" href="/login">
+            <button>
+                <h5>Login for Register</h5></button>
+        </a>
+        {% endif %}
     </div>
-    
 
-  </body>
-  <script>
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{% static 'js/events/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/events/scroll.min.js' %}"></script>
+    <script src="{% static 'js/events/isotope.pkgd.min.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+</body>
+
+<script>
+    $('#pr1').mouseenter( function(){ 
+        $('#pr1').fadeIn(function(){
+            $('.stretch').attr("src","{% static 'img/events/culti_bg.png' %}");
+            $('#background').fadeIn();
+            $('#pr2').css("opacity",0.01);
+            $('#pr3').css("opacity",0.01);
+            $('#pr4').css("opacity",0.01);
+            $('#pr5').css("opacity",0.01);
+            $('.img-display').css("opacity",0.01);
+        });
+    });
+    $('#pr1').mouseleave( function(){ 
+        $('.stretch').attr("src","none");
+        $('#background').fadeOut();
+        $('#pr2').css("opacity",1);
+        $('#pr3').css("opacity",1);
+        $('#pr4').css("opacity",1);
+        $('#pr5').css("opacity",1);
+        $('#pr1').css("opacity",1);
+      $('.img-display').css("opacity",1);
+        
+    });
+    $('#pr2').mouseenter( function(){ 
+        $('#pr2').fadeIn(function(){
+            $('.stretch').attr("src","{% static 'img/events/techy_bg.jpg' %}");
+            $('#background').fadeIn();
+            $('#pr1').css("opacity",0.01);
+            $('#pr3').css("opacity",0.01);
+            $('#pr4').css("opacity",0.01);
+            $('#pr5').css("opacity",0.01);
+          $('.img-display').css("opacity",0.01);
+        });
+    });
+    $('#pr2').mouseleave( function(){ 
+       $('.stretch').attr("src","none");
+        $('#pr1').css("opacity",1);
+        $('#pr3').css("opacity",1);
+        $('#pr4').css("opacity",1);
+        $('#pr5').css("opacity",1);
+        $('#background').fadeOut();
+      $('.img-display').css("opacity",1);
+    });
+    $('#pr3').mouseenter( function(){ 
+        $('#pr3').fadeIn(function(){
+            $('.stretch').attr("src","{% static 'img/events/biggy_bg.jpg' %}");
+            $('#pr1').css("opacity",0.01);
+            $('#pr2').css("opacity",0.01);
+            $('#pr4').css("opacity",0.01);
+            $('#pr5').css("opacity",0.01);
+            $('#background').fadeIn();
+          $('.img-display').css("opacity",0.01);
+        });
+    });
+    $('#pr3').mouseleave( function(){ 
+        $('.stretch').attr("src","none");
+        $('#background').fadeOut();
+        $('#pr1').css("opacity",1);
+        $('#pr2').css("opacity",1);
+        $('#pr4').css("opacity",1);
+        $('#pr5').css("opacity",1);
+      $('.img-display').css("opacity",1);
+    });
+    $('#pr4').mouseenter( function(){ 
+        $('#pr4').fadeIn(function(){
+            $('.stretch').attr("src","{% static 'img/events/litr_bg.png' %}");
+            $('#pr1').css("opacity",0.01);
+            $('#pr2').css("opacity",0.01);
+            $('#pr3').css("opacity",0.01);
+            $('#pr5').css("opacity",0.01);
+            $('#background').fadeIn();
+          $('.img-display').css("opacity",0.01);
+        });
+    });
+    $('#pr4').mouseleave( function(){ 
+        $('.stretch').attr("src","none");
+        $('#background').fadeOut();
+        $('#pr1').css("opacity",1);
+        $('#pr2').css("opacity",1);
+        $('#pr3').css("opacity",1);
+        $('#pr5').css("opacity",1);
+      $('.img-display').css("opacity",1);
+    });
+    $('#pr5').mouseenter( function(){ 
+        $('#pr5').fadeIn(function(){
+            $('.stretch').attr("src","{% static 'img/events/online_bg.jpg' %}");
+            $('#background').fadeIn();
+            $('#pr1').css("opacity",0.01);
+            $('#pr2').css("opacity",0.01);
+            $('#pr3').css("opacity",0.01);
+            $('#pr4').css("opacity",0.01);
+          $('.img-display').css("opacity",0.01);
+        });
+    });
+    $('#pr5').mouseleave( function(){ 
+        $('.stretch').attr("src","none");
+        $('#background').fadeOut();
+        $('#pr1').css("opacity",1);
+        $('#pr2').css("opacity",1);
+        $('#pr3').css("opacity",1);
+        $('#pr4').css("opacity",1);
+      $('.img-display').css("opacity",1);
+    });
+    $('.domain1').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer1').removeAttr('id');
+        $('.changer1').attr('id', 'shape-clicked');
+    });
+    $('.domain2').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer2').removeAttr('id');
+        $('.changer2').attr('id', 'shape-clicked');
+    });
+    $('.domain3').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer3').removeAttr('id');
+        $('.changer3').attr('id', 'shape-clicked');
+    });
+    $('.domain4').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer4').removeAttr('id');
+        $('.changer4').attr('id', 'shape-clicked');
+    });
+    $('.domain5').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer5').removeAttr('id');
+        $('.changer5').attr('id', 'shape-clicked');
+    });
+    $('.domain6').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer6').removeAttr('id');
+        $('.changer6').attr('id', 'shape-clicked');
+    });
+    $('.domain7').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer7').removeAttr('id');
+        $('.changer7').attr('id', 'shape-clicked');
+    });
+    $('.domain8').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer8').removeAttr('id');
+        $('.changer8').attr('id', 'shape-clicked');
+    });
+    $('.domain9').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer9').removeAttr('id');
+        $('.changer9').attr('id', 'shape-clicked');
+    });
+    $('.domain10').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer10').removeAttr('id');
+        $('.changer10').attr('id', 'shape-clicked');
+    });
+    $('.domain11').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer11').removeAttr('id');
+        $('.changer11').attr('id', 'shape-clicked');
+    });
+    $('.domain12').on('click', function() {
+        $('.changer').removeAttr('id');
+        $('.changer').attr('id', 'shape');
+        $('.changer12').removeAttr('id');
+        $('.changer12').attr('id', 'shape-clicked');
+    });
+   
+   // $('.svg-wrapper').click(fucntion(){
+   //     $('.changer')..removeAttr('id');
+   //     $('.changer').attr('id', 'shape-clicked');
+   // })
     $('#techimg').on('click',function () { 
       $('.events-box').slideToggle('slow');
       $('#techdiv').slideToggle('slow');
@@ -239,42 +511,38 @@
       $('.navimg2').addClass('navimg1');
       $('.navimg1').removeClass('navimg2');
     });
-
   // bind filter button click
-  var iso = new Isotope( '#techdiv', {
-    itemSelector: '.events',
-    layoutMode: 'fitRows',
-  });
+  // var iso = new Isotope( '#techdiv', {
+  //   itemSelector: '.events',
+  //   layoutMode: 'fitRows',
+  // });
+  // // bind filter button click
+  // var filtersElem = document.querySelector('.filters-button-group');
+  // filtersElem.addEventListener( 'click', function( event ) {
+  //   // only work with buttons
+  //   if ( !matchesSelector( event.target, 'button' ) ) {
+  //     return;
+  //   }
+  //   var filterValue = event.target.getAttribute('data-filter');
+  //   // use matching filter function
+  //   iso.arrange({ filter: filterValue });
+  // });
+  // // change is-checked class on buttons
+  // var buttonGroups = document.querySelectorAll('.button-group');
+  // for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+  //   var buttonGroup = buttonGroups[i];
+  //   radioButtonGroup( buttonGroup );
+  // }
+  // function radioButtonGroup( buttonGroup ) {
+  //   buttonGroup.addEventListener( 'click', function( event ) {
+  //     // only work with buttons
+  //     if ( !matchesSelector( event.target, 'button' ) ) {
+  //       return;
+  //     }
+  //     buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+  //     event.target.classList.add('is-checked');
+  //   });
+  // }
+</script>
 
-  // bind filter button click
-  var filtersElem = document.querySelector('.filters-button-group');
-  filtersElem.addEventListener( 'click', function( event ) {
-    // only work with buttons
-    if ( !matchesSelector( event.target, 'button' ) ) {
-      return;
-    }
-    var filterValue = event.target.getAttribute('data-filter');
-    // use matching filter function
-    iso.arrange({ filter: filterValue });
-  });
-
-  // change is-checked class on buttons
-  var buttonGroups = document.querySelectorAll('.button-group');
-  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
-    var buttonGroup = buttonGroups[i];
-    radioButtonGroup( buttonGroup );
-  }
-
-  function radioButtonGroup( buttonGroup ) {
-    buttonGroup.addEventListener( 'click', function( event ) {
-      // only work with buttons
-      if ( !matchesSelector( event.target, 'button' ) ) {
-        return;
-      }
-      buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
-      event.target.classList.add('is-checked');
-    });
-  }
-
-  </script>
 </html>

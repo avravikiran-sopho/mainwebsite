@@ -1,8 +1,17 @@
 
     {% load static %}
     {% include "base.html" %}
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/team.css' %}">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script type="text/javascript" src="{% static 'js/scroll.min.js' %}"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
 	<body>
+
+    <div class="logo-div">
+      <a href="/"><img src="/static/img/logo.png" class="logo"></a>
+    </div>
     <div class="l-menu">
       <ul class="m-list">
         <li><button class="mbtn" id="btn1">Overall Coordinator</button></li>
@@ -18,14 +27,15 @@
         <li><button class="mbtn" id="btn7">Marketing</button></li>
         <li><button class="mbtn" id="btn8">Infra & Pronites</button></li>
       </ul>
-    </div>
+    </div>  
+
 
 
 
 		<div id="wrap">
-      <div class="picture">
+      <!-- <div class="picture">
         <img class="img-big" src="{% static 'img/team/srujan.JPG' %}" alt="Card image cap">
-      </div>
+      </div> -->
 
       <div id="one">
         <div class="container">
@@ -447,6 +457,8 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="container">
           <div class="card" id="madhur">
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/madhur.JPG' %}" alt="Card image cap">
@@ -718,24 +730,24 @@
 		</div>
   </body>
 		<script>
-      var name;
-      $(".card").hover(function(){
-        $(this).find(".card-content").slideDown();
-        $(this).find(".socialbtns").slideDown();
-        var x = $(this).attr('id');
-          var name = "static/img/team/"+x+".JPG"
-          console.log(name); 
-         $('.img-big').fadeOut(500, function() {            
-            $('.img-big').attr("src",name);
-            $('.img-big').fadeIn(500);            
-        });}, function(){   
-          var x = $(this).attr('id');
-          var name = "static/img/team/"+x+".JPG"
-          console.log(name);       
-          $(this).find(".card-content").slideUp(0);
-          $(this).find(".socialbtns").slideUp(0);
-          $('.img-big').attr("src",name);
-      });
+      // var name;
+      // $(".card").hover(function(){
+      //   $(this).find(".card-content").slideDown();
+      //   $(this).find(".socialbtns").slideDown();
+      //   var x = $(this).attr('id');
+      //     var name = "static/img/team/"+x+".JPG"
+      //     console.log(name); 
+      //    $('.img-big').fadeOut(500, function() {            
+      //       $('.img-big').attr("src",name);
+      //       $('.img-big').fadeIn(500);            
+      //   });}, function(){   
+      //     var x = $(this).attr('id');
+      //     var name = "static/img/team/"+x+".JPG"
+      //     console.log(name);       
+      //     $(this).find(".card-content").slideUp(0);
+      //     $(this).find(".socialbtns").slideUp(0);
+      //     $('.img-big').attr("src",name);
+      // });
 
 		$.extend($.scrollTo.defaults,{
 			axis:'x',duration:1000
