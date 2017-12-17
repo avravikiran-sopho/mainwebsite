@@ -37,18 +37,23 @@ def index(request):
     else:
     	try:
             user = request.user
-            doc = Document.objects.get(user=user)
-            profile = Profile.objects.get(user = request.user)
-            return render(request, 'elmatrico/index.html', {
-    			'doc': doc,
-                'profile':profile,
-    		})
+            profile = Profile.objects.get(user = user)
+            try:
+                doc = Document.objects.get(user=user) 
+                return render(request, 'elmatrico/index.html', {
+        			'doc': doc,
+                    'profile':profile,
+        		})
+            except:
+                form = DocumentForm()
+                return render(request, 'elmatrico/index.html', {
+                    'profile':profile,
+                    'form': form,
+                })
         except:
-            profile = Profile.objects.get(user = request.user)
             form = DocumentForm()
             return render(request, 'elmatrico/index.html', {
                 'form': form,
-                'profile':profile,
 	    	})
 
 def file_size(value): # add this to some file where you can import it from
