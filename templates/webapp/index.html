@@ -10,14 +10,14 @@
 	
 	{{ user.get_username }}
 	
-	<a href="/events">Events</a>
-	<a href="/team">Team</a>
+	<a href="newsite/events">Events</a>
+	<a href="newsite/team">Team</a>
 	{% if user.is_authenticated %}
 	<li style="font-weight: bold"><a href="/login/logout/"></span>Logout</a></li>
-	<li style="font-weight: bold"><a href="/dashboard/"></span>Dash</a></li>
-	<li style="font-weight: bold"><a href="/pronites/"></span>Pronites</a></li>
+	<li style="font-weight: bold"><a href="newsite/dashboard/"></span>Dash</a></li>
+	<li style="font-weight: bold"><a href="newsite/pronites/"></span>Pronites</a></li>
 	{% else %}
-	<li style="font-weight: bold"><a href="login"></span> Login/SignUp</a></li>
+	<li style="font-weight: bold"><a href="/login/"></span> Login/SignUp</a></li>
 	{% endif %}
 
 </body>
