@@ -79,6 +79,9 @@ span {
   border-radius: 10%;
   cursor:pointer;
 }
+h4 {
+  font-size: 1em!important;
+}
 
 .card-img-top {
   border-top-right-radius: 10%;
@@ -504,3 +507,11 @@ make it thinner, then set it to again wrap around the entire parent element.
   font-weight: bold;
 }
 
+
+#cultdiv{
+  margin-top: 10%;
+}
+
+#techdiv{
+  margin-top: 10%;
+}

@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="col-xs-2 col-xs-2-mod up-parallelogram" id="pr2">
-                <img class="img-display" src="{% static 'img/events/techy.jpg' %}" alt="technical" id="techimg">
+                <img class="img-display" src="{% static 'img/events/techy.jpg' %}" alt="technical">
                 <div class="img-overlay" id="techimg">
                     <div class="text">Technical</div>
                 </div>
@@ -63,178 +63,338 @@
         <img src="{% static 'img/events/up.png' %}" class="navimg1" width="50px">
         <img src="{% static 'img/events/up.png' %}" class="navimg1" width="50px" style="float:right">
     </div>
-    <div class="card-column" id="techdiv">
-        <div class="filters-button-group button-group">
-            <div class="clubs1">
-                <div class="container">
-                    <button class='buttonx five' data-filter=".kludge">
-                <div class='layer'>Hacking</div>
-                   Kludge
-                </button>
-                    <button class='buttonx five' data-filter=".inferro">
-                <div class='layer'>Programming</div>
-                   Infero
-                </button>
-                    <button class='buttonx five' data-filter=".lambda">
-                <div class='layer'>Developers</div>
-                   Lambda
-                </button>
-                    <button class='buttonx five' data-filter=".equilibria">
-                <div class='layer'>IDK</div>
-                  Equilibria 
-                </button>
-                    <button class='buttonx five' data-filter=".cepiehd">
-                <div class='layer'>Astronomy</div>
-                   Cepiehd
-                </button>
-                    <button class='buttonx five' data-filter=".torque">
-                <div class='layer'>Automotive</div>
-                   Torque
-                </button>
-                </div>
-            </div>
-            <!-- <div class="clubs2">
-                <div class="container">
-                    <button class='buttonx five' data-filter=".kludge">
-                <div class='layer'>Hacking</div>
-                   Kludge
-                </button>
-                    <button class='buttonx five' data-filter=".inferro">
-                <div class='layer'>Programming</div>
-                   Infero
-                </button>
-                    <button class='buttonx five' data-filter=".lambda">
-                <div class='layer'>Developers</div>
-                   Lambda
-                </button>
-                    <button class='buttonx five' data-filter=".equilibria">
-                <div class='layer'>IDK</div>
-                  Equilibria 
-                </button>
-                    <button class='buttonx five' data-filter=".cepiehd">
-                <div class='layer'>Astronomy</div>
-                   Cepiehd
-                </button>
-                    <button class='buttonx five' data-filter=".torque">
-                <div class='layer'>Automotive</div>
-                   Torque
-                </button>
-                </div>
-            </div> -->
+    
+    <div class="card-column" id="techdiv" style="margin-top: 10%;width: 60%;">
+        <div class="button-group filters-button-group" style="width:60%;text-align:center;">
+          <button class="cat button is-checked" data-filter="*">All</button>
+          <button class="cat button" data-filter=".electronica">ELECTRONICA</button>
+          <button class="cat button" data-filter=".equilibria">EQUILIBRIA</button>
+          <button class="cat button" data-filter=".ecell">E-CELL</button>
+          <button class="cat button" data-filter=".torque">TORQUE</button>
+          <button class="cat button" data-filter=".robotics">ROBOTICS</button>
+          <button class="cat button" data-filter=".cepheid">CEPHEID</button>
+          <button class="cat button" data-filter=".kludge">KLUDGE</button>
+          <button class="cat button" data-filter=".inferro">INFERRO</button>
+          <button class="cat button" data-filter=".quizzes">QUIZES</button>
+          <button class="cat button" data-filter=".online">ONLINE EVENTS</button>
         </div>
-        <div class="card text-center events kludge" id="robowars">
+        <div class="card-column" id="techisotope" style="margin-top: 10%;width: 60%;">
+        <div class="card text-center events electronica">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">DTMF Race</h4>
             </div>
         </div>
-        <div class="card text-center events kludge">
+        <div class="card text-center events electronica">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Electronic Bloopers</h4>
 
             </div>
         </div>
-        <div class="card text-center events kludge">
+        <div class="card text-center events electronica">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Jugaad It</h4>
 
             </div>
         </div>
-        <div class="card text-center events cepiehd">
+        <div class="card text-center events electronica">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">IoT Challenge</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events equilibria">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Junkyard Wars</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events equilibria">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Bridge Builder</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events ecell">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Crowd Pitch</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events ecell">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Salesmen of Fest</h4>
 
             </div>
         </div>
         <div class="card text-center events torque">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Drift King</h4>
 
             </div>
         </div>
         <div class="card text-center events torque">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">CAD Pro</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events robotics">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Robo-Wars</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events robotics">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Robo-Soccer</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events robotics">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Robo-Pirates</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events robotics">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Line Following Robot</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events robotics">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Quadcopter Challenge</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events cepheid">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Galileo Project</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events cepheid">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Aquanaut</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events kludge">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Enigma</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events kludge">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Hack -A -Maze</h4>
 
             </div>
         </div>
         <div class="card text-center events inferro">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Pro-Quest</h4>
 
             </div>
+        </div>
+        <div class="card text-center events inferro">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Algorithma</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events quizzes">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Scitech Quiz</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events quizzes">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Automobile Quiz</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events online">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Paper Presentation</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events online">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Code-a-Bot</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events online">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">El-Matrico</h4>
+
+            </div>
+        </div>
         </div>
     </div>
 
-    <div class="card-column" id="cultdiv">
-        <div class="card text-center" id="elanejung">
+
+
+    <div class="card-column" id="cultdiv" style="margin-top: 10%">
+        <div class="button-group filters-button-group-cult " style="margin:1% auto;width:60%;text-align:center;">
+          <button class="cat button is-checked" data-filter="*">All</button>
+          <button class="cat button" data-filter=".dance">Dance</button>
+          <button class="cat button" data-filter=".music">Music</button>
+          <button class="cat button" data-filter=".drama">Drama</button>
+          <button class="cat button" data-filter=".photo">Movie-Making AND Photography</button>
+          <button class="cat button" data-filter=".art">Art</button>
+          <button class="cat button" data-filter=".radio">Radio Events</button>
+        </div>
+        <div class="card-column" id="cultisotope" style="margin-top: 10%">
+        <div class="card text-center events dance">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Elan-E-Jung</h4>
+                <h4 class="card-title">BREAKFREE</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events dance">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Nrithyanjali</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events music">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Step Up</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events music">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Vibrazione</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events music">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Octave</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events music">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">DJ Wars</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events drama">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Nukkad Naatak</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events drama">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Andaaz Apna Apna</h4>
 
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center events drama">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">The Stage</h4>
 
             </div>
+        </div>
+        <div class="card text-center events drama">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Lend Your Voice</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events photo">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Film Fare Fiesta</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events photo">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Picelectic</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events art">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Face Painting</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events art">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Nail Art</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events art">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Mehendi</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events art">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Clay Modelling</h4>
+
+            </div>
+        </div>
+        <div class="card text-center events radio">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">RJ Hunt</h4>
+
+            </div>
+        </div>
         </div>
     </div>
 
@@ -448,6 +608,7 @@
       $('.events-box').slideToggle('slow');
       $('#techdiv').slideToggle('slow');
       $('.navbtn').fadeToggle('slow');
+      $('#techisotope').fadeToggle('slow');
       $('.navimg1').addClass('tech');
     });
     $('#cultimg').on('click',function () {
@@ -455,6 +616,7 @@
       $('#cultdiv').slideToggle('slow');
       $('.navbtn').fadeToggle('slow');
       $('.navimg1').addClass('cult');
+      $('#cultisotope').fadeToggle('slow');
     });
     $('.navimg1').on('click',function () {
       if ($('.navimg2').hasClass('cult')) {
@@ -511,38 +673,75 @@
       $('.navimg2').addClass('navimg1');
       $('.navimg1').removeClass('navimg2');
     });
-  // bind filter button click
-  // var iso = new Isotope( '#techdiv', {
-  //   itemSelector: '.events',
-  //   layoutMode: 'fitRows',
-  // });
-  // // bind filter button click
-  // var filtersElem = document.querySelector('.filters-button-group');
-  // filtersElem.addEventListener( 'click', function( event ) {
-  //   // only work with buttons
-  //   if ( !matchesSelector( event.target, 'button' ) ) {
-  //     return;
-  //   }
-  //   var filterValue = event.target.getAttribute('data-filter');
-  //   // use matching filter function
-  //   iso.arrange({ filter: filterValue });
-  // });
-  // // change is-checked class on buttons
-  // var buttonGroups = document.querySelectorAll('.button-group');
-  // for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
-  //   var buttonGroup = buttonGroups[i];
-  //   radioButtonGroup( buttonGroup );
-  // }
-  // function radioButtonGroup( buttonGroup ) {
-  //   buttonGroup.addEventListener( 'click', function( event ) {
-  //     // only work with buttons
-  //     if ( !matchesSelector( event.target, 'button' ) ) {
-  //       return;
-  //     }
-  //     buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
-  //     event.target.classList.add('is-checked');
-  //   });
-  // }
 </script>
+<script>
+  // bind filter button click
+  var iso = new Isotope( '#techisotope', {
+    itemSelector: '.events',
+    layoutMode: 'fitRows',
+  });
+  // bind filter button click
+  var filtersElem = document.querySelector('.filters-button-group');
+  filtersElem.addEventListener( 'click', function( event ) {
+    // only work with buttons
+    if ( !matchesSelector( event.target, 'button' ) ) {
+      return;
+    }
+    var filterValue = event.target.getAttribute('data-filter');
+    // use matching filter function
+    iso.arrange({ filter: filterValue });
+  });
+  // change is-checked class on buttons
+  var buttonGroups = document.querySelectorAll('.button-group');
+  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+    var buttonGroup = buttonGroups[i];
+    radioButtonGroup( buttonGroup );
+  }
+  function radioButtonGroup( buttonGroup ) {
+    buttonGroup.addEventListener( 'click', function( event ) {
+      // only work with buttons
+      if ( !matchesSelector( event.target, 'button' ) ) {
+        return;
+      }
+      buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+      event.target.classList.add('is-checked');
+    });
+  }
+  //isotope
+  // external js: isotope.pkgd.js
 
+</script>
+<script type="text/javascript">
+    var iso = new Isotope( '#cultisotope', {
+    itemSelector: '.events',
+    layoutMode: 'fitRows',
+  });
+  // bind filter button click
+  var filtersElem = document.querySelector('.filters-button-group-cult');
+  filtersElem.addEventListener( 'click', function( event ) {
+    // only work with buttons
+    if ( !matchesSelector( event.target, 'button' ) ) {
+      return;
+    }
+    var filterValue = event.target.getAttribute('data-filter');
+    // use matching filter function
+    iso.arrange({ filter: filterValue });
+  });
+  // change is-checked class on buttons
+  var buttonGroups = document.querySelectorAll('.button-group');
+  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+    var buttonGroup = buttonGroups[i];
+    radioButtonGroup( buttonGroup );
+  }
+  function radioButtonGroup( buttonGroup ) {
+    buttonGroup.addEventListener( 'click', function( event ) {
+      // only work with buttons
+      if ( !matchesSelector( event.target, 'button' ) ) {
+        return;
+      }
+      buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+      event.target.classList.add('is-checked');
+    });
+  }
+</script>
 </html>

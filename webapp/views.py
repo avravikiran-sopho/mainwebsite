@@ -24,6 +24,8 @@ def events(request):
 
 def pronites(request):
 	return render(request,'webapp/pronites.html')
+def sponsors(request):
+	return render(request,'webapp/sponsors.html')
 
 @login_required
 def dashboard(request):	
