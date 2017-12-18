@@ -60,7 +60,7 @@ def Register(request):
 		print form2.errors
 		if form1.is_valid() & form2.is_valid():
 			user = form1.save(commit=False)
-			user.is_active = True
+			user.is_active = False
 			username = form1.cleaned_data['username']
 			password1 = form1.cleaned_data['password1']
 			password2 = form1.cleaned_data['password2']
@@ -90,7 +90,7 @@ def Register(request):
 				# to_email = form1.cleaned_data.get('email')
 				# email = EmailMessage(mail_subject, mesage, to=[to_email])
 				# email.send()
-				login(request,user)
+				#login(request,user)
 				return HttpResponseRedirect("/elmatrico")
 			else:
 				message = "Password dont match"
