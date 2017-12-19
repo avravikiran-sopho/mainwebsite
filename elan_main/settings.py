@@ -137,25 +137,14 @@ STATICFILES_DIRS = [ STATIC_PATH, ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
-EMAIL_HOST = '74.125.22.108'
-EMAIL_HOST_USER = 'noreply@elan.org.in'
-EMAIL_HOST_PASSWORD = 'iith@2018'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'avenkataravikiran@gmail.com'
+EMAIL_HOST_PASSWORD = 'Avrkiran@123'
 EMAIL_PORT = 587
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+DEFAULT_FROM_EMAIL = 'avenkataravikiran@gmail.com'
 
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 ALLOWED_HOSTS = [u'elan.org.in',u'139.59.71.180',u'nvision.org.in',u'127.0.0.1']
-
-CONTENT_TYPES = ['image', 'video']
-# 2.5MB - 2621440
-# 5MB - 5242880
-# 10MB - 10485760
-# 20MB - 20971520
-# 50MB - 5242880
-# 100MB - 104857600
-# 250MB - 214958080
-# 500MB - 429916160
-MAX_UPLOAD_SIZE = "5242880"
