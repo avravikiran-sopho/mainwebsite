@@ -34,13 +34,8 @@ def dashboard(request):
 	return render(request,'webapp/dashboard.html',{'profile':profile,'events':events})
 
 
-def details(request):
-    # name = request.POST["name"]
-    # data = {
-    #     'information': Detail.objects.get(name=name)
-    # }
-    jdata = json.dumps("data")
-    return HttpResponse(jdata, content_type="application/json")
+def details(request,name):
+    return render(request,'webapp/dashboard.html')
 
 def eventregister(request,eventname):
 	if request.user.is_authenticated():
