@@ -8,12 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="{% static 'css/events.css' %}">
   <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-
-
-
-
-
-
+<style type="text/css">
+    
+</style>
     <!--<h1>{{ user.username }}</h1>
     <h1>{{ user.profile.mobile }}</h1>
     <h1>{{ user.profile. }}</h1>
@@ -102,8 +99,10 @@
           <button class="btn btn-outline-secondary" data-filter=".kludge">KLUDGE</button>
           <button class="btn btn-outline-secondary" data-filter=".inferro">INFERRO</button>
           <button class="btn btn-outline-secondary" data-filter=".quizzes">QUIZES</button>
+          
         </div>
         <div class="card-column" id="techisotope" style="margin-top: 10%;width: 60%;">
+        <h1 class="mheading">ELECTRONICA</h1>
         <div class="card text-center events electronica" id="dtmf">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/dtmf_race.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -131,6 +130,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">EQUILIBRIA</h1>
         <div class="card text-center events equilibria" id="junkyard">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/junkyard_wars.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -145,6 +145,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">E-CELL</h1>
         <div class="card text-center events ecell" id="crowd">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/pitch.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -159,6 +160,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">TORQUE</h1>
         <div class="card text-center events torque" id="drift">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/drift_king.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -173,6 +175,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">ROBOTICS</h1>
         <div class="card text-center events robotics" id="robowars">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic19.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -208,6 +211,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">CEPHIED</h1>
         <div class="card text-center events cepheid" id="galileo">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/galileo.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -222,6 +226,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">KLUDGE</h1>
         <div class="card text-center events kludge" id="enigma">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/enigma.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -236,6 +241,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">INFERRO</h1>
         <div class="card text-center events inferro" id="quest">
             <img class="card-img-top img-fluid" src="{% static 'img/events/technical.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -250,6 +256,7 @@
 
             </div>
         </div>
+        <h1 class="mheading">QUIZZES</h1>
         <div class="card text-center events quizzes" id="scitech" >
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/sciencequiz.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -282,14 +289,14 @@
         
         <div class="card-column" id="cultisotope">
         <h1>Dance</h1><hr>
-        <div class="card text-center events dance">
+        <div class="card text-center events dance" id="breakfree">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Breakfree</h4>
 
             </div>
         </div>
-        <div class="card text-center events dance">
+        <div class="card text-center events dance" id="nrithyanjali">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Nrithyanjali</h4>
@@ -297,28 +304,28 @@
             </div>
         </div>
         <h1>Music</h1><hr>
-        <div class="card text-center events dance">
+        <div class="card text-center events dance" id="stepup">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Step Up</h4>
 
             </div>
         </div>
-        <div class="card text-center events music">
+        <div class="card text-center events music" id="vibrazione">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Vibrazione</h4>
 
             </div>
         </div>
-        <div class="card text-center events music">
+        <div class="card text-center events music" id="octave">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Octave</h4>
 
             </div>
         </div>
-        <div class="card text-center events music">
+        <div class="card text-center events music" id="djwars">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">DJ Wars</h4>
@@ -326,28 +333,28 @@
             </div>
         </div>
         <h1>Drama</h1><hr>
-        <div class="card text-center events drama">
+        <div class="card text-center events drama" id="nukkad">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Nukkad Naatak</h4>
 
             </div>
         </div>
-        <div class="card text-center events drama">
+        <div class="card text-center events drama" id="andaaz">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Andaaz Apna Apna</h4>
 
             </div>
         </div>
-        <div class="card text-center events drama">
+        <div class="card text-center events drama" id="stage">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">The Stage</h4>
 
             </div>
         </div>
-        <div class="card text-center events drama">
+        <div class="card text-center events drama" id="voice">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Lend Your Voice</h4>
@@ -355,14 +362,14 @@
             </div>
         </div>
         <h1>Movie-Making AND Photography</h1><hr>
-        <div class="card text-center events photo">
+        <div class="card text-center events photo" id="film">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Film Fare Fiesta</h4>
 
             </div>
         </div>
-        <div class="card text-center events photo">
+        <div class="card text-center events photo" id="picelectic">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Picelectic</h4>
@@ -370,35 +377,35 @@
             </div>
         </div>
         <h1>Art</h1><hr>
-        <div class="card text-center events art">
+        <div class="card text-center events art" id="face">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Face Painting</h4>
 
             </div>
         </div>
-        <div class="card text-center events art">
+        <div class="card text-center events art" id="art">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Arts Exhibition</h4>
 
             </div>
         </div>
-        <div class="card text-center events art">
+        <div class="card text-center events art" id="nail">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Nail Art</h4>
 
             </div>
         </div>
-        <div class="card text-center events art">
+        <div class="card text-center events art" id="mehendi">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Mehendi</h4>
 
             </div>
         </div>
-        <div class="card text-center events art">
+        <div class="card text-center events art" id="clay">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Clay Modelling</h4>
@@ -406,7 +413,7 @@
             </div>
         </div>
         <h1>Radio Events</h1><hr>
-        <div class="card text-center events radio">
+        <div class="card text-center events radio" id="RJ">
             <img class="card-img-top img-fluid" src="{% static 'img/events/cultural.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">RJ Hunt</h4>
@@ -418,20 +425,6 @@
 
     <div class="event-details" id="details">
         <h1>Registrations will start soon</h1>
-        <!-- <h1>Event Name</h1>
-        <h2>Details</h2>
-        <h3>Rules</h3>
-        <h4>Fee</h4> {% if user.is_authenticated %}
-        <a id="reglink" href="">
-            <button>
-                <h5>Register</h5></button>
-        </a>
-        {% else %}
-        <a id="" href="/login">
-            <button>
-                <h5>Login for Register</h5></button>
-        </a>
-        {% endif %} -->
     </div>
 
     <!--Scripts-->
@@ -668,6 +661,7 @@
       }
       else {
         $('.events-box').slideToggle('slow');
+        $('.event-details').html('Commin Soon...');
         $('#cultdiv').fadeOut('slow');
         $('#techdiv').fadeOut('slow');
         $('#onlinediv').fadeOut('slow');
