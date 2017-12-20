@@ -13,7 +13,7 @@ h1 {
   color: white;
   font-size: 1.5em;
   margin: 2% 0;
-  text-align: left;
+  text-align: center;
 }
 
 hr { 
@@ -168,9 +168,12 @@ i {
   left: 10%;
   right: 10%;
   text-align: center;
+  padding: 3%;
+  color: white;
   background-color: rgba(0,0,0,0.5);
   border-radius: 25px 25px 25px 25px;
   display:none;
+  overflow-y:scroll; 
   -webkit-box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.5);
 -moz-box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.5);
 box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.5);
@@ -330,7 +333,6 @@ box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.5);
 
 /*NINAD*/
 /*
-
   #pr1{
     margin-top: 45px;
     background-color: rgba(0,0,0,0);
@@ -551,7 +553,7 @@ make it thinner, then set it to again wrap around the entire parent element.
 .mheading {
   display: none;
 }
-
+/*mobile*/
 
 @media(max-width:768px){
   .up-parallelogram{
@@ -566,7 +568,22 @@ make it thinner, then set it to again wrap around the entire parent element.
     overflow: hidden;
     background-color: rgba(0,0,0,0);
   }
-  .card {
-    width: 100%;
-  }
+
+    .stretch {
+        display: none;
+    }
+
+    .card {
+      width: 100%!important;
+      height: 250px;
+      margin: 5%;
+    }
+
+    .button-group{
+      display: none;
+    }
+
+    .mheading{
+      display: block;
+    }
 }

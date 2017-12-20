@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="{% static 'css/events.css' %}">
   <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+<style type="text/css">
+    .mheading {
+        display: none;
+    }
+</style>
     <!--<h1>{{ user.username }}</h1>
     <h1>{{ user.profile.mobile }}</h1>
     <h1>{{ user.profile. }}</h1>
@@ -61,7 +66,7 @@
     <div class="card-column" id="onlinediv" style="margin-top: 15%;width: 60%;">
         <div class="card-column" id="onlineisotope" style="margin-top: 10%;width: 60%;">
         <div class="card text-center events online">
-            <img class="card-img-top img-fluid" src="{% static 'img/events/paper.JPG' %}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/paperpt.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Paper Presentation</h4>
 
@@ -136,7 +141,7 @@
             </div>
         </div>
         <div class="card text-center events equilibria" id="bridge">
-            <img class="card-img-top img-fluid" src="{% static 'img/events/bridgebuilders' %}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/bridge.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Bridge Builder</h4>
 
@@ -202,7 +207,7 @@
             </div>
         </div>
         <div class="card text-center events robotics">
-            <img class="card-img-top img-fluid" src="{% static 'img/events/quadcopter.jpg' %}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/quadcopter.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Quadcopter Challenge</h4>
 
@@ -232,7 +237,7 @@
             </div>
         </div>
         <div class="card text-center events kludge" id="hackamaze">
-            <img class="card-img-top img-fluid" src="{% static 'img/events/hackamaze.jpg' %}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/hackamaze.png' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Hack -A -Maze</h4>
 
@@ -247,7 +252,7 @@
             </div>
         </div>
         <div class="card text-center events inferro" id="algo">
-            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/algorithma.jpg' %}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{% static 'img/events/algorithma.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Algorithma</h4>
 
@@ -255,7 +260,7 @@
         </div>
         <h1 class="mheading">QUIZZES</h1>
         <div class="card text-center events quizzes" id="scitech" >
-            <img class="card-img-top img-fluid" src="{% static 'img/events/sciencequiz.jpg' %}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/sciencequiz.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Scitech Quiz</h4>
 
@@ -742,11 +747,6 @@
     });
   }
 </script> -->
-<script type="text/javascript">
-    if ($(window).width() < 1280) {
-        $grid.isotope('destroy');
-    }
-</script>
 
 <script src="{% static 'js/events/details.js' %}"></script>
 </html>
