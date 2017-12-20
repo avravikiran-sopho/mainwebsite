@@ -38,6 +38,20 @@ hr {
 .btn {
   margin:1% 1%;
   cursor: pointer;
+  color: white;
+  -webkit-box-shadow: -2px 2px 3px 0px rgba(255,255,255,0.5);
+-moz-box-shadow: -2px 2px 3px 0px rgba(255,255,255,0.5);
+box-shadow: -2px 2px 3px 0px rgba(255,255,255,0.5);
+min-width: 150px;
+}
+
+.btn:hover {
+  -webkit-box-shadow: -3px 3px 8px 1px rgba(255,255,255,1);
+-moz-box-shadow: -3px 3px 8px 1px rgba(255,255,255,1);
+box-shadow: -3px 3px 8px 1px rgba(255,255,255,1);
+background-color: rgba(0,0,0,0);
+ transition-duration: 0.2s;
+ font-weight: bolder;
 }
 #background {
     transition-duration: 1s;
@@ -157,8 +171,11 @@ i {
 }
 
 .is-checked {
-  background-color: #868E96;
+  background-color:rgba(255,255,255,0.1);
   color: white;
+  -webkit-box-shadow: -3px 3px 8px 1px rgba(255,255,255,1);
+-moz-box-shadow: -3px 3px 8px 1px rgba(255,255,255,1);
+box-shadow: -3px 3px 8px 1px rgba(255,255,255,1);
 }
 
 .event-details {
@@ -357,19 +374,7 @@ box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.5);
 }
 */
 
-@media(max-width:768px){
-  .up-parallelogram{
-    width: 188px;
-    height: 450px;
-    left: 50%;
-    background: #000000;
-    -webkit-transform: skew(0deg);
-    -moz-transform: skew(0deg);
-    -o-transform: skew(0deg);
-    transform: skew(0deg);
-    overflow: hidden;
-    background-color: rgba(0,0,0,0);
-}
+
 .down-parallelogram {
   width: 188px;
   height: 450px;
@@ -549,4 +554,84 @@ make it thinner, then set it to again wrap around the entire parent element.
 
 #techdiv{
   margin-top: 10%;
+}
+
+
+
+
+
+
+
+/*button*/
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: $red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+//BUTTON 1
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px $red inset;
+  }
+}
+
+.mheading {
+  display: none;
+}
+/*mobile*/
+
+@media(max-width:768px){
+  .up-parallelogram{
+    width: 188px;
+    height: 450px;
+    left: 50%;
+    background: #000000;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    transform: skew(0deg);
+    overflow: hidden;
+    background-color: rgba(0,0,0,0);
+  }
+
+    .stretch {
+        display: none;
+    }
+
+    .card {
+      width: 100%!important;
+      height: 250px;
+      margin: 5%;
+    }
+
+    .button-group{
+      display: none;
+    }
+
+    .mheading{
+    }
 }

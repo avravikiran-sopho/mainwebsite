@@ -380,7 +380,39 @@ $('.card').on('click',function () {
         Organisers:<br>\
         Prize money:</p>\
         ";
-
+    var breakfree = "<p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. </p>\
+        <p>Pick your body up and drop it on the floor<br>\
+        We never quit, we never rest on the floor<br>\
+        If I ain't wrong we'll probably die on the floor\
+        Lines from Jlo's 'on the floor'\
+        If you really dance from the heart, if dance runs through your veins and if dance is in every minute of your life.... This is where you should be.\ So rise and shine. Dance with energy and Elan & ηvision 2018!!\
+        </p><h1>Group dance-</h1><p> \
+        Coordination is what matters when it comes to a group performance. Break free is one such group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop.</p>\
+        <h1>Solo dance-</h1><p>Got your own dance style you think you've mastered? An event for pro solo dancers, Loose your feet is where you can make the crowd go crazy with those awesome, super cool moves!</p>\
+        <h1>Duet-</h1><p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event.</p>";
+    var nrithyanjali = "<p>Dance, as we know ,is one of the 64 forms of art in the Indian Culture. It embodies all forms of physical art and learning. It is a kinetic form of body language expressed in unarticulated emotions.\ Classical dance is the fusion of mind's emotions and body's articulate movements. So, we call upon all the classical dancers to come and produce the medly of most graceful and most expressive.\
+        Come....drown yourself in divine, grace, beauty, tenderness to delight the eyes and souls of the viewers.</p>";
+    var stepup = "<p>For the first time ever Elan & ηvision 2018 brings to you the street dance battle.You think you’ve mastered a dance form?Show-off your dancing skills in the one-on-one face-off and prove yourself.Mesmerise the crowd with your insanely good dance steps and make ‘em go crazy.Engage everyone in this intense battle ,where your moves are your  weapons.</p>";
+    var vibrazione = "<p>Wanna put your singing skills to the test? Got a versatile voice that can mesmerize everyone? Put your heart to it and sing your way to glory!.Its a solo singing competition.";
+    var octave = "<p>This event pits the best against the best on the cultural stage. The name says it all and if you think you have mastered the instrument of your choice, then this is the stage for you. Not just that, this also tests your creativity and sees if you can come up with your own tune to wow us.</p>";
+    var djwars = "<p>The most awaited event!!! Back with a bang in Elan & ηvision 2018!! For all the aspiring DJ's out there!! Can you mix 'em good enough?! ";
+    var nukkad ="<p>Haven't you ever wanted to change the way our country functions? Well, it's time to be the change you want to see! <br>Elan & ηvision 2018 is bringing Forward, Nukkad Natak-A Street Play Competition.\ It is all about creating awareness about social problems that plague our soil and bringing about realization in our youth!.\
+        </p>";
+    var andaaz = "This one’s for all the pro stage performers out there! A perfect place for those who can take over the crowd with their humorous comedy and exceptional acting skills. An unprecedented opportunity to showcase your pro skills as a \"Stand-up Comedian\", or a \"Mono-Actor\".A Stage to perform and a huge crowd to be captivated. Step up, and leave the audience enthralled !";
+    var stage = "<p>What’s life without a bit of DRAMA? <br>Elan & ηvision 2018 brings you yet another new event where you get to the audience emotionally with your vivid acting skills.Come, participate and take us to another world of story-telling and drama.</p> ";
+    var voice = "<p>A perfect opportunity to test your ability to be creative and prompt together with the presence of mind. Ever thought that you could have delivered the dialogues better than the actors in the movie? Then this is the right place for you to be.Elan & ηvision 2018 presents a unique event \"Lend Your Voice\" </p>";
+    var filmfare = "<p>Do you think you can take after Steven Spielberg, Christopher Nolan and James Cameron? Make your own short film, enthral and captivate movie buffs with your creativity. The stage at Elan & ηvision 2018 is set for you. Get judged by esteemed people in film industry.</p>";
+    var picelectic = "<p>Ever visited an art gallery? Ever checked out those portraits costing so much? Which one of those trillion random colour strokes on the canvas you think makes it so expensive? It's all about language of the heart which uses the paints and a brush to put the emotions flowing in a river of imagination on the canvas. And that is \"ART\".</p>\
+        <h1>'EVERYTHING YOU CAN IMAGINE IS REAL' - Pablo Picasso</h1><p>\
+        <p>Art is an expression,a representation of what a person's vivid thoughts and emotions speak. Every stroke of the brush dipped, every colour chosen, every shade painted, has its own meaning. So here is Elan & ηvision 2018 encouraging you to come up with your meaningful strokes to be a part of its colourful art gallery. The gallery is open to everyone throughout the fest.</p>\
+        ";
+    var mask ="<p>Wanna have some fun with painting?. You think you can have a face funkier than infamous \"THE MASK\". Then here's something interesting for you. Elan & ηvision 2018's Face Painting is back! . Grab a brush and make your friend's face funny and beautiful.</p>";
+    var nail ="<p>Can you add your intricate details creatively on much smaller canvas like finger nails? Then come, show up your talent in 'Nail Art' of Elan & ηvision 2018!!</p>";
+    var mehendi ="<p>Mehndi adorns the hands and Life takes on a new color. So let the henna flow out of your cones and let's see what color it brings to your life.</p>";
+    var clay = "<p>Come! Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay! Win exciting prizes!!</p>";
+    var rj = "<p>Ever been called a chatterbox? If you are good at entertaining your friends with non-stop, animated, energetic chatter, here's the right platform to test how good you are! Entertain the crowd, and you might probably find yourself among the RJ legends! A ramp to your RJ ying future!</p>";
+    var def = "<h1>Comming Soon...</h1>";
+    
     if(name == "dtmf") {
       $('#details').html(dtmf);
     } else if (name == "bloopers") {
@@ -425,6 +457,44 @@ $('.card').on('click',function () {
       $('#details').html(automobile);
     } else if (name == "scitech") {
       $('#details').html(scitech);
+    } else if (name == "breakfree") {
+      $('#details').html(breakfree);
+    } else if (name == "nrithyanjali") {
+      $('#details').html(nrithyanjali);
+    } else if (name == "stepup") {
+      $('#details').html(stepup);
+    } else if (name == "vibrazione") {
+      $('#details').html(vibrazione);
+    } else if (name == "octave") {
+      $('#details').html(octave);
+    } else if (name == "djwars") {
+      $('#details').html(djwars);
+    } else if (name == "nukkad") {
+      $('#details').html(nukkad);
+    } else if (name == "andaaz") {
+      $('#details').html(andaaz);
+    } else if (name == "stage") {
+      $('#details').html(stage);
+    } else if (name == "voice") {
+      $('#details').html(voice);
+    } else if (name == "film") {
+      $('#details').html(film);
+    } else if (name == "picelectic") {
+      $('#details').html(picelectic);
+    } else if (name == "art") {
+      $('#details').html(art);
+    } else if (name == "face") {
+      $('#details').html(face);
+    } else if (name == "nail") {
+      $('#details').html(nail);
+    } else if (name == "mehendi") {
+      $('#details').html(mehendi);
+    } else if (name == "clay") {
+      $('#details').html(clay);
+    } else if (name == "rj") {
+      $('#details').html(rj);
+    }else {
+      $('#details').html(def);
     }
 
 
@@ -436,6 +506,7 @@ $('.card').on('click',function () {
       $('#reglink').attr('href','/register/'+id);
       $('#techdiv').slideUp('slow');
       $('#cultdiv').slideUp('slow');
+      $('#onlinediv').slideUp('slow');
       $('.event-details').slideToggle('slow');
       $('.navbtn img').addClass('navimg2');
       $('.navbtn img').removeClass('navimg1');
