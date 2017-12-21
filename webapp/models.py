@@ -16,14 +16,14 @@ class Detail(models.Model):
 		return str(self.name)
 
 class EventName(models.Model):
+	shortname = models.CharField(max_length=100)
 	name = models.CharField(max_length=100)
 	def __str__(self):
 		return str(self.name)
 
 class EventRegister(models.Model):
 	user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE, default=1)
-	event = models.ForeignKey(EventName,on_delete=models.CASCADE, default=1)
-
+	event = models.CharField(max_length=100)
 	def __str__(self):
 		return str(self.user)+" - "+str(self.event)
 		

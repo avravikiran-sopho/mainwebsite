@@ -1,0 +1,23 @@
+
+.list-group-item {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.row {
+	color: white;
+	text-align: center;
+	font-size: 1.1em;
+	padding: 0.5%;
+	font-family: 'Spectral SC', serif;
+	font-weight: bold; 
+}
+
+table tr th td {
+	color: white;
+	text-align: center;
+}
+
+td {
+	color:white!important;
+}

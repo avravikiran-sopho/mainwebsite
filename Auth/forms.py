@@ -30,9 +30,9 @@ class ProfileForm(forms.ModelForm):
 
 class RegisterForm(forms.ModelForm):
 	password1 = forms.CharField(widget=forms.PasswordInput(attrs=
-		{'name':'password','id':'password','tabindex':'2','class':'form-control','placeholder':'Password'}))
+		{'name':'password','id':'password','class':'form-control','placeholder':'Password'}))
 	password2 = forms.CharField(widget=forms.PasswordInput(attrs=
-		{'name':'confirm-password','id':'confirm-password','tabindex':'2','class':'form-control','placeholder':'Confirm Password'}))
+		{'name':'confirm-password','id':'confirm-password','class':'form-control','placeholder':'Confirm Password'}))
 	username = forms.CharField(widget=forms.EmailInput(attrs=
 		{'name':"username",'id':"name",'tabindex':"1",'class':"form-control",'placeholder':"Email"}))
 	

@@ -18,6 +18,13 @@
     .mheading {
         display: none;
     }
+    .register-div {
+  position: fixed;
+  bottom: 5%;
+  left: 80%;
+  display: none;
+}
+
 </style>
     <!--<h1>{{ user.username }}</h1>
     <h1>{{ user.profile.mobile }}</h1>
@@ -435,6 +442,14 @@
         <h1>Registrations will start soon</h1>
     </div>
 
+    <div class="container register-div">
+        {% if user.is_authenticated  %}
+        <a class="register-link" href=""><button class="btn btn-outline-secondary">Register</button></a>
+        {% else %}
+        <a  href="/login"><button class="btn btn-outline-secondary">Login for Register</button></a>
+        {% endif %}
+    </div>
+
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{% static 'js/events/bootstrap.min.js' %}"></script>
@@ -457,7 +472,7 @@
         });
     });
     $('#pr1').mouseleave( function(){ 
-        $('.stretch').attr("src","none");
+        $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#pr2').css("opacity",1);
         $('#pr3').css("opacity",1);
@@ -479,7 +494,7 @@
         });
     });
     $('#pr2').mouseleave( function(){ 
-       $('.stretch').attr("src","none");
+       $('.stretch').removeAttr('src');
         $('#pr1').css("opacity",1);
         $('#pr3').css("opacity",1);
         $('#pr4').css("opacity",1);
@@ -499,7 +514,7 @@
         });
     });
     $('#pr3').mouseleave( function(){ 
-        $('.stretch').attr("src","none");
+        $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#pr1').css("opacity",1);
         $('#pr2').css("opacity",1);
@@ -519,7 +534,7 @@
         });
     });
     $('#pr4').mouseleave( function(){ 
-        $('.stretch').attr("src","none");
+        $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#pr1').css("opacity",1);
         $('#pr2').css("opacity",1);
@@ -539,7 +554,7 @@
         });
     });
     $('#pr5').mouseleave( function(){ 
-        $('.stretch').attr("src","none");
+        $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#pr1').css("opacity",1);
         $('#pr2').css("opacity",1);
@@ -547,83 +562,6 @@
         $('#pr4').css("opacity",1);
       $('.img-display').css("opacity",1);
     });
-    $('.domain1').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer1').removeAttr('id');
-        $('.changer1').attr('id', 'shape-clicked');
-    });
-    $('.domain2').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer2').removeAttr('id');
-        $('.changer2').attr('id', 'shape-clicked');
-    });
-    $('.domain3').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer3').removeAttr('id');
-        $('.changer3').attr('id', 'shape-clicked');
-    });
-    $('.domain4').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer4').removeAttr('id');
-        $('.changer4').attr('id', 'shape-clicked');
-    });
-    $('.domain5').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer5').removeAttr('id');
-        $('.changer5').attr('id', 'shape-clicked');
-    });
-    $('.domain6').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer6').removeAttr('id');
-        $('.changer6').attr('id', 'shape-clicked');
-    });
-    $('.domain7').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer7').removeAttr('id');
-        $('.changer7').attr('id', 'shape-clicked');
-    });
-    $('.domain8').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer8').removeAttr('id');
-        $('.changer8').attr('id', 'shape-clicked');
-    });
-    $('.domain9').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer9').removeAttr('id');
-        $('.changer9').attr('id', 'shape-clicked');
-    });
-    $('.domain10').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer10').removeAttr('id');
-        $('.changer10').attr('id', 'shape-clicked');
-    });
-    $('.domain11').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer11').removeAttr('id');
-        $('.changer11').attr('id', 'shape-clicked');
-    });
-    $('.domain12').on('click', function() {
-        $('.changer').removeAttr('id');
-        $('.changer').attr('id', 'shape');
-        $('.changer12').removeAttr('id');
-        $('.changer12').attr('id', 'shape-clicked');
-    });
-   
-   // $('.svg-wrapper').click(fucntion(){
-   //     $('.changer')..removeAttr('id');
-   //     $('.changer').attr('id', 'shape-clicked');
-   // })
     $('#techimg').on('click',function () { 
       $('.events-box').slideToggle('slow');
       $('#techdiv').slideToggle('slow');
@@ -683,7 +621,6 @@
     
 </script>
 <script>
-  $
   // bind filter button click
   var iso = new Isotope( '#techisotope', {
     itemSelector: '.events',
@@ -713,47 +650,22 @@
       if ( !matchesSelector( event.target, 'button' ) ) {
         return;
       }
-      buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
       event.target.classList.add('is-checked');
+      buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+      
     });
   }
   //isotope
   // external js: isotope.pkgd.js
-
 </script>
-<!-- <script type="text/javascript">
-    var iso = new Isotope( '#cultisotope', {
-    itemSelector: '.events',
-    layoutMode: 'fitRows',
-  });
-  // bind filter button click
-  var filtersElem = document.querySelector('.filters-button-group-cult');
-  filtersElem.addEventListener( 'click', function( event ) {
-    // only work with buttons
-    if ( !matchesSelector( event.target, 'button' ) ) {
-      return;
+<script type="text/javascript">
+    if ($( window ).width() < 786) {
+        $('#techisotope').isotope({
+          filter: '*',
+        });    
     }
-    var filterValue = event.target.getAttribute('data-filter');
-    // use matching filter function
-    iso.arrange({ filter: filterValue });
-  });
-  // change is-checked class on buttons
-  var buttonGroups = document.querySelectorAll('.button-group');
-  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
-    var buttonGroup = buttonGroups[i];
-    radioButtonGroup( buttonGroup );
-  }
-  function radioButtonGroup( buttonGroup ) {
-    buttonGroup.addEventListener( 'click', function( event ) {
-      // only work with buttons
-      if ( !matchesSelector( event.target, 'button' ) ) {
-        return;
-      }
-      buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
-      event.target.classList.add('is-checked');
-    });
-  }
-</script> -->
+    
+</script>
 
 <script src="{% static 'js/events/details.js' %}"></script>
 </html>

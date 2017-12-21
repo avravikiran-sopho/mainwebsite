@@ -502,18 +502,26 @@ $('.card').on('click',function () {
 
       
       var id = $(this).attr('id');
+      var link = "/newsite/register/"+id;
       console.log(id);
       $('#reglink').attr('href','/register/'+id);
       $('#techdiv').slideUp('slow');
       $('#cultdiv').slideUp('slow');
       $('#onlinediv').slideUp('slow');
       $('.event-details').slideToggle('slow');
+      $('.register-div').fadeIn('slow');
       $('.navbtn img').addClass('navimg2');
       $('.navbtn img').removeClass('navimg1');
+      $('.register-link').attr("href",link)
+
     });
     $('.navimg2').on('click',function () {
       $('.event-details').slideToggle('slow');
       $('#techdiv').slideToggle('slow');
+      $('.register-div').fadeOut('slow');
       $('.navimg2').addClass('navimg1');
       $('.navimg1').removeClass('navimg2');
+      $('.register-link').attr("href","")
     });
+
+

@@ -11,6 +11,7 @@ from Auth.models import Profile
 from django.core.mail import EmailMessage
 from django.conf import settings
 
+from django.http import HttpResponseRedirect
 
 # Create your views here.
 def index(request):
@@ -39,11 +40,15 @@ def details(request,name):
 
 def eventregister(request,eventname):
 	if request.user.is_authenticated():
-		new_object = EventRegister()
-		new_object.user = request.user
-		new_object.event = EventName.objects.get(name=eventname)
-		new_object.save()
-		return render(request,'webapp/index.html')
+		if EventName.objects.filter(shortname=eventname).exists():
+			event = EventName.objects.get(shortname=eventname)
+			new_object = EventRegister()
+			new_object.user = request.user
+			new_object.event = event.name
+			new_object.save()
+		else:
+			print "not found"
+			return HttpResponseRedirect("/newsite/events")	
+		return HttpResponseRedirect("/newsite/dashboard")
 	else:
-		return render(request, 'webapp/events.html')
-
+		return HttpResponseRedirect("/login")
