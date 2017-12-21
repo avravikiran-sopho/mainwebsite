@@ -20,7 +20,7 @@ class Profile(models.Model):
     mobile = models.IntegerField(blank=True)
     city = models.TextField(max_length=1000, blank=True)
     gender = models.CharField(choices=GENDER_CHOICES, max_length=128)
-    elanids =models.IntegerField(max_length=4)
+    elanids =models.IntegerField()
     def __str__(self):
        return str(self.user)
 # @receiver(post_save, sender=User)
