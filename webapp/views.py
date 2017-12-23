@@ -45,9 +45,9 @@ def eventregister(request,eventname):
 			new_object = EventRegister()
 			new_object.user = request.user
 			new_object.event = event.name
+			new_object.uploaded_at = localtime(now())
 			new_object.save()
 		else:
-			print "not found"
 			return HttpResponseRedirect("/newsite/events")	
 		return HttpResponseRedirect("/newsite/dashboard")
 	else:

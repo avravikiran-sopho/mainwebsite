@@ -33,18 +33,18 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-4" >Name:{{ profile.full_name }}</div>
-			  <div class="col-md-4 col-sm-4 col-xs-4">Email:{{ user.username }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4"">Mobile:{{ profile.mobile }}</div>
-        
-      </div>
-			<div class="row">
-			  <div class="col-md-6 col-sm-6 col-xs-6">College:{{ profile.college }}</div>
-			  <div class="col-md-6 col-sm-6 col-xs-6"">Gender:{{ profile.gender }}</div>
+        <div class="col-md-4 col-sm-4 col-xs-4">Email:{{ user.username }}</div>
+        <div class="col-md-4 col-sm-4 col-xs-4"">Mobile:{{ profile.mobile }}</div>  
       </div>
       <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">Adress:{{ profile.city }}</div>       
-        
-    	</div>
+        <div class="col-md-4 col-sm-4 col-xs-4">College:{{ profile.college }}</div>
+        <div class="col-md-4 col-sm-4 col-xs-4"">Gender:{{ profile.gender }}</div>
+        <div class="col-md-4 col-sm-4 col-xs-4"">City:{{ profile.city }}</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-6"">Gender:{{ profile.zipcode }}</div>
+        <div class="col-md-6 col-sm-6 col-xs-6">Adress:{{ profile.adress }}</div>       
+      </div>
     </div>
     <div class="row"></div>
       <div class="container">
@@ -52,12 +52,17 @@
     			<thead>
   			    <tr>
   			      <th>Registered Events</th>
+              <th>Registered at</th>
   			    </tr>
     			</thead>
     			<tbody style="color: white">
+            {% if events %}
             {% for event in events %}
     				<tr><td>{{ event.event }}</td></tr>
             {% endfor %}
+            {% else }
+            <tr><td>You haven't registered for any events.</td></tr>
+            {% endif %}
     			<tbody>
     		</table>
       </div>

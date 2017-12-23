@@ -1,6 +1,8 @@
 from django.contrib.auth.models import User
 from django import forms
 from .models import Profile
+from django_countries.widgets import CountrySelectWidget
+
 CHOICES=[('male','Male'),
          ('female','Female')]
 
@@ -21,12 +23,17 @@ class ProfileForm(forms.ModelForm):
   mobile = forms.CharField(widget=forms.NumberInput(attrs=
     {'name':"mobile",'id':"mobile",'placeholder':"mobile"}))
   city = forms.CharField(widget=forms.TextInput(attrs=
+    {'name':"city",'id':"city",'placeholder':"City",'rows':"3"}))
+  adress = forms.CharField(widget=forms.TextInput(attrs=
     {'name':"city",'id':"city",'placeholder':"Address",'rows':"3"}))
   gender = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect(attrs=
     {'name':"gender",'id':"gender",}))
+  zipcode = forms.CharField(widget=forms.NumberInput(attrs=
+    {'name':"zipcode",'id':"zipcode",'placeholder':"zipcode"}))
   class Meta:
     model = Profile
-    fields = ['college', 'mobile','city','gender']
+    fields = ['college', 'mobile','city','gender','country','zipcode']
+    widgets = {'country': CountrySelectWidget()}
 
 class RegisterForm(forms.ModelForm):
 	password1 = forms.CharField(widget=forms.PasswordInput(attrs=

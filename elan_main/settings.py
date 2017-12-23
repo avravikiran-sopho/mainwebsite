@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_countries',
+    'phonenumber_field',
     'Auth',
     'webapp',
     'elmatrico',
@@ -85,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'mainwebsite',
         'USER': 'kiran',
-        'PASSWORD': 'elanvision2018',
+        'PASSWORD': 'avrkiran',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -122,7 +124,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE =  'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -141,11 +143,11 @@ STATICFILES_DIRS = [ STATIC_PATH, ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'avenkataravikiran@gmail.com'
-EMAIL_HOST_PASSWORD = 'Avrkiran@123'
+EMAIL_HOST = '159.122.219.43'
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
-DEFAULT_FROM_EMAIL = 'avenkataravikiran@gmail.com'
+DEFAULT_FROM_EMAIL = 'noreply@elan.org.in'
 
 
 MEDIA_URL = '/media/'
