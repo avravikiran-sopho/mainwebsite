@@ -14,6 +14,7 @@ from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseRedirect
+from smtplib import SMTPException
 
 
 # Create your views here.
@@ -37,7 +38,6 @@ def Login(request):
 			if user is not None:
 				print user.id
 				login(request,user)
-				
 				return HttpResponseRedirect("/elmatrico")
 			else:
 				message = "username or password is incorrect"
@@ -80,9 +80,9 @@ def Register(request):
 				new_object.elanids = user.id
 				new_object.save()
 				try:
-					current_site = get_current_site(request)
+                                	current_site = get_current_site(request)
 					mesage = render_to_string('acc_active_email.html', {
-						'user':user, 
+						'user':user,
 						'domain':current_site.domain,
 						'uid': urlsafe_base64_encode(force_bytes(user.pk)),
 						'token': account_activation_token.make_token(user),
@@ -91,11 +91,11 @@ def Register(request):
 					to_email = form1.cleaned_data.get('username')
 					email = EmailMessage(mail_subject, mesage, to=[to_email])
 					email.send()
+				except SMTPException as e:
+					print('There was an error sending an email: ', e)
 					#login(request,user)
 					return HttpResponseRedirect("/elmatrico")
-				except:
-					#login(request,user)
-					return HttpResponseRedirect("/elmatrico")
+
 			else:
 				message = "Password dont match"
 			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
