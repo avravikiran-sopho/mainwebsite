@@ -33,42 +33,27 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-4" >Name:{{ profile.full_name }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4">Email:{{ user.username }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4"">Mobile:{{ profile.mobile }}</div>  
+			  <div class="col-md-4 col-sm-4 col-xs-4">Email:{{ user.username }}</div>
+        <div class="col-md-4 col-sm-4 col-xs-4"">Mobile:{{ profile.mobile }}</div>
+        
       </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-4">College:{{ profile.college }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4"">Gender:{{ profile.gender }}</div>
+			<div class="row">
+			  <div class="col-md-4 col-sm-4 col-xs-4">College:{{ profile.college }}</div>
+			  <div class="col-md-4 col-sm-4 col-xs-4"">Gender:{{ profile.gender }}</div>
         <div class="col-md-4 col-sm-4 col-xs-4"">City:{{ profile.city }}</div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-6"">Gender:{{ profile.zipcode }}</div>
+        <div class="col-md-6 col-sm-6 col-xs-6"">Zipcode:{{ profile.zipcode }}</div>
         <div class="col-md-6 col-sm-6 col-xs-6">Adress:{{ profile.adress }}</div>       
-      </div>
+    	</div>
     </div>
     <div class="row"></div>
       <div class="container">
-    		<table class="table table-inverse table-bordered" style="text-align: center;">
-    			<thead>
-  			    <tr>
-  			      <th>Registered Events</th>
-              <th>Registered at</th>
-  			    </tr>
-    			</thead>
-    			<tbody style="color: white">
-            {% if events %}
-            {% for event in events %}
-    				<tr><td>{{ event.event }}</td></tr>
-            {% endfor %}
-            {% else }
-            <tr><td>You haven't registered for any events.</td></tr>
-            {% endif %}
-    			<tbody>
-    		</table>
+    		<h2>Your activation link is confirmed.You can login with your credentials.</h2>
       </div>
     </div> 
     <div class="container" style="text-align: center;">
-      <a href="/events"><button class="btn btn-secondary">Go to Events Page</button></a>
+      <a href="/login"><button class="btn btn-secondary">Login</button></a>
     </div>   	
     
 </body>

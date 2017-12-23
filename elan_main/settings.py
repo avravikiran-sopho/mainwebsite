@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_countries',
+    'phonenumber_field',
     'Auth',
     'webapp',
     'elmatrico',
@@ -84,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'mainwebsite',
         'USER': 'kiran',
-        'PASSWORD': 'elanvision2018',
+        'PASSWORD': 'avrkiran',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -121,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE =  'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -139,12 +141,21 @@ STATICFILES_DIRS = [ STATIC_PATH, ]
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+<<<<<<< HEAD
 EMAIL_USE_TLS = False
 EMAIL_HOST = 'smtp.sendgrid.net'
+=======
+EMAIL_USE_TLS = True
+EMAIL_HOST = '159.122.219.43'
+>>>>>>> e92ca9af4e3c6453a3a0fe68b3d99e7f7b7c6391
 EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = 'noreply@elan.org.in'
+<<<<<<< HEAD
+=======
+
+>>>>>>> e92ca9af4e3c6453a3a0fe68b3d99e7f7b7c6391
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

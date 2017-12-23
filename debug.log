@@ -1,0 +1,867 @@
+(0.008) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.002) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Exception while resolving variable 'message' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f00201bff50>>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f002018ef50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f002015dcd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f00201a72d0>, u'request': <WSGIRequest: GET '/login/'>}, {}, {'LoginForm': <class 'Auth.forms.LoginForm'>, 'RegisterForm': <class 'Auth.forms.RegisterForm'>, 'ProfileForm': <class 'Auth.forms.ProfileForm'>}]"
+Exception while resolving variable 'class' in template 'django/forms/widgets/radio.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [class] in u"{u'required': True, 'name': 'gender', 'id': 'gender'}"
+"GET /login/ HTTP/1.1" 200 12326
+(0.010) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.003) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET / HTTP/1.1" 200 5974
+"GET /static/css/beta/style.css HTTP/1.1" 200 13120
+"GET /static/js/beta/jquery.min.js HTTP/1.1" 200 86659
+"GET /static/js/beta/index.js HTTP/1.1" 200 3048
+"GET /static/img/beta/footer/twitter.png HTTP/1.1" 200 2444
+"GET /static/img/beta/footer/yt.png HTTP/1.1" 200 2300
+"GET /static/img/beta/footer/insta.png HTTP/1.1" 200 3410
+"GET /static/img/beta/footer/fb.png HTTP/1.1" 200 1308
+"GET /static/js/beta/velocity.js HTTP/1.1" 200 35052
+"GET /static/img/beta/beta_2.jpg HTTP/1.1" 200 1477716
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'webapp.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/webapp/urls.pyc'> (None:None) ^newsite/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'Auth.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/Auth/urls.pyc'> (None:None) ^login/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'elmatrico.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/elmatrico/urls.pyc'> (None:None) ^elmatrico/>"
+Not Found: /favicon.png' %}
+"GET /favicon.png'%20%%7D HTTP/1.1" 404 3406
+Exception while resolving variable 'message' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255848>>, 'user': <SimpleLazyObject: <function <lambda> at 0x7fc4e22c7d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e025f610>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0247090>, u'request': <WSGIRequest: GET '/login/'>}, {}, {'LoginForm': <class 'Auth.forms.LoginForm'>, 'RegisterForm': <class 'Auth.forms.RegisterForm'>, 'ProfileForm': <class 'Auth.forms.ProfileForm'>}]"
+Exception while resolving variable 'class' in template 'django/forms/widgets/radio.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [class] in u"{u'required': True, 'name': 'gender', 'id': 'gender'}"
+"GET /login/ HTTP/1.1" 200 12326
+(0.011) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = 'web@elan.org.in' LIMIT 1; args=(u'web@elan.org.in',)
+Exception while resolving variable 'class' in template 'django/forms/widgets/radio.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [class] in u"{u'required': True, 'name': 'gender', 'id': 'gender'}"
+"POST /login/do_register/ HTTP/1.1" 200 12374
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'webapp.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/webapp/urls.pyc'> (None:None) ^newsite/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'elmatrico.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/elmatrico/urls.pyc'> (None:None) ^elmatrico/>"
+Not Found: /login/do_register/img/favicon.png
+"GET /login/do_register/img/favicon.png HTTP/1.1" 404 4414
+(0.008) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = 'avenakataravikiran@gmail.com' LIMIT 1; args=(u'avenakataravikiran@gmail.com',)
+(0.007) INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES ('pbkdf2_sha256$36000$aZqDUFOwnWOD$fA7Ho2S9rdnRk47FSMF8ZSCBJXgBU/B37iyIvHg33kQ=', NULL, false, 'avenakataravikiran@gmail.com', '', '', '', false, false, '2017-12-22T08:14:52.024353+00:00'::timestamptz) RETURNING "auth_user"."id"; args=(u'pbkdf2_sha256$36000$aZqDUFOwnWOD$fA7Ho2S9rdnRk47FSMF8ZSCBJXgBU/B37iyIvHg33kQ=', None, False, u'avenakataravikiran@gmail.com', u'', u'', u'', False, False, datetime.datetime(2017, 12, 22, 8, 14, 52, 24353, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'avenakataravikiran@gmail.com'; args=(u'avenakataravikiran@gmail.com',)
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'avenakataravikiran@gmail.com'; args=(u'avenakataravikiran@gmail.com',)
+(0.016) INSERT INTO "Auth_profile" ("user_id", "full_name", "college", "mobile", "city", "gender", "elanids") VALUES (11, 'avrkiran', 'jgkjgkgj', 626546, 'bkhghi', 'male', 11) RETURNING "Auth_profile"."id"; args=(11, u'avrkiran', u'jgkjgkgj', 626546, u'bkhghi', u'male', 11)
+"POST /login/do_register/ HTTP/1.1" 302 0
+"GET /elmatrico HTTP/1.1" 301 0
+(0.019) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '0xj9p68zlq805g05te4n3ix1x4ygs6u7' AND "django_session"."expire_date" > '2017-12-22T08:14:57.448978+00:00'::timestamptz); args=('0xj9p68zlq805g05te4n3ix1x4ygs6u7', datetime.datetime(2017, 12, 22, 8, 14, 57, 448978, tzinfo=<UTC>))
+(0.011) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+Exception while resolving variable 'message' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228d8c0>>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc4e0a35ed0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e0a43350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0a35b90>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+"GET /elmatrico/ HTTP/1.1" 200 6873
+"GET /admin HTTP/1.1" 301 0
+(0.017) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '0xj9p68zlq805g05te4n3ix1x4ygs6u7' AND "django_session"."expire_date" > '2017-12-22T09:05:35.112142+00:00'::timestamptz); args=('0xj9p68zlq805g05te4n3ix1x4ygs6u7', datetime.datetime(2017, 12, 22, 9, 5, 35, 112142, tzinfo=<UTC>))
+(0.006) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+"GET /admin/ HTTP/1.1" 302 0
+(0.007) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '0xj9p68zlq805g05te4n3ix1x4ygs6u7' AND "django_session"."expire_date" > '2017-12-22T09:05:35.373027+00:00'::timestamptz); args=('0xj9p68zlq805g05te4n3ix1x4ygs6u7', datetime.datetime(2017, 12, 22, 9, 5, 35, 373027, tzinfo=<UTC>))
+(0.006) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228db90>>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc4e0a53110>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e21f8790>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e22c4d10>, u'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>}, {}, {'username': u'', 'app_path': u'/admin/login/?next=/admin/', 'available_apps': [], 'site_name': '127.0.0.1:8000', 'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'title': u'Log in', 'site_header': u'Django administration', 'site': <django.contrib.sites.requests.RequestSite object at 0x7fc4e0247810>, 'next': u'/admin/', 'site_title': u'Django site admin', u'LANGUAGE_CODE': 'en-us', 'has_permission': False, 'site_url': '/', u'LANGUAGE_BIDI': False, u'view': <django.contrib.auth.views.LoginView object at 0x7fc4e2af5c50>}]"
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228db90>>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc4e0a53110>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e21f8790>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e22c4d10>, u'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>}, {}, {'username': u'', 'app_path': u'/admin/login/?next=/admin/', 'available_apps': [], 'site_name': '127.0.0.1:8000', 'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'title': u'Log in', 'site_header': u'Django administration', 'site': <django.contrib.sites.requests.RequestSite object at 0x7fc4e0247810>, 'next': u'/admin/', 'site_title': u'Django site admin', u'LANGUAGE_CODE': 'en-us', 'has_permission': False, 'site_url': '/', u'LANGUAGE_BIDI': False, u'view': <django.contrib.auth.views.LoginView object at 0x7fc4e2af5c50>}]"
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+(0.017) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '0xj9p68zlq805g05te4n3ix1x4ygs6u7' AND "django_session"."expire_date" > '2017-12-22T09:05:35.792266+00:00'::timestamptz); args=('0xj9p68zlq805g05te4n3ix1x4ygs6u7', datetime.datetime(2017, 12, 22, 9, 5, 35, 792266, tzinfo=<UTC>))
+"GET /static/admin/css/login.css HTTP/1.1" 200 1203
+"GET /static/admin/css/base.css HTTP/1.1" 200 16066
+(0.012) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+"GET /admin/ HTTP/1.1" 302 0
+(0.008) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '0xj9p68zlq805g05te4n3ix1x4ygs6u7' AND "django_session"."expire_date" > '2017-12-22T09:05:35.996245+00:00'::timestamptz); args=('0xj9p68zlq805g05te4n3ix1x4ygs6u7', datetime.datetime(2017, 12, 22, 9, 5, 35, 996245, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228dc08>>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc4e0a61cd0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e0a613d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0a61850>, u'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>}, {}, {'username': u'', 'app_path': u'/admin/login/?next=/admin/', 'available_apps': [], 'site_name': '127.0.0.1:8000', 'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'title': u'Log in', 'site_header': u'Django administration', 'site': <django.contrib.sites.requests.RequestSite object at 0x7fc4e0a61890>, 'next': u'/admin/', 'site_title': u'Django site admin', u'LANGUAGE_CODE': 'en-us', 'has_permission': False, 'site_url': '/', u'LANGUAGE_BIDI': False, u'view': <django.contrib.auth.views.LoginView object at 0x7fc4e0a61950>}]"
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228dc08>>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc4e0a61cd0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e0a613d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0a61850>, u'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>}, {}, {'username': u'', 'app_path': u'/admin/login/?next=/admin/', 'available_apps': [], 'site_name': '127.0.0.1:8000', 'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'title': u'Log in', 'site_header': u'Django administration', 'site': <django.contrib.sites.requests.RequestSite object at 0x7fc4e0a61890>, 'next': u'/admin/', 'site_title': u'Django site admin', u'LANGUAGE_CODE': 'en-us', 'has_permission': False, 'site_url': '/', u'LANGUAGE_BIDI': False, u'view': <django.contrib.auth.views.LoginView object at 0x7fc4e0a61950>}]"
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '0xj9p68zlq805g05te4n3ix1x4ygs6u7' AND "django_session"."expire_date" > '2017-12-22T09:05:44.501652+00:00'::timestamptz); args=('0xj9p68zlq805g05te4n3ix1x4ygs6u7', datetime.datetime(2017, 12, 22, 9, 5, 44, 501652, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'root@root.com'; args=(u'root@root.com',)
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = '0xj9p68zlq805g05te4n3ix1x4ygs6u7'; args=('0xj9p68zlq805g05te4n3ix1x4ygs6u7',)
+(0.002) DELETE FROM "django_session" WHERE "django_session"."session_key" IN ('0xj9p68zlq805g05te4n3ix1x4ygs6u7'); args=(u'0xj9p68zlq805g05te4n3ix1x4ygs6u7',)
+(0.004) UPDATE "auth_user" SET "last_login" = '2017-12-22T09:05:44.704914+00:00'::timestamptz WHERE "auth_user"."id" = 3; args=(datetime.datetime(2017, 12, 22, 9, 5, 44, 704914, tzinfo=<UTC>), 3)
+(0.002) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' LIMIT 1; args=(u'9upz95ad414b0r9u4abxfzboaxuxv3xe',)
+(0.003) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES ('9upz95ad414b0r9u4abxfzboaxuxv3xe', 'OTYxZDQ0NjdlOTI0OGYyYTE1ZTJmZTQzZDkyMmEwN2QzYjI2YjBhNTp7Il9hdXRoX3VzZXJfaGFzaCI6ImYxN2I0NDFlNDI5YjIyZTljYzhmMjRlOTU5MDIyN2M3NDM1NjljZWIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2018-01-05T09:05:44.755353+00:00'::timestamptz); args=(u'9upz95ad414b0r9u4abxfzboaxuxv3xe', u'OTYxZDQ0NjdlOTI0OGYyYTE1ZTJmZTQzZDkyMmEwN2QzYjI2YjBhNTp7Il9hdXRoX3VzZXJfaGFzaCI6ImYxN2I0NDFlNDI5YjIyZTljYzhmMjRlOTU5MDIyN2M3NDM1NjljZWIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', datetime.datetime(2018, 1, 5, 9, 5, 44, 755353, tzinfo=<UTC>))
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:05:44.811336+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 5, 44, 811336, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228dc08>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e0227450>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0a5be50>, u'request': <WSGIRequest: GET '/admin/'>}, {}, {'site_header': u'Django administration', 'available_apps': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], 'site_title': u'Django site admin', 'title': u'Site administration', 'has_permission': True, 'app_list': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], u'LANGUAGE_CODE': 'en-us', u'LANGUAGE_BIDI': False, 'site_url': '/'}]"
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228dc08>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e0227450>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0a5be50>, u'request': <WSGIRequest: GET '/admin/'>}, {}, {'site_header': u'Django administration', 'available_apps': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], 'site_title': u'Django site admin', 'title': u'Site administration', 'has_permission': True, 'app_list': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], u'LANGUAGE_CODE': 'en-us', u'LANGUAGE_BIDI': False, 'site_url': '/'}]"
+(0.014) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 3 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(3,)
+"GET /admin/ HTTP/1.1" 200 8436
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:05:49.243434+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 5, 49, 243434, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.002) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.002) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC, "auth_user"."id" DESC; args=()
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [errors] in u'None'
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [show] in u"[{'False': False, 'None': None, 'True': True, 'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255d70>>}]"
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_multipart] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+"GET /admin/auth/user/ HTTP/1.1" 200 7777
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+"GET /static/admin/js/core.js HTTP/1.1" 200 7976
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+"GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:05:49.598687+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 5, 49, 598687, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+"GET /admin/jsi18n/ HTTP/1.1" 200 3217
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:05:57.409927+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 5, 57, 409927, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.002) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.001) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (9, 10, 11) ORDER BY "auth_user"."username" ASC, "auth_user"."id" DESC; args=(9, 10, 11)
+(0.005) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") WHERE "django_admin_log"."user_id" IN (9, 10, 11) ORDER BY "django_admin_log"."action_time" DESC; args=(9, 10, 11)
+(0.003) SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user_groups" INNER JOIN "auth_user" ON ("auth_user_groups"."user_id" = "auth_user"."id") WHERE "auth_user_groups"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.004) SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user_user_permissions" INNER JOIN "auth_user" ON ("auth_user_user_permissions"."user_id" = "auth_user"."id") WHERE "auth_user_user_permissions"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "Auth_profile" INNER JOIN "auth_user" ON ("Auth_profile"."user_id" = "auth_user"."id") WHERE "Auth_profile"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "webapp_eventregister"."id", "webapp_eventregister"."user_id", "webapp_eventregister"."event", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "webapp_eventregister" INNER JOIN "auth_user" ON ("webapp_eventregister"."user_id" = "auth_user"."id") WHERE "webapp_eventregister"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "elmatrico_document"."id", "elmatrico_document"."user_id", "elmatrico_document"."document", "elmatrico_document"."uploaded_at", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "elmatrico_document" INNER JOIN "auth_user" ON ("elmatrico_document"."user_id" = "auth_user"."id") WHERE "elmatrico_document"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+Exception while resolving variable 'is_popup' in template 'admin/delete_selected_confirmation.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u'[{\'False\': False, \'None\': None, \'True\': True}, {u\'csrf_token\': <SimpleLazyObject: <function _get_val at 0x7fc4e0255cf8>>, \'user\': <SimpleLazyObject: <User: root@root.com>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e0a53f90>, \'DEFAULT_MESSAGE_LEVELS\': {\'DEBUG\': 10, \'INFO\': 20, \'WARNING\': 30, \'SUCCESS\': 25, \'ERROR\': 40}, \'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0a61c50>, u\'request\': <WSGIRequest: POST \'/admin/auth/user/\'>}, {}, {\'available_apps\': [{\'app_url\': u\'/admin/Auth/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/Auth/profile/\', \'object_name\': \'Profile\', \'name\': u\'Profiles\', \'add_url\': u\'/admin/Auth/profile/add/\'}], \'has_module_perms\': True, \'name\': \'Auth\', \'app_label\': \'Auth\'}, {\'app_url\': u\'/admin/auth/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/auth/group/\', \'object_name\': \'Group\', \'name\': u\'Groups\', \'add_url\': u\'/admin/auth/group/add/\'}, {\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/auth/user/\', \'object_name\': \'User\', \'name\': u\'Users\', \'add_url\': u\'/admin/auth/user/add/\'}], \'has_module_perms\': True, \'name\': u\'Authentication and Authorization\', \'app_label\': \'auth\'}, {\'app_url\': u\'/admin/elmatrico/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/elmatrico/document/\', \'object_name\': \'Document\', \'name\': u\'Documents\', \'add_url\': u\'/admin/elmatrico/document/add/\'}], \'has_module_perms\': True, \'name\': \'Elmatrico\', \'app_label\': \'elmatrico\'}, {\'app_url\': u\'/admin/webapp/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/webapp/detail/\', \'object_name\': \'Detail\', \'name\': u\'Details\', \'add_url\': u\'/admin/webapp/detail/add/\'}, {\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/webapp/eventname/\', \'object_name\': \'EventName\', \'name\': u\'Event names\', \'add_url\': u\'/admin/webapp/eventname/add/\'}, {\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/webapp/eventregister/\', \'object_name\': \'EventRegister\', \'name\': u\'Event registers\', \'add_url\': u\'/admin/webapp/eventregister/add/\'}], \'has_module_perms\': True, \'name\': \'Webapp\', \'app_label\': \'webapp\'}], \'perms_lacking\': set([]), \'deletable_objects\': [[u\'User: <a href="/admin/auth/user/11/change/">avenakataravikiran@gmail.com</a>\', [u\'Profile: <a href="/admin/Auth/profile/8/change/">avenakataravikiran@gmail.com</a>\'], u\'User: <a href="/admin/auth/user/9/change/">me15btech11039@iith.ac.in</a>\', [u\'Profile: <a href="/admin/Auth/profile/6/change/">me15btech11039@iith.ac.in</a>\'], u\'User: <a href="/admin/auth/user/10/change/">web@elan.org.in</a>\', [u\'Profile: <a href="/admin/Auth/profile/7/change/">web@elan.org.in</a>\']]], \'title\': u\'Are you sure?\', \'site_header\': u\'Django administration\', \'media\': <django.forms.widgets.Media object at 0x7fc4e025ff50>, \'queryset\': <QuerySet [<User: avenakataravikiran@gmail.com>, <User: me15btech11039@iith.ac.in>, <User: web@elan.org.in>]>, \'site_url\': \'/\', \'model_count\': [(u\'users\', 3), (u\'profiles\', 3)], \'protected\': [], \'site_title\': u\'Django site admin\', u\'LANGUAGE_BIDI\': False, u\'LANGUAGE_CODE\': \'en-us\', \'has_permission\': True, \'objects_name\': u\'users\', \'action_checkbox_name\': u\'_selected_action\', \'opts\': <Options for User>}]'
+Exception while resolving variable 'is_popup' in template 'admin/delete_selected_confirmation.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u'[{\'False\': False, \'None\': None, \'True\': True}, {u\'csrf_token\': <SimpleLazyObject: <function _get_val at 0x7fc4e0255cf8>>, \'user\': <SimpleLazyObject: <User: root@root.com>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e0a53f90>, \'DEFAULT_MESSAGE_LEVELS\': {\'DEBUG\': 10, \'INFO\': 20, \'WARNING\': 30, \'SUCCESS\': 25, \'ERROR\': 40}, \'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e0a61c50>, u\'request\': <WSGIRequest: POST \'/admin/auth/user/\'>}, {}, {\'available_apps\': [{\'app_url\': u\'/admin/Auth/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/Auth/profile/\', \'object_name\': \'Profile\', \'name\': u\'Profiles\', \'add_url\': u\'/admin/Auth/profile/add/\'}], \'has_module_perms\': True, \'name\': \'Auth\', \'app_label\': \'Auth\'}, {\'app_url\': u\'/admin/auth/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/auth/group/\', \'object_name\': \'Group\', \'name\': u\'Groups\', \'add_url\': u\'/admin/auth/group/add/\'}, {\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/auth/user/\', \'object_name\': \'User\', \'name\': u\'Users\', \'add_url\': u\'/admin/auth/user/add/\'}], \'has_module_perms\': True, \'name\': u\'Authentication and Authorization\', \'app_label\': \'auth\'}, {\'app_url\': u\'/admin/elmatrico/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/elmatrico/document/\', \'object_name\': \'Document\', \'name\': u\'Documents\', \'add_url\': u\'/admin/elmatrico/document/add/\'}], \'has_module_perms\': True, \'name\': \'Elmatrico\', \'app_label\': \'elmatrico\'}, {\'app_url\': u\'/admin/webapp/\', \'models\': [{\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/webapp/detail/\', \'object_name\': \'Detail\', \'name\': u\'Details\', \'add_url\': u\'/admin/webapp/detail/add/\'}, {\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/webapp/eventname/\', \'object_name\': \'EventName\', \'name\': u\'Event names\', \'add_url\': u\'/admin/webapp/eventname/add/\'}, {\'perms\': {u\'add\': True, u\'change\': True, u\'delete\': True}, \'admin_url\': u\'/admin/webapp/eventregister/\', \'object_name\': \'EventRegister\', \'name\': u\'Event registers\', \'add_url\': u\'/admin/webapp/eventregister/add/\'}], \'has_module_perms\': True, \'name\': \'Webapp\', \'app_label\': \'webapp\'}], \'perms_lacking\': set([]), \'deletable_objects\': [[u\'User: <a href="/admin/auth/user/11/change/">avenakataravikiran@gmail.com</a>\', [u\'Profile: <a href="/admin/Auth/profile/8/change/">avenakataravikiran@gmail.com</a>\'], u\'User: <a href="/admin/auth/user/9/change/">me15btech11039@iith.ac.in</a>\', [u\'Profile: <a href="/admin/Auth/profile/6/change/">me15btech11039@iith.ac.in</a>\'], u\'User: <a href="/admin/auth/user/10/change/">web@elan.org.in</a>\', [u\'Profile: <a href="/admin/Auth/profile/7/change/">web@elan.org.in</a>\']]], \'title\': u\'Are you sure?\', \'site_header\': u\'Django administration\', \'media\': <django.forms.widgets.Media object at 0x7fc4e025ff50>, \'queryset\': <QuerySet [<User: avenakataravikiran@gmail.com>, <User: me15btech11039@iith.ac.in>, <User: web@elan.org.in>]>, \'site_url\': \'/\', \'model_count\': [(u\'users\', 3), (u\'profiles\', 3)], \'protected\': [], \'site_title\': u\'Django site admin\', u\'LANGUAGE_BIDI\': False, u\'LANGUAGE_CODE\': \'en-us\', \'has_permission\': True, \'objects_name\': u\'users\', \'action_checkbox_name\': u\'_selected_action\', \'opts\': <Options for User>}]'
+"POST /admin/auth/user/ HTTP/1.1" 200 3810
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:05:59.190127+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 5, 59, 190127, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.002) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.002) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.001) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (9, 10, 11) ORDER BY "auth_user"."username" ASC, "auth_user"."id" DESC; args=(9, 10, 11)
+(0.004) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") WHERE "django_admin_log"."user_id" IN (9, 10, 11) ORDER BY "django_admin_log"."action_time" DESC; args=(9, 10, 11)
+(0.004) SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user_groups" INNER JOIN "auth_user" ON ("auth_user_groups"."user_id" = "auth_user"."id") WHERE "auth_user_groups"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user_user_permissions" INNER JOIN "auth_user" ON ("auth_user_user_permissions"."user_id" = "auth_user"."id") WHERE "auth_user_user_permissions"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "Auth_profile" INNER JOIN "auth_user" ON ("Auth_profile"."user_id" = "auth_user"."id") WHERE "Auth_profile"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "webapp_eventregister"."id", "webapp_eventregister"."user_id", "webapp_eventregister"."event", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "webapp_eventregister" INNER JOIN "auth_user" ON ("webapp_eventregister"."user_id" = "auth_user"."id") WHERE "webapp_eventregister"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "elmatrico_document"."id", "elmatrico_document"."user_id", "elmatrico_document"."document", "elmatrico_document"."uploaded_at", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "elmatrico_document" INNER JOIN "auth_user" ON ("elmatrico_document"."user_id" = "auth_user"."id") WHERE "elmatrico_document"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.003) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."model" = 'user' AND "django_content_type"."app_label" = 'auth'); args=('user', 'auth')
+(0.003) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2017-12-22T09:05:59.336400+00:00'::timestamptz, 3, 4, '11', 'avenakataravikiran@gmail.com', 3, '') RETURNING "django_admin_log"."id"; args=(datetime.datetime(2017, 12, 22, 9, 5, 59, 336400, tzinfo=<UTC>), 3, 4, u'11', u'avenakataravikiran@gmail.com', 3, u'')
+(0.001) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2017-12-22T09:05:59.389207+00:00'::timestamptz, 3, 4, '9', 'me15btech11039@iith.ac.in', 3, '') RETURNING "django_admin_log"."id"; args=(datetime.datetime(2017, 12, 22, 9, 5, 59, 389207, tzinfo=<UTC>), 3, 4, u'9', u'me15btech11039@iith.ac.in', 3, u'')
+(0.001) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2017-12-22T09:05:59.421790+00:00'::timestamptz, 3, 4, '10', 'web@elan.org.in', 3, '') RETURNING "django_admin_log"."id"; args=(datetime.datetime(2017, 12, 22, 9, 5, 59, 421790, tzinfo=<UTC>), 3, 4, u'10', u'web@elan.org.in', 3, u'')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (9, 10, 11); args=(9, 10, 11)
+(0.002) DELETE FROM "django_admin_log" WHERE "django_admin_log"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.001) DELETE FROM "auth_user_groups" WHERE "auth_user_groups"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.001) DELETE FROM "auth_user_user_permissions" WHERE "auth_user_user_permissions"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.001) DELETE FROM "Auth_profile" WHERE "Auth_profile"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.001) DELETE FROM "webapp_eventregister" WHERE "webapp_eventregister"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.001) DELETE FROM "elmatrico_document" WHERE "elmatrico_document"."user_id" IN (9, 10, 11); args=(9, 10, 11)
+(0.001) DELETE FROM "auth_user" WHERE "auth_user"."id" IN (9, 10, 11); args=(9, 10, 11)
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:05:59.545184+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 5, 59, 545184, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.003) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.001) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC, "auth_user"."id" DESC; args=()
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [errors] in u'None'
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [show] in u"[{'False': False, 'None': None, 'True': True, 'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255ed8>>}]"
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_multipart] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+"GET /admin/auth/user/ HTTP/1.1" 200 6586
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:05:59.841217+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 5, 59, 841217, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+"GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Exception while resolving variable 'message' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e21b9c08>>, 'user': <SimpleLazyObject: <function <lambda> at 0x7fc4e228ded8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e21cad90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2217fd0>, u'request': <WSGIRequest: GET '/login/'>}, {}, {'LoginForm': <class 'Auth.forms.LoginForm'>, 'RegisterForm': <class 'Auth.forms.RegisterForm'>, 'ProfileForm': <class 'Auth.forms.ProfileForm'>}]"
+Exception while resolving variable 'class' in template 'django/forms/widgets/radio.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [class] in u"{u'required': True, 'name': 'gender', 'id': 'gender'}"
+"GET /login/ HTTP/1.1" 200 12326
+(0.011) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = 'me15btech11039@iith.ac.in' LIMIT 1; args=(u'me15btech11039@iith.ac.in',)
+(0.012) INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES ('pbkdf2_sha256$36000$C0ZsCCmTrWHQ$XUE9BjXURPVRBHxSlazqZm1R7gtAEZzAX0oxoJVFda0=', NULL, false, 'me15btech11039@iith.ac.in', '', '', '', false, false, '2017-12-22T09:06:25.666696+00:00'::timestamptz) RETURNING "auth_user"."id"; args=(u'pbkdf2_sha256$36000$C0ZsCCmTrWHQ$XUE9BjXURPVRBHxSlazqZm1R7gtAEZzAX0oxoJVFda0=', None, False, u'me15btech11039@iith.ac.in', u'', u'', u'', False, False, datetime.datetime(2017, 12, 22, 9, 6, 25, 666696, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'me15btech11039@iith.ac.in'; args=(u'me15btech11039@iith.ac.in',)
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'me15btech11039@iith.ac.in'; args=(u'me15btech11039@iith.ac.in',)
+(0.006) INSERT INTO "Auth_profile" ("user_id", "full_name", "college", "mobile", "city", "gender", "elanids") VALUES (12, 'avrkiran', 'gjygjyfgjy', 465468, 'jkhgjhg', 'male', 12) RETURNING "Auth_profile"."id"; args=(12, u'avrkiran', u'gjygjyfgjy', 465468, u'jkhgjhg', u'male', 12)
+"POST /login/do_register/ HTTP/1.1" 302 0
+"GET /elmatrico HTTP/1.1" 301 0
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:06:31.869195+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 6, 31, 869195, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.003) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids" FROM "Auth_profile" WHERE "Auth_profile"."user_id" = 3; args=(3,)
+Exception while resolving variable 'message' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228db90>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e2ac7e90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2a70c90>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+Exception while resolving variable 'profile' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [profile] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228db90>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e2ac7e90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2a70c90>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+Exception while resolving variable 'doc' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [doc] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e228db90>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e2ac7e90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2a70c90>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+"GET /elmatrico/ HTTP/1.1" 200 13927
+(0.022) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = 'avenkataravikiran@gmail.com' LIMIT 1; args=(u'avenkataravikiran@gmail.com',)
+(0.010) INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES ('pbkdf2_sha256$36000$DgBHMAMfggxm$KRYozN4UYMs/V3uPPkdvC78BUFzYvK/ZVvcKIDtqs8k=', NULL, false, 'avenkataravikiran@gmail.com', '', '', '', false, false, '2017-12-22T09:07:31.953617+00:00'::timestamptz) RETURNING "auth_user"."id"; args=(u'pbkdf2_sha256$36000$DgBHMAMfggxm$KRYozN4UYMs/V3uPPkdvC78BUFzYvK/ZVvcKIDtqs8k=', None, False, u'avenkataravikiran@gmail.com', u'', u'', u'', False, False, datetime.datetime(2017, 12, 22, 9, 7, 31, 953617, tzinfo=<UTC>))
+(0.005) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'avenkataravikiran@gmail.com'; args=(u'avenkataravikiran@gmail.com',)
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'avenkataravikiran@gmail.com'; args=(u'avenkataravikiran@gmail.com',)
+(0.010) INSERT INTO "Auth_profile" ("user_id", "full_name", "college", "mobile", "city", "gender", "elanids") VALUES (13, 'avrkiran', 'gjygjyfgjy', 465468, 'jkhgjhg', 'male', 13) RETURNING "Auth_profile"."id"; args=(13, u'avrkiran', u'gjygjyfgjy', 465468, u'jkhgjhg', u'male', 13)
+"POST /login/do_register/ HTTP/1.1" 302 0
+"GET /elmatrico HTTP/1.1" 301 0
+(0.011) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:07:36.140904+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 7, 36, 140904, tzinfo=<UTC>))
+(0.011) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.007) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids" FROM "Auth_profile" WHERE "Auth_profile"."user_id" = 3; args=(3,)
+Exception while resolving variable 'message' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255ed8>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e22002d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2ac7a90>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+Exception while resolving variable 'profile' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [profile] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255ed8>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e22002d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2ac7a90>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+Exception while resolving variable 'doc' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [doc] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255ed8>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e22002d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2ac7a90>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+"GET /elmatrico/ HTTP/1.1" 200 13927
+(0.010) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = 'web@elan.org.in' LIMIT 1; args=(u'web@elan.org.in',)
+(0.004) INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES ('pbkdf2_sha256$36000$4nAygFkXjvUu$n9gVpjUsGcC2YOlqZ6kSo9Oh1u5WrShoqXY7gpVfEMQ=', NULL, false, 'web@elan.org.in', '', '', '', false, false, '2017-12-22T09:07:58.482543+00:00'::timestamptz) RETURNING "auth_user"."id"; args=(u'pbkdf2_sha256$36000$4nAygFkXjvUu$n9gVpjUsGcC2YOlqZ6kSo9Oh1u5WrShoqXY7gpVfEMQ=', None, False, u'web@elan.org.in', u'', u'', u'', False, False, datetime.datetime(2017, 12, 22, 9, 7, 58, 482543, tzinfo=<UTC>))
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'web@elan.org.in'; args=(u'web@elan.org.in',)
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'web@elan.org.in'; args=(u'web@elan.org.in',)
+(0.004) INSERT INTO "Auth_profile" ("user_id", "full_name", "college", "mobile", "city", "gender", "elanids") VALUES (14, 'avrkiran', 'gjygjyfgjy', 465468, 'jkhgjhg', 'male', 14) RETURNING "Auth_profile"."id"; args=(14, u'avrkiran', u'gjygjyfgjy', 465468, u'jkhgjhg', u'male', 14)
+"POST /login/do_register/ HTTP/1.1" 302 0
+"GET /elmatrico HTTP/1.1" 301 0
+(0.013) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T09:08:02.504477+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 9, 8, 2, 504477, tzinfo=<UTC>))
+(0.011) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.006) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids" FROM "Auth_profile" WHERE "Auth_profile"."user_id" = 3; args=(3,)
+Exception while resolving variable 'message' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255e60>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e2b2ca90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2ad30d0>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+Exception while resolving variable 'profile' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [profile] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255e60>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e2b2ca90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2ad30d0>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+Exception while resolving variable 'doc' in template 'elmatrico/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [doc] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7fc4e0255e60>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc4e2b2ca90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc4e2ad30d0>, u'request': <WSGIRequest: GET '/elmatrico/'>}, {}, {u'form': <DocumentForm bound=False, valid=Unknown, fields=(document)>}]"
+"GET /elmatrico/ HTTP/1.1" 200 13927
+(0.018) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.003) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET / HTTP/1.1" 200 5974
+"GET /static/js/beta/jquery.min.js HTTP/1.1" 304 0
+"GET /static/css/beta/style.css HTTP/1.1" 304 0
+"GET /static/js/beta/velocity.js HTTP/1.1" 304 0
+"GET /static/img/beta/beta_2.jpg HTTP/1.1" 304 0
+"GET /static/js/beta/index.js HTTP/1.1" 304 0
+"GET /static/img/beta/footer/fb.png HTTP/1.1" 304 0
+"GET /static/img/beta/footer/twitter.png HTTP/1.1" 304 0
+"GET /static/img/beta/footer/insta.png HTTP/1.1" 304 0
+"GET /static/img/beta/footer/yt.png HTTP/1.1" 304 0
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'webapp.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/webapp/urls.pyc'> (None:None) ^newsite/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'Auth.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/Auth/urls.pyc'> (None:None) ^login/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'elmatrico.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/elmatrico/urls.pyc'> (None:None) ^elmatrico/>"
+Not Found: /favicon.png' %}
+"GET /favicon.png'%20%%7D HTTP/1.1" 404 3406
+(0.014) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:40:36.845005+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 40, 36, 845005, tzinfo=<UTC>))
+(0.006) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.005) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids" FROM "Auth_profile" WHERE "Auth_profile"."user_id" = 3; args=(3,)
+Exception while resolving variable 'profile' in template 'webapp/events.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related_descriptors.py", line 407, in __get__
+    self.related.get_accessor_name()
+RelatedObjectDoesNotExist: User has no profile.
+Exception while resolving variable 'profile' in template 'webapp/events.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related_descriptors.py", line 407, in __get__
+    self.related.get_accessor_name()
+RelatedObjectDoesNotExist: User has no profile.
+"GET /newsite/events HTTP/1.1" 200 30016
+"GET /static/css/events.css HTTP/1.1" 200 12006
+"GET /static/img/events/culti.jpg HTTP/1.1" 200 9308
+"GET /static/img/events/online.jpg HTTP/1.1" 200 4584
+"GET /static/img/events/litr.jpg HTTP/1.1" 200 6961
+"GET /static/img/logo.png HTTP/1.1" 304 0
+"GET /static/img/events/techy.jpg HTTP/1.1" 200 4974
+"GET /static/css/bootstrap.min.css HTTP/1.1" 200 127343
+"GET /static/img/events/biggy.jpg HTTP/1.1" 200 10978
+"GET /static/img/events/up.png HTTP/1.1" 200 1370
+"GET /static/img/beta/events/paperpt.jpg HTTP/1.1" 200 3275
+"GET /static/img/events/jugaadit.jpg HTTP/1.1" 200 97662
+"GET /static/img/events/IOT.jpg HTTP/1.1" 200 53369
+"GET /static/img/events/DTMF.jpg HTTP/1.1" 200 73981
+"GET /static/img/events/technical.jpg HTTP/1.1" 200 36402
+"GET /static/img/events/electronicbloopers.jpg HTTP/1.1" 200 66292
+"GET /static/img/beta/events/salesman.jpg HTTP/1.1" 200 8622
+"GET /static/img/beta/events/ojo_cada.jpg HTTP/1.1" 200 18232
+"GET /static/img/events/junkyardwars.jpg HTTP/1.1" 200 154035
+"GET /static/img/events/driftking.jpg HTTP/1.1" 200 88794
+"GET /static/img/beta/events/portfolio_pic19.jpg HTTP/1.1" 200 11501
+"GET /static/img/beta/events/pitch.jpg HTTP/1.1" 200 18433
+"GET /static/img/events/bridge.jpg HTTP/1.1" 200 20638
+"GET /static/img/events/robosoccer.jpg HTTP/1.1" 200 89704
+"GET /static/img/events/aquarocket.jpg HTTP/1.1" 200 85884
+"GET /static/img/beta/events/quadcopter.jpg HTTP/1.1" 200 4717
+"GET /static/img/beta/events/galileo.jpg HTTP/1.1" 200 4116
+"GET /static/img/beta/events/portfolio_pic27.jpg HTTP/1.1" 200 9474
+"GET /static/img/beta/events/sciencequiz.jpg HTTP/1.1" 200 7452
+"GET /static/img/events/algorithma.jpg HTTP/1.1" 200 32833
+"GET /static/img/events/hackamaze.png HTTP/1.1" 200 10877
+"GET /static/img/beta/events/auto_quiz.jpg HTTP/1.1" 200 5292
+"GET /static/img/beta/events/portfolio_pic4.jpg HTTP/1.1" 200 14766
+"GET /static/img/beta/events/portfolio_pic6.jpg HTTP/1.1" 200 10528
+"GET /static/img/beta/events/portfolio_pic8.jpg HTTP/1.1" 200 9711
+"GET /static/img/events/octave.png HTTP/1.1" 200 23453
+"GET /static/img/events/proquest.JPG HTTP/1.1" 200 75491
+"GET /static/img/events/andaaz.jpg HTTP/1.1" 200 63454
+"GET /static/img/beta/events/portfolio_pic5.jpg HTTP/1.1" 200 14179
+"GET /static/img/events/dj.jpg HTTP/1.1" 200 35409
+"GET /static/img/events/naatak.jpg HTTP/1.1" 200 97040
+"GET /static/img/events/stage.jpg HTTP/1.1" 200 70672
+"GET /static/img/beta/events/enigma.jpg HTTP/1.1" 200 23112
+"GET /static/img/events/voice.jpg HTTP/1.1" 200 99145
+"GET /static/img/events/film.jpg HTTP/1.1" 200 6962
+"GET /static/img/events/picelectic.jpg HTTP/1.1" 200 19664
+"GET /static/img/beta/events/portfolio_pic9.jpg HTTP/1.1" 200 14665
+"GET /static/img/beta/events/portfolio_pic12.jpg HTTP/1.1" 200 5938
+"GET /static/img/beta/events/portfolio_pic11.jpg HTTP/1.1" 200 5909
+"GET /static/img/beta/events/portfolio_pic10.jpg HTTP/1.1" 200 5116
+"GET /static/js/events/details.js HTTP/1.1" 200 42169
+"GET /static/img/events/rj.jpg HTTP/1.1" 200 57140
+"GET /static/js/events/bootstrap.min.js HTTP/1.1" 200 50564
+"GET /static/js/events/isotope.pkgd.min.js HTTP/1.1" 200 40847
+"GET /static/img/events/art.jpg HTTP/1.1" 200 17760
+"GET /static/js/events/scroll.min.js HTTP/1.1" 200 2441
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:40:45.313644+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 40, 45, 313644, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+Exception while resolving variable 'message' in template 'webapp/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f2419fa3de8>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f2419fce0d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f2419fc57d0>, u'request': <WSGIRequest: GET '/newsite/'>}, {}]"
+"GET /newsite/ HTTP/1.1" 200 662
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'webapp.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/webapp/urls.pyc'> (None:None) ^newsite/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'Auth.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/Auth/urls.pyc'> (None:None) ^login/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'elmatrico.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/elmatrico/urls.pyc'> (None:None) ^elmatrico/>"
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3376
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'Auth.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/Auth/urls.pyc'> (None:None) ^login/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'elmatrico.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/elmatrico/urls.pyc'> (None:None) ^elmatrico/>"
+Not Found: /newsite/newsite/dashboard/
+"GET /newsite/newsite/dashboard/ HTTP/1.1" 404 4690
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:02.389687+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 2, 389687, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.003) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids" FROM "Auth_profile" WHERE "Auth_profile"."user_id" = 3; args=(3,)
+Internal Server Error: /newsite/dashboard
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/webapp/views.py", line 33, in dashboard
+    profile = Profile.objects.get(user = request.user)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Profile matching query does not exist.
+(0.003) SELECT "Auth_profile"."id", "Auth_profile"."user_id", "Auth_profile"."full_name", "Auth_profile"."college", "Auth_profile"."mobile", "Auth_profile"."city", "Auth_profile"."gender", "Auth_profile"."elanids" FROM "Auth_profile" LIMIT 21; args=()
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 12; args=(12,)
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 13; args=(13,)
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 14; args=(14,)
+"GET /newsite/dashboard HTTP/1.1" 500 81109
+Exception while resolving variable 'message' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [message] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f2419fc9050>>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419f30d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196ebe90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f2419fd7890>, u'request': <WSGIRequest: GET '/login/'>}, {}, {'LoginForm': <class 'Auth.forms.LoginForm'>, 'RegisterForm': <class 'Auth.forms.RegisterForm'>, 'ProfileForm': <class 'Auth.forms.ProfileForm'>}]"
+Exception while resolving variable 'class' in template 'django/forms/widgets/radio.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [class] in u"{u'required': True, 'name': 'gender', 'id': 'gender'}"
+"GET /login/ HTTP/1.1" 200 12326
+"GET /static/js/Auth/app.js HTTP/1.1" 304 0
+"GET /static/css/Auth/style_main.css HTTP/1.1" 304 0
+"GET /static/js/Auth/jquery-3.2.1.min.js HTTP/1.1" 304 0
+"GET /static/css/Auth/style.css HTTP/1.1" 304 0
+"GET /static/js/Auth/parsley.min.js HTTP/1.1" 304 0
+"GET /static/js/Auth/particles.min.js HTTP/1.1" 304 0
+"GET /static/css/Auth/animate-custom.css HTTP/1.1" 304 0
+"GET /static/css/Auth/Pacifico-Regular.ttf HTTP/1.1" 304 0
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'webapp.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/webapp/urls.pyc'> (None:None) ^newsite/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'elmatrico.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/elmatrico/urls.pyc'> (None:None) ^elmatrico/>"
+Not Found: /login/img/favicon.png
+"GET /login/img/favicon.png HTTP/1.1" 404 4378
+(0.011) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'me15btech11039@iith.ac.in'; args=(u'me15btech11039@iith.ac.in',)
+Exception while resolving variable 'ProfileForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [ProfileForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+Exception while resolving variable 'ProfileForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [ProfileForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+Exception while resolving variable 'ProfileForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [ProfileForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+Exception while resolving variable 'ProfileForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [ProfileForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+Exception while resolving variable 'ProfileForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [ProfileForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+Exception while resolving variable 'RegisterForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [RegisterForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+Exception while resolving variable 'RegisterForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [RegisterForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+Exception while resolving variable 'RegisterForm' in template 'Auth/loginhome2.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [RegisterForm] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'09Csnf0noOrLxJ7QrYmUzGOQQHrKWRSQ91YqaBCjaQZ8Gnb7b0dhIAut12MtYpWr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x7f2419fa3d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f24196e5cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196fa250>, u'request': <WSGIRequest: POST '/login/do_login/'>}, {}, {'message': 'username or password is incorrect', 'LoginForm': <class 'Auth.forms.LoginForm'>}]"
+"POST /login/do_login/ HTTP/1.1" 200 11295
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'webapp.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/webapp/urls.pyc'> (None:None) ^newsite/>"
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'elmatrico.urls' from '/mnt/c/Users/A.V.Ravi kiran/Desktop/mainwebsite/elmatrico/urls.pyc'> (None:None) ^elmatrico/>"
+Not Found: /login/do_login/img/favicon.png
+"GET /login/do_login/img/favicon.png HTTP/1.1" 404 4405
+(0.008) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:34.518032+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 34, 518032, tzinfo=<UTC>))
+(0.006) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f2419f30f50>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f2419686490>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196ff210>, u'request': <WSGIRequest: GET '/admin/'>}, {}, {'site_header': u'Django administration', 'available_apps': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], 'site_title': u'Django site admin', 'title': u'Site administration', 'has_permission': True, 'app_list': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], u'LANGUAGE_CODE': 'en-us', u'LANGUAGE_BIDI': False, 'site_url': '/'}]"
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f2419f30f50>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f2419686490>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f24196ff210>, u'request': <WSGIRequest: GET '/admin/'>}, {}, {'site_header': u'Django administration', 'available_apps': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], 'site_title': u'Django site admin', 'title': u'Site administration', 'has_permission': True, 'app_list': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], u'LANGUAGE_CODE': 'en-us', u'LANGUAGE_BIDI': False, 'site_url': '/'}]"
+(0.013) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 3 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(3,)
+"GET /admin/ HTTP/1.1" 200 8319
+(0.012) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:35.373610+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 35, 373610, tzinfo=<UTC>))
+(0.010) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f2419f3b578>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f2419fee610>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f2419f15290>, u'request': <WSGIRequest: GET '/admin/'>}, {}, {'site_header': u'Django administration', 'available_apps': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], 'site_title': u'Django site admin', 'title': u'Site administration', 'has_permission': True, 'app_list': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], u'LANGUAGE_CODE': 'en-us', u'LANGUAGE_BIDI': False, 'site_url': '/'}]"
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_popup] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f2419f3b578>>, 'user': <SimpleLazyObject: <User: root@root.com>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f2419fee610>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f2419f15290>, u'request': <WSGIRequest: GET '/admin/'>}, {}, {'site_header': u'Django administration', 'available_apps': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], 'site_title': u'Django site admin', 'title': u'Site administration', 'has_permission': True, 'app_list': [{'app_url': u'/admin/Auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/Auth/profile/', 'object_name': 'Profile', 'name': u'Profiles', 'add_url': u'/admin/Auth/profile/add/'}], 'has_module_perms': True, 'name': 'Auth', 'app_label': 'Auth'}, {'app_url': u'/admin/auth/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/group/', 'object_name': 'Group', 'name': u'Groups', 'add_url': u'/admin/auth/group/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/auth/user/', 'object_name': 'User', 'name': u'Users', 'add_url': u'/admin/auth/user/add/'}], 'has_module_perms': True, 'name': u'Authentication and Authorization', 'app_label': 'auth'}, {'app_url': u'/admin/elmatrico/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/elmatrico/document/', 'object_name': 'Document', 'name': u'Documents', 'add_url': u'/admin/elmatrico/document/add/'}], 'has_module_perms': True, 'name': 'Elmatrico', 'app_label': 'elmatrico'}, {'app_url': u'/admin/webapp/', 'models': [{'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/detail/', 'object_name': 'Detail', 'name': u'Details', 'add_url': u'/admin/webapp/detail/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventname/', 'object_name': 'EventName', 'name': u'Event names', 'add_url': u'/admin/webapp/eventname/add/'}, {'perms': {u'add': True, u'change': True, u'delete': True}, 'admin_url': u'/admin/webapp/eventregister/', 'object_name': 'EventRegister', 'name': u'Event registers', 'add_url': u'/admin/webapp/eventregister/add/'}], 'has_module_perms': True, 'name': 'Webapp', 'app_label': 'webapp'}], u'LANGUAGE_CODE': 'en-us', u'LANGUAGE_BIDI': False, 'site_url': '/'}]"
+(0.013) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 3 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(3,)
+"GET /admin/ HTTP/1.1" 200 8319
+(0.007) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:38.366445+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 38, 366445, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.003) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.004) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.002) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC, "auth_user"."id" DESC; args=()
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [errors] in u'None'
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [show] in u"[{'False': False, 'None': None, 'True': True, 'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f24196bd6e0>>}]"
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_multipart] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+"GET /admin/auth/user/ HTTP/1.1" 200 7778
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:38.763896+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 38, 763896, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+"GET /admin/jsi18n/ HTTP/1.1" 200 3217
+(0.007) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:41.598643+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 41, 598643, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 12; args=(12,)
+(0.005) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 12; args=(12,)
+(0.049) SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 12 ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(12,)
+(0.003) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."model" = 'user' AND "django_content_type"."app_label" = 'auth'); args=('user', 'auth')
+(0.014) DECLARE "_django_curs_139792662595328_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" ORDER BY "auth_group"."name" ASC; args=()
+Exception while resolving variable 'can_change_related' in template 'admin/widgets/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [can_change_related] in u'[{\'False\': False, \'None\': None, \'True\': True}, {u\'url_params\': u\'_to_field=id&_popup=1\', \'add_related_url\': u\'/admin/auth/group/add/\', u\'name\': \'groups\', \'can_add_related\': True, u\'model\': u\'group\', u\'rendered_widget\': u\'<select name="groups" data-field-name="groups" multiple="multiple" id="id_groups" data-is-stacked="0" class="selectfilter">\\n</select>\'}, {\'block\': <Block Node: links. Contents: [<TextNode: u\'\\n        \'>, <django.template.defaulttags.SpacelessNode object at 0x7f24195e1c90>, <TextNode: u\'\\n    \'>]>}]'
+Exception while resolving variable 'can_delete_related' in template 'admin/widgets/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [can_delete_related] in u'[{\'False\': False, \'None\': None, \'True\': True}, {u\'url_params\': u\'_to_field=id&_popup=1\', \'add_related_url\': u\'/admin/auth/group/add/\', u\'name\': \'groups\', \'can_add_related\': True, u\'model\': u\'group\', u\'rendered_widget\': u\'<select name="groups" data-field-name="groups" multiple="multiple" id="id_groups" data-is-stacked="0" class="selectfilter">\\n</select>\'}, {\'block\': <Block Node: links. Contents: [<TextNode: u\'\\n        \'>, <django.template.defaulttags.SpacelessNode object at 0x7f24195e1c90>, <TextNode: u\'\\n    \'>]>}]'
+(0.003) DECLARE "_django_curs_139792662595328_2" NO SCROLL CURSOR WITH HOLD FOR SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=()
+Exception while resolving variable 'can_change_related' in template 'admin/widgets/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [can_change_related] in u'[{\'False\': False, \'None\': None, \'True\': True}, {u\'model\': u\'permission\', u\'url_params\': u\'_to_field=id&_popup=1\', u\'rendered_widget\': u\'<select name="user_permissions" data-field-name="user permissions" multiple="multiple" id="id_user_permissions" data-is-stacked="0" class="selectfilter">\\n  <option value="19">Auth | profile | Can add profile</option>\\n\\n  <option value="20">Auth | profile | Can change profile</option>\\n\\n  <option value="21">Auth | profile | Can delete profile</option>\\n\\n  <option value="1">admin | log entry | Can add log entry</option>\\n\\n  <option value="2">admin | log entry | Can change log entry</option>\\n\\n  <option value="3">admin | log entry | Can delete log entry</option>\\n\\n  <option value="4">auth | group | Can add group</option>\\n\\n  <option value="5">auth | group | Can change group</option>\\n\\n  <option value="6">auth | group | Can delete group</option>\\n\\n  <option value="7">auth | permission | Can add permission</option>\\n\\n  <option value="8">auth | permission | Can change permission</option>\\n\\n  <option value="9">auth | permission | Can delete permission</option>\\n\\n  <option value="10">auth | user | Can add user</option>\\n\\n  <option value="11">auth | user | Can change user</option>\\n\\n  <option value="12">auth | user | Can delete user</option>\\n\\n  <option value="13">contenttypes | content type | Can add content type</option>\\n\\n  <option value="14">contenttypes | content type | Can change content type</option>\\n\\n  <option value="15">contenttypes | content type | Can delete content type</option>\\n\\n  <option value="31">elmatrico | document | Can add document</option>\\n\\n  <option value="32">elmatrico | document | Can change document</option>\\n\\n  <option value="33">elmatrico | document | Can delete document</option>\\n\\n  <option value="16">sessions | session | Can add session</option>\\n\\n  <option value="17">sessions | session | Can change session</option>\\n\\n  <option value="18">sessions | session | Can delete session</option>\\n\\n  <option value="22">webapp | detail | Can add detail</option>\\n\\n  <option value="23">webapp | detail | Can change detail</option>\\n\\n  <option value="24">webapp | detail | Can delete detail</option>\\n\\n  <option value="25">webapp | event name | Can add event name</option>\\n\\n  <option value="26">webapp | event name | Can change event name</option>\\n\\n  <option value="27">webapp | event name | Can delete event name</option>\\n\\n  <option value="28">webapp | event register | Can add event register</option>\\n\\n  <option value="29">webapp | event register | Can change event register</option>\\n\\n  <option value="30">webapp | event register | Can delete event register</option>\\n\\n</select>\', u\'name\': \'user_permissions\'}, {\'block\': <Block Node: links. Contents: [<TextNode: u\'\\n        \'>, <django.template.defaulttags.SpacelessNode object at 0x7f24195e1f90>, <TextNode: u\'\\n    \'>]>}]'
+Exception while resolving variable 'can_add_related' in template 'admin/widgets/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [can_add_related] in u'[{\'False\': False, \'None\': None, \'True\': True}, {u\'model\': u\'permission\', u\'url_params\': u\'_to_field=id&_popup=1\', u\'rendered_widget\': u\'<select name="user_permissions" data-field-name="user permissions" multiple="multiple" id="id_user_permissions" data-is-stacked="0" class="selectfilter">\\n  <option value="19">Auth | profile | Can add profile</option>\\n\\n  <option value="20">Auth | profile | Can change profile</option>\\n\\n  <option value="21">Auth | profile | Can delete profile</option>\\n\\n  <option value="1">admin | log entry | Can add log entry</option>\\n\\n  <option value="2">admin | log entry | Can change log entry</option>\\n\\n  <option value="3">admin | log entry | Can delete log entry</option>\\n\\n  <option value="4">auth | group | Can add group</option>\\n\\n  <option value="5">auth | group | Can change group</option>\\n\\n  <option value="6">auth | group | Can delete group</option>\\n\\n  <option value="7">auth | permission | Can add permission</option>\\n\\n  <option value="8">auth | permission | Can change permission</option>\\n\\n  <option value="9">auth | permission | Can delete permission</option>\\n\\n  <option value="10">auth | user | Can add user</option>\\n\\n  <option value="11">auth | user | Can change user</option>\\n\\n  <option value="12">auth | user | Can delete user</option>\\n\\n  <option value="13">contenttypes | content type | Can add content type</option>\\n\\n  <option value="14">contenttypes | content type | Can change content type</option>\\n\\n  <option value="15">contenttypes | content type | Can delete content type</option>\\n\\n  <option value="31">elmatrico | document | Can add document</option>\\n\\n  <option value="32">elmatrico | document | Can change document</option>\\n\\n  <option value="33">elmatrico | document | Can delete document</option>\\n\\n  <option value="16">sessions | session | Can add session</option>\\n\\n  <option value="17">sessions | session | Can change session</option>\\n\\n  <option value="18">sessions | session | Can delete session</option>\\n\\n  <option value="22">webapp | detail | Can add detail</option>\\n\\n  <option value="23">webapp | detail | Can change detail</option>\\n\\n  <option value="24">webapp | detail | Can delete detail</option>\\n\\n  <option value="25">webapp | event name | Can add event name</option>\\n\\n  <option value="26">webapp | event name | Can change event name</option>\\n\\n  <option value="27">webapp | event name | Can delete event name</option>\\n\\n  <option value="28">webapp | event register | Can add event register</option>\\n\\n  <option value="29">webapp | event register | Can change event register</option>\\n\\n  <option value="30">webapp | event register | Can delete event register</option>\\n\\n</select>\', u\'name\': \'user_permissions\'}, {\'block\': <Block Node: links. Contents: [<TextNode: u\'\\n        \'>, <django.template.defaulttags.SpacelessNode object at 0x7f24195e1f90>, <TextNode: u\'\\n    \'>]>}]'
+Exception while resolving variable 'can_delete_related' in template 'admin/widgets/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [can_delete_related] in u'[{\'False\': False, \'None\': None, \'True\': True}, {u\'model\': u\'permission\', u\'url_params\': u\'_to_field=id&_popup=1\', u\'rendered_widget\': u\'<select name="user_permissions" data-field-name="user permissions" multiple="multiple" id="id_user_permissions" data-is-stacked="0" class="selectfilter">\\n  <option value="19">Auth | profile | Can add profile</option>\\n\\n  <option value="20">Auth | profile | Can change profile</option>\\n\\n  <option value="21">Auth | profile | Can delete profile</option>\\n\\n  <option value="1">admin | log entry | Can add log entry</option>\\n\\n  <option value="2">admin | log entry | Can change log entry</option>\\n\\n  <option value="3">admin | log entry | Can delete log entry</option>\\n\\n  <option value="4">auth | group | Can add group</option>\\n\\n  <option value="5">auth | group | Can change group</option>\\n\\n  <option value="6">auth | group | Can delete group</option>\\n\\n  <option value="7">auth | permission | Can add permission</option>\\n\\n  <option value="8">auth | permission | Can change permission</option>\\n\\n  <option value="9">auth | permission | Can delete permission</option>\\n\\n  <option value="10">auth | user | Can add user</option>\\n\\n  <option value="11">auth | user | Can change user</option>\\n\\n  <option value="12">auth | user | Can delete user</option>\\n\\n  <option value="13">contenttypes | content type | Can add content type</option>\\n\\n  <option value="14">contenttypes | content type | Can change content type</option>\\n\\n  <option value="15">contenttypes | content type | Can delete content type</option>\\n\\n  <option value="31">elmatrico | document | Can add document</option>\\n\\n  <option value="32">elmatrico | document | Can change document</option>\\n\\n  <option value="33">elmatrico | document | Can delete document</option>\\n\\n  <option value="16">sessions | session | Can add session</option>\\n\\n  <option value="17">sessions | session | Can change session</option>\\n\\n  <option value="18">sessions | session | Can delete session</option>\\n\\n  <option value="22">webapp | detail | Can add detail</option>\\n\\n  <option value="23">webapp | detail | Can change detail</option>\\n\\n  <option value="24">webapp | detail | Can delete detail</option>\\n\\n  <option value="25">webapp | event name | Can add event name</option>\\n\\n  <option value="26">webapp | event name | Can change event name</option>\\n\\n  <option value="27">webapp | event name | Can delete event name</option>\\n\\n  <option value="28">webapp | event register | Can add event register</option>\\n\\n  <option value="29">webapp | event register | Can change event register</option>\\n\\n  <option value="30">webapp | event register | Can delete event register</option>\\n\\n</select>\', u\'name\': \'user_permissions\'}, {\'block\': <Block Node: links. Contents: [<TextNode: u\'\\n        \'>, <django.template.defaulttags.SpacelessNode object at 0x7f24195e1f90>, <TextNode: u\'\\n    \'>]>}]'
+"GET /admin/auth/user/12/change/ HTTP/1.1" 200 14473
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:42.320541+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 42, 320541, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+"GET /admin/jsi18n/ HTTP/1.1" 200 3217
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+(0.007) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:51.893730+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 51, 893730, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 12; args=(12,)
+(0.004) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 12; args=(12,)
+(0.007) SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 12 ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(12,)
+(0.002) SELECT (1) AS "a" FROM "auth_user" WHERE ("auth_user"."username" = 'me15btech11039@iith.ac.in' AND NOT ("auth_user"."id" = 12)) LIMIT 1; args=(u'me15btech11039@iith.ac.in', 12)
+(0.003) UPDATE "auth_user" SET "password" = 'pbkdf2_sha256$36000$C0ZsCCmTrWHQ$XUE9BjXURPVRBHxSlazqZm1R7gtAEZzAX0oxoJVFda0=', "last_login" = NULL, "is_superuser" = false, "username" = 'me15btech11039@iith.ac.in', "first_name" = '', "last_name" = '', "email" = '', "is_staff" = false, "is_active" = true, "date_joined" = '2017-12-22T09:06:25+00:00'::timestamptz WHERE "auth_user"."id" = 12; args=(u'pbkdf2_sha256$36000$C0ZsCCmTrWHQ$XUE9BjXURPVRBHxSlazqZm1R7gtAEZzAX0oxoJVFda0=', False, u'me15btech11039@iith.ac.in', u'', u'', u'', False, True, datetime.datetime(2017, 12, 22, 9, 6, 25, tzinfo=<UTC>), 12)
+(0.002) SELECT "auth_group"."id" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 12; args=(12,)
+(0.003) SELECT "auth_permission"."id" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 12 ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(12,)
+(0.005) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2017-12-22T14:41:52.090053+00:00'::timestamptz, 3, 4, '12', 'me15btech11039@iith.ac.in', 2, '[{"changed": {"fields": ["is_active"]}}]') RETURNING "django_admin_log"."id"; args=(datetime.datetime(2017, 12, 22, 14, 41, 52, 90053, tzinfo=<UTC>), 3, 4, u'12', u'me15btech11039@iith.ac.in', 2, '[{"changed": {"fields": ["is_active"]}}]')
+"POST /admin/auth/user/12/change/ HTTP/1.1" 302 0
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:52.153608+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 52, 153608, tzinfo=<UTC>))
+(0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+(0.003) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+(0.002) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.003) SELECT COUNT(*) AS "__count" FROM "auth_user"; args=()
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC, "auth_user"."id" DESC; args=()
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [errors] in u'None'
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [show] in u"[{'False': False, 'None': None, 'True': True, 'csrf_token': <SimpleLazyObject: <function _get_val at 0x7f24196ef320>>}]"
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [is_multipart] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [non_field_errors] in u'None'
+"GET /admin/auth/user/ HTTP/1.1" 200 7974
+(0.006) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '9upz95ad414b0r9u4abxfzboaxuxv3xe' AND "django_session"."expire_date" > '2017-12-22T14:41:52.518145+00:00'::timestamptz); args=('9upz95ad414b0r9u4abxfzboaxuxv3xe', datetime.datetime(2017, 12, 22, 14, 41, 52, 518145, tzinfo=<UTC>))
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3; args=(3,)
+"GET /admin/jsi18n/ HTTP/1.1" 200 3217

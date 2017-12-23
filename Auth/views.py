@@ -38,14 +38,19 @@ def Login(request):
 			if user is not None:
 				print user.id
 				login(request,user)
+<<<<<<< HEAD
 				return HttpResponseRedirect("/elmatrico")
+=======
+				profile = Profile.objects.get(user = user)
+				return render(request,'webapp/dashboard.html',{'profile':profile})
+>>>>>>> e92ca9af4e3c6453a3a0fe68b3d99e7f7b7c6391
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")
-				return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm})
+				return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 		else:
 			message = "Form is not valid"
-			return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm})
+			return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 	else:
 		return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 
@@ -74,11 +79,15 @@ def Register(request):
 				new_object.user = User.objects.get(username=username)
 				new_object.college = form2.cleaned_data['college']
 				new_object.mobile = form2.cleaned_data['mobile']
+				new_object.adress = form2.cleaned_data['adress']
 				new_object.city = form2.cleaned_data['city']
+				new_object.zipcode = form2.cleaned_data['zipcode']
+				new_object.country = form2.cleaned_data['country']
 				new_object.gender = form2.cleaned_data['gender']
 				new_object.full_name = form2.cleaned_data['full_name']
 				new_object.elanids = user.id
 				new_object.save()
+<<<<<<< HEAD
 				try:
                                 	current_site = get_current_site(request)
 					mesage = render_to_string('acc_active_email.html', {
@@ -96,11 +105,33 @@ def Register(request):
 					#login(request,user)
 					return HttpResponseRedirect("/elmatrico")
 
+=======
+				# try:
+				current_site = get_current_site(request)
+				mesage = render_to_string('acc_active_email.html', {
+					'user':user, 
+					'domain':current_site.domain,
+					'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+					'token': account_activation_token.make_token(user),
+				})		
+				mail_subject = 'Activate your ElanNvision account.'
+				to_email = form1.cleaned_data.get('username')
+				email = EmailMessage(mail_subject, mesage, to=[to_email])
+				email.send()
+				#login(request,user)
+				return render(request,'webapp/openmail.html')
+				# except:
+				# 	user = User.objects.get(username=username)
+				# 	user.is_active = True
+				# 	user.save()
+				# 	#login(request,user)
+				# 	return HttpResponseRedirect("/dashboard")
+>>>>>>> e92ca9af4e3c6453a3a0fe68b3d99e7f7b7c6391
 			else:
 				message = "Password dont match"
 			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
 		else:
-			message = "username already exists"
+			message = "Email already exists"
 			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
 	else:
 		return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'register':register})
@@ -138,8 +169,9 @@ def activate(request, uidb64, token):
     if user is not None and account_activation_token.check_token(user, token):
         user.is_active = True
         user.save()
+        profile = Profile.objects.get(user = user)
         login(request, user)
-        return redirect(home)
+        return render(request,'webapp/linkconfirm.html',{'profile':profile})
     else:
         return HttpResponse('Activation link is invalid!')
 
