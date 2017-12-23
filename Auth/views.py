@@ -84,46 +84,26 @@ def Register(request):
 				new_object.full_name = form2.cleaned_data['full_name']
 				new_object.elanids = user.id
 				new_object.save()
-<<<<<<< HEAD
 				try:
-                                	current_site = get_current_site(request)
+					current_site = get_current_site(request)
 					mesage = render_to_string('acc_active_email.html', {
-						'user':user,
+						'user':user, 
 						'domain':current_site.domain,
 						'uid': urlsafe_base64_encode(force_bytes(user.pk)),
 						'token': account_activation_token.make_token(user),
-					})
+					})		
 					mail_subject = 'Activate your ElanNvision account.'
 					to_email = form1.cleaned_data.get('username')
 					email = EmailMessage(mail_subject, mesage, to=[to_email])
 					email.send()
-				except SMTPException as e:
-					print('There was an error sending an email: ', e)
 					#login(request,user)
-					return HttpResponseRedirect("/elmatrico")
-
-=======
-				# try:
-				current_site = get_current_site(request)
-				mesage = render_to_string('acc_active_email.html', {
-					'user':user, 
-					'domain':current_site.domain,
-					'uid': urlsafe_base64_encode(force_bytes(user.pk)),
-					'token': account_activation_token.make_token(user),
-				})		
-				mail_subject = 'Activate your ElanNvision account.'
-				to_email = form1.cleaned_data.get('username')
-				email = EmailMessage(mail_subject, mesage, to=[to_email])
-				email.send()
-				#login(request,user)
-				return render(request,'webapp/openmail.html')
-				# except:
-				# 	user = User.objects.get(username=username)
-				# 	user.is_active = True
-				# 	user.save()
-				# 	#login(request,user)
-				# 	return HttpResponseRedirect("/dashboard")
->>>>>>> e92ca9af4e3c6453a3a0fe68b3d99e7f7b7c6391
+					return render(request,'webapp/openmail.html')
+				except:
+					user = User.objects.get(username=username)
+					user.is_active = True
+					user.save()
+					login(request,user)
+					return HttpResponseRedirect("/dashboard")
 			else:
 				message = "Password dont match"
 			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
