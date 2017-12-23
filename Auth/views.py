@@ -38,12 +38,9 @@ def Login(request):
 			if user is not None:
 				print user.id
 				login(request,user)
-<<<<<<< HEAD
 				return HttpResponseRedirect("/elmatrico")
-=======
 				profile = Profile.objects.get(user = user)
 				return render(request,'webapp/dashboard.html',{'profile':profile})
->>>>>>> e92ca9af4e3c6453a3a0fe68b3d99e7f7b7c6391
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")
