@@ -14,6 +14,8 @@ h1 {
   font-size: 1.5em;
   margin: 2% 0;
   text-align: center;
+  font-family: 'Spectral SC', serif; 
+  font-weight: bold; 
 }
 
 hr { 
@@ -27,13 +29,11 @@ hr {
     border-radius: 20px; 
 }
 .logo-div {
-  width: 25%;
-  position: fixed;
-  top: 0;
-  left: 37.5%;
+  width: 100%;
+  text-align: center;
 }
 .logo {
-  width: 100%;
+  width: 30%;
 }
 .btn {
   margin:1% 1%;
@@ -58,9 +58,16 @@ hr {
   font-size:1rem;
   letter-spacing:1px;
   outline:none;
+  cursor: pointer;
   box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
   border-radius: 255px 50px 225px 50px/50px 225px 50px 255px;
   border:solid 2px #777777;
+}
+
+.btn1:hover {
+  border:solid 5px #ffffff;  
+ color: #ffffff;
+ font-weight: bolder;
 }
 .btn1:focus {
   outline: none;
@@ -83,9 +90,12 @@ hr {
 }
 
 .events-box {
-  margin-top: 5%;
+  /*margin-top: 5%;
   text-align: center;
-  width: 80%;
+  width: 80%;*/
+  position: fixed;
+  left: 10%;
+  right: 10%;
 /*  display: none;*/
 }
 .button-group {
@@ -140,7 +150,7 @@ span {
     border-radius: 10px;
     font-size: 1.2em;
     font-family: 'Spectral SC', serif;    
-    background-color: rgba(150,150,150,0.5);
+    background-color: rgba(70,70,70,0.5);
 }
 
 #techisotope .card {
@@ -175,6 +185,8 @@ h4 {
 
 .card-title {
   margin: 2%;
+  font-weight: bold;
+  color: white;
 }
 .card-img-top {
   height:85%;
@@ -269,6 +281,7 @@ background-position: fixed;
 .event-details h1 {
   text-decoration: underline;
   text-align: left;
+  color: wheat;
   font-family: 'Fredericka the Great', cursive !important;
 }
 .event-details::-webkit-scrollbar-track
@@ -442,6 +455,7 @@ background-position: fixed;
   padding: 16px 32px;
   font-family: 'Exo 2', sans-serif;
   background-color: rgba(0,0,0,0.3);
+  text-align: center;
 }
 
 /*NINAD*/
