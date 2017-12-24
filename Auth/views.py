@@ -38,7 +38,6 @@ def Login(request):
 			if user is not None:
 				print user.id
 				login(request,user)
-				return HttpResponseRedirect("/elmatrico")
 				profile = Profile.objects.get(user = user)
 				return HttpResponseRedirect("/newsite/dashboard")
 			else:
