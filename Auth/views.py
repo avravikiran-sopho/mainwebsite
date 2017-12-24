@@ -39,7 +39,7 @@ def Login(request):
 				print user.id
 				login(request,user)
 				profile = Profile.objects.get(user = user)
-				return render(request,'webapp/dashboard.html',{'profile':profile})
+				return HttpResponseRedirect("/newsite/dashboard")
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")
