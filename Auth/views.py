@@ -14,6 +14,7 @@ from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseRedirect
+from django.utils.timezone import localtime, now
 
 
 # Create your views here.
@@ -82,7 +83,7 @@ def Register(request):
 				new_object.full_name = form2.cleaned_data['full_name']
 				new_object.elanids = user.id
 				new_object.save()
-				 try:
+				try:
 					current_site = get_current_site(request)
 					mesage = render_to_string('acc_active_email.html', {
 						'user':user, 

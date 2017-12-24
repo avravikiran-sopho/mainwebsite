@@ -58,10 +58,10 @@
     			<tbody style="color: white">
             {% if events %}
             {% for event in events %}
-    				<tr><td>{{ event.event }}</td></tr>
+    				<tr><td>{{ event.event }}</td><td>{{ event.time }}</td></tr>
             {% endfor %}
-            {% else }
-            <tr><td>You haven't registered for any events.</td></tr>
+            {% else %}
+            <tr><td colspan="2">You haven't registered for any events.</td></tr>
             {% endif %}
     			<tbody>
     		</table>

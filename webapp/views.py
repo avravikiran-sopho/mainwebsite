@@ -10,7 +10,7 @@ from django.contrib.auth.decorators import login_required
 from Auth.models import Profile
 from django.core.mail import EmailMessage
 from django.conf import settings
-
+from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 
 # Create your views here.

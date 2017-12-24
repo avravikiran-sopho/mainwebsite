@@ -143,9 +143,9 @@ STATICFILES_DIRS = [ STATIC_PATH, ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
-EMAIL_HOST = '159.122.219.43'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'elanvision2018'
+EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = 'noreply@elan.org.in'
 

@@ -19,9 +19,9 @@ class ProfileForm(forms.ModelForm):
   college = forms.CharField(widget=forms.TextInput(attrs=
     {'name':"college",'id':"college",'placeholder':"college"}))
   full_name = forms.CharField(widget=forms.TextInput(attrs=
-    {'name':"full_name",'id':"full_name",'placeholder':"full_name"}))
+    {'name':"full_name",'id':"full_name",'placeholder':"Full name"}))
   mobile = forms.CharField(widget=forms.NumberInput(attrs=
-    {'name':"mobile",'id':"mobile",'placeholder':"mobile"}))
+    {'name':"mobile",'id':"mobile",'placeholder':"Mobile"}))
   city = forms.CharField(widget=forms.TextInput(attrs=
     {'name':"city",'id':"city",'placeholder':"City",'rows':"3"}))
   adress = forms.CharField(widget=forms.TextInput(attrs=
@@ -29,7 +29,7 @@ class ProfileForm(forms.ModelForm):
   gender = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect(attrs=
     {'name':"gender",'id':"gender",}))
   zipcode = forms.CharField(widget=forms.NumberInput(attrs=
-    {'name':"zipcode",'id':"zipcode",'placeholder':"zipcode"}))
+    {'name':"zipcode",'id':"zipcode",'placeholder':"Zipcode"}))
   class Meta:
     model = Profile
     fields = ['college', 'mobile','city','gender','country','zipcode']

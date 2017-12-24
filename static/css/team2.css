@@ -27,9 +27,22 @@ body {
   margin-bottom: 1%;
 }
 
+.mbtn {
+  align-self:center;
+  background:transparent;
+  padding:0.5rem 0.5rem;
+  margin:0.5rem 1rem;
+  transition:all .5s ease;
+  color:#777777;
+  font-size:1rem;
+  letter-spacing:1px;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 50px 225px 50px/50px 225px 50px 255px;
+  border:solid 2px #777777;
+}
 
-
-.mbtn{
+/*.mbtn{
   width: 15%;  
   background-color: #ffffff;
   border: none;
@@ -46,7 +59,7 @@ body {
   transition-duration: 1s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
-}
+}*/
 
 .mbtn:focus {
   outline: none;
