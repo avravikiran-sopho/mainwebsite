@@ -12,6 +12,17 @@ $('.navimg2').on('click',function () {
 $('.card').on('click',function () {
       var name = $(this).attr('id');
       console.log(name);
+      var femina = "<h1>Femina</h1><p>\
+          Nationality: Indian Passport Holder<br>\
+          The applicant should be between 18 - 25 years of age as of December 31, 2018. The applicant will be required to produce their age proof (Passport, birth certificate, school leaving certificate, driver's license, etc).<br>\
+          Relationship Status: The applicant should be unmarried.<br>\
+          Height: 5'5\" and above(without heels)<br>\
+          Unmarried/ single/ not engaged<br>\
+          Student of any recognized educational institution.<br>\
+          If selected, the applicant will have to follow the dress code of a Black Cocktail Dress and Stilettos while walking the ramp<br>\
+          For any queries Contact Kabir Sharda: 9867327421 or email at kabir@elan.org.in<br>\
+          The applicant must agree to abide by all rules, as changed from time to time by the Organisers.</p>\
+          ";
       var paperpt = "<h1>PAPER PRESENTATION</h1>\ <h1>Introduction:</h1><p>\
           Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering and science. We expect to see some really innovative work. It will be conducted in 2 rounds, selected students in first will give their presentation in final round in ELAN&ηvision 2018.</p>\
           <h1>Judging Criteria:</h1><p>\
@@ -971,6 +982,72 @@ $('.card').on('click',function () {
         kabir@elan.org.in<br>\
         9867327421</p>\
         ";
+    var detective = "<h1>Mr Detective</h1>\
+        <p>In this event, the contesting parties will be provided a story detailing a weird event (Think failed heists, murders, smashed cookie jars and stuff). With the help of supreme reading comprehension skills and mental mettle, contestants will attempt to serve justice.</p>\
+        <h1>Rules:</h1><p>\ a) This is an offline event. Any questions/hint requests will be addressed at the discretion of the organiser(s).<br>\
+        b) Contesting parties should have no more than 4 people. A Party can consist of a single person as well, despite the inherent sadness of a single person party.</p>\
+        <h1>Judging Criteria:</h1><p>\
+        a) Soundness of the explanation offered - Both logically and in ability to explain various narrative events.<br>\
+        b) Time taken to come up with explanation.</p>";
+    var conclave = "<h1>Quiz Conclave</h1><p>\
+        Jack of all trades or master of one ? Find out at quiz conclave which pampers and punishes participants with a choice of x quizzes in x different fields. In this quizzes, the quizmaster will make you call in your inner pop culture guru to reveal just exactly how much anime you binge watched. Do you feel lucky , may the odds be with you.</p>\
+        <h1>Rules:</h1><p>\
+        0. This obviously is an offline event.<br>\
+        1. The first rule of the Quiz Club is quizmaster's decision is final.<br.\
+        2. No peeking. We call on your quizzer's honor.<br>\
+        3. ‎Ships are safe in the harbour but that is not their purpose. Quizzers are safe with Google but that is not their purpose. Don't use Google or anything more than your gray matter.</p>";
+    var elmatrico = "<h1>Elmatrico</h1>\
+        <p>Computer Simulations is an important aspect in the engineering world. This increases the demand for people who can use MATLAB and Simulink well.<br>\
+        ELAN & Nvision presents 'EL MATRICO', an online event to inspire students acquaint with MATLAB and compete to show their potential to the world! Every year, hundreds of contestants compete with budding programmers from all over India to earn the coveted top spot. In this online contest.<br>\
+        Exciting prizes from mathworks awaits for participants who successfully complete easy and moderate questions.<br>\
+        Login to read Problem statements, Rules and more…</p>\
+        <h1>ELMATRICO RULES</h1><p>\
+        The competition must be played individually.<br>\
+        The problem statement is divided into 3 parts - easy , moderate and difficult.<br>\
+        All the question in easy part carries 5 marks,moderate 10 marks and difficult 30 marks.<br>\
+        Plagiarism will result in disqualification.<br>\
+        All the relevant information regarding The question is given in the question itself.<br>\
+        The organisers verdict is final.</p>\
+        ";
+    var quadcopter = "<h1>Quadcopter Challenge</h1>\
+        <h1>Introduction:</h1><p>\
+        Design and build a wireless remote controlled flying drone to complete the tasks with highest points possible. There are two Levels in the competition, of which the second one is a surprise Level which will be disclosed at the venue.<br>\
+        Top 3 teams from ROUND-1 are eligible to compete in ROUND-2.</p>\
+        <h1>Problem Statement:</h1><p>\
+        The event is based on finding the most agile and fastest drone. The problem statement is simple: pass through three rounds and the team with maximum number of points wins.</p>\
+        <h1>Team Specifications:</h1>\
+        <p>1)Team can have a max of 5 people.<br>\
+        2)Participants from a team can be from different colleges.</p>\
+        <h1>Certificate Policy:</h1><p>\
+        1)Certificate of Merit and Prizes will be given for the top two teams.<br>\
+        2)Participation Certificate will be given for those who registered online and participated in the event.<br>\
+        3)Participation Certificate is not guaranteed for those who registered onspot for the event.</p>\
+        <h1>Organisers</h1><p>\
+        <p>Saurav. C<br>\
+        es16btech11007@iith.ac.in<br>\
+        9618480733<br>\
+        Sai Raj.  B<br>\
+        me15btech11006@iith.ac.in<br>\
+        7660801623<br>\
+        ";
+    var paperpt = "<h1>PAPER PRESENTATION</h1>\ <h1>Introduction:</h1>\
+        <p>Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering and science. We expect to see some really innovative work. It will be conducted in 2 rounds, selected students in first will give their presentation in final round in ELAN&ηvision 2018.</p>\
+        <h1>Judging Criteria:</h1>\
+        <p>Correctness of facts<br>\
+        Methods of analysis<br>\
+        Innovativeness of idea<b>\
+        Presentation of solution or ideas<br>\
+        Practical feasibility or implication of ideas</p>\
+        <h1>Rules:</h1><p>\
+        The abstract should not exceed 500 words.<br>\
+        Short listing will be done based on the abstract.<br>\
+        All relevant data and figures must be represented in the paper<br>\
+        Organizers decision will be final and binding.<br>\
+        Teams of maximum 3 members are allowed.<br>\
+        Nominal fee will be charged at the time of presentation of paper(if selected).<br>\
+        All results will be announced on the website and will be mailed to the team members.<br>\
+        Any abstract that is selected and is not presented shall not qualify for any award.</p>\
+        ";
     var def = "<h1>Comming Soon...</h1>";
     
     if(name == "dtmf") {
@@ -1079,6 +1156,14 @@ $('.card').on('click',function () {
       $('#details').html(elanejung);
     }else if (name == "manthan") {
       $('#details').html(manthan);
+    }else if (name == "femina") {
+      $('#details').html(femina);
+    }else if (name == "conclave") {
+      $('#details').html(conclave);
+    }else if (name == "detective") {
+      $('#details').html(detective);
+    }else if (name == "elmatrico") {
+      $('#details').html(elmatrico);
     }else {
       $('#details').html(def);
     }

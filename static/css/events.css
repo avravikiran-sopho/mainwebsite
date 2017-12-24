@@ -3,7 +3,7 @@ html, body{
 }
 body { 
       
-      background-image: url('http://www.designbolts.com/wp-content/uploads/2012/11/Black-Burried-Pattern-for-Websites.jpg');
+      background-image: url('/static/img/eventsbg.jpg');
       background-repeat: repeat;
       background-attachment: fixed;
   background-color: black;
