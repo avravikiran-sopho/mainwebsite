@@ -14,8 +14,8 @@ from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseRedirect
+from django.utils.timezone import localtime, now
 from smtplib import SMTPException
-
 
 # Create your views here.
 def index(request):
@@ -40,7 +40,7 @@ def Login(request):
 				login(request,user)
 				return HttpResponseRedirect("/elmatrico")
 				profile = Profile.objects.get(user = user)
-				return render(request,'webapp/dashboard.html',{'profile':profile})
+				return HttpResponseRedirect("/newsite/dashboard")
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")

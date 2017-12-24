@@ -27,7 +27,7 @@ body {
 
 
 
-.mbtn{
+/*.mbtn{
   width: 80%;
   color: white;
   margin: 10%;
@@ -44,17 +44,35 @@ body {
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
   border-radius: 5px;
+}*/
+
+.mbtn {
+  align-self:center;
+  background:transparent;
+  padding:2%;
+  margin:0.5rem 1rem;
+  transition:all .5s ease;
+  color:#777777;
+  font-size:1rem;
+  letter-spacing:1px;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 50px 225px 50px/50px 225px 50px 255px;
+  border:solid 2px #777777;
 }
 
 .mbtn:focus {
   outline: none;
 }
 .focus{
-  box-shadow:  0 3px 10px 0px rgba(255, 255, 255, 0.3);
+ /* box-shadow:  0 3px 10px 0px rgba(255, 255, 255, 0.3);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   font-weight: bolder;
-  background-color: #999999;
+  background-color: #999999;*/
+  border:solid 5px #ffffff;  
+ color: #ffffff;
+ font-weight: bolder; 
 }
 .l-menu, .r-menu {
   width:15%;

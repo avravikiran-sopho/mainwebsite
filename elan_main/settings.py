@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from decouple import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'vxy@k6)m6snn0icpu*x4^gfq7ottt2z3ps=qgjpg@kh=i+8iso'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -86,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'mainwebsite',
         'USER': 'kiran',
-        'PASSWORD': 'elanvision2018',
+        'PASSWORD': config('DB_PASSWORD'),
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -145,7 +146,7 @@ EMAIL_USE_TLS = False
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = 'noreply@elan.org.in'
 

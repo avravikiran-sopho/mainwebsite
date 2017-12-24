@@ -10,7 +10,7 @@ from django.contrib.auth.decorators import login_required
 from Auth.models import Profile
 from django.core.mail import EmailMessage
 from django.conf import settings
-
+from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 
 # Create your views here.
@@ -42,11 +42,14 @@ def eventregister(request,eventname):
 	if request.user.is_authenticated():
 		if EventName.objects.filter(shortname=eventname).exists():
 			event = EventName.objects.get(shortname=eventname)
-			new_object = EventRegister()
-			new_object.user = request.user
-			new_object.event = event.name
-			new_object.uploaded_at = localtime(now())
-			new_object.save()
+			if EventRegister.objects.filter(user = request.user,event = event).exists():
+				return HttpResponseRedirect("/newsite/dashboard")
+			else:
+				new_object = EventRegister()
+				new_object.user = request.user
+				new_object.event = event.name
+				new_object.uploaded_at = localtime(now())
+				new_object.save()
 		else:
 			return HttpResponseRedirect("/newsite/events")	
 		return HttpResponseRedirect("/newsite/dashboard")
