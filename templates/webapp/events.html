@@ -95,22 +95,16 @@
     <div class="card-column" id="litrdiv" style="margin-top: 8%;width: 60%;">
         <h1>Litr</h1><hr>
         <div class="card-column" id="litrisotope" style="margin-top: 2%;width: 60%;">
-        <div class="card text-center">
-            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/paperpt.jpg' %}" alt="Card image cap">
+        <div class="card text-center" id="detective">
+            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/mrdetective.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Paper Presentation</h4>
+                <h4 class="card-title">Mr Detective</h4>
             </div>
         </div>
-        <div class="card text-center">
-            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/paperpt.jpg' %}" alt="Card image cap">
+        <div class="card text-center" id="conclave">
+            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/quizzes.jpg' %}" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Paper Presentation</h4>
-            </div>
-        </div>
-        <div class="card text-center">
-            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/paperpt.jpg' %}" alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">Paper Presentation</h4>
+                <h4 class="card-title">Quiz Conclave</h4>
             </div>
         </div>
         </div>
@@ -198,6 +192,13 @@
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic2.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Manthan</h4>
+
+            </div>
+        </div>
+        <div class="card text-center" id="femina">
+            <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic3.jpg' %}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Femina</h4>
 
             </div>
         </div>
@@ -562,7 +563,7 @@
             </div>
         </div>
         <h1>Radio Events</h1><hr>
-        <div class="card text-center events radio" id="RJ">
+        <div class="card text-center events radio" id="rj">
             <img class="card-img-top img-fluid" src="{% static 'img/events/rj.jpg' %}" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">RJ Hunt</h4>
@@ -578,9 +579,9 @@
 
     <div class="container register-div">
         {% if user.is_authenticated  %}
-        <a class="register-link" href=""><button class="btn ">Register</button></a>
+        <a class="register-link" href=""><button class="btn1">Register</button></a>
         {% else %}
-        <a  href="/login"><button class="btn1 is-checked">Login To Register</button></a>
+        <a  href="/login"><button class="btn1">Login To Register</button></a>
         {% endif %}
     </div>
 
