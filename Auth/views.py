@@ -15,7 +15,7 @@ from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseRedirect
 from django.utils.timezone import localtime, now
-
+from smtplib import SMTPException
 
 # Create your views here.
 def index(request):
@@ -38,6 +38,7 @@ def Login(request):
 			if user is not None:
 				print user.id
 				login(request,user)
+				return HttpResponseRedirect("/elmatrico")
 				profile = Profile.objects.get(user = user)
 				return HttpResponseRedirect("/newsite/dashboard")
 			else:

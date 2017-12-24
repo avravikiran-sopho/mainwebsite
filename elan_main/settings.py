@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from decouple import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'vxy@k6)m6snn0icpu*x4^gfq7ottt2z3ps=qgjpg@kh=i+8iso'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,7 +40,6 @@ INSTALLED_APPS = [
     'Auth',
     'webapp',
     'elmatrico',
-    
 ]
 
 MIDDLEWARE = [
@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'mainwebsite',
         'USER': 'kiran',
-        'PASSWORD': 'avrkiran',
+        'PASSWORD': config('DB_PASSWORD'),
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -142,15 +142,14 @@ STATICFILES_DIRS = [ STATIC_PATH, ]
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
+EMAIL_USE_TLS = False
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'elanvision2018'
-EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = 'noreply@elan.org.in'
 
-
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
 ALLOWED_HOSTS = [u'elan.org.in',u'139.59.71.180',u'nvision.org.in',u'127.0.0.1',u'www.elan.org.in',u'www.nvision.org.in']
