@@ -23,24 +23,6 @@ $('.card').on('click',function () {
           For any queries Contact Kabir Sharda: 9867327421 or email at kabir@elan.org.in<br>\
           The applicant must agree to abide by all rules, as changed from time to time by the Organisers.</p>\
           ";
-      var paperpt = "<h1>PAPER PRESENTATION</h1>\ <h1>Introduction:</h1><p>\
-          Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering and science. We expect to see some really innovative work. It will be conducted in 2 rounds, selected students in first will give their presentation in final round in ELAN&ηvision 2018.</p>\
-          <h1>Judging Criteria:</h1><p>\
-          Correctness of facts<br>\
-          Methods of analysis<br>\
-          Innovativeness of idea<br>\
-          Presentation of solution or ideas<br>\
-          Practical feasibility or implication of ideas</p>\
-          <h1>Rules:</h1><p>\
-          The abstract should not exceed 500 words.<br>\
-          Short listing will be done based on the abstract.<br>\
-          All relevant data and figures must be represented in the paper<br>\
-          Organizers decision will be final and binding.<br>\
-          Teams of maximum 3 members are allowed.<br>\
-          Nominal fee will be charged at the time of presentation of paper(if selected).<br>\
-          All results will be announced on the website and will be mailed to the team members.<br>\
-          Any abstract that is selected and is not presented shall not qualify for any award.</p>\
-          ";
       var dtmf = "<h1>DTMF Race</h1><h1>Introduction</h1>\
           <p>Gear up with your wireless bot. Here comes the race which will test the strength, stability, and cruelty of your bot. It's all about racing towards the finish line through tough terrain by crushing your opponents. Let's see who’s bot is better equipped, better designed to win.\
           </p><h1>Problem statement:</h1>\
@@ -1164,6 +1146,8 @@ $('.card').on('click',function () {
       $('#details').html(detective);
     }else if (name == "elmatrico") {
       $('#details').html(elmatrico);
+    }else if (name == "paperpt") {
+      $('#details').html(paperpt);
     }else {
       $('#details').html(def);
     }
