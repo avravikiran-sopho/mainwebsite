@@ -1087,7 +1087,6 @@ h1{
 
 @media(min-width:1025px){
     .imgList, .section2 section:nth-child(2) .imgList, .section2 section:nth-child(3) .imgList{
-        margin-left: 85px;
     }
 }
 /* //////////////////////////////////////////////////////////////////////
