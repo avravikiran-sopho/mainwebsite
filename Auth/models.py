@@ -18,7 +18,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     full_name = models.TextField(max_length=100,blank=True)
     college = models.TextField(max_length=100, blank=True)
-    mobile =  models.IntegerField()
+    mobile =  models.TextField(max_length=15)
     adress = models.TextField(max_length=500, blank=True)
     city = models.TextField(max_length=100, blank=True)
     country = CountryField(blank_label='Country')
