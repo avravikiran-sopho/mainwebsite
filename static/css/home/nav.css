@@ -30,7 +30,6 @@
 	color: #fff;
 	font-size: 1.1em;
 	font-weight: 300;
-    text-transform: uppercase;
     font-weight: bold;
 }
 
@@ -42,6 +41,12 @@
     transform: skew(-10deg);
 }
 
+.is_active {
+    background: #fff;
+    opacity: 1;
+    color: #000!important;
+    transition: all 0.3s ease; 
+}
 
 nav a.nav-link i{
     margin-right: 1em;
@@ -50,7 +55,7 @@ nav a.nav-link i{
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
-	width: 240px;
+	width: 300px;
 	height: 100%;
 	top: 0;
 	z-index: 1000;
@@ -67,7 +72,7 @@ nav a.nav-link i{
 /* Vertical menu that slides from the left or right */
 
 .cbp-spmenu-left {
-	left: -240px;
+	left: -300px;
 }
 
 
@@ -178,9 +183,8 @@ nav a.nav-link i{
 .social{
   width: 100%;
   position:absolute;
-  margin: 50px auto;
+  margin: 5% auto;
     margin-left: 32px;
-    margin-top: 350px;
 }
 .social a{
     position: relative;
