@@ -79,53 +79,53 @@ a{
 
 @font-face {
 	font-family: 'BernardoModa';
-	src: url('font/bernardomoda-webfont.eot');
-	src: url('font/bernardomoda-webfont.eot%3F') format('embedded-opentype'),
-	url('font/bernardomoda-webfont.woff2.html') format('woff2'),
-	url('font/bernardomoda-webfont.woff') format('woff'),
-	url('font/bernardomoda-webfont.ttf') format('truetype'),
-	url('font/bernardomoda-webfont.svg') format('svg');
+	src: url('/static/css/home/font/bernardomoda-webfont.eot');
+	src: url('/static/css/home/font/bernardomoda-webfont.eot%3F') format('embedded-opentype'),
+	url('/static/css/home/font/bernardomoda-webfont.woff2.html') format('woff2'),
+	url('/static/css/home/font/bernardomoda-webfont.woff') format('woff'),
+	url('/static/css/home/font/bernardomoda-webfont.ttf') format('truetype'),
+	url('/static/css/home/font/bernardomoda-webfont.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 
 }
 @font-face {
 	font-family: 'BernardoModaSemibold';
-	src: url('font/bernardomodasemibold-webfont.eot');
-	src: url('font/bernardomodasemibold-webfont.eot%3F') format('embedded-opentype'),
-	url('font/bernardomodasemibold-webfont.woff2.html') format('woff2'),
-	url('font/bernardomodasemibold-webfont.woff') format('woff'),
-	url('font/bernardomodasemibold-webfont.ttf') format('truetype'),
-	url('font/bernardomodasemibold-webfont.svg') format('svg');
+	src: url('/static/css/home/font/bernardomodasemibold-webfont.eot');
+	src: url('/static/css/home/font/bernardomodasemibold-webfont.eot%3F') format('embedded-opentype'),
+	url('/static/css/home/font/bernardomodasemibold-webfont.woff2.html') format('woff2'),
+	url('/static/css/home/font/bernardomodasemibold-webfont.woff') format('woff'),
+	url('/static/css/home/font/bernardomodasemibold-webfont.ttf') format('truetype'),
+	url('/static/css/home/font/bernardomodasemibold-webfont.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'RobotoThin';
-	src: url('font/roboto-thin-webfont.eot');
-	src: url('font/roboto-thin-webfont.eot%3F') format('embedded-opentype'),
-	url('font/roboto-thin-webfont.woff2.html') format('woff2'),
-	url('font/roboto-thin-webfont.woff') format('woff'),
-	url('font/roboto-thin-webfont.ttf') format('truetype'),
-	url('font/roboto-thin-webfont.svg') format('svg');
+	src: url('/static/css/home/font/roboto-thin-webfont.eot');
+	src: url('/static/css/home/font/roboto-thin-webfont.eot%3F') format('embedded-opentype'),
+	url('/static/css/home/font/roboto-thin-webfont.woff2.html') format('woff2'),
+	url('/static/css/home/font/roboto-thin-webfont.woff') format('woff'),
+	url('/static/css/home/font/roboto-thin-webfont.ttf') format('truetype'),
+	url('/static/css/home/font/roboto-thin-webfont.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Roboto';
-	src: url('font/roboto-light-webfont.eot');
-	src: url('font/roboto-light-webfont.eot%3F') format('embedded-opentype'),
-	url('font/roboto-light-webfont.woff2.html') format('woff2'),
-	url('font/roboto-light-webfont.woff') format('woff'),
-	url('font/roboto-light-webfont.ttf') format('truetype'),
-	url('font/roboto-light-webfont.svg') format('svg');
+	src: url('/static/css/home/font/roboto-light-webfont.eot');
+	src: url('/static/css/home/font/roboto-light-webfont.eot%3F') format('embedded-opentype'),
+	url('/static/css/home/font/roboto-light-webfont.woff2.html') format('woff2'),
+	url('/static/css/home/font/roboto-light-webfont.woff') format('woff'),
+	url('/static/css/home/font/roboto-light-webfont.ttf') format('truetype'),
+	url('/static/css/home/font/roboto-light-webfont.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Tetra';
-	src: url('font/TetraDecorative.ttf') format('truetype');
+	src: url('/static/css/home/font/TetraDecorative.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -968,6 +968,14 @@ h1{
 }
 .section2 section p{
 	text-align: center;
+	text-align: center;
+    font-size: 2em;
+    line-height: 25px;
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    font-family: BernardoModa;
 }
 
 .section2 section:nth-child(1), .section2 section:nth-child(3){
@@ -1048,7 +1056,7 @@ h1{
 
 .imgList{
 	display: table;
-	height: 500px;
+	height: 450px;
 	width: 100%;
 	max-width: 1800px;
 	margin: auto;
@@ -1096,6 +1104,14 @@ h1{
 .textOverparallax{
 	max-width: 450px;
 	position: absolute;
+	font-size: 2em;
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    font-family: BernardoModa;
+
 }
 
 
@@ -1110,8 +1126,8 @@ h1{
 
 .section3 .textOverparallax{
 	z-index: 16;
-	bottom: 10%;
-	left: calc(50% - 200px);
+	bottom: 60%;
+    left: calc(20% - 200px);
 }
 
 
@@ -1158,8 +1174,8 @@ h1{
 }
 .section4 .textOverparallax{
 	z-index: 16;
-	top: 35%;
-	left: 20%;
+	top: 60%;
+    left: 50%
 }
 
 

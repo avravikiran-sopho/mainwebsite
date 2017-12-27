@@ -28,7 +28,7 @@
 .cbp-spmenu a.nav-link {
 	display: block;
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: 300;
     font-weight: bold;
 }
@@ -38,7 +38,7 @@
     opacity: 1;
     color: #000;
     transition: all 0.3s ease;
-    transform: skew(-10deg);
+    
 }
 
 .is_active {
@@ -55,7 +55,7 @@ nav a.nav-link i{
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
-	width: 300px;
+	width: 240px;
 	height: 100%;
 	top: 0;
 	z-index: 1000;
@@ -72,7 +72,7 @@ nav a.nav-link i{
 /* Vertical menu that slides from the left or right */
 
 .cbp-spmenu-left {
-	left: -300px;
+	left: -240px;
 }
 
 
