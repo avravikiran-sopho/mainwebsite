@@ -1,29 +1,587 @@
+{% load static %}
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR">
 <head>
-	<title>Home</title>
-	<meta name="google-signin-client_id" content="562564065281-vieaesrlht65nerlj9nsecvvupr2e91f.apps.googleusercontent.com">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- FAVICONS -->
+	<link rel="shortcut icon" href="">
+	<link rel="apple-touch-icon" sizes="180x180" href="">
+
+		<!-- EXTERNAL CSS -->
+		<link rel="stylesheet" href="{% static 'css/home/style.css' %}" type="text/css" />
+		<link rel="stylesheet" href="{% static 'css/home/scroll_mouse.css' %}" type="text/css" />
+		<link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" />
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+
+	<title>Elan & &eta;Vision 2018 : Techno-cultural fest of IIT Hyderabad</title>
+
+<!-- All in One SEO Pack 2.3.11 by Michael Torbert of Semper Fi Web Design[644,656] -->
+<meta name="description"  content="" />
+
+<meta name="keywords"  content="" />
+
+<link rel="canonical" href="index.html" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='http://maps.googleapis.com/' />
+<link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+
+		
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<!-- MORE STYLESHEETS & SCRIPTS -->
+
+<link rel='stylesheet' id='responsiveslides-css'  href="{% static '/js/home/responsiveslides/responsiveslides.css_ver=4.6.9.css' %}" type='text/css' media='all' />
+<!-- jQuery -->
+<script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script type='text/javascript' src="{% static '/js/home/prefixfree.min.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/modernizr.custom.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/maps_api.js' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/jquery-migrate.min.js' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/responsiveslides/responsiveslides.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/parallax/jquery.parallax.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/scrollmagic/ScrollMagic.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/scrollmagic/plugins/debug.addIndicators.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/gsap/TweenMax.min.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/gsap/plugins/CSSPlugin.min.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/gsap/plugins/ScrollToPlugin.min.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/scrollmagic/plugins/animation.gsap.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/jquery.mousewheel.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/lethargy.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/pace.min.js_ver=4.6.9' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/main.min.js_ver=1.0' %}"></script>
+
+ <!-- PLUGINS  -->
+<script type='text/javascript' src="{% static 'js/home/typed.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'js/home/classie.js' %}"></script>
+
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Dosis:600,700" rel="stylesheet">
+
+<!-- INTERNAL CSS STYLING -->
+
+	<style>
+		.titleslide{
+			position: absolute;
+			top:150px;
+		}
+		#typed{
+			color: #FFF;
+			font-size: 24px;
+			font-family: Dosis, sans-serif;
+			font-weight: 600;
+			font-size: 58px;
+			margin-left: 5%;
+		}
+		sup {font-size:xx-small; vertical-align:super;}
+		sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+
+.typed-cursor {
+	font-size: 24px;
+			font-family: Dosis, sans-serif;
+			font-weight: 600;
+			font-size: 58px;
+    -webkit-animation: blinker 1s linear infinite;
+            animation: blinker 1s linear infinite;
+}
+
+@-webkit-keyframes blinker {
+    50% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+.title{
+	margin-bottom: 55px;
+}
+
+
+	</style>
+
 </head>
-<script src="https://apis.google.com/js/platform.js" async defer></script>
 
-<body>
-	
-	{{ user.get_username }}
-	
-	<a href="newsite/events">Events</a>
-	<a href="newsite/team">Team</a>
-	{% if user.is_authenticated %}
-	<li style="font-weight: bold"><a href="/login/logout/"></span>Logout</a></li>
-	<li style="font-weight: bold"><a href="newsite/dashboard/"></span>Dash</a></li>
-	<li style="font-weight: bold"><a href="newsite/pronites/"></span>Pronites</a></li>
-	{% else %}
-	<li style="font-weight: bold"><a href="/login/"></span> Login/SignUp</a></li>
-	{% endif %}
+<body class="cbp-spmenu-push">
+<div id="wrapper">
 
-</body>
-<script type="text/javascript">
-	{% if message %}
-	alert ( "{{ message }}" );
-	{% endif %}
+<script>
+	var pageId = 11;
+	var url = "ajax-menu.php?id="+pageId;
 </script>
+
+<div class="blackscreen2">
+	<!-- PRELOADER -->
+	<div id="loading">
+		<!-- Place Preloader image here -->
+		<!-- <div > <img class="align-top" src=""> </div> -->
+	<div id="percent"><h1>0%</h1>
+	</div>
+	<div class="sentence">
+	<img class="align-top" src="">
+	<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</span>
+	<img class="rotation180 align-bottom" src="">
+	</div>
+	</div>
+		<div class="titleslide">
+			<div class="logo align-middle">
+				<div class="title">
+					<img  style="max-width: 80%;" src="{% static 'img/home/p0_1.png' %}"/>
+				</div>
+				<div class="titleunder">
+					<!-- <img src=""> -->
+				</div>
+			</div>
+		</div>
+</div>
+
+<!--NAVMENU-->
+
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+            <h3><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
+			<a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i>home</a>
+			<a class="nav-link" href="#"><i class="fa fa-trophy" aria-hidden="true"></i>events</a>
+			<a class="nav-link" href="#"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
+			<a class="nav-link" href="#"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</a>
+			<a class="nav-link" href="#"><i class="fa fa-ticket" aria-hidden="true"></i>Register</a>
+<!--			<a href="#">Rutabaga</a>-->
+            <div class="social">
+  <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fa fa-youtube"></i></a>
+  <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fa fa-instagram"></i></a>
+</div>
+		</nav>
+
+<div id="showLeftPush" class="menu-icon">
+      <div class="line_one"></div>
+      <div class="line_two"></div>
+        <div class="line_three"></div>
+</div>
+
+<!--NAVMENU END-->
+<div class="section1">
+
+	<div class="blackscreen">
+	</div>
+	<div class="arrow">
+		<div class="align-middle">
+			<span class="scroll-btn">
+	<a href="#">
+		<span class="mouse">
+			<span>
+			</span>
+		</span>
+	</a>
+  <p>scroll me</p>
+
+</span>
+		</div>
+	</div>
+	<div class="titleslide">
+		<div class="logo align-middle">
+			<div class="title">
+				<img  style="max-width: 80%;" src="{% static 'img/home/p0_1.png' %}" alt="">
+			</div>
+			<div class="titleunder">
+				<!-- <img src=""> -->
+			</div>
+			<span id="typed"></span>
+			<script>
+    				var options = {
+				      strings: ["9<sup>TH</sup>  -  11<sup>TH</sup> FEBRUARY  '18","GENESIS 2.0 : ^1500 sudo reboot"],
+				      typeSpeed: 80,
+				      backDelay: 2000,
+				      loop:true,
+				      showCursor: true,
+				      cursorChar: '_',
+					  autoInsertCss: true,
+				    }
+    var typed = new Typed("#typed", options);
+			</script>
+
+		</div>
+	</div>
+
+<div class="containerText">
+      <div class="textIntro">
+        <div class="bloc">
+			<span id="sp1">We deny it. We don't want to believe it. Judgement day has already happened.<br>We never chose to accept it. Now, it's time for a
+				<span id="sp2"> reboot.</span></span><br><br>
+        	<span id="sp3">The wait is finally over!</span> <br><br>
+Presenting, <br>
+<span id="sp4"> Elan & &eta;Vision 2018</span><br><br><br>
+<img src="{% static 'img/home/p0_3.png' %}" alt="">
+  </div>
+      </div>
+    </div>
+
+<div id="container" class="container" >
+	<ul id="scene"
+	class="scene"
+	data-calibrate-y="true"
+	data-calibrate-x="false"
+	data-limit-x="false"
+	data-limit-y="false"
+
+	data-origin-x="-0.5"
+	data-origin-y="-0.5"
+	>
+	<li class="layer" data-depth="0.2"><div class="far"></div></li>
+	<li class="layer" data-depth="0.4"><div class="medium"></div></li>
+	<li class="layer" data-depth="0.80"><div class="close"></div></li>
+</ul>
+</div>
+</div>
+
+<div class="section2">
+
+
+
+	<section class="panel">
+		<div class="inside">
+			<div class="title" style="margin-bottom:110px;">
+				<div class="titleObj">
+					<h2>Culti</h2>
+				</div>
+			</div>
+			<div class="imgList">
+									<div class="obj"><div class="objimg"><img src="{% static 'img/home/26.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img src="{% static 'img/home/27.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img src="{% static 'img/home/28.png' %}"></div></div>
+<!--					<div class="obj"><div class="objimg"><img src=""></div></div>-->
+							</div>
+			<div class="p">
+				<div class="pObj">
+					<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="panel">
+		<div class="inside">
+			<div class="title">
+				<div class="titleObj">
+					<h2>Techy</h2>
+				</div>
+			</div>
+			<div class="imgList">
+									<div class="obj"><div class="objimg"><img src="{% static 'img/home/23.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img src="{% static 'img/home/24.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img src="{% static 'img/home/25.png' %}"></div></div>
+<!--					<div class="obj"><div class="objimg"><img src=""></div></div>-->
+							</div>
+			<div class="p">
+				<div class="pObj">
+					<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="panel">
+		<div class="inside">
+			<div class="title">
+				<div class="titleObj">
+					<h2>LITR & INFI</h2>
+				</div>
+			</div>
+			<div class="imgList">
+									<div class="obj"><div class="objimg"><img src="{% static 'img/home/20.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img src="{% static 'img/home/19.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img src="{% static 'img/home/21.png' %}"></div></div>
+<!--					<div class="obj"><div class="objimg"><img src=""></div></div>-->
+							</div>
+			<div class="p">
+				<div class="pObj">
+					<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+		<div class="bg1"></div>
+	<div class="bg2"></div>
+	<div class="bg3"></div>
+</div>
+<div class="section3">
+
+
+
+
+	<!-- <div class="parallax-window" style="background-image:url('');"></div> -->
+	<div class="parallax-window" style="background-image:url('{% static '/img/home/10.png' %}');">
+<!--		<div class="lampe"><img src=""></div>-->
+		<div class="textOverparallax">
+			<h1>Lorem Ipsum</h1>
+			<p><p>Gargantuan Speakers and psychedelic lights.
+Insane snarling of electric guitars to beautiful symphonies.
+Everything to have you sway with the beat.</p>
+</p>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="section4">
+
+	<div class="parallax-window" style="background-image:url('{% static '/img/home/9.png' %}');">
+		<div class="textOverparallax">
+			<h1>Lorem Ipsum</h1>
+			<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+</p>
+		</div>
+	</div>
+	<div class="triggerSection4"></div>
+</div>
+<div class="section5" style="display:none">
+	<div class="parassol rouge"><img src=""></div>
+	<div class="parassol rouge ombre"><img src=""></div>
+	<div class="verre"><img src=""></div>
+	<div class="parassol vert"><img src=""></div>
+	<div class="parassol vert ombre"><img src=""></div>
+	<div class="parassol creme"><img src=""></div>
+	<div class="parassol creme ombre"><img src=""></div>
+
+	<div class="calme">
+
+		<div class="title">
+			<h1>Lorem Ipsum</h1>
+			<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+</p>
+		</div>
+	</div>
+
+	<div class="section5para">
+		<div class="parallax-window"><img src=""></div>
+	</div>
+</div>
+<div class="section7">
+	<div class="textOverparallax">
+				<h1>Lorem Ipsum</h1>
+		<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+</p>
+	</div>
+
+	<div class="parallax-window" style="background-image:url('{% static 'img/home/30.png' %}');">
+
+	</div>
+</div>
+<div class="section8" style="display:none">
+	<ul class="slideshow">
+					<li><div class="slide img0" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img1" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img2" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img3" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img4" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img5" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img6" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img7" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img8" style="background:#fff');" ></div></li>
+
+					<li><div class="slide img9" style="background:#fff');" ></div></li>
+
+
+	</ul>
+</div>
+<div class="section9" style="display:none">
+	<div class="paragraph">
+				<h1>Lorem Ipsum</h1>
+		<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+</p>
+	</div>
+	<div class="equipe1"><img src=""></div>
+	<div class="equipe2"><img src=""></div>
+	<div class="equipe3"><img src=""></div>
+
+
+</div>
+<div class="section10" style="display:none">
+	<div class="spot"><img src=""></div>
+	<div class="paragraph">
+
+				<h1>Lorem ipsum</h1>
+		<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+</p>
+	</div>
+</div>
+<div class="section11" style="display:none">
+	<!-- <div class="parallax-window" style='background-image:url("");'> -->
+	<div id="container" class="container" >
+	<ul id="scene"
+	class="scene"
+	data-calibrate-y="false"
+	data-calibrate-x="false"
+	data-limit-x="false"
+	data-limit-y="0"
+
+	data-origin-x="-0.5"
+	data-origin-y="-0.5"
+	>
+	<li class="layer" data-depth="0.2"><div class="far"></div></li>
+	<li class="layer" data-depth="0.4"><div class="medium"></div></li>
+	<li class="layer" data-depth="0.80"><div class="close"></div></li>
+</ul>
+</div>
+
+</div>
+<div class="section12" style="display:none">
+	<div class="slide-info">
+		<div class="legume legume1"><img src=""></div>
+		<div class="legume legume2"><img src=""></div>
+		<div class="legume legume3"><img src=""></div>
+		<div class="legume legume4"><img src=""></div>
+		<div class="legume legume5"><img src=""></div>
+		<div class="legume legume6"><img src=""></div>
+		<div class="legume legume7"><img src=""></div>
+		<div class="legume legume8"><img src=""></div>
+
+
+	</div>
+	<div class="info-container">
+			<div class="info">
+
+				<div class="horaires">
+					<div class="title">
+												<h3>Lorm Ipsu</h3>
+													<div class="days">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt				</div>
+							<div class="hours">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt		</div>
+
+					</div>
+				</div>
+
+				<div class="phone">
+					<h3>Lorem Ipsum</h3>
+					<p>12 34 56 78 91 20</p>
+				</div>
+
+				<div class="likeus">
+					<h3>Lorem Ipsum</h3>
+					<div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+				</div>
+
+
+			</div>
+		</div>
+	<div class="map">
+		<div class="infomap">
+			<div class="align-middle">
+				<div class="address">
+					<a href="">
+					<p>Lorem Ipsum<br>
+						Here<br>
+						Here<br>
+						Here<br>
+					</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="map_canvas" style="width:100%; height:100%">
+		</div>
+	</div>
+</div>
+<div class="carte">
+	<div class="arrow-left"><img src=""></div>
+	<div class="arrow-right"><img src=""></div>
+	<div class="white-bg">
+		<div class="closeBtn"><img src="."></div>
+		<div class="picture">
+			<ul id="slideshowMenu"></ul>
+		</div>
+		<div class="listing">
+			<div class="arrow-up"><img src=""></div>
+			<div class="arrow-down"><img src=""></div>
+			<div id="listingContent">
+				<div class="title"><h3></h3></div>
+				<div class="list-item">
+				<ul>
+
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="black-bg"></div>
+</div>
+
+<li id="cloneCell" class="hidden">
+	<div class="blocLeft">
+		<h5></h5>
+	</div>
+	<div class="blocRight">
+	</div>
+</li>
+
+
+<footer class="section13" >
+
+	<div class="container">
+		<div class="row">
+			<div class="">
+				<h4 class="text-white opacity-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</h4>
+			</div>
+		</div>
+		<div class="row">
+		</div>
+
+
+
+	</div>
+
+
+
+</footer>
+</div>
+</body>
+<script type='text/javascript' src="{% static '/js/home/nav.js' %}"></script>
 </html>
