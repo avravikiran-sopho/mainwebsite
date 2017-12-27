@@ -65,9 +65,8 @@ hr {
 }
 
 .btn1:hover {
-  border:solid 5px #ffffff;  
+  border:solid 2px #ffffff;  
  color: #ffffff;
- font-weight: bolder;
 }
 .btn1:focus {
   outline: none;
@@ -251,9 +250,9 @@ i {
 }
 
 .is-checked {
-  border:solid 5px #ffffff;  
+  border:solid 2px #ffffff;  
  color: #ffffff;
- font-weight: bolder; 
+ font-weight: bold;
 }
 
 .event-details {

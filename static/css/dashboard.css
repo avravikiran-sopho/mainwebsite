@@ -9,8 +9,9 @@
 	text-align: center;
 	font-size: 1.1em;
 	padding: 0.5%;
-	font-family: 'Spectral SC', serif;
 	font-weight: bold; 
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 table tr th td {
@@ -18,6 +19,6 @@ table tr th td {
 	text-align: center;
 }
 
-td {
+tr {
 	color:white!important;
 }
