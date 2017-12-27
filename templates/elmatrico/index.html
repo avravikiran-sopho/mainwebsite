@@ -31,10 +31,10 @@
 	      </li> -->
 	      {% if user.is_authenticated %}
 	      <li class="nav-item">
-	        <a class="nav-link" href="/login/logout/">{{ user.get_username }}</a>
+	        <a class="nav-link">{{ user.get_username }}</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="/login/logout/">EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
+	        <a class="nav-link" href="/newsite/dashboard">EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="/login/logout/">Logout</a>
@@ -64,6 +64,7 @@
 			<li>Plagiarism will result in disqualification.</li>
 			<li>All the relevant information regarding The question is given in the question itself.</li>
 			<li>The organisers verdict is final.</li>
+			<li>Cash prizes will be given to top two contestants on leaderboard.</li>
 			</ul>	
 		</div>
 		<div class="container submission" style="display: block">
