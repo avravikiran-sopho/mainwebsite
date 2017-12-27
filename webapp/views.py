@@ -15,18 +15,38 @@ from django.http import HttpResponseRedirect
 
 # Create your views here.
 def index(request):
-	return render(request,'webapp/index.html')
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/index.html',{'profile':profile})
+	else:
+		return render(request,'webapp/index.html')
 
 def team(request):
 	return render(request,'webapp/team.html')
 
 def events(request):
-	return render(request,'webapp/events.html')
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/events.html',{'profile':profile})
+	else:
+		return render(request,'webapp/events.html')
 
 def pronites(request):
 	return render(request,'webapp/pronites.html')
+
 def sponsors(request):
-	return render(request,'webapp/sponsors.html')
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/sponsors.html',{'profile':profile})
+	else:
+		return render(request,'webapp/sponsors.html')
+
+def workshops(request):
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/workshops.html',{'profile':profile})
+	else:
+		return render(request,'webapp/workshops.html')
 
 @login_required
 def dashboard(request):	

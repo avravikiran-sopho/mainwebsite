@@ -88,7 +88,10 @@ a.thumbnail.active {
   text-align: center;
 }
 body{
-    background-image:url("/static/img/dark_geometric.png");
+    background-image: url('/static/img/eventsbg.jpg');
+      background-repeat: repeat;
+      background-attachment: fixed;
+  background-color: black;
     height: 100%;
     width: 100%;
 }

@@ -9,6 +9,7 @@ urlpatterns = [
     url(r'^dashboard$', views.dashboard),
     url(r'^sponsors$',views.sponsors),
     url(r'^pronites$', views.pronites),
+    url(r'^workshops$', views.workshops),
     url(r'^events/(?P<name>.+)$',views.details),
     url(r'^register/(?P<eventname>.+)$',views.eventregister,name='eventregister')
 ]
