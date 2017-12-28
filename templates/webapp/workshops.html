@@ -1,79 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+
     {% load static %}
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <title>Workshops | ELAN & &eta;vision 2018</title><link rel="icon" href="favicon.png' %}" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ηvision is the techno-management fest of IIT Hyderabad.">
-    <meta name="copyright" content="ELAN & ηvision 2018">
-    <meta name="author" content="ELAN & ηvision 2018">
-    <meta name="keyword" content="workshops, iith, techy workshops, robotics, android, elan,nvision,elan & nvision,vision,techno,tech,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,robots,sponsors,games,awesome,workshops,kludge,infero,cephid,ecell,robotics,equilibria,torque,electronica">
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#283389">
-    <meta property="og:site_name" content="ELAN & ηvision 2018">
-    <meta property="og:title" content="ELAN & ηvision 2018">
-    <meta property="og:type" content="website">
+    {% include "base.html" %}
     <!-- <meta property="og:image" content="https://nvision.org.in/img/logo.png' %}"> -->
     <!-- <meta property="og:url" content="https://nvision.org.in/sponsors/"> -->
-    <meta property="og:description" content="ELAN & ηvision 2018: Techno-cultural Fest of IIT Hyderabad">
-  <link rel="stylesheet" type="text/css" href="{% static 'css/beta/bootstrap.min.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/beta/materialize.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/beta/bootstrap.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/beta/animate.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/beta/workshops.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/beta/navbar.css' %}">
-  </head>
-  <body class="custom-scrollbar">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home/nav.css' %}">
+  <style type="text/css">
+  .logo-div {
+  width: 50%;
+  left: 25%;
+  text-align: center;
+  z-index: 1000;
+  top: 0%;
+  position: fixed;
+}
+.logo {
+  width: 50%;
+  margin: auto;
+}
+body {
+  height: 100%;
+}</style>
+  <body>
+    <div class="logo-div">
+          <a href="/"><img src="/static/img/logo.png" class="logo"></a>
+    </div>
+  <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <h3 style="margin: 0;"><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
+    <a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+    <a class="nav-link " href="/events"><i class="fa fa-trophy" aria-hidden="true"></i>Events</a>
+    <a class="nav-link " href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
+    <a class="nav-link is_active" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</a>
+    <a class="nav-link" href="/team"><i class="fa fa-users" aria-hidden="true"></i>Team</a>
+    <a class="nav-link " href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>Pronites</a>
+    {% if user.is_authenticated %}
+    <a class="nav-link" href="/newsite/dashboard"><i class="fa fa-id-card" aria-hidden="true"></i>EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
+    <a class="nav-link" style="font-size:0.9em;"><i class="fa fa-envelope" aria-hidden="true"></i>{{ user.get_username }}</a>
+    <a class="nav-link" href="/login/logout"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
+    {% else %}
+    <a class="nav-link" href="/login"><i class="fa fa-ticket" aria-hidden="true"></i>Register</a>
+    {% endif %}
+    <div class="social">
+  <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fa fa-youtube"></i></a>
+  <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fa fa-instagram"></i></a>
+</div>
+        </nav>
+        <div id="showLeftPush" class="menu-icon">
+      <div class="line_one"></div>
+      <div class="line_two"></div>
+        <div class="line_three"></div>
+</div>
+<!--NAVMENU END-->
+    
 
-    <!-- Navbar -->
-    <!-- <nav class="navbar navbar-ct-blue navbar-transparent" role="navigation" style="padding-top:15px;">
-      <div class="container" style="width:90%!important;max-width:3000px;margin:0;margin:auto;padding:0">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand navbar-brand-logo" href="/">
-                <div class="logo nav-logo"><img src="{% static 'img/beta/logo-big.png' %}" style="max-width: 100%;"/></div>
-              </a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="btn-2" href="about">
-                            <p>About</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="btn-2" href="sponsors">
-                            <p>Previous Sponsors</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="btn-2 active" href="workshops">
-                            <p>Workshops</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="btn-2" href="events">
-                            <p>Events</p>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="btn-2" href="team">
-                            <p>Team</p>
-                        </a>
-                    </li>
-          </ul>
-        </div>
-    </nav> -->
-<!--  end navbar -->
-    <h1 class="text-center text-heading">Workshops</h1>
-    <hr>
-    <div class="row row-container">
+    <div class="row row-container" style="margin-top:10%;margin-left: auto;margin-right:auto;width: 80%;">
       <div class="cat" >Upcomming Workshops</div><hr class = "mhr"><br>
       <div class="col-md-2">
         <ul class="nav nav-pills nav-stacked animated bounceInLeft event-nav" style="width: 252px;margin:auto;">
@@ -125,6 +109,8 @@
   <script type="text/javascript" src="{% static 'js/beta/bootstrap.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/beta/materialize.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/beta/navbar.js' %}"></script>
+  <script type='text/javascript' src="{% static '/js/home/nav.js' %}"></script>
+    <script type='text/javascript' src="{% static 'js/home/classie.js' %}"></script>
   <script>
 
   </script>

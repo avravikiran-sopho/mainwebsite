@@ -1048,6 +1048,7 @@ h1{
 	max-width: 1800px;
 	margin: auto;
 	font-size: 0;
+	padding: 100px 0 0 0;
     text-align: center;
 }
 
@@ -1068,6 +1069,7 @@ h1{
 	max-width: 350px;
 	height: auto;
 	position: absolute;
+	margin-left: 1%; 
 }
 .obj .objimg img{
 	width:100%;
@@ -1706,6 +1708,7 @@ svg#tracesvg{
 
 .section7{
 	background-image: url('/static/img/bg.jpg');
+	background-size: contain;
 	height: 400px;
 	width:100%;
 	position: relative;
@@ -1734,7 +1737,11 @@ svg#tracesvg{
 
 .section7 .parallax-window{
 
-	background-position:middle right;
+	    background-size: 700px;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-position-x: 600px;
+    background-position-y: -50px;
 }
 
 .section8{

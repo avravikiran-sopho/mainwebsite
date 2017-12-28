@@ -1148,6 +1148,8 @@ $('.card').on('click',function () {
       $('#details').html(elmatrico);
     }else if (name == "paperpt") {
       $('#details').html(paperpt);
+    }else if (name == "quadcopter") {
+      $('#details').html(quadcopter);
     }else {
       $('#details').html(def);
     }
