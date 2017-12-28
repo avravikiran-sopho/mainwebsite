@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="{% static 'css/home/scroll_mouse.css' %}" type="text/css" />
 		<link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" />
 
+
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 
 	<title>Elan & &eta;Vision 2018 : Techno-cultural fest of IIT Hyderabad</title>
@@ -267,7 +268,7 @@ Presenting, <br>
 
 	<section class="panel">
 		<div class="inside">
-			<div class="title" style="margin-bottom:110px;">
+			<div class="title" style="">
 				<div class="titleObj">
 					<h2>Culti</h2>
 				</div>
@@ -302,8 +303,7 @@ Presenting, <br>
 							</div>
 			<div class="p">
 				<div class="pObj">
-					<p><p>Technology is the campfire around which we tell our stories.Watch the contestants weave their magical story as time ceases to flow by.</p>
-</p>
+					<p>Technology is the campfire around which we tell our stories.Watch the contestants weave their magical story as time ceases to flow by.</p>
 				</div>
 			</div>
 		</div>
@@ -318,15 +318,14 @@ Presenting, <br>
 				</div>
 			</div>
 			<div class="imgList">
-									<div class="obj"><div class="objimg"><img src="{% static 'img/home/20.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img src="{% static 'img/home/20.png' %}"></div></div>
 					<div class="obj"><div class="objimg"><img src="{% static 'img/home/19.png' %}"></div></div>
 					<div class="obj"><div class="objimg"><img src="{% static 'img/home/21.png' %}"></div></div>
 <!--					<div class="obj"><div class="objimg"><img src=""></div></div>-->
 							</div>
 			<div class="p">
 				<div class="pObj">
-					<p><p>A literary fiesta of exciting events and mind boggling quizzes and treasure hunts. Litr offers novel avenue to all those who can work their magic with a pen.</p>
-</p>
+					<p>A literary fiesta of exciting events and mind boggling quizzes and treasure hunts. Litr offers novel avenue to all those who can work their magic with a pen.</p>
 				</div>
 			</div>
 		</div>
@@ -379,8 +378,7 @@ Everything to have you sway with the beat.</p>
 	<div class="calme">
 
 		<div class="title">
-			<h1>Lorem Ipsum</h1>
-			<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+			<!-- <p><p><a class="btn btn-large btn-orange" href="#">REGISTER</a></p> -->
 </p>
 		</div>
 	</div>
@@ -391,9 +389,11 @@ Everything to have you sway with the beat.</p>
 </div>
 <div class="section7">
 	<div class="textOverparallax">
-				<h1>Lorem Ipsum</h1>
-		<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-</p>
+		{% if user.is_authenticated %}
+		<p><p><p><p><a href="/login/logout"><button class="btn1"><span>LOG OUT</span></button></a></p></p></p>
+		{% else %}
+		<p><p><p><p><a href="/login"><button class="btn1"><span>REGISTER</span></button></a></p></p></p>
+		{% endif %}
 	</div>
 
 	<div class="parallax-window" style="background-image:url('{% static 'img/home/30.png' %}');">
@@ -560,16 +560,16 @@ Everything to have you sway with the beat.</p>
 <footer class="section13" >
 
 	<div class="container">
-		<div class="row">
-			<div class="">
-				<h4 class="text-white opacity-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</h4>
-			</div>
-		</div>
-		<div class="row">
-		</div>
-
-
-
+		<h1 style="text-align:center;">CONTACT US</h1>
+		<table class="contact">
+			<tr><th>Events</th><th></th><th></th></tr>
+			<tr><td>Nanda Kumar</td><td>nanda@elan.org.in</td><td>+91-9573950314</td></tr>
+			<tr><td>Suprabath Reddy</td><td>suprabath@elan.org.in</td><td>+91-9010501499</td></tr>
+			<tr><th>Hospi</th><th></th><th></th></tr>
+			<tr><td>Chirayu Kothari</td><td>chirayu@elan.org.in</td><td>+91-9642621323</td></tr>
+			<tr><th>Overall Cord</th><th></th><th></th></tr>
+			<tr><td>Srujan Bazar</td><td>srujan@elan.org.in</td><td></td></tr>
+		</table>
 	</div>
 
 
