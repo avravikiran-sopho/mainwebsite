@@ -725,8 +725,13 @@ make it thinner, then set it to again wrap around the entire parent element.
 
     .logo-div {
       width: 50%;
-      left:25%;
+      margin: auto;
     }
+
+    .logo {
+      width: 100%;
+    }
+
     .event-details {
       font-size:0.75em;
       padding: 10%;
@@ -740,5 +745,10 @@ make it thinner, then set it to again wrap around the entire parent element.
     .btn1 {
       padding: 2%;
       margin: 0.1rem 0.1rem;
+    }
+    .events-box {
+      position: absolute;
+      left: 0;
+      right: 0;
     }
 }
