@@ -252,7 +252,6 @@ i {
 .is-checked {
   border:solid 2px #ffffff;  
  color: #ffffff;
- font-weight: bold;
 }
 
 .event-details {
@@ -685,7 +684,23 @@ make it thinner, then set it to again wrap around the entire parent element.
   left: 75%;
   display: none;
 }
+.event-details a {
+  text-decoration-color: white;
+}
 
+.nav {
+  color: white;
+  margin: 1%!important;
+  font-size: 1.1em;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+.nav li a {
+  text-decoration:none;
+}
 /*mobile*/
 
 @media(max-width:768px){
