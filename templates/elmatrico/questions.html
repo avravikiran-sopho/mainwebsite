@@ -1,47 +1,4 @@
-<div class="container content">
-		<h1 style="text-align:center">EL MATRICO</h1>   
-		
-		
-    	<div class="container rules" style="display: block">
-			<h3>General Rules</h3>
-			<ul style="width:100%;">
-			<li>The competition must be played individually.</li>
-			<li>The problem statement is divided into 3 parts - easy , moderate and difficult.</li>
-			<li>All the question in easy part carries 5 marks,moderate 10 marks and difficult 30 marks</li>
-			<li>Plagiarism will result in disqualification.</li>
-			<li>All the relevant information regarding The question is given in the question itself.</li>
-			<li>The organisers verdict is final.</li>
-			</ul>	
-		</div>
-		<div class="container submission" style="display: block">
-			<h3>Submission Rules</h3>
-			<ul>
-			<li>The Matlab code(‘.m’ files) and the answers(output files like Graphs, Images and wav files etc) of all the questions should be submitted as a zip file in the portal itself.</li>
-			<li>Participants are expected to follow the naming convention.</li>
-			<li>Matlab code and the answer of each question should be given name according to the question number itself .                                                                                       Example : answers for question 1 should be submitted as < question_1_code.m > and answer as < question_1_ans ></li>
-			<li>Zip file should be named as < ELANID.zip ></li>
-			Example: EN18IITH00001.zip<br>
-			<li>Submission is not allowed after the set deadline.</li>
-			<li>It is one time submission, check properly before submitting.</li>
-			</li>The organiser verdict is final.</li>
-		</ul>
-
-		</div>
-    {% else %}
-	</div>
-	<div class="container content" style="margin-bottom: 10%;">
-		<h1 style="text-align:center">EL MATRICO</h1>   
-    <p style="text-align:justify">Computer Simulations is an important aspect in the engineering world. This increases the demand for people who can use MATLAB and Simulink well.<br><br>
-		ELAN & &eta;vision in association with <b>MathWorks</b> presents "EL MATRICO", an online event to inspire students acquaint with MATLAB and compete to show their potential to the world! Every year, hundreds of contestants compete with budding programmers from all over India to earn the coveted top spot,in this online contest.<br>
-		Exciting prizes from <b>MathWorks</b> awaits for participants who successfully complete easy and moderate questions.<br>
-		<h3 style="text-align: center;">Prizes worth INR 5000/-</h3>
-		</p><p style="text-align: center;">Login to read Problem statements, Rules and more…
-		</p>
-    <p style="text-align: center;"><a href="/login"><button class="btn btn-primary">Login / Sign Up</button></a></p>
-		{% endif %}
-	</div>
-
-
+    {% load static %}
 	{% if user.is_authenticated %}
     <div class="container question" style="text-align: center;">
     <p style="width:50%;display:inline-block;text-align:right">Time Remaining:&nbsp;</p><p id="demo" style="text-align:left;width:45%;font-weight:bold;display:inline-block;font-family: 'Quattrocento', serif;"> </p>
@@ -150,4 +107,5 @@
         </form>
         
         {% endif %}
+    {% endif %}
 	</div>

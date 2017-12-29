@@ -51,7 +51,7 @@
 	<div class="container cover" style="margin: auto;text-align: center;"><img src="{% static 'img/el-matrico.png' %}" width=80%;></div>
 	<div class="container cover" style="margin: :auto;text-align: center;"><img src="{% static 'img/mathworks.png' %}" width=60%;></div><br>
 	{% if user.is_authenticated %}
-        <div class="container content" style="margin-bottom:10%;">
+        <div class="container content" style="margin-bottom:1%;">
 		<h1 style="text-align:center">EL MATRICO</h1>   
 		
 		
@@ -79,7 +79,6 @@
 			<li>It is one time submission, check properly before submitting.</li>
 			</li>The organiser verdict is final.</li>
 		</ul>
-                <h2 style="text-align:center">Event starts on 29th Dec 2017.</h2>
 		</div>
     {% else %}
 	</div>
@@ -94,6 +93,7 @@
     <p style="text-align: center;"><a href="/login"><button class="btn btn-primary">Login / Sign Up</button></a></p>
 		{% endif %}
 	</div>
+	{% include 'elmatrico/questions.html' %}
 	<div class="footer" style="text-align: center;margin-top: 5%;background-color: #eeeeee;bottom: 0;left:0;position: fixed;width: 100%;">For any technical issues, contact to web@elan.org.in</div>
 </body>
 <script>
@@ -111,7 +111,7 @@
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 4, 2018 :0:0").getTime();
+var countDownDate = new Date("Jan 7, 2018 23:59:0").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
