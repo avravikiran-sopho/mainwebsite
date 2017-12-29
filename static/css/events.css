@@ -230,15 +230,17 @@ border-top-right-radius: 10px;
 
 .navimg1 {
   transition: 1s;
+  width: 50px;
 }
 
 .navimg2 {
-  -webkit-transform: rotate(180deg);
+  /*-webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+  transform: rotate(180deg);*/
   transition: 1s;
+  width: 50px;
 }
 
 .navimg2:hover {
@@ -261,25 +263,34 @@ i {
   left: 10%;
   right: 10%;
   text-align: left;
-  padding: 5%;
+  padding: 2%;
   color: white;
-  background-color: rgba(10,10,10,0.5);
+  background-color: rgba(10,10,10,0.1);
   border-radius: 25px 25px 25px 25px;
   display:none;
   overflow-y:scroll; 
+  font-size: 1.1em;
   -webkit-box-shadow: -5px 5px 25px 0px rgba(255,255,255,0.2);
 -moz-box-shadow: -5px 5px 25px 0px rgba(255,255,255,0.2);
 box-shadow: -5px 5px 25px 0px rgba(255,255,255,0.2);
-font-family: 'Fredericka the Great', cursive;
-background-image: url("/static/img/events/board.jpg");
+/*font-family: 'Fredericka the Great', cursive;*/
+/*background-image: url("/static/img/events/board.jpg");*/
 background-size: cover;
+font-family: 'Amaranth', sans-serif;
+
+
+
 }
 
 .event-details h1 {
   text-decoration: underline;
   text-align: left;
   color: wheat;
-  font-family: 'Fredericka the Great', cursive !important;
+  /*font-family: 'Fredericka the Great', cursive !important;*/
+  font-family: 'Amaranth', sans-serif;
+
+
+
 }
 .event-details::-webkit-scrollbar-track
 {
@@ -679,7 +690,7 @@ make it thinner, then set it to again wrap around the entire parent element.
 
 .register-div {
   position: fixed;
-  bottom: 5%;
+  bottom: 7%;
   left: 75%;
   display: none;
 }
@@ -695,6 +706,7 @@ make it thinner, then set it to again wrap around the entire parent element.
 
 .active {
   font-weight: bolder;
+  color: grey;
 }
 
 .nav li a {
@@ -725,7 +737,7 @@ make it thinner, then set it to again wrap around the entire parent element.
         display: none;
     }
     .navbtnr {
-      left: 85%;
+      left: 90%;
     } 
     .card {
       width: 100%!important;
@@ -753,12 +765,11 @@ make it thinner, then set it to again wrap around the entire parent element.
     }
 
     .event-details {
-      font-size:0.75em;
-      padding: 10%;
-      padding-bottom: 30%;
-      left:15%;
-      right:15%;
-      background-position: center;
+          font-size: 0.75em;
+    padding-bottom: 30%;
+    left: 10%;
+    right: 10%;
+    background-position: center;
     }
     .register-div {
       left: 0;
@@ -775,5 +786,12 @@ make it thinner, then set it to again wrap around the entire parent element.
       position: absolute;
       left: 0;
       right: 0;
+    }
+
+    .navimg1 {
+      width: 25px;
+    }
+    .navimg2 {
+      width: 25px;
     }
 }

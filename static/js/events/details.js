@@ -26,13 +26,13 @@ $('.card').on('click',function () {
       var dtmf = "<h1>DTMF Race</h1>\
           <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -75,13 +75,13 @@ $('.card').on('click',function () {
     var bloopers = "<h1>Electronic Bloopers</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -90,6 +90,7 @@ $('.card').on('click',function () {
         <p>Passionate about Electronics? Then this one is for you. This January, come and get immersed in an exciting world of electronics. Prove your mettle by participating in this quiz.\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         </p><h1>Rules and regulation:</h1>\
@@ -114,13 +115,13 @@ $('.card').on('click',function () {
     var iot = "<h1>IOT Challenge</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -130,6 +131,7 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1><p>\
@@ -157,13 +159,13 @@ $('.card').on('click',function () {
     var jugaad= "<h1>Jugaad IT</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -202,13 +204,13 @@ $('.card').on('click',function () {
     var junkyard ="<h1>Junkyard Wars</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -218,7 +220,6 @@ $('.card').on('click',function () {
         <p>It’s time for your team to dive into innovation and creativity, find a good solution and emerge as jugaads. So, pile up your enthusiasm to win the battle.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Problem statement</h1>\
         <h1>Event Format:</h1><p>\
         1. This is a on the spot event where participants will asked to make model using the given components.<br>\
         2. There are two rounds to this event.<br>\
@@ -255,13 +256,13 @@ $('.card').on('click',function () {
     var bridge = "<h1>Bridge Builder</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -294,13 +295,13 @@ $('.card').on('click',function () {
     var salesman ="<h1>Salesman of Fest</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -309,6 +310,7 @@ $('.card').on('click',function () {
         <p>This events tests the sales capability of participants and also shows their convincing power. We believe that sales is also one of the quality of entrepreneurship. This tests that quality.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1>\
@@ -333,13 +335,13 @@ $('.card').on('click',function () {
     var crowd = "<h1>Crowd Pitch</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -348,6 +350,7 @@ $('.card').on('click',function () {
         <p>This event encourages people to express their idea in front of the crowd. This event focusses on the skills required for pitching in front of large crowds. Pitch is the first thing that is required by any entrepreneur. The main aim of the event is to decide the best pitch.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event Rules:</h1><p>\ 1.  Every participant is given a virtual money which he can invest in other people’s ideas.<br>\
@@ -358,6 +361,7 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         </div>\
         </div>\
@@ -365,13 +369,13 @@ $('.card').on('click',function () {
     var cadpro = "<h1>CADPRO</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -412,13 +416,13 @@ $('.card').on('click',function () {
     var drift = "<h1>Drift King</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -446,25 +450,26 @@ $('.card').on('click',function () {
     var robowars = "<h1>Robowars</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
-        <h1 id='intro'>Introduction:</h1><p>\
+        <h1 id='intro'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction:</h1><p>\
         <p>Interested in designing a bot? Want to test your robotic skills? The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1 id='problem'>Problem Statement:</h1><p>\
+        <h1 id='problem'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement:</h1><p>\
         <p>The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize money</h1>\
@@ -478,13 +483,13 @@ $('.card').on('click',function () {
     var robosoccer = "<h1>RoboSoccer</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -514,13 +519,13 @@ $('.card').on('click',function () {
     var robopirates = "<h1>Robo-Pirates</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -557,13 +562,13 @@ $('.card').on('click',function () {
     var linerobot = "<h1>Line Following Robot</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -572,8 +577,10 @@ $('.card').on('click',function () {
         <p>The objective of this contest is for a robot to follow a black line on a white background, without losing the line, and navigating several 90 degree turns. The robot to complete the course in the shortest period of time while accurately tracking the course line from start to finish wins.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money</h1><p>\
@@ -586,13 +593,13 @@ $('.card').on('click',function () {
     var aquanet = "<h1>Aquanet</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -646,13 +653,13 @@ $('.card').on('click',function () {
     var galileo = "<h1>Galileo Project</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -700,13 +707,13 @@ $('.card').on('click',function () {
     var enigma = "<h1>Enigma</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -743,13 +750,13 @@ $('.card').on('click',function () {
     var hackamaze = "<h1>HACK-A-MAZE</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -784,13 +791,13 @@ $('.card').on('click',function () {
     var quest = "<h1>PRO-Quest</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -799,6 +806,7 @@ $('.card').on('click',function () {
         <p>Proquest is a competitive programming competition composed of three levels, for participants of all levels of expertise. Experience the beginner, medium and advance levels of programming from pen and paper programming to a truly challenging problem statement.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Rules:</h1><p> \ 1. This is an individual event. No teams are allowed.<br> \
@@ -821,13 +829,13 @@ $('.card').on('click',function () {
     var algo = "<h1>Algorthima</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -861,13 +869,13 @@ $('.card').on('click',function () {
     var automobile ="<h1>Automobile Quiz</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -904,13 +912,13 @@ $('.card').on('click',function () {
     var scitech = "<h1>Science Quiz</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -1522,24 +1530,25 @@ $('.card').on('click',function () {
     var elmatrico = "<h1>Elmatrico</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
-        <h1 id='intro'>Introduction:</h1>\
+        <h1 id='intro'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction:</h1>\
         <p>Computer Simulations is an important aspect in the engineering world. This increases the demand for people who can use MATLAB and Simulink well.<br>\
         ELAN & Nvision presents 'EL MATRICO', an online event to inspire students acquaint with MATLAB and compete to show their potential to the world! Every year, hundreds of contestants compete with budding programmers from all over India to earn the coveted top spot. In this online contest.<br>\
         Exciting prizes from mathworks awaits for participants who successfully complete easy and moderate questions.<br>\
         </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
           <h1>ELMATRICO RULES</h1><p>\
@@ -1551,6 +1560,7 @@ $('.card').on('click',function () {
         The organisers verdict is final.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         </div>\
         </div>\
@@ -1558,13 +1568,13 @@ $('.card').on('click',function () {
     var quadcopter = "<h1>Quadcopter Challenge</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -1600,13 +1610,13 @@ $('.card').on('click',function () {
         ";
     var paperpt = "<h1>PAPER PRESENTATION</h1> \ <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
-        <a style='color:white' href='#1a' data-toggle='tab'>Introduction</a>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>Problem Statement</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
@@ -1634,6 +1644,7 @@ $('.card').on('click',function () {
         Any abstract that is selected and is not presented shall not qualify for any award.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
+        <h1>Comming Soon</h1>\
         </div>\
         </div>\
         </div>\
