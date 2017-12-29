@@ -261,6 +261,12 @@ a.animated-button.victoria-three:hover:after {
 @media(min-width: 768px){
     .wdesc{
     margin-left:15em;
+  }.logo-div {
+    width: 100%!important;
+    left:0!important;
+  }
+  .logo {
+    width: 50%!important;
   }
 }
 

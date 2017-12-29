@@ -229,4 +229,11 @@ a {
   .card-block {
     width: 60%;
   }
+  .logo-div {
+    width: 100%!important;
+    left:0!important;
+  }
+  .logo {
+    width: 50%!important;
+  }
 }
