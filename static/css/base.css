@@ -306,11 +306,11 @@ a.demo--current {
 
 .slide__title {
 	position: relative;
-	font-size: var(--fontsize-stitle);
 	margin: 0;
 	cursor: default;
 	line-height: 1;
-	color: var(--color-stitle);
+	color:white;
+	font-size: 7em;
 }
 
 .slide__desc {
@@ -405,3 +405,16 @@ a.demo--current {
 		font-size: 0.85em;
 	}
 }
+
+@media(max-width:768px){
+	.slide__title {
+		font-size: 3em;
+	}
+	.logo-div {
+		width: 100%!important;
+		left:0!important;
+	}
+	.logo {
+		width: 50%!important;
+	}
+  }
