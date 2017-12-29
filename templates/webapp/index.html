@@ -168,6 +168,7 @@ sup {
     <a class="nav-link is_active" href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
     <a class="nav-link" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</a>
     <a class="nav-link" href="/team"><i class="fa fa-users" aria-hidden="true"></i>Team</a>
+    <a class="nav-link" href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>Pronites</a>
     {% if user.is_authenticated %}
     <a class="nav-link" href="/newsite/dashboard"><i class="fa fa-id-card" aria-hidden="true"></i>EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
     <a class="nav-link" style="font-size:0.9em;"><i class="fa fa-envelope" aria-hidden="true"></i>{{ user.get_username }}</a>
@@ -274,9 +275,9 @@ Presenting, <br>
 				</div>
 			</div>
 			<div class="imgList">
-									<div class="obj"><div class="objimg"><img src="{% static 'img/home/26.png' %}"></div></div>
-					<div class="obj"><div class="objimg"><img src="{% static 'img/home/27.png' %}"></div></div>
-					<div class="obj"><div class="objimg"><img src="{% static 'img/home/28.png' %}"></div></div>
+					<div class="obj"><div class="objimg"><img style="width: 90%;" src="{% static 'img/home/26.png' %}"></div></div>
+					<div class="obj"><div class="objimg" style="margin-left:0;"><img style="width: 90%;" src="{% static 'img/home/27.png' %}"></div></div>
+					<div class="obj"><div class="objimg" style="margin-left:0;"><img style="width: 90%;" src="{% static 'img/home/28.png' %}"></div></div>
 <!--					<div class="obj"><div class="objimg"><img src=""></div></div>-->
 							</div>
 			<div class="p">
@@ -295,10 +296,10 @@ Presenting, <br>
 					<h2>Techy</h2>
 				</div>
 			</div>
-			<div class="imgList">
+			<div class="imgList" style="padding:120px 0 0 0;">
 									<div class="obj"><div class="objimg"><img src="{% static 'img/home/23.png' %}"></div></div>
-					<div class="obj"><div class="objimg"><img src="{% static 'img/home/24.png' %}"></div></div>
-					<div class="obj"><div class="objimg"><img src="{% static 'img/home/25.png' %}" style="height: 250px;"></div></div>
+					<div class="obj"><div class="objimg" style="margin-left: 0.75%;"><img src="{% static 'img/home/24.png' %}"></div></div>
+					<div class="obj"><div class="objimg" ><img src="{% static 'img/home/25.png' %}" style="height: 250px;"></div></div>
 <!--					<div class="obj"><div class="objimg"><img src=""></div></div>-->
 							</div>
 			<div class="p">
@@ -320,7 +321,7 @@ Presenting, <br>
 			<div class="imgList">
 					<div class="obj"><div class="objimg"><img src="{% static 'img/home/20.png' %}"></div></div>
 					<div class="obj"><div class="objimg"><img src="{% static 'img/home/19.png' %}"></div></div>
-					<div class="obj"><div class="objimg"><img src="{% static 'img/home/21.png' %}"></div></div>
+					<div class="obj"><div class="objimg" style="margin-left:0;"><img src="{% static 'img/home/21.png' %}"></div></div>
 <!--					<div class="obj"><div class="objimg"><img src=""></div></div>-->
 							</div>
 			<div class="p">

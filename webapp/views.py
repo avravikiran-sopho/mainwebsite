@@ -32,7 +32,7 @@ def events(request):
 		return render(request,'webapp/events.html')
 
 def pronites(request):
-	return render(request,'webapp/pronites.html')
+	return render(request,'webapp/pro.html')
 
 def sponsors(request):
 	if request.user.is_authenticated():
