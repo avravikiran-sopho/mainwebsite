@@ -23,5 +23,5 @@ def ca(request):
 	return render(request,'beta/ca.html')
 def facebookbot(request):
 	return render(request,'beta/fbbot.html')
-def nteworking(request):
+def networking(request):
 	return render(request,'beta/cisco.html')
