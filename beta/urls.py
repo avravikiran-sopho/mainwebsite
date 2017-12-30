@@ -10,7 +10,7 @@ urlpatterns = [
 	url(r'^workshops$', views.workshops),
 	url(r'^team$', views.team),
 	url(r'^ca$', views.ca),
-	url(r'^networking$', views.nteworking),
+	url(r'^networking$', views.n0teworking),
 	url(r'^facebookbot$', views.facebookbot),
 
 ]
