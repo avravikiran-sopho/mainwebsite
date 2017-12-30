@@ -437,8 +437,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money</h1>\
-        <p>INR 60,000/-\ </p>\    
-        <h1>Organisers</h1>\
+        <p>INR 60,000/-\ </p>\ <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\

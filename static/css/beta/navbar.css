@@ -63,7 +63,7 @@
 .navbar-transparent{
     padding-top: 15px;
     background-color: #0a0a02!important;
-    background-image: url("../img/texture.png")!important;
+    background-image: url("/static/img/beta/texture.png")!important;
 }
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand{
     color: #FFFFFF;
@@ -71,7 +71,7 @@
 }
 .navbar-transparent .navbar-brand:hover, .navbar-transparent .navbar-brand:focus {
     background-color: #0a0a02!important;
-    background-image: url("../img/texture.png")!important;
+    background-image: url("/static/img/beta/texture.png")!important;
     color: #5E5E5E;
 }
 .navbar-transparent .nav .caret{

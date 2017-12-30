@@ -48,10 +48,10 @@
     <a class="nav-link" href="/login"><i class="fa fa-ticket" aria-hidden="true"></i>&nbsp;Register</a>
     {% endif %}
     <div class="social">
-  <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
-  <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
-  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fa fa-youtube"></i></a>
-  <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fas fa-facebook"></i></a>
+  <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fas fa-twitter"></i></a>
+  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fas fa-youtube"></i></a>
+  <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fas fa-instagram"></i></a>
 </div>
         </nav>
 
@@ -778,6 +778,7 @@
       $('.navbtn').fadeToggle('slow');
       $('#techisotope').fadeIn('slow');
       $('.navimg1').addClass('tech');
+      $("#click").trigger("click");
     });
     $('#cultimg').on('click',function () {
       $('.events-box').slideToggle('slow');

@@ -6,7 +6,7 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	overflow-x: hidden;
   background-color: #0a0a02!important;
-  background-image: url("/static/img/beta/texture.png")!important;
+  background-image: url("/static/img/eventsbg.jpg")!important;
     
 }
 h1{
@@ -258,7 +258,7 @@ a.animated-button.victoria-three:hover:after {
 
 }
 
-@media(max-width: 768px){
+@media(min-width: 768px){
     .wdesc{
     margin-left:15em;
   }.logo-div {
