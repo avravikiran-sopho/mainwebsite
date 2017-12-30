@@ -21,3 +21,7 @@ def team(request):
 	return render(request,'beta/team.html')
 def ca(request):
 	return render(request,'beta/ca.html')
+def facebookbot(request):
+	return render(request,'beta/fbbot.html')
+def nteworking(request):
+	return render(request,'beta/cisco.html')

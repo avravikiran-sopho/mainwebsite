@@ -12,7 +12,7 @@ $('.navimg2').on('click',function () {
 $('.card').on('click',function () {
       var name = $(this).attr('id');
       console.log(name);
-      var femina = "<h1>Femina</h1><p>\
+      var femina = "<h1 style='text-align:center'>Femina</h1><p>\
           Nationality: Indian Passport Holder<br>\
           The applicant should be between 18 - 25 years of age as of December 31, 2018. The applicant will be required to produce their age proof (Passport, birth certificate, school leaving certificate, driver's license, etc).<br>\
           Relationship Status: The applicant should be unmarried.<br>\
@@ -23,7 +23,7 @@ $('.card').on('click',function () {
           For any queries Contact Kabir Sharda: 9867327421 or email at kabir@elan.org.in<br>\
           The applicant must agree to abide by all rules, as changed from time to time by the Organisers.</p>\
           ";
-      var dtmf = "<h1>DTMF Race</h1>\
+      var dtmf = "<h1 style='text-align:center'>DTMF Race</h1>\
           <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -65,14 +65,15 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize money</h1>\
-          <p>Organisers:<br>\
-          Prize money:<br>\
+          <p>INR 10,000/-</p>\
+          <h1>Organisers:</h1>\
+          <p></p>\
           </p>\
         </div>\
         </div>\
         </div>\
           ";
-    var bloopers = "<h1>Electronic Bloopers</h1>\
+    var bloopers = "<h1 style='text-align:center'>Electronic Bloopers</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -90,7 +91,7 @@ $('.card').on('click',function () {
         <p>Passionate about Electronics? Then this one is for you. This January, come and get immersed in an exciting world of electronics. Prove your mettle by participating in this quiz.\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         </p><h1>Rules and regulation:</h1>\
@@ -104,15 +105,15 @@ $('.card').on('click',function () {
         3.  Participation certificates are given only to those who clear round 1</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money</h1>\
-        <p>Organisers:<br>\
-        Prize money:\
-        </p>\
+        <h1>Prize money</h1>\
+        <p>INR 5,000/-</p>\
+        <h1>Organisers:</h1>\
+        <p>\
         </p>\
         </div>\
         </div>\
         </div>";
-    var iot = "<h1>IOT Challenge</h1>\
+    var iot = "<h1 style='text-align:center'>IOT Challenge</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -131,7 +132,7 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1><p>\
@@ -147,16 +148,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize money:</h1>\
-        <p>Organisers:<br>\
-        Prize money:<br>\
-        </p>\
-        </p>\
-        </p>\
+          <p>Prize money:INR 25,000/-</p>\
+        <h1>Organisers:</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var jugaad= "<h1>Jugaad IT</h1>\
+    var jugaad= "<h1 style='text-align:center'>Jugaad IT</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -191,12 +189,9 @@ $('.card').on('click',function () {
         Organiser verdict is the final and binding</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money</h1>\
-        <p>Organisers:<br>\
-        Prize money:<br>\
-        </p>\
-        </p>\
-        </p>\
+        <h1>Prize money</h1>\
+         <p>INR 10,000/-</p>\
+        <h1>Organisers:</h1>\
         </div>\
         </div>\
         </div>\
@@ -242,9 +237,9 @@ $('.card').on('click',function () {
         4. The organisers reserve the right to make changes to the event as/when necessary.<br>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money</h1><p>\
-        Organisers:<br>\
-        Prize money:\
+        <h1>Prize money</h1>\
+        <p>INR 10,000/-</p>\
+        <h1>Organisers:</h1>\
         </p>\
         </p>\
         </p>\
@@ -253,7 +248,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var bridge = "<h1>Bridge Builder</h1>\
+    var bridge = "<h1 style='text-align:center'>Bridge Builder</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -284,9 +279,9 @@ $('.card').on('click',function () {
         4.  Decision of Judges will be final and binding.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money</h1>\
-        <p>Organisers:<br>\
-        Prize money:\
+        <h1>Prize money</h1>\
+        <p>INR 24,000/-</p>\
+        <h1>Organisers:</h1>\
         </p>\
         </div>\
         </div>\
@@ -310,7 +305,7 @@ $('.card').on('click',function () {
         <p>This events tests the sales capability of participants and also shows their convincing power. We believe that sales is also one of the quality of entrepreneurship. This tests that quality.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1>\
@@ -324,15 +319,14 @@ $('.card').on('click',function () {
         4.  Decision of Judges will be final and binding.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money</h1><p>\
-        Organisers:<br>\
-        Prize money:\
-        </p>\
+        <h1>Prize money</h1>\
+        <p>INR 4,000/-</p>\
+        <h1>Organisers:</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var crowd = "<h1>Crowd Pitch</h1>\
+    var crowd = "<h1 style='text-align:center'>Crowd Pitch</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -350,23 +344,25 @@ $('.card').on('click',function () {
         <p>This event encourages people to express their idea in front of the crowd. This event focusses on the skills required for pitching in front of large crowds. Pitch is the first thing that is required by any entrepreneur. The main aim of the event is to decide the best pitch.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event Rules:</h1><p>\ 1.  Every participant is given a virtual money which he can invest in other people’s ideas.<br>\
         2.  No participant cannot spend any money on his own idea. <br>\
         3.  No participant cannot spend more than half of the money on one idea.<br>\ 4.  Each participant has to spend his money on at least three ideas.<br>\
         <h1>Judging criteria:</h1><p>\
-        The idea that receives maximum virtual money wins the event.<br>\ <h1>Prize money</h1><p>\Organisers:<br>\ Prize money:\
+        The idea that receives maximum virtual money wins the event.<br>\
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Prize Money</h1>\
+        <p>INR 4,000/-</p>\
+        <h1>Organizers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var cadpro = "<h1>CADPRO</h1>\
+    var cadpro = "<h1 style='text-align:center'>CADPRO</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -406,14 +402,14 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money</h1>\
-        <p>Organisers:<br>\
-        Prize money:\
+        <p>INR 15,000/-</p>\
+        <h1>Organisers:</h1>\
         </p>\
         </div>\
         </div>\
         </div>\
         ";
-    var drift = "<h1>Drift King</h1>\
+    var drift = "<h1 style='text-align:center'>Drift King</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -433,6 +429,7 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1>\
         <p>In this event ,the contestants are expected to make to an IC engine powered machine ,that can be controlled remotely using a wireless remote controller, which can race against machines of similar construct on an all-terrain track packed with a number of obstacles.</p>\
+        <p><a href='/static/pdf/driftking.pdf'>Problem statement PDF</a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>General Rules</h1>\
@@ -440,14 +437,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money</h1>\
-        <p>Organisers:<br>\
-        Prize money:\
-        </p>\
+        <p>INR 60,000/-\ </p>\    
+        <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var robowars = "<h1>Robowars</h1>\
+    var robowars = "<h1 style='text-align:center'>Robowars</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -461,26 +457,27 @@ $('.card').on('click',function () {
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
-        <h1 id='intro'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction:</h1><p>\
+        <h1>Introduction:</h1><p>\
         <p>Interested in designing a bot? Want to test your robotic skills? The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1 id='problem'><i class='fas fa-question-circle'></i>&nbsp;Problem Statement:</h1><p>\
+        <h1>Problem Statement:</h1><p>\
         <p>The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.</p>\
+        <p><a href='/static/pdf/robowars.pdf'>Problem statement PDF</a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money</h1>\
-        <p>Organisers:<br>\
-        Prize money:\
+        <h1>Prize money</h1>\
+        <p> INR 60,000/-\
         </p>\
+        <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var robosoccer = "<h1>RoboSoccer</h1>\
+    var robosoccer = "<h1 style='text-align:center'>RoboSoccer</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -499,6 +496,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement:</h1>\ <p>Build two bots that can kick a table tennis ball into the opponent’s Goal Post following the rules. Use your creativity and come up with innovative kicking mechanisms to smash the ball into the goal post.</p>\
+        <p><a href='/static/pdf/robosoccer.pdf'>Problem statement PDF</a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Judging criteria:</h1>\
@@ -509,14 +507,14 @@ $('.card').on('click',function () {
         4.  In case of any discrepancy, organizers’ decision is final. Arguing with organizer will lead to immediate disqualification.<br>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money:</h1><p>\
-        Organisers:<br>\
-        Prize money:</p>\
+        <h1>Prize money:</h1>\
+        <p>INR 45,000/-</p>\
+        <h1>Organisers:</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var robopirates = "<h1>Robo-Pirates</h1>\
+    var robopirates = "<h1 style='text-align:center'>Robo-Pirates</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -536,6 +534,7 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
         <p>Make a wired/wireless which can float on water and can perform pick-n-place task …Like manipulating cubes and balls…….</p>\
+        <p><a href='/static/pdf/robopirates.pdf'>Problem statement PDF</a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
                 <h1>General Rules</h1><p>\
@@ -552,14 +551,14 @@ $('.card').on('click',function () {
         6.  Disqualified teams will not be considered for any certificates.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1><p>\
-        Organisers:<br>\
-        Prize money:</p>\
+        <h1>Prize money</h1>\
+        <p>INR 30,000/-</p>\
+        <h1>Organisers:</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var linerobot = "<h1>Line Following Robot</h1>\
+    var linerobot = "<h1 style='text-align:center'>Line Following Robot</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -577,20 +576,21 @@ $('.card').on('click',function () {
         <p>The objective of this contest is for a robot to follow a black line on a white background, without losing the line, and navigating several 90 degree turns. The robot to complete the course in the shortest period of time while accurately tracking the course line from start to finish wins.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Problem Statement</h1>\
+        <p><a href='/static/pdf/linefollowingbot.pdf'>Problem statement PDF</a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1><p>\
-        Organisers:<br>\
-        Prize money:</p>\
+        <h1>Prize money</h1>\
+        <p>INR 15,000/-</p>\
+        <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var aquanet = "<h1>Aquanet</h1>\
+    var aquanet = "<h1 style='text-align:center'>Aquanet</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -644,13 +644,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money</h1><p>\
-        Organisers:<br>\
-        Prize money:</p>\
+        INR 20,000/-</p>\
+        <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var galileo = "<h1>Galileo Project</h1>\
+    var galileo = "<h1 style='text-align:center'>Galileo Project</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -698,13 +698,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money</h1><p>\
-        Organisers:<br>\
-        Prize money:</p>\
+        INR 10,000/-</p>\
+        <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var enigma = "<h1>Enigma</h1>\
+    var enigma = "<h1 style='text-align:center'>Enigma</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -741,13 +741,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money:</h1><p>\
-        Organisers:<br>\
-        Prize money:</p>\
+        INR 10,000/-</p>\
+        <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var hackamaze = "<h1>HACK-A-MAZE</h1>\
+    var hackamaze = "<h1 style='text-align:center'>HACK-A-MAZE</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -781,14 +781,14 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money</h1><p> \
-        Organisers:<br>\
-        Prize money:\
+        INR 20,000/-\
         </p>\
+        <h1>Organisers</h1>\
         </div>\
         </div>\
         </div>\
         ";
-    var quest = "<h1>PRO-Quest</h1>\
+    var quest = "<h1 style='text-align:center'>PRO-Quest</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -806,7 +806,7 @@ $('.card').on('click',function () {
         <p>Proquest is a competitive programming competition composed of three levels, for participants of all levels of expertise. Experience the beginner, medium and advance levels of programming from pen and paper programming to a truly challenging problem statement.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Rules:</h1><p> \ 1. This is an individual event. No teams are allowed.<br> \
@@ -820,13 +820,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize money</h1><p> \
-        Organisers:<br>\
-        Prize money:</p>\
+        <h1>Organisers</h1>\
+        Prize money:INR 20,000/-</p>\
         </div>\
         </div>\
         </div>\
         ";
-    var algo = "<h1>Algorthima</h1>\
+    var algo = "<h1 style='text-align:center'>Algorthima</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -860,8 +860,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize money: </h1><p> \
-        Organisers:<br>\
-        Prize money:</p>\
+        <h1>Organisers</h1>\
+        Prize money:INR 12,000/-</p>\
         </div>\
         </div>\
         </div>\
@@ -903,13 +903,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize money: </h1><p> \
-        Organisers:<br>\
-        Prize money:</p>\
+        <h1>Organisers</h1>\
+        Prize money:INR 3,000/-</p>\
         </div>\
         </div>\
         </div>\
         ";
-    var scitech = "<h1>Science Quiz</h1>\
+    var scitech = "<h1 style='text-align:center'>Science Quiz</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -944,13 +944,13 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize money:</h1><p>\
-        Organisers:<br>\
-        Prize money:</p>\
+        <h1>Organisers</h1>\
+        Prize money:INR 3,000/-</p>\
         </div>\
         </div>\
         </div>\
         ";
-    var breakfree = "<h1>Breakfree:Western Dance Competition</h1><p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. </p>\
+    var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition</h1><p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. </p>\
         <p>Pick your body up and drop it on the floor<br>\
         We never quit, we never rest on the floor<br>\
         If I ain't wrong we'll probably die on the floor\
@@ -960,7 +960,7 @@ $('.card').on('click',function () {
         Coordination is what matters when it comes to a group performance. Break free is one such group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop.</p>\
         <h1>Solo dance-</h1><p>Got your own dance style you think you've mastered? An event for pro solo dancers, Loose your feet is where you can make the crowd go crazy with those awesome, super cool moves!</p>\
         <h1>Duet-</h1><p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event.</p>";
-    var nrithyanjali = "<h1>Nrithyanjali: A Classical Dance Competition</h1><p>Dance, as we know ,is one of the 64 forms of art in the Indian Culture. It embodies all forms of physical art and learning. It is a kinetic form of body language expressed in unarticulated emotions.\ Classical dance is the fusion of mind's emotions and body's articulate movements. So, we call upon all the classical dancers to come and produce the medly of most graceful and most expressive.\
+    var nrithyanjali = "<h1 style='text-align:center'>Nrithyanjali: A Classical Dance Competition</h1><p>Dance, as we know ,is one of the 64 forms of art in the Indian Culture. It embodies all forms of physical art and learning. It is a kinetic form of body language expressed in unarticulated emotions.\ Classical dance is the fusion of mind's emotions and body's articulate movements. So, we call upon all the classical dancers to come and produce the medly of most graceful and most expressive.\
         Come....drown yourself in divine, grace, beauty, tenderness to delight the eyes and souls of the viewers.</p>\
         <h1>EVENT FORMAT:</h1><p>\
         <p>Event consists of only one round and the results are decided by the judge.<br>\
@@ -987,7 +987,7 @@ $('.card').on('click',function () {
         <h1>ORGANISERS:</h1><p>\
         Hema Varshita - 8096355327\
         </p>";
-    var stepup = "<h1>Step up:Street dance battles</h1><p>For the first time ever Elan & ηvision 2018 brings to you the street dance battle.You think you’ve mastered a dance form?Show-off your dancing skills in the one-on-one face-off and prove yourself.Mesmerise the crowd with your insanely good dance steps and make ‘em go crazy.Engage everyone in this intense battle ,where your moves are your  weapons.</p>\
+    var stepup = "<h1 style='text-align:center'>Step up:Street dance battles</h1><p>For the first time ever Elan & ηvision 2018 brings to you the street dance battle.You think you’ve mastered a dance form?Show-off your dancing skills in the one-on-one face-off and prove yourself.Mesmerise the crowd with your insanely good dance steps and make ‘em go crazy.Engage everyone in this intense battle ,where your moves are your  weapons.</p>\
         <h1>EVENT FORMAT:</h1><p>\
         There will be only one-round for this event.<br>\
         The participants will battle in a one-on-one face-off.The pairing of participants will be decided by the organizers.<br>\
@@ -1001,7 +1001,7 @@ $('.card').on('click',function () {
         Prizes worth Rs.10,000.</p>\
         <h1>ORGANISERS:</h1>\
         ";
-    var vibrazione = "<h1>Vibrazione: A Solo Singing Competition</h1><p>Wanna put your singing skills to the test? Got a versatile voice that can mesmerize everyone? Put your heart to it and sing your way to glory!.Its a solo singing competition.\
+    var vibrazione = "<h1 style='text-align:center'>Vibrazione: A Solo Singing Competition</h1><p>Wanna put your singing skills to the test? Got a versatile voice that can mesmerize everyone? Put your heart to it and sing your way to glory!.Its a solo singing competition.\
         <h1>EVENT FORMAT</h1><p>:\
         Registrations can be online or on-spot during Elan & ηvision 2018.<br>\
         This competition consists of 2 rounds- prelims and finals.<br>\
@@ -1031,7 +1031,7 @@ $('.card').on('click',function () {
         Siri Chandana - 9550345920<br>\
         Prathyusha - 7989240021<br>\
         Pagadala Karthik - 8790713920<br>";
-    var octave = "<h1>Octave:A Solo Instrument Competition</h1><p>This event pits the best against the best on the cultural stage. The name says it all and if you think you have mastered the instrument of your choice, then this is the stage for you. Not just that, this also tests your creativity and sees if you can come up with your own tune to wow us.</p>\
+    var octave = "<h1 style='text-align:center'>Octave:A Solo Instrument Competition</h1><p>This event pits the best against the best on the cultural stage. The name says it all and if you think you have mastered the instrument of your choice, then this is the stage for you. Not just that, this also tests your creativity and sees if you can come up with your own tune to wow us.</p>\
         <h1>EVENT FORMAT:</h1><p>\
         This being a solo competition allows no more than one person per team.<br>\
         Registration: On the spot/Online.<br>\
@@ -1059,7 +1059,7 @@ $('.card').on('click',function () {
         Siri Chandana - 9550345920<br>\
         Prathyusha - 7989240021<br>\
         Pagadala Karthik - 8790713920</p>";
-    var djwars = "<h1>DJ Wars:  A DJ’ying Competition</h1><p>\
+    var djwars = "<h1 style='text-align:center'>DJ Wars:  A DJ’ying Competition</h1><p>\
         The most awaited event is back with a bang in Elan & ηvision 2018!!<br>\
         For all the aspiring DJ's out there!! Can you mix 'em good enough?!Then what are you waiting for?!!Spin 'em to own 'em!!<br>\
         Battle with the beats! Fight with the tunes! May the best win!This is the War of DJ's, where DJ's compete with each other, on a huge platform, like never before!</p>\
@@ -1121,7 +1121,7 @@ $('.card').on('click',function () {
         Aditya Patel - 7389582623<br>\
         Ahmed Z Sihorwala - 9581151952</p>\
         ";
-    var andaaz = "<h1>Andaaz Apna Apna: A Mono acting competition</h1><p>This one’s for all the pro stage performers out there! A perfect place for those who can take over the crowd with their humorous comedy and exceptional acting skills. An unprecedented opportunity to showcase your pro skills as a \"Stand-up Comedian\", or a \"Mono-Actor\".A Stage to perform and a huge crowd to be captivated. Step up, and leave the audience enthralled !</p>\
+    var andaaz = "<h1 style='text-align:center'>Andaaz Apna Apna: A Mono acting competition</h1><p>This one’s for all the pro stage performers out there! A perfect place for those who can take over the crowd with their humorous comedy and exceptional acting skills. An unprecedented opportunity to showcase your pro skills as a \"Stand-up Comedian\", or a \"Mono-Actor\".A Stage to perform and a huge crowd to be captivated. Step up, and leave the audience enthralled !</p>\
         <h1>EVENT FORMAT:</h1><p>\ There will be 2 rounds, prelims and final.<br>\
         Your performance could either be a 'mono-act', or a 'stand-up comedy', or both.<br>\
         Languages preferred are English, Hindi, and Telugu.<br>\
@@ -1143,7 +1143,7 @@ $('.card').on('click',function () {
         <h1>ORGANISERS:</h1><p>\
         Manthan Chavan - 9657595883</p>\
         ";
-    var stage = "<h1>The Stage:Stage play</h1><p>What’s life without a bit of DRAMA? <br>Elan & ηvision 2018 brings you yet another new event where you get to the audience emotionally with your vivid acting skills.Come, participate and take us to another world of story-telling and drama.</p>\
+    var stage = "<h1 style='text-align:center'>The Stage:Stage play</h1><p>What’s life without a bit of DRAMA? <br>Elan & ηvision 2018 brings you yet another new event where you get to the audience emotionally with your vivid acting skills.Come, participate and take us to another world of story-telling and drama.</p>\
         <h1>EVENT FORMAT:</h1><p>\
         The event will be conducted in one round.<br>\
         There is no specific theme for this event.The participants are free to choose any theme.<br>\
@@ -1172,7 +1172,7 @@ $('.card').on('click',function () {
         Prizes worth Rs.15,000.</p>\
         <h1>ORGANISERS:</h1>\
         ";
-    var voice = "<h1>Lend Your Voice</h1><p>A perfect opportunity to test your ability to be creative and prompt together with the presence of mind. Ever thought that you could have delivered the dialogues better than the actors in the movie? Then this is the right place for you to be.Elan & ηvision 2018 presents a unique event \"Lend Your Voice\" </p>\
+    var voice = "<h1 style='text-align:center'>Lend Your Voice</h1><p>A perfect opportunity to test your ability to be creative and prompt together with the presence of mind. Ever thought that you could have delivered the dialogues better than the actors in the movie? Then this is the right place for you to be.Elan & ηvision 2018 presents a unique event \"Lend Your Voice\" </p>\
         <h1>EVENT FORMAT:</h1><p>\ The contestants are provided with an option of a few ACTION HERO VIDEOS.<br>\
         They will be given half hour to choose the video.<br>\
         After choosing the video the participants will be given another half hour for preparation in which they are supposed to come up with a humorous and entertaining version of the video by putting their own voice into the characters.<br>\
@@ -1191,7 +1191,7 @@ $('.card').on('click',function () {
         Prizes worth Rs.2,000.</p>\
         <h1>ORGANISERS:</h1>\
         ";
-    var film = "<h1>Film Fare Fiesta: A Short film Competition</h1><p>Do you think you can take after Steven Spielberg, Christopher Nolan and James Cameron? Make your own short film, enthral and captivate movie buffs with your creativity. The stage at Elan & ηvision 2018 is set for you. Get judged by esteemed people in film industry.</p>\
+    var film = "<h1 style='text-align:center'>Film Fare Fiesta: A Short film Competition</h1><p>Do you think you can take after Steven Spielberg, Christopher Nolan and James Cameron? Make your own short film, enthral and captivate movie buffs with your creativity. The stage at Elan & ηvision 2018 is set for you. Get judged by esteemed people in film industry.</p>\
         <h1>EVENT FORMAT:</h1><p>\
         The event film fare fiesta is spread over two days.<br>\
         All the entries are judged on the first day to shortlist 6 out of them. These 6 will be judged on second day by esteemed judges.</p>\
@@ -1218,7 +1218,7 @@ $('.card').on('click',function () {
         <h1>ORGANISERS:</h1><p>\
         Pradhyumna M Dinni - 9492586679<br>\
         Dinesh Chandra - 7732000655</p>";
-    var picelectic = "<h1>Picelectic: Competition for best pictures taken during Elan & ηvision 2018</h1><p>\
+    var picelectic = "<h1 style='text-align:center'>Picelectic: Competition for best pictures taken during Elan & ηvision 2018</h1><p>\
         Portray your photography skills by shooting pictures in,on and about Elan & ηvision 2018. There will be 2 winners announced each day of the 3 days the fest goes on. The pictures can be submitted any time near the counter that is allocated.</p>\
         <h1>EVENT FORMAT:</h1><p>\
         There are no online registrations for this event.<br>\
@@ -1308,7 +1308,7 @@ $('.card').on('click',function () {
         Prizes worth Rs.1,000.</p>\
         <h1>ORGANISERS:</h1>\
         ";
-    var clay = "<h1>Clay Modelling</h1><p>Come! Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay! Win exciting prizes!!</p>\
+    var clay = "<h1 style='text-align:center'>Clay Modelling</h1><p>Come! Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay! Win exciting prizes!!</p>\
         <h1>EVENT FORMAT:</h1><p>\ Registrations will be on the spot during Elan & ηvision 2018<br>\
         The following materials will be provided to you<br>\ Polymer clay<bR>\
         Paints (if required)<br>\
@@ -1322,7 +1322,7 @@ $('.card').on('click',function () {
         Prizes worth Rs.1,000.</p>\
         <h1>ORGANISERS:</h1>\
         ";
-    var rj = "<h1>RJ Hunt: Competition for pro RJ s</h1><p>Ever been called a chatterbox? If you are good at entertaining your friends with non-stop, animated, energetic chatter, here's the right platform to test how good you are! Entertain the crowd, and you might probably find yourself among the RJ legends! A ramp to your RJ ying future!</p>\
+    var rj = "<h1 style='text-align:center'>RJ Hunt: Competition for pro RJ s</h1><p>Ever been called a chatterbox? If you are good at entertaining your friends with non-stop, animated, energetic chatter, here's the right platform to test how good you are! Entertain the crowd, and you might probably find yourself among the RJ legends! A ramp to your RJ ying future!</p>\
         <h1>EVENT FORMAT:</h1><p>\
         The event will be conducted in three rounds-on-spot,interview and finals.<br>\
         For the on-spot round,the participants would be given a random topic to speak on for 2 minutes.<br>\
@@ -1345,7 +1345,7 @@ $('.card').on('click',function () {
         Prizes worth Rs.7,000.</p>\
         <h1>ORGANISERS:</h1><p>\
         Swetha Gummala - 9618110220</p>";
-    var lan = "<h1>Lan Gaming</h1><h1>ABOUT</h1>\
+    var lan = "<h1 style='text-align:center'>Lan Gaming</h1><h1>ABOUT</h1>\
         <p>'Fire in the hole'.  If you know what I mean,<br>\
         Come join us for a fun filled day of gaming.<br>\
         Let’s find out, who is the pro!</p>\ <h1>GAMES</h1><p>\
@@ -1357,7 +1357,7 @@ $('.card').on('click',function () {
         In case of malpractice the concerned team will be disqualified.<br>\
         Organiser’s decision final and binding to all</p>\
         ";
-    var destination = "<h1>Final Destiantion</h1>\
+    var destination = "<h1 style='text-align:center'>Final Destiantion</h1>\
         <h1>ABOUT</h1><p>\
         Ever dreamt of finding Blackbeard’s Treasure.<br>\
         If yes then you are just in the right place.<br>\
@@ -1370,7 +1370,7 @@ $('.card').on('click',function () {
         The first two teams to complete every task and bag maximum points will be rewarded.<br>\
         Malpractice will lead to disqualification.<br>\
         Organiser’s decision final and binding to all.</p>";
-    var food= "<h1>Foodathon</h1>\
+    var food= "<h1 style='text-align:center'>Foodathon</h1>\
         <h1>ABOUT</h1>\
         <p>Haters will hate but 'Food is not a word, It’s a religion'.<br>\
         ELAN invites all the foodies for a real competition.<br>\
@@ -1380,14 +1380,14 @@ $('.card').on('click',function () {
         Individual participation.<br>\
         Onspot registration with limited number of entries.<br>\
         Organiser’s decision final and binding to all.</p>";
-    var casino = "<h1>Casino</h1><h1>ABOUT</h1><p>\
+    var casino = "<h1 style='text-align:center'>Casino</h1><h1>ABOUT</h1><p>\
         Got the perfect poker face? Think you’re luckier than the rest?<br>\
         Put it to the test at the Casino!<br>\
         For those who have aces up their sleeves, to those who just want to have some fun,the excitement of gambling never dies.<br>\
         Whether it’s the spin of the roulette wheel that catches your eye,<br>\
         or the shouts of ‘hit’ and ‘stay’ from the blackjack table that draw you in, the<br>\
         casino just won’t let you leave. May the odds be ever in your favour!</p>";
-    var minute = "<h1>Minute To Win It</h1>\
+    var minute = "<h1 style='text-align:center'>Minute To Win It</h1>\
         <h1>ABOUT</h1><p>\
         Fun and Goodies, What a great combination.<br>\
         Isn’t it? ELAN presents you all the traditional games with a little twist.<br>\
@@ -1395,7 +1395,7 @@ $('.card').on('click',function () {
         The events can be performed single or in a group depending on the event.<br>\
         No malpractices.<br>\
         The decision of the organizers is final.</p>";
-    var madads = "<h1>Mad Ads</h1>\
+    var madads = "<h1 style='text-align:center'>Mad Ads</h1>\
         <h1>ABOUT</h1><p>\
         Mad Ads is all about having fun, it’s about laughing and having a good time.<br>\
         Entertain the audience with some hilarious and innovative ads!<br>\
@@ -1409,7 +1409,7 @@ $('.card').on('click',function () {
         No vulgarity allowed and sportsmanship to be followed.<br>\
         Organiser’s decision final and binding to all.</p>\
         ";
-    var ramp = "<h1>Walk The Ramp</h1>\
+    var ramp = "<h1 style='text-align:center'>Walk The Ramp</h1>\
         <h1>ABOUT</h1>\
         <p>You got the confidence to set the ramp on fire?<br>\
         Think you have the presence of mind to impress the judges?<br>\
@@ -1419,11 +1419,11 @@ $('.card').on('click',function () {
         <h1>RULES</h1><p>\
         Online as well as on-spot registration.<br>\ Judges decision is final.</p>\
         ";
-    var social = "<h1>Social Experiment</h1>\
+    var social = "<h1 style='text-align:center'>Social Experiment</h1>\
         <h1>ABOUT</h1>\ <p>Have you were been PRANKED before ?<br>\
         Have you were been asked random general questions ?<br>\
         If NO is your answer to these, get ready to experience them soon ;P</p>";
-    var wheel = "<h1>Wheel-Of-Fortune</h1>\
+    var wheel = "<h1 style='text-align:center'>Wheel-Of-Fortune</h1>\
         <h1>ABOUT</h1><p>\
         Like to quiz? Here’s a chance to put those grey cells to work.<br>\
         But don’t forget to get your lucky charms because the stakes are high!<br>\
@@ -1433,7 +1433,7 @@ $('.card').on('click',function () {
         Organiser’s decision final and binding to all.<br>\
         Online and On-spot registration with limited number of entries.</p>\
         ";
-    var snakes = "<h1>Snakes and Ladders</h1>\
+    var snakes = "<h1 style='text-align:center'>Snakes and Ladders</h1>\
         <h1>ABOUT</h1><p>\
         The name says it all doesn’t it?<br>\
         Indulge yourself in in the favourite board games of all times.</p>\
@@ -1447,7 +1447,7 @@ $('.card').on('click',function () {
         <p>Onspot registration.<br>\
         Organiser’s will describe the rules.</p>\
         ";
-    var coffee = "<h1>Coffee Conversation</h1>\
+    var coffee = "<h1 style='text-align:center'>Coffee Conversation</h1>\
         <h1>ABOUT</h1>\
         <p>A hot cuppa to share with a friend may be some people’s idea of heaven.<br>\
         They have it made for them in Conversation coffee, where participants<br>\
@@ -1458,7 +1458,7 @@ $('.card').on('click',function () {
         <p>Partners will be assigned by random chits.<br>\
         Participants will be given 10 minutes with their partners.<br>\
         The most correct answers will win.</p>";
-    var elanejung = "<h1>Elan-E-Jung</h1><p>\
+    var elanejung = "<h1 style='text-align:center'>Elan-E-Jung</h1><p>\
         Travel on a double bass and riff through the jungle which has creatures who are calm like a bomb. Elan is back with its signature Event, the metal battle. Get ready to put the stage on Wildfire.<br>\
         'For those about to rock, we salute you!'' - AC/DC<br>\
         <h1>Event Format</h1>\ <p>This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p>Each band interested in participating should upload their demos/videos to <a   href='https://drive.google.com/drive/folders/1CfX1U7KmDeJQPNSaJeQ7n6xPvQy2Dh6K?usp=sharing'>This Drive</a>\
@@ -1480,7 +1480,7 @@ $('.card').on('click',function () {
         kabir@elan.org.in<br>\
         9867327421</p>\
         ";
-    var manthan = "<h1>Manthan</h1>\
+    var manthan = "<h1 style='text-align:center'>Manthan</h1>\
         <h1>Event Format</h1>\ <p>This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p>Each band interested in participating should upload their videos on <a href='https://drive.google.com/drive/folders/1iXDE-BvcyYqf4840BDVmcJTj-wCiVDsZ?usp=sharing'>This Drive</a><br>\  Out of this 5 bands will be shortlisted, and will be performing at Manthan prelims, Elan 2017.<br>\
         Each band will be given 20 minutes to perform including sound check.<br>\
         <h1>RULES AND REGULATIONS</h1>\
@@ -1513,21 +1513,21 @@ $('.card').on('click',function () {
         kabir@elan.org.in<br>\
         9867327421</p>\
         ";
-    var detective = "<h1>Mr Detective</h1>\
+    var detective = "<h1 style='text-align:center'>Mr Detective</h1>\
         <p>In this event, the contesting parties will be provided a story detailing a weird event (Think failed heists, murders, smashed cookie jars and stuff). With the help of supreme reading comprehension skills and mental mettle, contestants will attempt to serve justice.</p>\
         <h1>Rules:</h1><p>\ a) This is an offline event. Any questions/hint requests will be addressed at the discretion of the organiser(s).<br>\
         b) Contesting parties should have no more than 4 people. A Party can consist of a single person as well, despite the inherent sadness of a single person party.</p>\
         <h1>Judging Criteria:</h1><p>\
         a) Soundness of the explanation offered - Both logically and in ability to explain various narrative events.<br>\
         b) Time taken to come up with explanation.</p>";
-    var conclave = "<h1>Quiz Conclave</h1><p>\
+    var conclave = "<h1 style='text-align:center'>Quiz Conclave</h1><p>\
         Jack of all trades or master of one ? Find out at quiz conclave which pampers and punishes participants with a choice of x quizzes in x different fields. In this quizzes, the quizmaster will make you call in your inner pop culture guru to reveal just exactly how much anime you binge watched. Do you feel lucky , may the odds be with you.</p>\
         <h1>Rules:</h1><p>\
         0. This obviously is an offline event.<br>\
         1. The first rule of the Quiz Club is quizmaster's decision is final.<br.\
         2. No peeking. We call on your quizzer's honor.<br>\
         3. ‎Ships are safe in the harbour but that is not their purpose. Quizzers are safe with Google but that is not their purpose. Don't use Google or anything more than your gray matter.</p>";
-    var elmatrico = "<h1>Elmatrico</h1>\
+    var elmatrico = "<h1 style='text-align:center'>Elmatrico</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -1541,14 +1541,15 @@ $('.card').on('click',function () {
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
-        <h1 id='intro'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction:</h1>\
+        <h1>Introduction:</h1>\
         <p>Computer Simulations is an important aspect in the engineering world. This increases the demand for people who can use MATLAB and Simulink well.<br>\
         ELAN & Nvision presents 'EL MATRICO', an online event to inspire students acquaint with MATLAB and compete to show their potential to the world! Every year, hundreds of contestants compete with budding programmers from all over India to earn the coveted top spot. In this online contest.<br>\
         Exciting prizes from mathworks awaits for participants who successfully complete easy and moderate questions.<br>\
         </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Problem Statement</h1>\
+        <p>Problem statements are at <a href='elan.org.in/elmatrico'>elan.org.in/elmatrico</a> </p>\
         </div>\
         <div class='tab-pane' id='3a'>\
           <h1>ELMATRICO RULES</h1><p>\
@@ -1560,12 +1561,20 @@ $('.card').on('click',function () {
         The organisers verdict is final.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Organisers</h1><p>\
+        <p>Sai Bharadwaj<br>\
+        bharadwaj@elan.org.in<br>\
+        91-7995270890<br><br>\
+        Shivarag Reddy<br>\
+        shivarag@elan.org.in<br>\
+        91-8885011011</p>\
+        <h1>Prize Money</h1>\
+        <p>INR 5000/-</p>\
         </div>\
         </div>\
         </div>\
         ";
-    var quadcopter = "<h1>Quadcopter Challenge</h1>\
+    var quadcopter = "<h1 style='text-align:center'>Quadcopter Challenge</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -1604,11 +1613,13 @@ $('.card').on('click',function () {
         Sai Raj.  B<br>\
         me15btech11006@iith.ac.in<br>\
         7660801623</p>\
+        <h1>Prize Money</h1>\
+        <p>INR 60,000/-</p>\
         </div>\
         </div>\
         </div>\
         ";
-    var paperpt = "<h1>PAPER PRESENTATION</h1> \ <ul  class='nav nav-tabs'>\
+    var paperpt = "<h1 style='text-align:center'>PAPER PRESENTATION</h1> \ <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
@@ -1644,12 +1655,13 @@ $('.card').on('click',function () {
         Any abstract that is selected and is not presented shall not qualify for any award.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Comming Soon</h1>\
+        <h1>Prize Money</h1>\
+        <p>INR 20,000/-</p>\
         </div>\
         </div>\
         </div>\
         ";
-    var def = "<h1>Comming Soon...</h1>";
+    var def = "<h1 style='text-align:center'>Coming Soon...</h1>";
     
     if(name == "dtmf") {
       $('#details').html(dtmf);

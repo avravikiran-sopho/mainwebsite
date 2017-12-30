@@ -22,7 +22,24 @@ def index(request):
 		return render(request,'webapp/index.html')
 
 def team(request):
-	return render(request,'webapp/team.html')
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/team.html',{'profile':profile})
+	else:
+		return render(request,'webapp/team.html')
+
+def cisco(request):
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/cisco.html',{'profile':profile})
+	else:
+		return render(request,'webapp/cisco.html')
+def facebookbot(request):
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/fbbot.html',{'profile':profile})
+	else:
+		return render(request,'webapp/fbbot.html')
 
 def events(request):
 	if request.user.is_authenticated():
@@ -32,7 +49,11 @@ def events(request):
 		return render(request,'webapp/events.html')
 
 def pronites(request):
-	return render(request,'webapp/pro.html')
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/pro.html',{'profile':profile})
+	else:
+		return render(request,'webapp/pro.html')
 
 def sponsors(request):
 	if request.user.is_authenticated():

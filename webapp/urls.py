@@ -10,6 +10,8 @@ urlpatterns = [
     url(r'^sponsors$',views.sponsors),
     url(r'^pronites$', views.pronites),
     url(r'^workshops$', views.workshops),
+    url(r'^cisco$', views.cisco),
+    url(r'^facebookbot$', views.facebookbot),
     url(r'^events/(?P<name>.+)$',views.details),
     url(r'^register/(?P<eventname>.+)$',views.eventregister,name='eventregister')
 ]
