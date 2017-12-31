@@ -11,6 +11,7 @@ urlpatterns = [
     url(r'^pronites$', views.pronites),
     url(r'^workshops$', views.workshops),
     url(r'^cisco$', views.cisco),
+    url(r'^hackathon$', views.hackathon),
     url(r'^facebookbot$', views.facebookbot),
     url(r'^events/(?P<name>.+)$',views.details),
     url(r'^register/(?P<eventname>.+)$',views.eventregister,name='eventregister')

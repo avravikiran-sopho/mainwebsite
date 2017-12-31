@@ -40,7 +40,8 @@ def facebookbot(request):
 		return render(request,'webapp/fbbot.html',{'profile':profile})
 	else:
 		return render(request,'webapp/fbbot.html')
-
+def hackathon(request):
+	return render(request,'webapp/hackathon.html')
 def events(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)
