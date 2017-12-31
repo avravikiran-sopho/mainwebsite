@@ -21,6 +21,13 @@ def index(request):
 	else:
 		return render(request,'webapp/index.html')
 
+def mobile(request):
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/mobile.html',{'profile':profile})
+	else:
+		return render(request,'webapp/mobile.html')
+
 def team(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)

@@ -1,0 +1,291 @@
+{% load  static %}
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- FAVICON -->
+	<link rel="shortcut icon" href="">
+	<link rel="apple-touch-icon" sizes="180x180" href="">
+	<!-- EXTERNAL CSS -->
+<link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" />
+<link rel="stylesheet" href="{% static 'css/home/stylemobile.css' %}" type="text/css">
+<link rel="stylesheet" id="responsiveslides-css" href="{% static 'css/home/responsiveslides.css' %}" type="text/css" media="all">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>Elan & &eta;Vision 2k18</title>
+
+<style>
+
+/*SOCIAL ICONS*/
+
+.social a{
+text-decoration: none;
+}
+
+.social{
+width: 100%;
+position:absolute;
+}
+.social a{
+	position: relative;
+	display: inline-block;
+	font-size: 1.2em;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #000;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 15px;
+	font-smoothing: antialiased;
+}
+.social .fb{
+	background: #fff;
+}
+.social .fb:before,
+.social .fb:after{
+	border-color: #000;
+}
+.social a:before,
+.social a:after{
+	content: "";
+	display: block;
+	position: absolute;
+	background: transparent;
+	top: 0; bottom: 0; left: 0; right: 0;
+	border-radius: 50%;
+	transition: .3s all;
+	border: 3px solid;
+}
+.span{
+	color: #000;
+	transition: color 1s;
+}
+#sp1{
+	color: #000;
+	font-size: 1.2em;
+}
+
+#sp2 {
+	color: #6d969c;
+	font-size: 1.2em;
+}
+#sp4 {
+	color: #D64717;
+	font-size: 2em;
+}
+#sp3 {
+	color: #2ecc71;
+	font-size: 1.2em;
+}
+.paragraph {
+	font-family: BernardoModa;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+/*.social a:hover:after{
+ -webkit-transform: scale(1.5);
+}
+.social a:hover:before{
+	-webkit-transform: scale(2);
+	transition: .3s all;
+	opacity: 0;
+}*/
+
+</style>
+
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- NAV HAM MENU -->
+<!-- <div class="menufixed">
+	<div class="menu-icon menu-icon-arrow is-closed">
+		<span></span>
+		<svg x="0" y="0" width="54px" height="54px" viewBox="0 0 54 54">
+			<circle cx="27" cy="27" r="26"></circle>
+		</svg>
+	</div>
+</div>
+<div id="menu" class="is-closed">
+	<ul class="mainmenu">
+		<a href=""><li><i class="fa fa-home" aria-hidden="true"></i>Home</li></a>
+		<a href=""><li><i class="fa fa-trophy" aria-hidden="true"></i>Events</li></a>
+		<a href=""><li><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</li></a>
+		<a href=""><li><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</li></a>
+		<a href=""><li><i class="fa fa-music" aria-hidden="true"></i>Pronites</li></a>
+		<a href=""><li><i class="fa fa-users" aria-hidden="true"></i>Team</li></a>
+		<a href=""><li style="border-bottom: 5px solid #3a3f40;"><i class="fa fa-ticket" aria-hidden="true"></i>Log In/Register</li></a>
+	</ul>
+	<div class="social">
+ <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
+ <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
+ <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fa fa-youtube"></i></a>
+ <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fa fa-instagram"></i></a>
+</div>
+</div> -->
+<!--end primary_nav-->
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <h3 style="margin: 0;"><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
+    <a class="nav-link is_active" href="/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
+    <a class="nav-link" href="/events"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;Events</a>
+    <a class="nav-link" href="/sponsors"><i class="fa fa-handshake" aria-hidden="true"></i>&nbsp;Sponsors</a>
+    <a class="nav-link" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>&nbsp;Workshops</a>
+    <a class="nav-link" href="/team"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Team</a>
+    <a class="nav-link" href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;Pronites</a>
+    {% if user.is_authenticated %}
+    <a class="nav-link" href="/newsite/dashboard"><i class="fa fa-id-card" aria-hidden="true"></i>&nbsp;EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
+    <a class="nav-link" style="font-size:0.9em;"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;{{ user.get_username }}</a>
+    <a class="nav-link" href="/login/logout"><i class="fa fa-sign-in-alt" aria-hidden="true"></i>&nbsp;Logout</a>
+    {% else %}
+    <a class="nav-link" href="/login"><i class="fa fa-ticket" aria-hidden="true"></i>&nbsp;Register</a>
+    {% endif %}
+    <div class="social">
+  <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fas fa-facebook"></i></a>
+  <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fas fa-twitter"></i></a>
+  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fas fa-youtube"></i></a>
+  <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fas fa-instagram"></i></a>
+</div>
+</nav>
+
+<div id="showLeftPush" class="menu-icon">
+      <div class="line_one"></div>
+      <div class="line_two"></div>
+        <div class="line_three"></div>
+</div>
+
+<div id="section" class="is-closed mobile">
+
+<!-- section 1 - home -->
+
+	<div id="msection1">
+		<div class="containermiddle">
+			<div class="blocmiddle mlogo">
+				<div class="title">
+					<img src="{% static 'img/logo1.png' %}" alt="">
+			</div>
+			<div class="titleunder">
+
+			</div>
+			<div class="s1btn" id="events-btn"><a href="/events" class="ghost-button-thick-border cartoon">Events</a></div>
+			{% if user.is_authenticated %}
+			<div class="s1btn"><a href="/login/logout" class="ghost-button-thick-border cartoon">Log Out</a></div>
+			{% else %}
+			<div class="s1btn"><a href="/login" class="ghost-button-thick-border cartoon">Register</a></div>
+			{% endif %}
+			<div class="bottom">
+			<span class="text-small">Learn more</span><img id="down-arrow" src="{% static 'img/home/arrow.png' %}" alt=""></div>
+		</div>
+	</div>
+</div>
+
+
+<div id="msection_abt">
+
+	<div class="containermiddle">
+		<div class="blocmiddle">
+			<span id="sp1">We deny it. We don't want to believe it. Judgement day has already happened.<br>We never chose to accept it. Now, it's time for a
+				<span id="sp2"> reboot.</span></span><br>
+        	<span id="sp3">The wait is finally over!</span> <br>
+			Presenting, <br>
+			<span id="sp4"> ELAN & &eta;vision 2018</span><br>
+			<img src="{% static 'img/home/genesis.png' %}" style="max-width:50%;" alt="">
+		</div>
+	</div>
+
+</div>
+
+<!-- section 2 -->
+
+
+<div id="msection2" class="events1" style="background: #20B2AA;">
+	<div class="containermiddle">
+		<div class="blocmiddle">
+			<h1 style="color:white; padding-top:20px;">EVENTS</h1>
+			<img style="margin-top:20px;margin-bottom:20px;" src="{% static 'img/home/28.png' %}">
+			<p class="paragraph">With the sole motive of entertaining the audience,CULTI promises to enthral the audience with an ensemble out-of-this world performances and provides a stage for continous and maximum visibility.</p>
+			<h1 style="
+			    color: white;
+			    FONT-FAMILY: KG1;
+			">TECHY & <br>&nbsp;&nbsp;&nbsp;&nbsp;CULTI</h1>
+			<p class="paragraph">Technology is the campfire around which we tell our stories.Watch the contestants weave their magical story as time ceases to flow by.</p>
+			<img style="margin-top:20px;width:70%;" src="{% static 'img/home/25.png' %}">
+		</div>
+	</div>
+</div>
+<div id="msection2" class="events2" style="background: #F29600;">
+	<div class="containermiddle">
+		<div class="blocmiddle">
+			<h1 style="color:#194853; padding-top:20px;">EVENTS</h1>
+			<img style="margin-top:20px;margin-bottom:20px;" src="{% static 'img/home/19.png' %}">
+			<h1 style="
+			    color:#194853;
+			    FONT-FAMILY: KG1;
+			">LITR & <br>&nbsp;&nbsp;&nbsp;&nbsp;INFI</h1>
+			<p class="paragraph">A literary fiesta of exciting events and mind boggling quizzes and treasure hunts. Litr offers novel avenue to all those who can work their magic with a pen.</p>
+			<img style="margin-top:20px;width:70%;" src="{% static 'img/home/20.png' %}">
+		</div>
+	</div>
+</div>
+
+
+
+<div id="msection3">
+
+	<ul class="slideshow play rslides rslides1">
+					<li id="rslides1_s0" class="rslides1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 1000ms ease-in-out;"><div class="slide img0" style="background-image: url('{% static 'img/home/10.png' %}');"></div></li>
+
+					<li id="rslides1_s1" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 1000ms ease-in-out;"><div class="slide img1" style="background-image: url('{% static 'img/home/9.png' %}');"></div></li>
+
+
+	</ul><a href="http://le-mugs.com/mobile/#" class="rslides_nav rslides1_nav prev"></a><a href="http://le-mugs.com/mobile/#" class="rslides_nav rslides1_nav next"></a>
+	<div class="containermiddle">
+		<div class="blocmiddle">
+
+
+			<h1>Pronites</h1>
+			<p class="paragraph" style="color: black;">With the sole motive of entertaining the audience,CULTI promises to enthral the audience with an ensemble out-of-this world performances and provides a stage for continous and maximum visibility.</p>
+		</div>
+	</div>
+</div>
+
+<footer id="section13">
+
+	<div class="container">
+		<div class="row">
+			<div class="">
+				<h1 style="text-align: center;">contact us</h1>
+			</div>
+		</div>
+		<div class="row">
+			<table class="contact">
+			<tr><th>Events</th><th></th></tr>
+			<tr><td>Nanda Kumar</td><td><a href="https://m.facebook.com/nandu007d?ref=bookmarks" class="fa  fa-facebook"></a></td></tr>
+			<tr><td>Suprabath Reddy</td><td><a href="https://www.facebook.com/suprabathreddy9" class="fa  fa-facebook"></a></td></tr>
+			<tr><th>Hospi</th><th></th><th></th></tr>
+			<tr><td>Chirayu Kothari</td><td><a href="https://m.facebook.com/chirayu.kothari.1" class="fa fa-facebook"></a></td></tr>
+			<tr><th>Overall Cord</th><th></th><th></th></tr>
+			<tr><td>Srujan Bazar</td><td><a href="https://www.facebook.com/srujanbazar" class="fa  fa-facebook"></a></td></tr>
+		</table>
+
+		</div>
+
+	</div>
+
+
+</footer>
+</div>
+</div>
+<!-- EXTERNAL SCRIPTS -->
+<script type="text/javascript" src="{% static 'js/home/jquery.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/home/jquery-migrate.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/home/responsiveslides.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/home/mainmobile.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/scroll.min.js' %}"></script>
+<script type='text/javascript' src="{% static '/js/home/nav.js' %}"></script>
+<script type='text/javascript' src="{% static 'js/home/classie.js' %}"></script>
+</body>
+</html>

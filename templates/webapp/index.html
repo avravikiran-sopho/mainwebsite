@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR">
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,16 +16,21 @@
 
 
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
-
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<title>Elan & &eta;Vision 2018 : Techno-cultural fest of IIT Hyderabad</title>
 <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
 <link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
 <link rel='dns-prefetch' href='http://s.w.org/' />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
+<script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+	if ($(window).width() <= 768) {
+		window.location.href = "/newsite/mobile";
+	};
+</script>
 
 		
-		<style type="text/css">
+<style type="text/css">
 img.wp-smiley,
 img.emoji {
 	display: inline !important;
@@ -37,13 +43,16 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
+.fa {
+	color: white;
+}
 </style>
 
 <!-- MORE STYLESHEETS & SCRIPTS -->
 
 <link rel='stylesheet' id='responsiveslides-css'  href="{% static '/js/home/responsiveslides/responsiveslides.css_ver=4.6.9.css' %}" type='text/css' media='all' />
 <!-- jQuery -->
-<script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 
 <script type='text/javascript' src="{% static '/js/home/prefixfree.min.js_ver=4.6.9' %}"></script>
 <script type='text/javascript' src="{% static '/js/home/modernizr.custom.js_ver=4.6.9' %}"></script>
@@ -141,7 +150,7 @@ sup {
 	<div id="loading">
 		<!-- Place Preloader image here -->
 		<!-- <div > <img class="align-top" src=""> </div> -->
-	<div id="percent"><h1>0%</h1>
+	<div id="percent" style="font-family: 'Orbitron', sans-serif;!important"><h1>0%</h1>
 	</div>
 	<div class="sentence">
 	<!-- <span>Loading...</span> -->
@@ -239,7 +248,7 @@ sup {
 				<span id="sp2"> reboot.</span></span><br>
         	<span id="sp3">The wait is finally over!</span> <br>
 Presenting, <br>
-<span id="sp4"> Elan & &eta;Vision 2018</span><br>
+<span id="sp4"> ELAN & &eta;vision 2018</span><br>
 <img style="width: 25%;" src="{% static 'img/home/genesis.png' %}" alt=""><br>
   </div>
       </div>
@@ -561,17 +570,16 @@ Everything to have you sway with the beat.</p>
 <footer class="section13" >
 
 	<div class="container">
-		<h1 style="text-align:center;">CONTACT US</h1>
+		<h1 style="text-align:center;margin-bottom: 0;">CONTACT US</h1>
 		<table class="contact">
-			<tr><th>Events</th><th></th><th></th></tr>
-			<tr><td>Nanda Kumar</td><td>nanda@elan.org.in</td><td>+91-9573950314</td></tr>
-			<tr><td>Suprabath Reddy</td><td>suprabath@elan.org.in</td><td>+91-9010501499</td></tr>
+			<tr><th>Events</th><th></th></tr>
+			<tr><td>Nanda Kumar</td><td><a href="https://m.facebook.com/nandu007d?ref=bookmarks" class="fa  fa-facebook"></a></td></tr>
+			<tr><td>Suprabath Reddy</td><td><a href="https://www.facebook.com/suprabathreddy9" class="fa  fa-facebook"></a></td></tr>
 			<tr><th>Hospi</th><th></th><th></th></tr>
-			<tr><td>Chirayu Kothari</td><td>chirayu@elan.org.in</td><td>+91-9642621323</td></tr>
+			<tr><td>Chirayu Kothari</td><td><a href="https://m.facebook.com/chirayu.kothari.1" class="fa fa-facebook"></a></td></tr>
 			<tr><th>Overall Cord</th><th></th><th></th></tr>
-			<tr><td>Srujan Bazar</td><td>srujan@elan.org.in</td><td></td></tr>
+			<tr><td>Srujan Bazar</td><td><a href="https://www.facebook.com/srujanbazar" class="fa  fa-facebook"></a></td></tr>
 		</table>
-		<p style="text-align: center;margin:0.5%;font-weight: bold;">Email: elan@iith.ac.in</p>
 	</div>
 
 
