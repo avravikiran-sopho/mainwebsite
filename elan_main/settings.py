@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Auth',
     'webapp',
     'elmatrico',
+    'paperpt',
 ]
 
 MIDDLEWARE = [
