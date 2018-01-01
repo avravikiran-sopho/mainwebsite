@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^newsite/', include('webapp.urls')),
     url(r'^login/', include('Auth.urls')),
     url(r'^elmatrico/', include('elmatrico.urls')),
+    url(r'^paperpt/', include('paperpt.urls')),
 ]
