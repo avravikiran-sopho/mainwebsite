@@ -2397,10 +2397,12 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     padding: 1%;
     border-spacing: 0;
+    text-align: center;
 }
 
 .contact tr td {
 	padding: 0.5%!important;
+	text-align: left;
 }
 
 .contact tr th {
