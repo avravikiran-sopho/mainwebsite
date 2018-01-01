@@ -1,3 +1,5 @@
+
+
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from .forms import paperptForm
@@ -8,6 +10,7 @@ from django.utils.timezone import localtime, now
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
 from Auth.models import Profile
+from webapp.models import EventRegister
 # Create your views here.
 # def index(request):
 # 	return render(request,'elmatrico/index.html')
@@ -38,25 +41,28 @@ def index(request):
     	try:
             user = request.user
             profile = Profile.objects.get(user = user)
+            registered =  EventRegister.objects.filter(user = request.user,event ='PAPER PRESENTATION')
             try:
                 files = paperpt.objects.get(user=user) 
                 return render(request, 'paperpt/index.html', {
         			'files': files,
                     'profile':profile,
+                    'registered':registered,
         		})
             except:
                 form = paperptForm()
                 return render(request, 'paperpt/index.html', {
                     'profile':profile,
-                    'form': form,
+                    'form':form,
+                    'registered':registered,
                 })
         except:
             form = paperptForm()
             return render(request, 'paperpt/index.html', {
-                'form': form,
+                'form':form,
 	    	})
 
-def file_size(value): # add this to some file where you can import it from
+def file_size(value):
     limit = 2 * 1024 * 1024
     if value.size > limit:
         raise ValidationError('File too large. Size should not exceed 2 MiB.')
