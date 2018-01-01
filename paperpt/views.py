@@ -41,7 +41,8 @@ def index(request):
     	try:
             user = request.user
             profile = Profile.objects.get(user = user)
-            registered =  EventRegister.objects.filter(user = request.user,event ='PAPER PRESENTATION')
+            registered =  EventRegister.objects.get(user = request.user,event ='PAPER PRESENTATION')
+            print registered
             try:
                 files = paperpt.objects.get(user=user) 
                 return render(request, 'paperpt/index.html', {
