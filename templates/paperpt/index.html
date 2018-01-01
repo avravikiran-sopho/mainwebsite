@@ -21,6 +21,11 @@
 			text-align: center;
 			font-size: 5em;
 		}
+		@media(max-width:768px){
+			.title {
+				font-size: 2em;
+			}
+		}
 	</style>
   <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
 
@@ -87,6 +92,10 @@
 			<li>Any abstract that is selected and is not presented shall not qualify for any award.</li>
 		</ul>
 		</div>
+	</div>
+		<div class="container question" style="text-align: center;">
+    <p style="width:50%;display:inline-block;text-align:right">Time Remaining:&nbsp;</p><p id="demo" style="text-align:left;width:45%;font-weight:bold;display:inline-block;font-family: 'Quattrocento', serif;"> </p>
+      </div>
     {% else %}
 	</div>
 	<div class="container content" style="margin-bottom: 10%;">
@@ -98,7 +107,9 @@
 		{% endif %}
 	</div>
 	{% if user.is_authenticated %}
+	
 	<div class="container question" style="text-align: center;margin-bottom:5%">
+		{% if registered %}
 		{% if files %}
 			<p style="margin:auto;width:50%;text-align: center">You have submitted {{ files.file }}</p>
 	        <p style="margin:auto;width:50%;text-align: center;">Submitted at {{ files.uploaded_at }}</p>
@@ -114,6 +125,10 @@
         </form>
         
         {% endif %}
+    {% else %}
+    	<p style="margin:auto;width:50%;text-align: center">You haven't registered for this event</p>
+    	<p style="text-align: center;"><a href="/newsite/register/paperpt"><button class="btn btn-primary">Register for this Event</button></a></p>
+    {% endif %}
     {% endif %}
 	</div>
 	<div class="footer" style="text-align: center;margin-top: 5%;background-color: #eeeeee;bottom: 0;left:0;position: fixed;width: 100%;">For any technical issues, contact to web@elan.org.in</div>
