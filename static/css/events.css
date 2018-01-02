@@ -505,14 +505,15 @@ font-family: 'Amaranth', sans-serif;
 }
 .down-parallelogram {
   width: 188px;
-  height: 450px;
-  left: 50%;
-  background: #000000;
-  -webkit-transform: skew(0deg);
-  -moz-transform: skew(0deg);
-  -o-transform: skew(0deg);
-  transform: skew(0deg);
-  overflow: hidden;
+    height: 450px;
+    left: 50%;
+    background: #000000;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    transform: skew(0deg);
+    overflow: hidden;
+    background-color: rgba(0,0,0,0);
 }
 .col-xs-2-mod{
   margin-left: 21%;
