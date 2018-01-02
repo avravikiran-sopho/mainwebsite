@@ -64,10 +64,12 @@ $('.card').on('click',function () {
           </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money</h1>\
+          <h1>Prize:</h1>\
           <p>INR 10,000/-</p>\
           <h1>Organisers:</h1>\
-          <p></p>\
+          <p>Will be updated soon</p>\
+          <h1>Contact:</h1>\
+          <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
           </p>\
         </div>\
         </div>\
@@ -105,11 +107,13 @@ $('.card').on('click',function () {
         3.  Participation certificates are given only to those who clear round 1</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 5,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>\
+        <p>Will be updated soon\
         </p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>";
@@ -147,9 +151,12 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Prize money:</h1>\
-          <p>Prize money:INR 25,000/-</p>\
+          <h1>Prize:</h1>\
+          <p>Prize:INR 25,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -189,9 +196,12 @@ $('.card').on('click',function () {
         Organiser verdict is the final and binding</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
          <p>INR 10,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -237,9 +247,12 @@ $('.card').on('click',function () {
         4. The organisers reserve the right to make changes to the event as/when necessary.<br>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 10,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </p>\
         </p>\
         </p>\
@@ -279,10 +292,12 @@ $('.card').on('click',function () {
         4.  Decision of Judges will be final and binding.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 24,000/-</p>\
         <h1>Organisers:</h1>\
-        </p>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -319,9 +334,12 @@ $('.card').on('click',function () {
         4.  Decision of Judges will be final and binding.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 4,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -355,9 +373,12 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize Money</h1>\
+        <h1>Prize</h1>\
         <p>INR 4,000/-</p>\
         <h1>Organizers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -401,9 +422,12 @@ $('.card').on('click',function () {
         7.Disqualified teams will not be considered for any certificates. </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 15,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </p>\
         </div>\
         </div>\
@@ -436,8 +460,11 @@ $('.card').on('click',function () {
         <p>A team can have a maximum of 4 members.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 60,000/-\ </p>\ <h1>Organisers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -468,10 +495,13 @@ $('.card').on('click',function () {
         <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p> INR 60,000/-\
         </p>\
         <h1>Organisers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -506,9 +536,12 @@ $('.card').on('click',function () {
         4.  In case of any discrepancy, organizers’ decision is final. Arguing with organizer will lead to immediate disqualification.<br>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money:</h1>\
+        <h1>Prize:</h1>\
         <p>INR 45,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -550,14 +583,17 @@ $('.card').on('click',function () {
         6.  Disqualified teams will not be considered for any certificates.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 30,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
         ";
-    var linerobot = "<h1 style='text-align:center'>Line Following Robot</h1>\
+    var linerobot = "<h1 style='text-align:center'>Line Robo</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -582,9 +618,12 @@ $('.card').on('click',function () {
         <h1>Coming Soon</h1>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1>\
+        <h1>Prize</h1>\
         <p>INR 15,000/-</p>\
         <h1>Organisers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -642,9 +681,12 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1><p>\
+        <h1>Prize</h1><p>\
         INR 20,000/-</p>\
         <h1>Organisers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -696,9 +738,12 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1><p>\
+        <h1>Prize</h1><p>\
         INR 10,000/-</p>\
         <h1>Organisers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -739,9 +784,12 @@ $('.card').on('click',function () {
         6.  Participation Certificate is not guaranteed for those who registered onspot for the event.<br></p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money:</h1><p>\
+        <h1>Prize:</h1><p>\
         INR 10,000/-</p>\
         <h1>Organisers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -779,10 +827,13 @@ $('.card').on('click',function () {
         5.  Participation Certificate is not guaranteed for those who registered onspot for the event.<br></p> \
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money</h1><p> \
+        <h1>Prize</h1><p> \
         INR 20,000/-\
         </p>\
         <h1>Organisers</h1>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -818,9 +869,12 @@ $('.card').on('click',function () {
         1.  All programs will be judged in person and winners will be announced before the fest ends.<br> \ 2.  Participation certificates are given to top 15 codes <br></p> \
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1> Prize money</h1><p> \
+        <h1> Prize</h1><p> \
+        INR 20,000/-</p>\
         <h1>Organisers</h1>\
-        Prize money:INR 20,000/-</p>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -858,9 +912,12 @@ $('.card').on('click',function () {
         5. All decisions made by the judges will be final and binding.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1> Prize money: </h1><p> \
+        <h1> Prize: </h1><p> \
+        INR 12,000/-</p>\
         <h1>Organisers</h1>\
-        Prize money:INR 12,000/-</p>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -901,9 +958,12 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1> Prize money: </h1><p> \
+        <h1> Prize: </h1><p> \
+        Prize:INR 3,000/-</p>\
         <h1>Organisers</h1>\
-        Prize money:INR 3,000/-</p>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -942,9 +1002,12 @@ $('.card').on('click',function () {
         3.  Participation Certificates will be given for the teams which have cleared first round.<br></p> \
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize money:</h1><p>\
+        <h1>Prize:</h1><p>\
+        Prize:INR 3,000/-</p>\
         <h1>Organisers</h1>\
-        Prize money:INR 3,000/-</p>\
+        <p>Will be updated soon</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -1495,7 +1558,7 @@ $('.card').on('click',function () {
         The winners of the prelims will go through to the finals.<br>\
         The winners will be announced by the judges immediately after the event. Judge’s decision is considered final and should be abided by everyone.<br>\
         All the finalists will be given the participation certificates.<br>\
-        The prize money will be distributed only among the top 2 contestants.<br>\
+        The Prize will be distributed only among the top 2 contestants.<br>\
         The crowd‘s response is considered important.<br>\
         The following will be looked in the contestants/bands performance:<br>\
         Entertainment<br>\
@@ -1567,8 +1630,10 @@ $('.card').on('click',function () {
         Shivarag Reddy<br>\
         shivarag@elan.org.in<br>\
         91-8885011011</p>\
-        <h1>Prize Money</h1>\
+        <h1>Prize</h1>\
         <p>INR 5000/-</p>\
+        <h1>Contact:</h1>\
+          <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -1612,8 +1677,10 @@ $('.card').on('click',function () {
         Sai Raj.  B<br>\
         me15btech11006@iith.ac.in<br>\
         7660801623</p>\
-        <h1>Prize Money</h1>\
+        <h1>Prize</h1>\
         <p>INR 60,000/-</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
@@ -1654,8 +1721,10 @@ $('.card').on('click',function () {
         Any abstract that is selected and is not presented shall not qualify for any award.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-        <h1>Prize Money</h1>\
+        <h1>Prize</h1>\
         <p>INR 20,000/-</p>\
+        <h1>Contact:</h1>\
+        <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
         </div>\
         </div>\
