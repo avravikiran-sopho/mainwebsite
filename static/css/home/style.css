@@ -1721,7 +1721,7 @@ svg#tracesvg{
 .section7 .textOverparallax{
 	z-index: 72;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	left: 20%;
 	opacity: 1;
 
@@ -1732,6 +1732,7 @@ svg#tracesvg{
 .section7 .textOverparallax p, .section7 .textOverparallax h1{
 	color:#000;
 	text-align: left;
+	margin: 5%;
 
 }
 

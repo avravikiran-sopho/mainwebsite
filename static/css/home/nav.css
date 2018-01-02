@@ -41,6 +41,10 @@
     
 }
 
+.cbp-spmenu a.nav-link:hover i  {
+    color: #000;    
+}
+
 
 .is_active {
     background: #fff;
