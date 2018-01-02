@@ -1719,20 +1719,20 @@ svg#tracesvg{
 
 
 .section7 .textOverparallax{
-	z-index: 72;
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	opacity: 1;
+	    z-index: 72;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: 1;
 
 
 }
 
 
 .section7 .textOverparallax p, .section7 .textOverparallax h1{
-	color:#000;
-	text-align: left;
-	margin: 5%;
+	color: #000;
+    text-align: left;
+    margin: 7%;
 
 }
 
@@ -1819,7 +1819,7 @@ a.rslides_nav.rslides1_nav.prev {
 }
 
 .section9{
-	height: 180vh;
+	height: 140vh;
 	width:100%;
 	background-color: #FFF;
 	position: relative;
@@ -1839,7 +1839,7 @@ a.rslides_nav.rslides1_nav.prev {
 }
 .equipe2{
 	position: absolute;
-	bottom: 40vh;
+	bottom: 12vh;
 	left: calc(55% - 90px);
 	z-index: 900;
 
@@ -1862,8 +1862,8 @@ a.rslides_nav.rslides1_nav.prev {
 .section9 .paragraph{
 
 	position: absolute;
-	bottom: 145vh;
-	left: calc(55% - 90px);
+	bottom: 112vh;
+    left: calc(55% - 10px);
 }
 .paragraph h1{
 	color:#000;
