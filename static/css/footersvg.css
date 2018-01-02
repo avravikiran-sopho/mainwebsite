@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'Shorthalt';
+	src: url('/static/css/home/font/Shorthalt.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Shorthalt Thin';
+	src: url('/static/css/home/font/ShorthaltThin.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+footer{
+  width:100%;
+background: lightskyblue;
+}
+
+.svg-animation{
+  width:80%;
+  margin:auto;
+  display:block;
+}
+
+#codepen, #instagram{
+  cursor:pointer;
+  transition: all 0.25s;
+}
+
+#codepen:hover .st0{
+  fill: #EF4864;
+  transition: all 0.25s;
+}
+
+#instagram:hover .st0{
+  fill: #37ADC9;
+  transition: all 0.25s;
+}
+
+footer .left1{
+      position: absolute;
+    /* left: 700px; */
+    bottom: 2.5%;
+    width: 100%;
+    text-align: center;
+    font-size: 7em;
+    letter-spacing: 4px;
+    color: #193441;
+     font-family: 'Shorthalt'; 
+}
+
+footer .right1{
+  position: absolute;
+  left: 1000px;
+  bottom: 230px;
+  font-size: 118px;
+  color: #193441;
+  font-family: 'Shorthalt';
+}
+
+footer .left2{
+      position: absolute;
+    /* left: 870px; */
+    bottom: 1.5%;
+    text-align: center;
+    width: 100%;
+    font-size: 7em;
+    letter-spacing: 4px;
+    
+    color: #193441;
+    font-family: 'Shorthalt'
+}
+
+footer .right2{
+  position: absolute;
+  left: 970px;
+  bottom: 170px;
+  font-size: 118px;
+  letter-spacing: 4px;
+  color: #193441;
+  font-family: 'Shorthalt';
+}
+
+footer .fbtn{
+  position: absolute;
+  bottom: 50px;
+	font-size: 2.25em;
+  color: #193441;
+}
+
+footer .fbtn1{
+      left: 33%;
+    bottom: 0.75%;
+}
+
+footer .fbtn2{
+      left: 42%;
+    bottom: 0.25%;
+}
+
+footer .fbtn3{
+  left: 53%;
+    bottom: 0.25%;
+}
+
+footer .fbtn4{
+      left: 62%;
+    bottom: 0.75%;
+}
+
+footer i.fa {
+  display: inline-block;
+  border-radius: 100%;
+  box-shadow: 0px 0px 2px #193441;
+  padding: 0.5em 0.7em;
+  background: #193441;
+}
+
+footer i.fa-hover {
+  display: inline-block;
+  border-radius: 40px;
+  box-shadow: 0px 0px 2px #fff;
+  padding: 0.5em 0.7em;
+  background: #fff;
+	box-shadow: 0px 0px 2px #fff;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 480px) {
+  .svg-animation{
+    width:100%;
+  }
+}

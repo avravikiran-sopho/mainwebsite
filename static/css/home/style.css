@@ -1818,19 +1818,17 @@ a.rslides_nav.rslides1_nav.prev {
 }
 
 .section9{
-	height: 200vh;
+	height: 180vh;
 	width:100%;
 	background-color: #FFF;
 	position: relative;
-
-
 }
 
 
 
 .equipe1 {
 	position: absolute;
-	right: calc(50% + 110px);
+	right: calc(45% + 110px);
 	top: 10vh;
 
 
@@ -1840,18 +1838,18 @@ a.rslides_nav.rslides1_nav.prev {
 }
 .equipe2{
 	position: absolute;
-	bottom: 10vh;
-	left: calc(50% - 90px);
+	bottom: 40vh;
+	left: calc(55% - 90px);
 	z-index: 900;
 
 }
 .equipe2 img {
-	height: 125vh;
+	height: 95vh;
 }
 
 .equipe3 {
 	position: absolute;
-	right: calc(50% + 110px);
+	right: calc(45% + 110px);
 	top: calc(100vh + 20px);
 
 
@@ -1864,7 +1862,7 @@ a.rslides_nav.rslides1_nav.prev {
 
 	position: absolute;
 	bottom: 145vh;
-	left: calc(50% - 90px);
+	left: calc(55% - 90px);
 }
 .paragraph h1{
 	color:#000;
