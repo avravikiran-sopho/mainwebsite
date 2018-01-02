@@ -108,7 +108,7 @@
 	</div>
 	{% if user.is_authenticated %}
 	
-	<div class="container question" style="text-align: center;margin-bottom:5%">
+	<div class="container question" style="text-align: center;margin-bottom:20%">
 		{% if registered %}
 		{% if files %}
 			<p style="margin:auto;width:50%;text-align: center">You have submitted {{ files.file }}</p>
@@ -126,7 +126,7 @@
         
         {% endif %}
     {% else %}
-    	<p style="margin:auto;width:50%;text-align: center">You haven't registered for this event</p>
+    	<p style="margin:auto;width:100%;text-align: center">You haven't registered for this event</p>
     	<p style="text-align: center;"><a href="/newsite/register/paperpt"><button class="btn btn-primary">Register for this Event</button></a></p>
     {% endif %}
     {% endif %}
