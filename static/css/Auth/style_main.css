@@ -411,10 +411,15 @@ p.change_link{
 	visibility: hidden;
 }*/
 
-@media(max-width:960px){
+@media(max-width:768px){
 	/*label{
 		visibility: visible;
 	}*/
+
+	#register, 
+	#login{
+		width: 60%;
+	}
 }
 
 #text{
