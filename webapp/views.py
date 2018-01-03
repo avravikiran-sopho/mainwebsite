@@ -92,7 +92,7 @@ def eventregister(request,eventname):
 		if EventName.objects.filter(shortname=eventname).exists():
 			event = EventName.objects.get(shortname=eventname)
 			if EventRegister.objects.filter(user = request.user,event = event).exists():
-				return HttpResponseRedirect("/newsite/dashboard")
+				return HttpResponseRedirect("/dashboard")
 			else:
 				new_object = EventRegister()
 				new_object.user = request.user
@@ -100,7 +100,7 @@ def eventregister(request,eventname):
 				new_object.uploaded_at = localtime(now())
 				new_object.save()
 		else:
-			return HttpResponseRedirect("/newsite/events")	
-		return HttpResponseRedirect("/newsite/dashboard")
+			return HttpResponseRedirect("/events")	
+		return HttpResponseRedirect("/dashboard")
 	else:
 		return HttpResponseRedirect("/login")

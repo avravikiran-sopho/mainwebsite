@@ -1,8 +1,4 @@
 
-
-
-
-
 {% load static %}
   {% include "base.html" %}
   <title>Events | ELAN & ηvision 2018</title>
@@ -19,14 +15,27 @@
   <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" />
 
-
 <style type="text/css">
     .mheading {
         display: none;
     }
+    .logo-div{
+      margin-top: 2.5em;
+    }
+    .left{
+      font-family:'BernardoModaSemibold'!important;
+      font-size: 2.5em;
+    }
+    .table td, .table th {
+      border:none;
+    }
 </style>
+{% if message %}
+<script type="text/javascript"> 
+  alert({{ message }});
+</script>
+{% endif %}
 <body>
-
 
   <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
     <h3 style="margin: 0;"><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
@@ -61,50 +70,43 @@
 	<div class="logo-div">
       <a href="/"><img src="/static/img/logo.png" class="logo"></a>
   </div>
-    <div class="row" style="margin-top: 2%;width: 75%;border:solid grey 2px;">
-    	<div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">Elan Id: EN18IITH{{ profile.elanids|stringformat:"05d" }}</div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-4" >Name: {{ profile.full_name }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4">Email: {{ user.username }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4"">Mobile: {{ profile.mobile }}</div>  
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-4">College: {{ profile.college }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4"">Gender: {{ profile.gender }}</div>
-        <div class="col-md-4 col-sm-4 col-xs-4"">City: {{ profile.city }}</div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-6"">Zipcode: {{ profile.zipcode }}</div>
-        <div class="col-md-6 col-sm-6 col-xs-6">Adress: {{ profile.adress }}</div>       
-      </div>
+  <div class="row" style="margin-top: 8%;">
+
+    <div class="col-md-4 col-sm-12">
+      <p class="left">Welcome, {{ profile.full_name }}.</p><br>
+      <p class="mail">{{ user.username }}</p>
+      <p>Your Elan ID is <b>EN18IITH{{ profile.elanids|stringformat:"05d" }}</b></p>
+      <div class="btn-cont"><a href="/login/logout"><button class="btn1"><i class="fa fa-sign-out"></i> Logout</button></a></div>
     </div>
-    <div class="row"></div>
-      <div class="container" style="padding: 0;">
-    		<table class="table table-inverse table-bordered" style="text-align: center;width: 100%;">
-    			<thead>
-  			    <tr>
-  			      <th>Registered Events</th>
-              <th>Registered at</th>
-  			    </tr>
-    			</thead>
-    			<tbody style="color: white">
+
+    <div class="col-md-4 col-sm-12">
+      
+      <table class="table" style="text-align: center;width: 100%;">
+
+          <tbody style="color: white">
+            <tr>
+              <td style="font-size:2.5em;font-family: BernardoModaSemibold;">Registered Events</td>
+            </tr>
             {% if events %}
             {% for event in events %}
-    				<tr><td>{{ event.event }}</td><td>{{ event.time }}</td></tr>
+            <tr><td>{{ event.event }}</td></tr>
             {% endfor %}
             {% else %}
-            <tr><td colspan="2">You haven't registered for any events.</td></tr>
+            <tr><td>You haven't registered for any events. Go to our events page to register now!</td></tr>
             {% endif %}
-    			<tbody>
-    		</table>
-      </div>
-    </div> 
-    <div class="container" style="text-align: center;">
-      <a href="/events"><button class="btn1">Go to Events Page</button></a>
-      <a href="/elmatrico"><button class="btn1">Elmatrico</button></a>
-    </div>   	
+          <tbody>
+        </table>
+        <div class="btn-cont"><a href="/events"><button class="btn1"><i class="fa fa-trophy"></i> Events</button></a></div>
+    </div>
+
+    <div class="col-md-4 col-sm-12">
+      <p class="left">Updates</p><br>
+      <ul style="width: 50%;margin: auto;">
+      <li><a href="/elmatrico">Elmatrico</a> is live!</li>
+      </ul>
+    </div>
+
+  </div>
     
 </body>
 <script type='text/javascript' src="{% static '/js/home/nav.js' %}"></script>

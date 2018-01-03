@@ -88,7 +88,7 @@ a.thumbnail.active {
   text-align: center;
 }
 body{
-    background-image: url('/static/img/eventsbg.jpg');
+    background-image: url('/static/img/bg.png');
       background-repeat: repeat;
       background-attachment: fixed;
   background-color: black;
@@ -180,3 +180,4 @@ img:hover{
 .sponsor-role {
   color: white;
 }
+

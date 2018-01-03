@@ -338,7 +338,8 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>INR 4,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Keshav Chouksey</p>\
+        <p>+91 9424485766</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -377,7 +378,8 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>INR 4,000/-</p>\
         <h1>Organizers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Keshav Chouksey</p>\
+        <p>+91 9424485766</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -1013,7 +1015,58 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition</h1><p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. </p>\
+    var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+          <p>Gear up with your wireless bot. Here comes the race which will test the strength, stability, and cruelty of your bot. It's all about racing towards the finish line through tough terrain by crushing your opponents. Let's see who’s bot is better equipped, better designed to win.\
+          </p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
+        <h1>Problem statement:</h1>\
+          <p>As the name suggests, the bot has to complete a track having various obstacles. Your bot has to complete the race overcoming and avoiding various obstacles in the least possible time.\
+          The participants should prepare a wireless DTMF bot which competes with other bots in an obstacle race.\
+          Note: Track for the Obstacle race will be made up of different terrains with obstacles to test the participant’s control of the bot. It’s made wide enough for one bot to navigate freely.\
+          <br><br><a  href='/static/pdf/dtmf.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
+        <h1>Event rules:</h1>\
+          1. A team may consist of a maximum of 4 members.<br> \
+          2. All members of team need to register for the event.<br>\
+          3. If a team is not ready when their challenge round is called by the judge, the team forfeits and the opposing team is declared the winner by default.<br>\
+          4. The machine should be controlled by a wireless remote control mechanism throughout the race.<br> \
+          5. Each team is allowed to have only one machine.<br> \
+          6. The machines have to use an onboard power supply. No external power supply will be allowed.<br> \
+          7. Teams shall bring their own power supply for all its machines.<br> \
+          8. Organizer’s decision shall be treated as final and binding on all.<br> \
+          \
+          <h1>Judging criteria:</h1>\
+          <p>The bot which completes the race in the least possible time is declared as winner\
+          </p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
+          <h1>Prize:</h1>\
+          <p>INR 10,000/-</p>\
+          <h1>Organisers:</h1>\
+          <p>Will be updated soon</p>\
+          <h1>Contact:</h1>\
+          <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
+          </p>\
+        </div>\
+        </div>\
+        </div>\
+        <p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. </p>\
         <p>Pick your body up and drop it on the floor<br>\
         We never quit, we never rest on the floor<br>\
         If I ain't wrong we'll probably die on the floor\
@@ -1023,12 +1076,31 @@ $('.card').on('click',function () {
         Coordination is what matters when it comes to a group performance. Break free is one such group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop.</p>\
         <h1>Solo dance-</h1><p>Got your own dance style you think you've mastered? An event for pro solo dancers, Loose your feet is where you can make the crowd go crazy with those awesome, super cool moves!</p>\
         <h1>Duet-</h1><p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event.</p>";
-    var nrithyanjali = "<h1 style='text-align:center'>Nrithyanjali: A Classical Dance Competition</h1><p>Dance, as we know ,is one of the 64 forms of art in the Indian Culture. It embodies all forms of physical art and learning. It is a kinetic form of body language expressed in unarticulated emotions.\ Classical dance is the fusion of mind's emotions and body's articulate movements. So, we call upon all the classical dancers to come and produce the medly of most graceful and most expressive.\
+    var nrithyanjali = "<h1 style='text-align:center'>Nrithyanjali: A Classical Dance Competition</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Dance, as we know ,is one of the 64 forms of art in the Indian Culture. It embodies all forms of physical art and learning. It is a kinetic form of body language expressed in unarticulated emotions.\ Classical dance is the fusion of mind's emotions and body's articulate movements. So, we call upon all the classical dancers to come and produce the medly of most graceful and most expressive.\
         Come....drown yourself in divine, grace, beauty, tenderness to delight the eyes and souls of the viewers.</p>\
-        <h1>EVENT FORMAT:</h1><p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
+        <h1>EVENT FORMAT:</h1>\
         <p>Event consists of only one round and the results are decided by the judge.<br>\
         The competition is open only to college students with a valid ID card.<br>\
         You can perform in any Indian classical dance form [we'd love to see Bharatanatyam, Kuchipudi, Odissi, Mohiniyattam and others]. However there are no separate judging categories for the different forms.<br>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         </p><h1>RULES AND REGULATIONS:</h1><p>\
         Semi-classical/ classical on Bollywood songs are strictly not allowed.<br>\
         Live music is not allowed.<br>\
@@ -1045,26 +1117,75 @@ $('.card').on('click',function () {
         Choice of song and dance<br>\
         Expressions<br>\
         Costume<br></p>\
-        <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.15,000.</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
+          <h1>PRIZES:</h1><p>\
+        Prizes worth INR 15,000.</p>\
         <h1>ORGANISERS:</h1><p>\
         Hema Varshita - 8096355327\
-        </p>";
-    var stepup = "<h1 style='text-align:center'>Step up:Street dance battles</h1><p>For the first time ever Elan & ηvision 2018 brings to you the street dance battle.You think you’ve mastered a dance form?Show-off your dancing skills in the one-on-one face-off and prove yourself.Mesmerise the crowd with your insanely good dance steps and make ‘em go crazy.Engage everyone in this intense battle ,where your moves are your  weapons.</p>\
+        </p>\
+        </div>\
+        </div>\
+        </div>\
+        ";
+    var stepup = "<h1 style='text-align:center'>Step up:Street dance battles</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>For the first time ever Elan & ηvision 2018 brings to you the street dance battle.You think you’ve mastered a dance form?Show-off your dancing skills in the one-on-one face-off and prove yourself.Mesmerise the crowd with your insanely good dance steps and make ‘em go crazy.Engage everyone in this intense battle ,where your moves are your  weapons.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         There will be only one-round for this event.<br>\
         The participants will battle in a one-on-one face-off.The pairing of participants will be decided by the organizers.<br>\
         The participants would be given a track by the organizers 2 hours prior to the event.<br>\
         Registrations can be done online or on-spot.<br>\
         On-spot registrations close 3 hours prior to the commencement of the event.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
+        </p><h1>RULES AND REGULATIONS:</h1><p>\
         <h1>RULES AND REGULATIONS:</h1><p>\ All sorts of western dance forms are allowed.<br>\
         Participants should choose only one dance form and choreograph the track accordingly.<br>\
         Any kind of inappropriate behaviour will lead to disqualification.</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.10,000.</p>\
         <h1>ORGANISERS:</h1>\
+        Will be updated soon.</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var vibrazione = "<h1 style='text-align:center'>Vibrazione: A Solo Singing Competition</h1><p>Wanna put your singing skills to the test? Got a versatile voice that can mesmerize everyone? Put your heart to it and sing your way to glory!.Its a solo singing competition.\
+    var vibrazione = "<h1 style='text-align:center'>Vibrazione: A Solo Singing Competition</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Wanna put your singing skills to the test? Got a versatile voice that can mesmerize everyone? Put your heart to it and sing your way to glory!.Its a solo singing competition.\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT</h1><p>:\
         Registrations can be online or on-spot during Elan & ηvision 2018.<br>\
         This competition consists of 2 rounds- prelims and finals.<br>\
@@ -1073,6 +1194,8 @@ $('.card').on('click',function () {
         Prelims Round: To participate in the Vibrazione, you must have 5 songs that you know very well and must be ready to perform any of those 5 songs for the competition. If someone else has chosen your song, or something does not work out with your first choice, you will need to be ready to sing your other choice.<br>\
         Finals: For finals participant can sing any bollywood or film song of his/her own choice.<br>\
         The performances of participants will be video recorded and uploaded onto the website of ATKT.in.<br></p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         On Spot Registrations closes one hour before the start of the event.<br>\
         Songs containing vulgar or explicit lyrics will not be allowed. Contestants who, during their performance, use vulgar lyrics or perform in an obscene manner will be disqualified from the competition, NO RAP.<br>\
@@ -1087,14 +1210,38 @@ $('.card').on('click',function () {
         <p>Vocal ability<br>\
         Stage presence<br>\
         Appearance<br></p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Cash prize worth Rs.15,000.<br>\
-        The winner and the first runner-up of the event will be directly selected for round 2 of ATKT.in Singing Toppers and additionally,top 5 performers will stand a chance to next round depending on the number of views to their videos.<br>\
-        </p><h1>ORGANISERS:</h1><p>\
-        Siri Chandana - 9550345920<br>\
-        Prathyusha - 7989240021<br>\
-        Pagadala Karthik - 8790713920<br>";
-    var octave = "<h1 style='text-align:center'>Octave:A Solo Instrument Competition</h1><p>This event pits the best against the best on the cultural stage. The name says it all and if you think you have mastered the instrument of your choice, then this is the stage for you. Not just that, this also tests your creativity and sees if you can come up with your own tune to wow us.</p>\
+        Prizes worth Rs.10,000.</p>\
+        <h1>ORGANISERS:</h1><p>\
+        Will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
+        ";
+
+        
+        
+        
+    var octave = "<h1 style='text-align:center'>Octaves:A Solo Instrument Competition</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>This event pits the best against the best on the cultural stage. The name says it all and if you think you have mastered the instrument of your choice, then this is the stage for you. Not just that, this also tests your creativity and sees if you can come up with your own tune to wow us.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         This being a solo competition allows no more than one person per team.<br>\
         Registration: On the spot/Online.<br>\
@@ -1107,6 +1254,8 @@ $('.card').on('click',function () {
         Round 2:<br>\
         The second round will be a face-off between the top two from each category. Ie, the first in melody vs the second in melody and similarly for percussion.<br>\
         After qualification after the first round, the finalists will be given tracks to play over. Ie, the melody finalists will be given tracks with percussion to play over and vice-versa. This will be done to ensure fair judging.<br>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         </p><h1>RULES AND REGULATIONS:</h1><p>\
         A participant can stick to ONLY ONE instrument for the entire competition.<br>\
         Electric instruments are allowed.<br>\
@@ -1116,13 +1265,35 @@ $('.card').on('click',function () {
         <h1>JUDGING CRITERIA:</h1><p>\
         Rhythm<br>\
         Creativity<br></p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.15,000.</p>\
         <h1>ORGANISERS:</h1><p>\
         Siri Chandana - 9550345920<br>\
         Prathyusha - 7989240021<br>\
-        Pagadala Karthik - 8790713920</p>";
-    var djwars = "<h1 style='text-align:center'>DJ Wars:  A DJ’ying Competition</h1><p>\
+        Pagadala Karthik - 8790713920</p>\
+        </div>\
+        </div>\
+        </div>\
+        ";
+
+    var djwars = "<h1 style='text-align:center'>DJ Wars:  A DJ’ying Competition</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>\
         The most awaited event is back with a bang in Elan & ηvision 2018!!<br>\
         For all the aspiring DJ's out there!! Can you mix 'em good enough?!Then what are you waiting for?!!Spin 'em to own 'em!!<br>\
         Battle with the beats! Fight with the tunes! May the best win!This is the War of DJ's, where DJ's compete with each other, on a huge platform, like never before!</p>\
@@ -1132,12 +1303,16 @@ $('.card').on('click',function () {
         Effect lights[sprinklers, lasers, cans, and smoke]<br>\
         Sound Monitors<br>\
         2 mics<br></p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         The event consists of two rounds-Prelims and finals.<br>\
         Participants should register online for the event or even on-spot.<br>\
         On-spot registrations would be closed 1 hour before the event starts.<br>\
         Each DJ will be given a maximum time of 20mins to perform for both prelims and finals.<br>\
         5mins would be given as a spare time for each of them before their performance to settle down.<br></p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         This is an individual event. No DJ duos are allowed.<br>\
         The participants should be of the age 17-25 years of age and the participants should produce age proof at the registration desk on the day of event.<br>\
@@ -1153,13 +1328,43 @@ $('.card').on('click',function () {
         <h1>JUDGING CRITERIA:</h1><p>\
         Mixing<br>\ Style statement<br>\
         Crowd engagement<br></p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.25,000.</p>\
         <h1>ORGANISERS:</h1>\
-        <p></p>\
+        <p>Will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var nukkad ="<h1>NUKKAD NAATAK:A street-play competition</h1><p>Haven't you ever wanted to change the way our country functions? Well, it's time to be the change you want to see! <br>Elan & ηvision 2018 is bringing Forward, Nukkad Natak-A Street Play Competition.\ It is all about creating awareness about social problems that plague our soil and bringing about realization in our youth!.\
-        </p>\
+    var nukkad ="<h1>NUKKAD NAATAK:A street-play competition</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>\
+        The most awaited event is back with a bang in Elan & ηvision 2018!!<br>\
+        For all the aspiring DJ's out there!! Can you mix 'em good enough?!Then what are you waiting for?!!Spin 'em to own 'em!!<br>\
+        Battle with the beats! Fight with the tunes! May the best win!This is the War of DJ's, where DJ's compete with each other, on a huge platform, like never before!</p>\
+        <h1>INFRASTRUCTURE SUPPLIED:</h1><p>\
+        A DJ console(Mark I) and mixer<br>\
+        4 bin DJ sound system<br>\
+        Effect lights[sprinklers, lasers, cans, and smoke]<br>\
+        Sound Monitors<br>\
+        2 mics<br></p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         The event comprises of only one round.<br>\
         Participants can choose any theme of their choice any perform for a 20-30 minutes(including the setup time).<br>\
@@ -1167,6 +1372,8 @@ $('.card').on('click',function () {
         The team size should be 8-20(including music accompanists).<br>\
         Participants should get their own props,although bigger props like char can be arranged by the organising team if informed beforehand.<br>\
         The play can be enacted in Hindi or English.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         Only on-line registrations are available for this event.<br>\
         The head of the team should register online with the participant names ,contact number and team name.<br>\
@@ -1178,18 +1385,41 @@ $('.card').on('click',function () {
         Obscenity of any kind, is not allowed and may lead to disqualification.<br>\
         You are not allowed to play any recorded music using mobile phones or tapes.<br>\
         The decision of the judges and organisers will be final and binding.</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.15,000.</p>\
         <h1>ORGANISERS:</h1><p>\
         Aditya Patel - 7389582623<br>\
         Ahmed Z Sihorwala - 9581151952</p>\
-        ";
-    var andaaz = "<h1 style='text-align:center'>Andaaz Apna Apna: A Mono acting competition</h1><p>This one’s for all the pro stage performers out there! A perfect place for those who can take over the crowd with their humorous comedy and exceptional acting skills. An unprecedented opportunity to showcase your pro skills as a \"Stand-up Comedian\", or a \"Mono-Actor\".A Stage to perform and a huge crowd to be captivated. Step up, and leave the audience enthralled !</p>\
+        </div>\
+        </div>\
+        </div>";
+    var andaaz = "<h1 style='text-align:center'>Andaaz Apna Apna: A Mono acting competition</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>This one’s for all the pro stage performers out there! A perfect place for those who can take over the crowd with their humorous comedy and exceptional acting skills. An unprecedented opportunity to showcase your pro skills as a \"Stand-up Comedian\", or a \"Mono-Actor\".A Stage to perform and a huge crowd to be captivated. Step up, and leave the audience enthralled !</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\ There will be 2 rounds, prelims and final.<br>\
         Your performance could either be a 'mono-act', or a 'stand-up comedy', or both.<br>\
         Languages preferred are English, Hindi, and Telugu.<br>\
         Duration of act should be 4-7mins for the prelims. It is 6-10mins for final round .<br>\
         Registration can be done online or on-spot during Elan & ηvision 2018.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\ Age limit for the participants is 15-25 years.<br> \
         Any kind of fluid or flame is not allowed on stage.<br>\
         Time limit should be strictly followed failing which there will be deduction in your respective score.<br>\
@@ -1201,18 +1431,41 @@ $('.card').on('click',function () {
         Expressions<br>\
         Sense of humour<br>\
         Acting skills</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.9,000.</p>\
         <h1>ORGANISERS:</h1><p>\
         Manthan Chavan - 9657595883</p>\
-        ";
-    var stage = "<h1 style='text-align:center'>The Stage:Stage play</h1><p>What’s life without a bit of DRAMA? <br>Elan & ηvision 2018 brings you yet another new event where you get to the audience emotionally with your vivid acting skills.Come, participate and take us to another world of story-telling and drama.</p>\
+        </div>\
+        </div>\
+        </div>";
+    var stage = "<h1 style='text-align:center'>The Stage:Stage play</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>What’s life without a bit of DRAMA? <br>Elan & ηvision 2018 brings you yet another new event where you get to the audience emotionally with your vivid acting skills.Come, participate and take us to another world of story-telling and drama.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         The event will be conducted in one round.<br>\
         There is no specific theme for this event.The participants are free to choose any theme.<br>\
         Languages preferred are English, Hindi, and Telugu.<br>\
         Duration of the play should be 30-45 mins(including stage setup time).<br>\
         Registrations must be done on-line for this event.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\ The team size should be 5-15 members.<br>\
         Stage play comprises of multiple scenes and may have blackouts.<br>\
         Backstage voiceovers and narrations are allowed during the performance.<br>\
@@ -1231,16 +1484,40 @@ $('.card').on('click',function () {
         Direction<br>\
         Screenplay <br>\
         Overall impact</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.15,000.</p>\
         <h1>ORGANISERS:</h1>\
-        ";
-    var voice = "<h1 style='text-align:center'>Lend Your Voice</h1><p>A perfect opportunity to test your ability to be creative and prompt together with the presence of mind. Ever thought that you could have delivered the dialogues better than the actors in the movie? Then this is the right place for you to be.Elan & ηvision 2018 presents a unique event \"Lend Your Voice\" </p>\
+        </div>\
+        </div>\
+        </div>";
+    var voice = "<h1 style='text-align:center'>Lend Your Voice</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>A perfect opportunity to test your ability to be creative and prompt together with the presence of mind. Ever thought that you could have delivered the dialogues better than the actors in the movie? Then this is the right place for you to be.Elan & ηvision 2018 presents a unique event \"Lend Your Voice\" </p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\ The contestants are provided with an option of a few ACTION HERO VIDEOS.<br>\
         They will be given half hour to choose the video.<br>\
         After choosing the video the participants will be given another half hour for preparation in which they are supposed to come up with a humorous and entertaining version of the video by putting their own voice into the characters.<br>\
         They are then supposed to perform it on stage while the video is being played, with the actual dialogues muted.<br>\
-        All the videos will be 1 min long.</p> <h1>RULES AND REGULATIONS:</h1><p>\ It consists of only one round.<br>\
+        All the videos will be 1 min long</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
+        <h1>RULES AND REGULATIONS:</h1><p>\ It consists of only one round.<br>\
         The participants will be given a given a movie clipping one hour before the competition.<br>\
         During the competition, the audio of the clipping will be muted, and the participants have to make out their own dialogues and deliver it parallel in sequence with the video and must make it as funny as possible.<br>\
         The clippings will be given in English, Telugu or Hindi as per your choice.<br>\
@@ -1250,14 +1527,40 @@ $('.card').on('click',function () {
         <h1>JUDGING CRITERIA:</h1><p>\
         Dialogue presentation<br>\
         Creativity</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.2,000.</p>\
         <h1>ORGANISERS:</h1>\
+        <p>Will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var film = "<h1 style='text-align:center'>Film Fare Fiesta: A Short film Competition</h1><p>Do you think you can take after Steven Spielberg, Christopher Nolan and James Cameron? Make your own short film, enthral and captivate movie buffs with your creativity. The stage at Elan & ηvision 2018 is set for you. Get judged by esteemed people in film industry.</p>\
+    var film = "<h1 style='text-align:center'>Film Fare Fiesta: A Short film Competition</h1>\
+        <h1 style='text-align:center'>Lend Your Voice</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Do you think you can take after Steven Spielberg, Christopher Nolan and James Cameron? Make your own short film, enthral and captivate movie buffs with your creativity. The stage at Elan & ηvision 2018 is set for you. Get judged by esteemed people in film industry.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         The event film fare fiesta is spread over two days.<br>\
         All the entries are judged on the first day to shortlist 6 out of them. These 6 will be judged on second day by esteemed judges.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         Run time should not be more than 20 minutes<br>\
         Movie should be shot at a minimum resolution of 480 pixels. Marks might be reduced due to poor video/ audio quality.<br>\
@@ -1275,33 +1578,85 @@ $('.card').on('click',function () {
         Cinematography<br>\
         Sound editing/ mixing<br>\
         Visual effects<br></p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.5,000.<br>\
         The winning team gets to do another short-film with the Chai Bisket team and the film will be uploaded on YouTube onto the Chai Bisket original channel.</p>\
         <h1>ORGANISERS:</h1><p>\
         Pradhyumna M Dinni - 9492586679<br>\
-        Dinesh Chandra - 7732000655</p>";
-    var picelectic = "<h1 style='text-align:center'>Picelectic: Competition for best pictures taken during Elan & ηvision 2018</h1><p>\
+        Dinesh Chandra - 7732000655</p>\
+        </div>\
+        </div>\
+        </div>\
+        ";
+
+    var picelectic = "<h1 style='text-align:center'>Picelectic: Competition for best pictures taken during Elan & ηvision 2018</h1>\
+        <h1 style='text-align:center'>Lend Your Voice</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>\
         Portray your photography skills by shooting pictures in,on and about Elan & ηvision 2018. There will be 2 winners announced each day of the 3 days the fest goes on. The pictures can be submitted any time near the counter that is allocated.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         There are no online registrations for this event.<br>\
         There are only on-spot registrations available for this event.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         The captures must be only during the 3 days of the Elan & ηvision 2018 fest and only inside IIT Hyderabad premises.<br>\
         The pics must be taken only using a Digi-cam or a Bluetooth enabled mobile (for transfer purpose).<br>\
         Winner is judged according to the moments captured in the best way.<br>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.3,000.</p>\
         <h1>ORGANISERS:</h1>\
+        <p>Will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var art = "<p>Ever visited an art gallery? Ever checked out those portraits costing so much? Which one of those trillion random colour strokes on the canvas you think makes it so expensive? It's all about language of the heart which uses the paints and a brush to put the emotions flowing in a river of imagination on the canvas. And that is \"ART\".</p>\
-        <h1>'EVERYTHING YOU CAN IMAGINE IS REAL' - Pablo Picasso</h1><p>\
+    var art = "<h1 style='text-align:center'>Arts Exhibtioon</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Ever visited an art gallery? Ever checked out those portraits costing so much? Which one of those trillion random colour strokes on the canvas you think makes it so expensive? It's all about language of the heart which uses the paints and a brush to put the emotions flowing in a river of imagination on the canvas. And that is \"ART\".</p>\
+        <p>'EVERYTHING YOU CAN IMAGINE IS REAL' - Pablo Picasso</p><p>\
         <p>Art is an expression,a representation of what a person's vivid thoughts and emotions speak. Every stroke of the brush dipped, every colour chosen, every shade painted, has its own meaning. So here is Elan & ηvision 2018 encouraging you to come up with your meaningful strokes to be a part of its colourful art gallery. The gallery is open to everyone throughout the fest.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         Registrations can be done online or on the spot.<br>\
         Participants are to submit finished works of art.<br>\
         Paintings will be exhibited throughout the fest in Elan & ηvision 2018 gallery.<br>\
         The three best paintings will be selected and prizes will be announced on the last day of the fest.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         Paintings can be either brought in person or can be sent by post.<br>\
         Entries that are received on or before 9 Feb 2018 will be evaluated. Those received through post during Elan & ηvision 2018 will not be evaluated, only those received in person are evaluated.<br>\
@@ -1312,11 +1667,34 @@ $('.card').on('click',function () {
         Topic chosen<br>\
         Creativity<br>\
         Coloration Skills</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.16,000.</p>\
         <h1>ORGANISERS:</h1><p>\
-        Vignatha - 9121386955</p>";
-    var face ="<h1>Face Painting:</h1><p>Wanna have some fun with painting?. You think you can have a face funkier than infamous \"THE MASK\". Then here's something interesting for you. Elan & ηvision 2018's Face Painting is back! . Grab a brush and make your friend's face funny and beautiful.</p>\
+        Vignatha - 9121386955</p>\
+        </div>\
+        </div>\
+        </div>\
+        ";
+    var face ="<h1>Face Painting:</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Wanna have some fun with painting?. You think you can have a face funkier than infamous \"THE MASK\". Then here's something interesting for you. Elan & ηvision 2018's Face Painting is back! . Grab a brush and make your friend's face funny and beautiful.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         Registrations will be done on the spot during Elan & ηvision 2018.<br>\
         Each Team must consist of 2 members.<br>\
@@ -1325,17 +1703,42 @@ $('.card').on('click',function () {
         Tissues<br>\
         The event goes on for all the three days during the fest.<br>\
         Winners will be declared for each of the three days.<br></p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         There are no theme constraints. All kinds of themes and patterns are allowed.<br>\
         Participants should use only the materials provided by the organizers.<br>\
         Decision of judge and the organisers shall be final and abiding.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\ Creativity<br>\
         Time taken<br></p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.1,000.</p>\
         <h1>ORGANISERS:</h1>\
+        <p>Will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var nail ="<h1>Nail Art</h1><p>Can you add your intricate details creatively on much smaller canvas like finger nails? Then come, show up your talent in 'Nail Art' of Elan & ηvision 2018!!</p>\
+    var nail ="<h1>Nail Art</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Can you add your intricate details creatively on much smaller canvas like finger nails? Then come, show up your talent in 'Nail Art' of Elan & ηvision 2018!!</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         Registrations will be done on the spot during Elan & ηvision 2018.<br>\
         Each Team must consist of 2 members.<br>\
@@ -1343,6 +1746,8 @@ $('.card').on('click',function () {
         Nail art pens<br>\
         The event goes on for all the three days during the fest.<br>\
         Winners will be declared for each of the three days.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         Contestants shall use only the paints provided to them by the organizers.<br>\
         There will be a time limit of 7 minutes and you should complete in that time.<br>\
@@ -1350,15 +1755,41 @@ $('.card').on('click',function () {
         <h1>JUDGING CRITERIA:</h1><p>\ Neatness<br>\
         Time duration<br>\
         Attractiveness</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.1,000.</p>\
+        <h1>Organizers</h1>\
+        <p>Will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var mehendi ="<h1>Mehendi Art</h1><p>Mehndi adorns the hands and Life takes on a new color. So let the henna flow out of your cones and let's see what color it brings to your life.</p>\
+    var mehendi ="<h1>Mehendi Art</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Mehndi adorns the hands and Life takes on a new color. So let the henna flow out of your cones and let's see what color it brings to your life.</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1>\
         <p>Registrations will be on the spot during Elan & ηvision 2018.<br>\
         Each Team must consist of 2 members.<br>\
         Mehendi cones will be provided by the organisers.<br>\
         Designs are of your own choice.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         There will be a time limit of 1 hour.<br>\
         There is no limit on the number of cones. You can use as many as you want<br>\
@@ -1367,25 +1798,74 @@ $('.card').on('click',function () {
         <h1>JUDGING CRITERIA:</h1><p>\ Attractivness<br>\
         Creativity<b>\
         Neatness </p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.1,000.</p>\
         <h1>ORGANISERS:</h1>\
+        <p>Will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var clay = "<h1 style='text-align:center'>Clay Modelling</h1><p>Come! Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay! Win exciting prizes!!</p>\
+    var clay = "<h1 style='text-align:center'>Clay Modelling</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Come! Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay! Win exciting prizes!!</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\ Registrations will be on the spot during Elan & ηvision 2018<br>\
         The following materials will be provided to you<br>\ Polymer clay<bR>\
         Paints (if required)<br>\
         One can select his/her own theme or model. Every participant will be given limited amount of clay and time, so one has to really plan out his model so as to not run out of clay.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\ The amount of clay and paint provided will be limited.Team size should be less than 3.<br>\
         The final results will be announced on the final day of Elan & ηvision 2018.<br>\
         The decision of the organisers and judges is final and abiding to all.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\ Creativity<br>\
         Finishing </p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.1,000.</p>\
         <h1>ORGANISERS:</h1>\
+        <p>will be updated soon</p>\
+        </div>\
+        </div>\
+        </div>\
         ";
-    var rj = "<h1 style='text-align:center'>RJ Hunt: Competition for pro RJ s</h1><p>Ever been called a chatterbox? If you are good at entertaining your friends with non-stop, animated, energetic chatter, here's the right platform to test how good you are! Entertain the crowd, and you might probably find yourself among the RJ legends! A ramp to your RJ ying future!</p>\
+    var rj = "<h1 style='text-align:center'>RJ Hunt: Competition for pro RJ s</h1>\
+        <h1 style='text-align:center'>Clay Modelling</h1>\
+        <ul  class='nav nav-tabs'>\
+        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        </li>\
+        </ul>\
+        <div class='tab-content'>\
+        <div class='tab-pane active' id='1a'>\
+        <h1>Introduction</h1>\
+        <p>Ever been called a chatterbox? If you are good at entertaining your friends with non-stop, animated, energetic chatter, here's the right platform to test how good you are! Entertain the crowd, and you might probably find yourself among the RJ legends! A ramp to your RJ ying future!</p>\
+        </div>\
+        <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
         The event will be conducted in three rounds-on-spot,interview and finals.<br>\
         For the on-spot round,the participants would be given a random topic to speak on for 2 minutes.<br>\
@@ -1393,6 +1873,8 @@ $('.card').on('click',function () {
         These 10 candidates will be interviewed by asking questions and giving them situations.<br>\
         5 candidates will be selected for the final round.<br>\
         In final round, the contestant will have to host a show like an actual RJ does . The Contestants are expected to entertain the audiences by telling stories, current affairs (about Elan & ηvision 2018 ), cinema news, etc. Each contestant has to perform for maximum of 20 minutes.</p>\
+        </div>\
+        <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\ Registrations can be done online or On Spot.<br>\
         On Spot Registrations will close 1 hour before the commencement of the event<br>\
         This is an individual event.<br>\
@@ -1404,10 +1886,16 @@ $('.card').on('click',function () {
         Sense of humour<br>\
         Voice<br>\
         Tone of speech</p>\
+        </div>\
+        <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.7,000.</p>\
         <h1>ORGANISERS:</h1><p>\
-        Swetha Gummala - 9618110220</p>";
+        Swetha Gummala - 9618110220</p>\
+        </div>\
+        </div>\
+        </div>\
+        ";
     var lan = "<h1 style='text-align:center'>Lan Gaming</h1><h1>ABOUT</h1>\
         <p>'Fire in the hole'.  If you know what I mean,<br>\
         Come join us for a fun filled day of gaming.<br>\
