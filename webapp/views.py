@@ -12,7 +12,15 @@ from django.core.mail import EmailMessage
 from django.conf import settings
 from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
+from django.shortcuts import render_to_response
+from django.template import RequestContext
 
+
+def handler404(request):
+    response = render_to_response('404.html', {},
+                              context_instance=RequestContext(request))
+    response.status_code = 404
+    return response
 # Create your views here.
 def index(request):
 	if request.user.is_authenticated():
