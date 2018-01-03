@@ -480,7 +480,7 @@ sup {
 		left:0px;
 		transform: rotate(180deg);
 }
-#msection3:after{
+/*#msection3:after{
 	background:
 					linear-gradient(-45deg, transparent 16px, #aad4b3 0),
 					linear-gradient(45deg, transparent 16px, #aad4b3  0);
@@ -497,7 +497,7 @@ sup {
 		top:0px;
 		left:0px;
 		transform: rotate(180deg);
-}
+}*/
 #msection3{
 	background-color: #ffe09c;
 	color: #194853;
