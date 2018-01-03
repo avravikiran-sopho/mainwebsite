@@ -735,8 +735,6 @@ h1{
 	position: absolute;
 	z-index: 10002;
 	left: 50%;
-	top: calc(50% - 100px);
-
 }
 .titleslide .title{
 	width: 100%;
