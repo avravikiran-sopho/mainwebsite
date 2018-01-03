@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR">
+<html lang="fr-FR">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -20,9 +20,6 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<title>Elan & &eta;Vision 2018 : Techno-cultural fest of IIT Hyderabad</title>
-<link rel='dns-prefetch' href='http://maps.googleapis.com/' />
-<link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
-<link rel='dns-prefetch' href='http://s.w.org/' />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
@@ -461,7 +458,8 @@ Everything to have you sway with the beat.</p>
 <div class="section7">
 	<div class="textOverparallax">
 		{% if user.is_authenticated %}
-		<p><p><p><p><a href="/login/logout"><button class="btn1"><span>LOG OUT</span></button></a></p></p></p>
+		<h1>Register for events</h1>
+		<p><p><p><p><a href="/login/logout"><button class="btn1"><span>Log Out</span></button></a></p></p></p>
 		<p>Don't forget to visit again..</p>
 		{% else %}
 		<h1>Register now!</h1>
@@ -470,8 +468,8 @@ Everything to have you sway with the beat.</p>
 		{% endif %}
 	</div>
 
-	<div class="parallax-window" style="background-image:url('{% static 'img/home/30.png' %}');">
-
+	<div>
+		<img style="width: 40%;margin-left: 40%;" src="{% static 'img/home/30.png' %}">
 	</div>
 </div>
 <div class="section11" style="display:none">
