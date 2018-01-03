@@ -2100,7 +2100,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement</h1>\
-        <p>Problem statements are at <a href='elan.org.in/elmatrico'>elan.org.in/elmatrico</a> </p>\
+        <p>Problem statements are at <a href='/elmatrico'>elan.org.in/elmatrico</a> </p>\
         </div>\
         <div class='tab-pane' id='3a'>\
           <h1>ELMATRICO RULES</h1><p>\
