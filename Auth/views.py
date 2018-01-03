@@ -39,7 +39,7 @@ def Login(request):
 				print user.id
 				login(request,user)
 				profile = Profile.objects.get(user = user)
-				return HttpResponseRedirect("/newsite/dashboard")
+				return HttpResponseRedirect("/dashboard")
 			else:
 				message = "username or password is incorrect"
 				# raise forms.ValidationError("Invalid username or password")
@@ -103,7 +103,7 @@ def Register(request):
 					user.is_active = True
 					user.save()
 					login(request,user)
-					return HttpResponseRedirect("/newsite/dashboard")
+					return HttpResponseRedirect("/dashboard")
 			else:
 				message = "Password dont match"
 			return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm,'message':message,'register':register})
@@ -148,7 +148,8 @@ def activate(request, uidb64, token):
         user.save()
         profile = Profile.objects.get(user = user)
         login(request, user)
-        return render(request,'webapp/linkconfirm.html',{'profile':profile})
+        message = "Your account is activated."
+        return render(request,'webapp/linkconfirm.html',{'profile':profile,'message':message})
     else:
         return HttpResponse('Activation link is invalid!')
 

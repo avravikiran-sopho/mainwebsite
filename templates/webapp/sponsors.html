@@ -7,7 +7,27 @@
     <link href="{% static 'css/sponsors.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" /> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
- 
+    <style type="text/css">
+      .logo-div {
+          width: 100%;
+          text-align: center;
+        }
+        .logo {
+          width: 30%;
+        }
+        @media(max-width: 768px){
+
+  .logo-div {
+      width: 50%;
+      margin: auto;
+    }
+
+    .logo {
+      width: 100%;
+    }
+}
+
+    </style>
   <!--Body section-->
     <!--Commenting out the navbar
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -60,10 +80,10 @@
 </div>
         <!-- nav ends -->
 
-    <div class="container" style="margin-top: 20%;">
-        <p class="text-center heading logo"><img src="{% static 'img/logo.png' %}" style="width:32.5%; height:32.5%;"> Sponsors 2018</p>
+    <div class="logo-div">
+      <a href="/"><img src="/static/img/logo.png" class="logo"></a>
     </div>
-    <div class= "container" style="text-align: center;margin-top: 25%;">
+    <div class= "container" style="text-align: center;">
 
         <div class="row">
             <div class="col-sm-4 offset-sm-4" align="center">

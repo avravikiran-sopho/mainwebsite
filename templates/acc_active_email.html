@@ -1,6 +1,18 @@
 {% autoescape off %}
-Hi,you have register for Elan&Nvision2018 with this mail id: {{ user.username }},
-Please click on the link to confirm your registration,
+
+Hi,
+
+Thanks for your interest in Elan & nVision.
+
+You have registered for Elan&Nvision2018 with this mail id: {{ user.username }}.
+
+Please click on the link below to confirm your registration:
 
 http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+
+Regards,
+
+Team Elan & nVision 2k18
+
 {% endautoescape %}
