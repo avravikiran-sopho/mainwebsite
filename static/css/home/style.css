@@ -143,9 +143,9 @@ a:hover{
 
 hr {
 	border: 0;
-	height: 3px;
-	width:25%;
-	background-color:#555;
+	height: 1px;
+	width:90%;
+	background-color:#fff;
 
 
 }
@@ -952,7 +952,7 @@ h1{
 	text-align: center;
 	text-align: center;
     font-size: 2em;
-    line-height: 25px;
+    line-height: 30px;
     width: 80%;
     margin: auto;
     color: white;
@@ -1041,7 +1041,7 @@ h1{
 
 .imgList{
 	display: table;
-	height: 400px;
+	height: 65%;
 	width: 100%;
 	max-width: 1800px;
 	margin: auto;
@@ -1090,7 +1090,7 @@ h1{
 	max-width: 450px;
 	position: absolute;
 	font-size: 2em;
-    line-height: 30px;
+    line-height: 40px;
     width: 80%;
     margin: auto;
     color: white;
@@ -1111,7 +1111,7 @@ h1{
 
 .section3 .textOverparallax{
 	z-index: 16;
-	bottom: 60%;
+	bottom: 50%;
     left: calc(20% - 200px);
 }
 
@@ -1122,6 +1122,14 @@ h1{
 
 }
 
+.socialtext {
+	font-size: 1em;
+    color: white;
+    line-height: 30px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: BernardoModa;
+}
 
 .parallax-window{
 	background-size: cover;
@@ -1157,7 +1165,7 @@ h1{
 }
 .section4 .textOverparallax{
 	z-index: 16;
-	top: 60%;
+	top: 50%;
     left: 50%
 }
 
@@ -1860,7 +1868,7 @@ a.rslides_nav.rslides1_nav.prev {
 .section9 .paragraph{
 
 	position: absolute;
-	bottom: 112vh;
+	bottom: 100vh;
     left: calc(55% - 10px);
 }
 .paragraph h1{
