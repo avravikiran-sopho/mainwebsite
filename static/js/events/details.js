@@ -65,7 +65,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize:</h1>\
-          <p>INR 10,000/-</p>\
+          <p>Prizes Worth INR 10,000/-</p>\
           <h1>Organisers:</h1>\
           <p>Will be updated soon</p>\
           <h1>Contact:</h1>\
@@ -108,7 +108,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 5,000/-</p>\
+        <p>Prizes Worth INR 5,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Will be updated soon\
         </p>\
@@ -197,7 +197,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-         <p>INR 10,000/-</p>\
+         <p>Prizes Worth INR 10,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -248,7 +248,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 10,000/-</p>\
+        <p>Prizes Worth INR 10,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -294,7 +294,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 24,000/-</p>\
+        <p>Prizes Worth INR 24,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -336,7 +336,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 4,000/-</p>\
+        <p>Prizes Worth INR 4,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Keshav Chouksey</p>\
         <p>+91 9424485766</p>\
@@ -376,7 +376,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 4,000/-</p>\
+        <p>Prizes Worth INR 4,000/-</p>\
         <h1>Organizers</h1>\
         <p>Keshav Chouksey</p>\
         <p>+91 9424485766</p>\
@@ -426,7 +426,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 15,000/-</p>\
+        <p>Prizes Worth INR 15,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -464,7 +464,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 60,000/-\ </p>\ <h1>Organisers</h1>\
+        <p>Prizes Worth INR 60,000/-\ </p>\ <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
@@ -498,7 +498,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p> INR 60,000/-\
+        <p> Prizes Worth INR 60,000/-\
         </p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
@@ -539,7 +539,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize:</h1>\
-        <p>INR 45,000/-</p>\
+        <p>Prizes Worth INR 45,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -586,7 +586,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 30,000/-</p>\
+        <p>Prizes Worth INR 30,000/-</p>\
         <h1>Organisers:</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -621,7 +621,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 15,000/-</p>\
+        <p>Prizes Worth INR 15,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -685,7 +685,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1><p>\
-        INR 20,000/-</p>\
+        Prizes Worth INR 20,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -742,7 +742,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1><p>\
-        INR 10,000/-</p>\
+        Prizes Worth INR 10,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -788,7 +788,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize:</h1><p>\
-        INR 10,000/-</p>\
+        Prizes Worth INR 10,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -831,7 +831,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1><p> \
-        INR 20,000/-\
+        Prizes Worth INR 20,000/-\
         </p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
@@ -873,7 +873,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize</h1><p> \
-        INR 20,000/-</p>\
+        Prizes Worth INR 20,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -916,7 +916,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize: </h1><p> \
-        INR 12,000/-</p>\
+        Prizes Worth INR 12,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -962,7 +962,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize: </h1><p> \
-        Prize:INR 3,000/-</p>\
+        Prize Worth: INR 3,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -1006,7 +1006,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize:</h1><p>\
-        Prize:INR 3,000/-</p>\
+        Prize Worth: INR 3,000/-</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -1057,7 +1057,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize:</h1>\
-          <p>INR 10,000/-</p>\
+          <p>Prizes Worth INR 10,000/-</p>\
           <h1>Organisers:</h1>\
           <p>Will be updated soon</p>\
           <h1>Contact:</h1>\
@@ -2120,7 +2120,7 @@ $('.card').on('click',function () {
         shivarag@elan.org.in<br>\
         91-8885011011</p>\
         <h1>Prize</h1>\
-        <p>INR 5000/-</p>\
+        <p>Prizes Worth INR 5000/-</p>\
         <h1>Contact:</h1>\
           <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -2167,7 +2167,7 @@ $('.card').on('click',function () {
         me15btech11006@iith.ac.in<br>\
         7660801623</p>\
         <h1>Prize</h1>\
-        <p>INR 60,000/-</p>\
+        <p>Prizes Worth INR 60,000/-</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -2213,7 +2213,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>INR 20,000/-</p>\
+        <p>Prizes Worth INR 20,000/-</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
