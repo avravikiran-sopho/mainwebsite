@@ -410,22 +410,7 @@ Everything to have you sway with the beat.</p>
 		<div class="parallax-window"><img src=""></div>
 	</div>
 </div>
-<div class="section7">
-	<div class="textOverparallax">
-		{% if user.is_authenticated %}
-		<p><p><p><p><a href="/login/logout"><button class="btn1"><span>LOG OUT</span></button></a></p></p></p>
-		<p>Don't forget to visit again..</p>
-		{% else %}
-		<h1>Register now!</h1>
-		<p>Sign up now to register events.</p>
-		<p><p><p><p><a href="/login"><button class="btn1"><span>Sign Up</span></button></a></p></p></p>
-		{% endif %}
-	</div>
 
-	<div class="parallax-window" style="background-image:url('{% static 'img/home/30.png' %}');">
-
-	</div>
-</div>
 <div class="section8" style="display:none">
 	<ul class="slideshow">
 					<li><div class="slide img0" style="background:#fff');" ></div></li>
@@ -471,6 +456,22 @@ Everything to have you sway with the beat.</p>
 				<h1>Lorem ipsum</h1>
 		<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 </p>
+	</div>
+</div>
+<div class="section7">
+	<div class="textOverparallax">
+		{% if user.is_authenticated %}
+		<p><p><p><p><a href="/login/logout"><button class="btn1"><span>LOG OUT</span></button></a></p></p></p>
+		<p>Don't forget to visit again..</p>
+		{% else %}
+		<h1>Register now!</h1>
+		<p>Sign up now to register events.</p>
+		<p><p><p><p><a href="/login"><button class="btn1"><span>Sign Up</span></button></a></p></p></p>
+		{% endif %}
+	</div>
+
+	<div class="parallax-window" style="background-image:url('{% static 'img/home/30.png' %}');">
+
 	</div>
 </div>
 <div class="section11" style="display:none">

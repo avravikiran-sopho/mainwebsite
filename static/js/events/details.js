@@ -645,23 +645,17 @@ $('.card').on('click',function () {
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
-        <pEver dreamt of building your own rocket prototype and flying it.\ Here’s your chance.Take your first big step to propel yourself into the world of aerodynamics.\
+        <p>Ever dreamt of building your own rocket prototype and flying it. \
+        Here’s your chance. \
+        Take your first big step to propel yourself into the world of aerodynamics.\
         In this event, participants have to build a Water rocket which is pressurised by compressed air.\
-        Be a Newton and test the Third law for yourselves.\
+        'Be a Newton and test the Third law for yourselves'\
         </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1><p>\
-        The participants are required to design and build a water rocket (single stage/multi stage) that is completely powered by the thrust provided by compressed air in the bottle and using water as the fuel .\
+        The participants are required to design and build a water rocket (single stage/multi stage) that is completely powered by the thrust provided by compressed air in the bottle and using water as the fuel \
         <br><a  href='/static/pdf/aquanaut.pdf'><button class='btn2'>Problem statement PDF</button></a>\
-        <h1>Judging Criteria :</h1>\
-        <p>Round 1-<br>\
-        The rocket has to be launched so that it covers a minimum distance of 45 meters and withminimum deviation from the center line.<br>\ Five teams with minimum deviation from center line will be qualified for the second round.<br>\
-        Round 2-<br>\
-        The following formula will be used for judging the winners of the event in the second round.<br>\
-        Total Points earned = 3*Range of projectile (in meters) -7*deviation from center line (inmeters)<br>\
-        For example ,if range(A)=50;range(B)=57 and deviation(A)=5;deviation(B)=8<br>\
-        Both participants get the same score of 115.<br></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Rules and Regulations:</h1><p>\
