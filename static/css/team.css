@@ -148,13 +148,13 @@ li {
 
 .card-content {
   margin: 1%;
-  font-size: 14px;
+  font-size: 0.8em;
   height: 25%;
 }
 
 .img-div {
   float: left;
-  width: 40%;
+  width: 35%;
   margin: 2% 0;
 }
 
@@ -172,6 +172,22 @@ a {
 .logo {
   width: 100%;
 }
+
+body::-webkit-scrollbar-track
+{
+  display: none;
+}
+
+body::-webkit-scrollbar
+{
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  display: none;
+}
+
 * html ul {position:absolute;left:expression(0+((e=document.documentElement.scrollLeft)?e:document.body.scrollLeft)+'px');} 
 * html {background:url(fake.jpg)}
 * html #full {height:100%;}
