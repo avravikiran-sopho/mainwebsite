@@ -19,12 +19,42 @@
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Amaranth|Courgette" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
 
 
 
 <style type="text/css">
     
+h1.domaintitle {
+  font-family: 'BernardoModaSemibold'!important;
+  font-size:3em;
+  text-transform: uppercase;
+}
+
+.cultidomains{
+  font-family: 'BernardoModaSemibold'!important;
+  font-size: 2em;
+  margin-top: 2em;
+}
+.text{
+    font-family: 'Josefin Sans';
+    font-size: 1.5em;
+}
+
+.card{
+    transition: all 0.2s ease;
+}
+
+    .card:hover{
+      transform: scale(1.2,1.2);
+    z-index: 9999;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 40px 1px rgba(218,252,255,0.77);
+    -moz-box-shadow: 0px 0px 40px 1px rgba(218,252,255,0.77);
+    box-shadow: 0px 0px 40px 1px rgba(218,252,255,0.77);
+    }
 
 </style>
     <!--<h1>{{ user.username }}</h1>
@@ -72,13 +102,13 @@
             <div class="col-xs-2 down-parallelogram" id="pr1" >
                 <img class="img-display" src="{% static 'img/events/culti.jpg' %}" alt="technical" >
                 <div class="img-overlay pr1" id="cultimg">
-                    <div class="text">Cultural</div>
+                    <div class="text">Culti</div>
                 </div>
             </div>
             <div class="col-xs-2 col-xs-2-mod up-parallelogram" id="pr2">
                 <img class="img-display" src="{% static 'img/events/techy.jpg' %}" alt="technical">
                 <div class="img-overlay" id="techimg">
-                    <div class="text">Technical</div>
+                    <div class="text">Techy</div>
                 </div>
             </div>
             <div class="col-xs-2 col-xs-2-mod down-parallelogram" id="pr5">
@@ -104,11 +134,11 @@
     </div>
 
     <div class="navbtn">
-        <img src="{% static 'img/events/up.png' %}" class="navimg1">
+        <img src="{% static 'img/events/down-arrow.png' %}" class="navimg1">
         <!-- <img src="{% static 'img/events/up.png' %}" class="navimg1" width="50px" style="float:right"> -->
     </div>
     <div class="navbtn navbtnr">
-        <img src="{% static 'img/events/up.png' %}" class="navimg1">
+        <img src="{% static 'img/events/down-arrow.png' %}" class="navimg1">
         <!-- <img src="{% static 'img/events/up.png' %}" class="navimg1" width="50px" style="float:right"> -->
     </div>
 
@@ -133,7 +163,7 @@
     </div>
 
     <div class="card-column" id="litrdiv" style="margin-top: 2%;width: 60%;">
-        <h1 class="domain_title">Litr</h1><hr>
+        <h1 class="domaintitle">Litr Events</h1><hr>
         <div class="card-column" id="litrisotope" style="margin-top: 2%;width: 60%;">
         <div class="card text-center" id="detective">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/mrdetective.jpg' %}" alt="Card image cap">
@@ -151,7 +181,7 @@
     </div>
 
     <div class="card-column" id="infidiv" style="margin-top: 2%;width: 60%;">
-        <h1 class="domain_title">Infi</h1><hr>
+        <h1 class="domaintitle">Infi</h1><hr>
         <div class="card-column" id="infiisotope" style="margin-top: 2%;width: 60%;">
         <div class="card text-center" id="lan">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic15.jpg' %}" alt="Card image cap">
@@ -226,7 +256,7 @@
     </div>
 
     <div class="card-column" id="biggiesdiv" style="margin-top: 2%;width: 60%;">
-        <h1>Biggies</h1><hr>
+        <h1 class="domaintitle">Biggies</h1><hr>
         <div class="card-column" id="biggiesisotope" style="margin-top: 2%;width: 60%;">
         <div class="card text-center" id="manthan">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic2.jpg' %}" alt="Card image cap">
@@ -253,7 +283,7 @@
     </div>
     
     <div class="card-column" id="techdiv" style="margin-top: 2%;width: 60%;">
-        <h1 class="domain_title">Techy</h1><hr>
+        <h1 class="domaintitle">Techy</h1><hr>
         <div class="container button-group filters-button-group" style="">
           <!-- <button class="btn  is-checked" data-filter="*">All</button> -->
           <button class="btn1  is-checked" data-filter=".electronica" id="click"><i class="far fa-lightbulb"></i>&nbsp;ELEKTRONIKA</button>
@@ -472,13 +502,13 @@
           <button class="btn " data-filter=".dance">Dance</button>
           <button class="btn " data-filter=".music">Music</button>
           <button class="btn " data-filter=".drama">Drama</button>
-          <button class="btn " data-filter=".photo">Movie-Making AND Photography</button>
+          <button class="btn " data-filter=".photo">Movie-Making & Photography</button>
           <button class="btn " data-filter=".art">Art</button>
           <button class="btn " data-filter=".radio">Radio Events</button>
         </div> -->
-        <h1 class="domain_title">Culti</h1>
+        <h1 class="domaintitle">Culti</h1>
         <div class="card-column" id="cultisotope">
-        <h1>Dance</h1><hr>
+        <h1 class="cultidomains">Dance</h1><hr>
         <div class="card text-center events dance" id="breakfree">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic4.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -493,7 +523,6 @@
 
             </div>
         </div>
-        <h1>Music</h1><hr>
         <div class="card text-center events dance" id="stepup">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic5.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -501,6 +530,8 @@
 
             </div>
         </div>
+        <h1 class="cultidomains">Music</h1><hr>
+        
         <div class="card text-center events music" id="vibrazione">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic8.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -522,7 +553,7 @@
 
             </div>
         </div>
-        <h1>Drama</h1><hr>
+        <h1 class="cultidomains">Drama</h1><hr>
         <div class="card text-center events drama" id="nukkad">
             <img class="card-img-top img-fluid" src="{% static 'img/events/naatak.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -551,7 +582,7 @@
 
             </div>
         </div>
-        <h1>Movie-Making AND Photography</h1><hr>
+        <h1 class="cultidomains">Movie-Making & Photography</h1><hr>
         <div class="card text-center events photo" id="film">
             <img class="card-img-top img-fluid" src="{% static 'img/events/film.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -566,7 +597,7 @@
 
             </div>
         </div>
-        <h1>Art</h1><hr>
+        <h1 class="cultidomains">Art</h1><hr>
         <div class="card text-center events art" id="face">
             <img class="card-img-top img-fluid" src="{% static 'img/beta/events/portfolio_pic9.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -602,7 +633,7 @@
 
             </div>
         </div>
-        <h1>Radio Events</h1><hr>
+        <h1 class="cultidomains">Radio Events</h1><hr>
         <div class="card text-center events radio" id="rj">
             <img class="card-img-top img-fluid" src="{% static 'img/events/rj.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -619,9 +650,9 @@
 
     <div class="container register-div">
         {% if user.is_authenticated  %}
-        <a class="register-link" href=""><button class="btn1"><i class="fas fa-sign-in-alt"></i>&nbsp;Register</button></a>
+        <a class="register-link" href="/login"><button class="btn2"><i class="fas fa-sign-in-alt"></i>&nbsp;Register</button></a>
         {% else %}
-        <a  href="/login"><button class="btn1"><i class="fas fa-sign-in-alt"></i>&nbsp;Login To Register</button></a>
+        <a  href="/login"><button class="btn2"><i class="fas fa-sign-in-alt"></i>&nbsp;Login To Register</button></a>
         {% endif %}
     </div>
 
@@ -872,7 +903,7 @@
       }
       else {
         $('.events-box').slideToggle('slow');
-        $('.event-details').html('Commin Soon...');
+        $('.event-details').html('Coming Soon...');
         $('#cultdiv').fadeOut('slow');
         $('#techdiv').fadeOut('slow');
         $('#onlinediv').fadeOut('slow');
