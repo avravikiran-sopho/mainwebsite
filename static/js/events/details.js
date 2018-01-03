@@ -2349,7 +2349,7 @@ $('.card').on('click',function () {
 
       
       var id = $(this).attr('id');
-      var link = "/newsite/register/"+id;
+      var link = "/register/"+id;
       console.log(id);
       $('#reglink').attr('href','/register/'+id);
       $('#techdiv').slideUp('slow');
