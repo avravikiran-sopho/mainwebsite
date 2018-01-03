@@ -25,7 +25,7 @@ class ProfileForm(forms.ModelForm):
   city = forms.CharField(widget=forms.TextInput(attrs=
     {'name':"city",'id':"city",'placeholder':"City",'rows':"3"}))
   adress = forms.CharField(widget=forms.TextInput(attrs=
-    {'name':"city",'id':"city",'placeholder':"Address",'rows':"3"}))
+    {'name':"city1",'id':"city1",'placeholder':"Address",'rows':"3"}))
   gender = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect(attrs=
     {'name':"gender",'id':"gender",}))
   zipcode = forms.CharField(widget=forms.NumberInput(attrs=
@@ -37,7 +37,7 @@ class ProfileForm(forms.ModelForm):
 
 class RegisterForm(forms.ModelForm):
 	password1 = forms.CharField(widget=forms.PasswordInput(attrs=
-		{'name':'password','id':'password','class':'form-control','placeholder':'Password'}))
+		{'name':'password','id':'password1','class':'form-control','placeholder':'Password'}))
 	password2 = forms.CharField(widget=forms.PasswordInput(attrs=
 		{'name':'confirm-password','id':'confirm-password','class':'form-control','placeholder':'Confirm Password'}))
 	username = forms.CharField(widget=forms.EmailInput(attrs=
