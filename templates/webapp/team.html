@@ -16,12 +16,6 @@
     <!-- Nav -->
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
     <h3 style="margin: 0;"><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
-    <a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-    <a class="nav-link " href="/events"><i class="fa fa-trophy" aria-hidden="true"></i>Events</a>
-    <a class="nav-link" href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
-    <a class="nav-link" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</a>
-    <a class="nav-link is_active" href="/team"><i class="fa fa-users" aria-hidden="true"></i>Team</a>
-    <a class="nav-link" href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>Pronites</a>
     {% if user.is_authenticated %}
     <a class="nav-link" href="/dashboard"><i class="fa fa-id-card" aria-hidden="true"></i>EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
     <a class="nav-link" style="font-size:0.9em;"><i class="fa fa-envelope" aria-hidden="true"></i>{{ user.get_username }}</a>
@@ -29,6 +23,13 @@
     {% else %}
     <a class="nav-link" href="/login"><i class="fa fa-ticket" aria-hidden="true"></i>Register</a>
     {% endif %}
+    <a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+    <a class="nav-link " href="/events"><i class="fa fa-trophy" aria-hidden="true"></i>Events</a>
+    <a class="nav-link" href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
+    <a class="nav-link" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</a>
+    <a class="nav-link is_active" href="/team"><i class="fa fa-users" aria-hidden="true"></i>Team</a>
+    <a class="nav-link" href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>Pronites</a>
+    <a class="nav-link" href="/hackathon"><i class="fa fa-header" aria-hidden="true"></i>Hackathon</a>
     <div class="social">
   <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
   <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
