@@ -46,7 +46,7 @@ $('.card').on('click',function () {
           <p>As the name suggests, the bot has to complete a track having various obstacles. Your bot has to complete the race overcoming and avoiding various obstacles in the least possible time.\
           The participants should prepare a wireless DTMF bot which competes with other bots in an obstacle race.\
           Note: Track for the Obstacle race will be made up of different terrains with obstacles to test the participant’s control of the bot. It’s made wide enough for one bot to navigate freely.\
-          </p>\
+          <br><br><a  href='/static/pdf/dtmf.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1>\
@@ -281,6 +281,7 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
         <p>Participants have to design a Bridge using Popsicle sticks (icecream sticks) satisfying the given constraints.<br>\
+        <br><a  href='/static/pdf/bridge.pdf'><button class='btn2'>Problem statement PDF</button></a>\
         Event Format:<br>\
         1.There will be only one round in which bridges will be tested.<br>2.Participants have to come with their bridges.\
         </div>\
@@ -452,8 +453,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1>\
-        <p>In this event ,the contestants are expected to make to an IC engine powered machine ,that can be controlled remotely using a wireless remote controller, which can race against machines of similar construct on an all-terrain track packed with a number of obstacles.</p>\
-        <p><a href='/static/pdf/driftking.pdf'>Problem statement PDF</a></p>\
+        <p>In this event ,the contestants are expected to make to an IC engine powered machine ,that can be controlled remotely using a wireless remote controller, which can race against machines of similar construct on an all-terrain track packed with a number of obstacles.\
+        <br><br><a  href='/static/pdf/driftking.pdf'><button class='btn2'>Problem statement PDF</button></a>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>General Rules</h1>\
@@ -488,8 +489,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement:</h1><p>\
-        <p>The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.</p>\
-        <p><a href='/static/pdf/robowars.pdf'>Problem statement PDF</a></p>\
+        <p><br><a  href='/static/pdf/aquanaut.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Coming Soon</h1>\
@@ -525,7 +525,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement:</h1>\ <p>Build two bots that can kick a table tennis ball into the opponent’s Goal Post following the rules. Use your creativity and come up with innovative kicking mechanisms to smash the ball into the goal post.</p>\
-        <p><a href='/static/pdf/robosoccer.pdf'>Problem statement PDF</a></p>\
+        <p><br><a  href='/static/pdf/robosoccer.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Judging criteria:</h1>\
@@ -566,7 +566,7 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
         <p>Make a wired/wireless which can float on water and can perform pick-n-place task …Like manipulating cubes and balls…….</p>\
-        <p><a href='/static/pdf/robopirates.pdf'>Problem statement PDF</a></p>\
+        <p><br><a  href='/static/pdf/pirates.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
                 <h1>General Rules</h1><p>\
@@ -612,7 +612,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement</h1>\
-        <p><a href='/static/pdf/linefollowingbot.pdf'>Problem statement PDF</a></p>\
+        <p><br><a  href='/static/pdf/linerobo.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Coming Soon</h1>\
@@ -628,7 +628,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var aquanet = "<h1 style='text-align:center'>Aquanet</h1>\
+    var aquanet = "<h1 style='text-align:center'>Aquanaut</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -643,14 +643,15 @@ $('.card').on('click',function () {
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
-        <p>Ever dreamt of building your own rocket prototype and flying it. Here’s your chance. In this event, participants have to build a Water rocket which is pressurised by compressed air. Water acts as the fuel.</p>\
-        'Be a Newton and test the Third law for yourselves'</p>\
+        <pEver dreamt of building your own rocket prototype and flying it.\ Here’s your chance.Take your first big step to propel yourself into the world of aerodynamics.\
+        In this event, participants have to build a Water rocket which is pressurised by compressed air.\
+        Be a Newton and test the Third law for yourselves.\
+        </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1><p>\
-        1.  The event has two rounds.<br>\
-        2.  The event will take place in an arena of dimensions 100m*50m.<br>\ 3.  A water rocket has to be powered by pressurized water.<br>\
-        4.  The rocket has to be launched so that it has the minimum deviation from the line of projection and minimum deviation from the center line.<br>\ 5.  Two trails will be given to each team (in each round) and the better of the two will be considered. You can use two different models for different rounds.<br>\
+        The participants are required to design and build a water rocket (single stage/multi stage) that is completely powered by the thrust provided by compressed air in the bottle and using water as the fuel .\
+        <br><a  href='/static/pdf/aquanaut.pdf'><button class='btn2'>Problem statement PDF</button></a>\
         <h1>Judging Criteria :</h1>\
         <p>Round 1-<br>\
         The rocket has to be launched so that it covers a minimum distance of 45 meters and withminimum deviation from the center line.<br>\ Five teams with minimum deviation from center line will be qualified for the second round.<br>\
@@ -1659,9 +1660,9 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'>\
         <h1 id='problem'>Problem Statement:</h1><p>\
         The event is based on finding the most agile and fastest drone. The problem statement is simple: pass through three rounds and the team with maximum number of points wins.</p>\
-        </div>\
-        <div class='tab-pane' id='3a'>\
-          <h1 id='rules'>Team Specifications:</h1>\
+        <br><a  href='/static/pdf/quadcopter.pdf'><button class='btn2'>Problem statement PDF</button></a></div>\
+        <div class='tab-pane' id='3a'> \
+        <h1 id='rules'>Team Specifications:</h1> \
         <p>1)Team can have a max of 5 people.<br>\
         2)Participants from a team can be from different colleges.</p>\
         <h1>Certificate Policy:</h1><p>\
@@ -1670,7 +1671,7 @@ $('.card').on('click',function () {
         3)Participation Certificate is not guaranteed for those who registered onspot for the event.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
-          <h1>Organisers</h1><p>\
+        <h1>Organisers</h1><p>\
         <p>Saurav. C<br>\
         es16btech11007@iith.ac.in<br>\
         9618480733<br>\
@@ -1702,6 +1703,8 @@ $('.card').on('click',function () {
         <p>Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering and science. We expect to see some really innovative work. It will be conducted in 2 rounds, selected students in first will give their presentation in final round in ELAN&ηvision 2018.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
+        <h1>Problem Statement</h1>\
+        <p><br><a  href='/static/pdf/paperpt.pdf'><button class='btn2'>Problem statement PDF</button></a></<p>\
         </div>\
         <div class='tab-pane' id='3a'>\
           <h1>Judging Criteria:</h1>\
