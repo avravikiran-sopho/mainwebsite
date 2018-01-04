@@ -1009,67 +1009,145 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition</h1>\
+    var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition(HHI Auditions)</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'><i class='fas fa-question-circle'></i>&nbsp;Event format</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>&nbsp;Group Dance</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'><i class='fas fa-exclamation-triangle'></i>&nbsp;Rules & Regulations</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>&nbsp;Solo Dance</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>&nbsp;Duet</a>\
+        </li>\
+        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#5a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
-          <p>Gear up with your wireless bot. Here comes the race which will test the strength, stability, and cruelty of your bot. It's all about racing towards the finish line through tough terrain by crushing your opponents. Let's see who’s bot is better equipped, better designed to win.\
-          </p>\
-        </div>\
-        <div class='tab-pane' id='2a'>\
-        <h1>Problem statement:</h1>\
-          <p>As the name suggests, the bot has to complete a track having various obstacles. Your bot has to complete the race overcoming and avoiding various obstacles in the least possible time.\
-          The participants should prepare a wireless DTMF bot which competes with other bots in an obstacle race.\
-          Note: Track for the Obstacle race will be made up of different terrains with obstacles to test the participant’s control of the bot. It’s made wide enough for one bot to navigate freely.\
-          <br><br><a  href='/static/pdf/dtmf.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
-        </div>\
-        <div class='tab-pane' id='3a'>\
-        <h1>Event rules:</h1>\
-          1. A team may consist of a maximum of 4 members.<br> \
-          2. All members of team need to register for the event.<br>\
-          3. If a team is not ready when their challenge round is called by the judge, the team forfeits and the opposing team is declared the winner by default.<br>\
-          4. The machine should be controlled by a wireless remote control mechanism throughout the race.<br> \
-          5. Each team is allowed to have only one machine.<br> \
-          6. The machines have to use an onboard power supply. No external power supply will be allowed.<br> \
-          7. Teams shall bring their own power supply for all its machines.<br> \
-          8. Organizer’s decision shall be treated as final and binding on all.<br> \
-          \
-          <h1>Judging criteria:</h1>\
-          <p>The bot which completes the race in the least possible time is declared as winner\
-          </p>\
-        </div>\
-        <div class='tab-pane' id='4a'>\
-          <h1>Prize:</h1>\
-          <p>Prizes Worth INR 10,000/-</p>\
-          <h1>Organisers:</h1>\
-          <p>Will be updated soon</p>\
-          <h1>Contact:</h1>\
-          <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
-          </p>\
-        </div>\
-        </div>\
-        </div>\
-        <p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. </p>\
-        <p>Pick your body up and drop it on the floor<br>\
+        <p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. Breakfree has always been one the most awaited events of Elan & ηvision.It consists of ‘three’ categories, namely:<br>\
+        1.Group Dance<br>\
+        2.Solo Dance<br>\
+        3.Duet<br>\
+        Adding to the enthusiasm of the event,this year Breakfree is associating with HIP-HOP INTERNATIONAL(HHI) INDIA to conduct the regional auditions of Indian Hip Hop Dance Championship for Hyderabad during the three days of the fest.<br>\
+        HIP-HOP INTERNATIONAL(HHI) INDIA is the only International dance platform in India and Indian Hip Hop Dance Championship is India’s most celebrated dance festival.<br>\
+        'Pick your body up and drop it on the floor<br>\
         We never quit, we never rest on the floor<br>\
-        If I ain't wrong we'll probably die on the floor\
-        Lines from Jlo's 'on the floor'\
-        If you really dance from the heart, if dance runs through your veins and if dance is in every minute of your life.... This is where you should be.\ So rise and shine. Dance with energy and Elan & ηvision 2018!!\
-        </p><h1>Group dance-</h1><p> \
-        Coordination is what matters when it comes to a group performance. Break free is one such group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop.</p>\
-        <h1>Solo dance-</h1><p>Got your own dance style you think you've mastered? An event for pro solo dancers, Loose your feet is where you can make the crowd go crazy with those awesome, super cool moves!</p>\
-        <h1>Duet-</h1><p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event.</p>";
+        If I ain't wrong we'll probably die on the floor'<br>\
+        - Lines from Jlo's 'on the floor'.<br>\ If you really dance from the heart, if dance runs through your veins and if dance is in every minute of your life, then this is where you should be!<br>\
+        So rise and dance.<br>\
+        Dance with energy and show us whatchya got!!</p>\
+        </div>\
+        <div class='tab-pane' id='2a'><br>\
+        <p>Coordination is what matters when it comes to a group performance. It is a group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop it.</p>\
+        <h1>EVENT FORMAT:</h1><p>\
+        The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
+        Minimum size of the team-6 and maximum size of the team-30.<br>\
+        All the teams shall participate in the prelims.<br>\
+        For the prelims the teams should mail a recorded dance video of the crew to laxmi.g@elan.org.in.<br>\
+        Twenty five teams will be shortlisted from the video round.<br>\
+        The teams qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
+        During the whole competition, at any given time, minimum of 4  performers should be on the stage and a maximum of 20 performers should be on the stage.<br>\
+        The video sent for the video round should be 4-10 mins long.<br>\
+        The video sent should be shot in a single take without any speed modulations.<br>\
+        The song must be of 6-9 minutes long for finale.<br>\
+        Participants should not perform the song (or part of the song) which was performed during the prelims in the finals. This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.</p>\
+        <h1>REGISTRATION:</h1><p>\
+        Only on-line registrations allowed for this event.<br>\
+        The head of the team should register online with the participant names ,contact number and crew name.<br>\
+        Each team will receive a confirmation mail back with the details of the team.<br>\
+        Teams should bring the print out of the confirmation mail.</p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\
+        Event is only for college students having a valid ID cards.<br>\
+        Each team should contain a head to represent the team.<br>\
+        All forms of dance are permitted.<br>\
+        Each team should contain a minimum of 6 participants.<br>\
+        Organizers will not provide the songs that participants require. Teams should bring their songs in a pendrive.<br>\
+        Teams should bring their own props but they should use them only with the approval of the organizers.<br>\
+        Any kind of fluid or flame is not allowed on the stage.<br>\
+        Each team would be given 3 mins of time for stage rehearsal and a stage setup time of 1 min.<br>\
+        The decision of the organizers and judges shall be final and binding.<br>\
+        The result for the event will be declared immediately after all the performances have been completed.</p>\
+        <h1>JUDGING CRITERIA:</h1><p>\
+        Group coordination<br>\
+        Choreography<br>\
+        Expressions<br>\
+        Versatility<br>\
+        Movement finishing<br>\
+        Timing<br>\
+        Stage utilisation</p>\
+        </div>\
+        <div class='tab-pane' id='3a'><br>\
+        <p>Got your own dance style you think you've mastered?<br>\
+        An event for pro solo dancers, Lose your feet is where you can make the crowd go crazy with those awesome, super cool moves of yours!<br>\
+        <h1>EVENT FORMAT:</h1><p>\
+        The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
+        For the prelims round the contestants should mail the recorded dance video to laxmi.g@elan.org.in.<br>\
+        Ten participants will be shortlisted from the video round.<br>\
+        The participants qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
+        Performance duration should be 3-5 min for prelims and  5-7 min for final.<br>\
+        For prelims and final you have to bring your own song. You cannot repeat dance steps or moves. You can get similar music beats, but not similar dance steps.<br>\
+        Participants should bring their music/song in a pen drive.<br>\
+        You can perform any type of non-classical dance like hip-hop, stepping, popping, etc.</p> <h1>RULES AND REGULATIONS:</h1><p>\
+        Registration must be done online.<br>\
+        Participants should produce their ID card at the registration desk.<br>\
+        Props are allowed but heavy props like chairs, tables can be arranged. But you have to inform the event manager by mail or on phone at least 1 day before event.<br>\
+        No fire, water and heavy objects be used in stage.<br>\
+        No indecency/obscenity will be tolerated on stage.<br>\
+        Judges and coordinators decisions will be final and binding. There are no arguments in this regard.</p>\
+        <h1>JUDGING CRITERIA:</h1><p>\
+        Choreography<br>\
+        Footwork<br>\
+        Finishing of movements<br>\
+        Versatility<br>\
+        Timing and rhythm<br>\
+        Energy level<br>\
+        Stage utilization<br>\
+        Overall impact.<br>\
+        Innovation & originality<br>\
+        </div>\
+        <div class='tab-pane' id='4a'><br>\
+        <p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event</p>\
+        <h1>EVENT FORMAT:</h1><p>\
+        The event consists of two rounds-prelims and finals.<br>\
+        The participants can either register online or on-spot.<br>\
+        All the duos that’ve been registered shall participate in the prelims.<br>\
+        Based on the prelims performances five duos will be shortlisted for finals.<br>\
+        The prelims performance should last 2-5 mins long and the finals should last 1-3 mins long.</p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\
+        The team should consist of two participants irrespective of their gender.<br>\
+        Participants should produce their ID card at the registration desk.<br>\
+        Round 1(preliminary round):<br>\
+        Participants can perform any style of dance for any song of their choice.<br>\
+        Time of performance should not exceed 4 minutes.<br>\
+        Participants will be given an extra time of 1 minute for settling down.<br>\
+        Round 2(final round):<br>\ Participants should dance to the tracks given by the Organizers<br>\
+        Each team will be given time to choreograph for the song, which will not exceed 15 minutes.<br>\
+        An additional time of 2 minutes will be given for settling.<br>\
+        Time of performance should not exceed 3 minutes.<br>\
+        Decision taken by the organisers and the judges will be final and binding.<br>\
+        Props are allowed but heavy props like chairs, tables can be arranged. But you have to inform the event manager by mail or on phone at least 1 day before event.<br>\
+        No fire, water and heavy objects be used in stage.<br>\
+        No indecency/obscenity will be tolerated on stage.</p>\
+        <h1>JUDGING CRITERIA:</h1><p>\
+        Synchronisation<br>\
+        Choreography<br>\
+        Expressions</p>\
+        </div>\
+        <div class='tab-pane' id='5a'>\
+        <h1>PRIZES(Breakfree in total):</h1>\
+        <p>Prizes worth Rs.55,000.</p>\
+        <p>The winners from each category would be selected for the HIP-HOP INTERNATIONAL(HHI) finals which would be held in Mumbai.</p>\
+        <h1>ORGANISERS:</h1><p>\
+        Raktim Goswami - 8255061193<br>\
+        Aniruth - 9952934246<br>\
+        Akshath Loya - 8149987179\
+        </p>\
+        </div>\
+        </div>\
+        </div>\
+        ";
     var nrithyanjali = "<h1 style='text-align:center'>Nrithyanjali: A Classical Dance Competition</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
@@ -1149,7 +1227,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='3a'>\
         </p><h1>RULES AND REGULATIONS:</h1><p>\
-        <h1>RULES AND REGULATIONS:</h1><p>\ All sorts of western dance forms are allowed.<br>\
+        <p>\ All sorts of western dance forms are allowed.<br>\
         Participants should choose only one dance form and choreograph the track accordingly.<br>\
         Any kind of inappropriate behaviour will lead to disqualification.</p>\
         </div>\
@@ -1180,7 +1258,7 @@ $('.card').on('click',function () {
         <p>Wanna put your singing skills to the test? Got a versatile voice that can mesmerize everyone? Put your heart to it and sing your way to glory!.Its a solo singing competition.\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>EVENT FORMAT</h1><p>:\
+        <h1>EVENT FORMAT</h1><p>\
         Registrations can be online or on-spot during Elan & ηvision 2018.<br>\
         This competition consists of 2 rounds- prelims and finals.<br>\
         Depending on the prelims performance 10 participants would be selected for the finals.<br>\
@@ -1207,9 +1285,12 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.10,000.</p>\
+        Prizes worth Rs.15,000.</p>\
+        <p>The winner and the first runner-up of the event will be directly selected for round 2 of ATKT.in Singing Toppers and additionally,top 5 performers will stand a chance to next round depending on the number of views to their videos.</p>\
         <h1>ORGANISERS:</h1><p>\
-        Will be updated soon</p>\
+        Siri Chandana - 9550345920<br>\
+        Prathyusha - 7989240021<br>\
+        Pagadala Karthik - 8790713920</p>\
         </div>\
         </div>\
         </div>\
@@ -1291,12 +1372,6 @@ $('.card').on('click',function () {
         The most awaited event is back with a bang in Elan & ηvision 2018!!<br>\
         For all the aspiring DJ's out there!! Can you mix 'em good enough?!Then what are you waiting for?!!Spin 'em to own 'em!!<br>\
         Battle with the beats! Fight with the tunes! May the best win!This is the War of DJ's, where DJ's compete with each other, on a huge platform, like never before!</p>\
-        <h1>INFRASTRUCTURE SUPPLIED:</h1><p>\
-        A DJ console(Mark I) and mixer<br>\
-        4 bin DJ sound system<br>\
-        Effect lights[sprinklers, lasers, cans, and smoke]<br>\
-        Sound Monitors<br>\
-        2 mics<br></p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
@@ -1319,6 +1394,12 @@ $('.card').on('click',function () {
         Obscenity in any form is strictly prohibited and would lead to disqualification.<br>\
         Decision of organisers and judges will be final and abiding.<br>\
         Style statement will also be rewarded.<br></p>\
+        <h1>INFRASTRUCTURE SUPPLIED:</h1><p>\
+        A DJ console(Mark I) and mixer<br>\
+        4 bin DJ sound system<br>\
+        Effect lights[sprinklers, lasers, cans, and smoke]<br>\
+        Sound Monitors<br>\
+        2 mics<br></p>\
         <h1>JUDGING CRITERIA:</h1><p>\
         Mixing<br>\ Style statement<br>\
         Crowd engagement<br></p>\
@@ -1348,15 +1429,8 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>\
-        The most awaited event is back with a bang in Elan & ηvision 2018!!<br>\
-        For all the aspiring DJ's out there!! Can you mix 'em good enough?!Then what are you waiting for?!!Spin 'em to own 'em!!<br>\
-        Battle with the beats! Fight with the tunes! May the best win!This is the War of DJ's, where DJ's compete with each other, on a huge platform, like never before!</p>\
-        <h1>INFRASTRUCTURE SUPPLIED:</h1><p>\
-        A DJ console(Mark I) and mixer<br>\
-        4 bin DJ sound system<br>\
-        Effect lights[sprinklers, lasers, cans, and smoke]<br>\
-        Sound Monitors<br>\
-        2 mics<br></p>\
+        Haven't you ever wanted to change the way our country functions? Well, it's time to be the change you want to see!<br>\
+        Elan & ηvision 2018 is bringing Forward, Nukkad Natak-A Street Play Competition.<br>\ It is all about creating awareness about social problems that plague our soil and bringing about realization in our youth!</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
@@ -1790,7 +1864,7 @@ $('.card').on('click',function () {
         You will be allowed to put mehendi only one hand.<br>\
         The decision of judges and organisers is final and abiding.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\ Attractivness<br>\
-        Creativity<b>\
+        Creativity<br>\
         Neatness </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
