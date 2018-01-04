@@ -491,7 +491,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement:</h1><p>\
-        <p><br><a  href='/static/pdf/aquanaut.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
+        <p><br><a  href='/static/pdf/robowars.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Coming Soon</h1>\
