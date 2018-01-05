@@ -1,0 +1,127 @@
+
+{% load static %}
+{% include "base.html" %}
+
+<body>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/elmatrico/style.css' %}">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+
+	<script type="text/javascript">
+		{% if message %}
+		alert ( "{{ message }}" );
+		{% endif %}
+	</script>
+	<style type="text/css">
+		.title {
+			font-family: 'Orbitron', sans-serif;
+			text-align: center;
+			font-size: 5em;
+		}
+		@media(max-width:768px){
+			.title {
+				font-size: 2em;
+			}
+		}
+	</style>
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="/">
+	    <img src="{% static 'img/logo.png' %}" width=25% alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <!-- <li class="nav-item">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li> -->
+	      {% if user.is_authenticated %}
+	      <li class="nav-item">
+	        <a class="nav-link">{{ user.get_username }}</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/dashboard">EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/login/logout/">Logout</a>
+	      </li>
+	      {% else %}
+	      <li class="nav-item">
+	        <a class="nav-link" href="/login">Login/SignUp</a>
+	      </li>
+	      {% endif %}
+	    </ul>
+	  </div>
+	</nav>
+	
+	<!-- <div class="container cover" style="margin: auto;text-align: center;"><img src="{% static 'img/el-matrico.png' %}" width=80%;></div>
+	<div class="container cover" style="margin: :auto;text-align: center;"><img src="{% static 'img/mathworks.png' %}" width=60%;></div><br> -->
+	<h1 class="title">CRYPTEX</h1>
+	{% if user.is_authenticated %}
+        <div class="container content" style="margin-bottom:1%;padding: 1%;">		
+		
+    	<div class="container rules" style="display: block">
+			<h3>Judging Criteria:</h3>
+			<!-- <ul style="width:100%;">
+			<li>Correctness of facts.</li>
+			<li>Methods of analysis.</li>
+			<li>Innovativeness of idea.</li>
+			<li>Presentation of solution or ideas.</li>
+			<li>Practical feasibility or implication of ideas.</li>
+			</ul>	 -->
+		</div>
+		<div class="container submission" style="display: block">
+			<h3>Rules:</h3>
+			<ul>
+			<!-- <li>Last date for submission of abstracts January 24, 2018.</li>
+			<li>The abstract should not exceed 500 words.</li>
+			<li>All relevant data and figures must be represented in the paper.</li>
+			<li>Organizers decision will be final and binding.</li>
+			<li>Teams of maximum 3 members are allowed.</li>
+			<li>Short listing will be done based on the abstract.</li>
+			<li>All results will be announced on the website and will be mailed to the team members.</li>
+			<li>Nominal fee will be charged at the time of presentation of paper(if selected).</li>
+			<li>Any abstract that is selected and is not presented shall not qualify for any award.</li> -->
+		</ul>
+		</div>
+	</div>
+		<div class="container question" style="text-align: center;">
+    <p style="width:50%;display:inline-block;text-align:right">Time Remaining:&nbsp;</p><p id="demo" style="text-align:left;width:45%;font-weight:bold;display:inline-block;font-family: 'Quattrocento', serif;"> </p>
+      </div>
+    {% else %}
+	</div>
+	<div class="container content" style="margin-bottom: 10%;">
+    <!-- <p style="text-align:justify">ELAN&ηvision is delighted to announce Paper Presentation which aims to provide a platform for innovation where students  present papers spanning various research topics pertaining to the different branches of engineering and science. We expect to see some really innovative work. The event will be conducted in two rounds and the qualifiers from the 1st round will be presenting their work in the 2nd round during ELAN&ηvision 2018.
+		<h3 style="text-align: center;">Prizes worth INR 20,000/-</h3> -->
+		</p><p style="text-align: center;">Login to read rules and more
+		</p>
+    <p style="text-align: center;"><a href="/login"><button class="btn btn-primary">Login / Sign Up</button></a></p>
+		{% endif %}
+	</div>
+	{% if user.is_authenticated %}
+	
+	<div class="container question" style="text-align: center;margin-bottom:20%">
+	{% if registered %}
+	<p>Events starts soon...</p>
+    <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
+	    {% csrf_token %}
+	    {{ form.as_p }}
+	    <button  class ="btn btn-primary" type="submit">Play</button>
+    </form>
+        
+    {% else %}
+	<p style="margin:auto;width:100%;text-align: center">You haven't registered for this event</p>
+	<p style="text-align: center;"><a href="/register/cryptex"><button class="btn btn-primary">Register for this Event</button></a></p>
+    {% endif %}
+    {% endif %}
+	</div>
+	<div class="footer" style="text-align: center;margin-top: 5%;background-color: #eeeeee;bottom: 0;left:0;position: fixed;width: 100%;">For any technical issues, contact to web@elan.org.in</div>
+</body>
