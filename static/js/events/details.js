@@ -2081,8 +2081,7 @@ $('.card').on('click',function () {
         Travel on a double bass and riff through the jungle which has creatures who are calm like a bomb. Elan is back with its signature Event, the metal battle. Get ready to put the stage on Wildfire.<br>\
         'For those about to rock, we salute you!'' - AC/DC<br>\
         <h1>Event Format</h1>\ <p>This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p>Each band interested in participating should upload their demos/videos to <a   href='https://drive.google.com/drive/folders/1CfX1U7KmDeJQPNSaJeQ7n6xPvQy2Dh6K?usp=sharing'>This Drive</a>\
-        <br>and fill out this <a href=''https://goo.gl/forms/7gxAkYFkM0z9bPZk2>form</a><br>(Do not upload more than 2 videos in the drive link.)</p>\ 
-        Out of this 5 bands will be shortlisted, and will be performing at Elan-e-Jung prelims, Elan 2018.<br>\
+        <br>and fill out this <a href=''https://goo.gl/forms/7gxAkYFkM0z9bPZk2>form</a><br>(Do not upload more than 2 videos in the drive link.)</p>\ Out of this 5 bands will be shortlisted, and will be performing at Elan-e-Jung prelims, Elan 2018.<br>\
         Each band will be given 20 minutes to perform including sound check.</p>\
         <h1>Finals:</h1>\
         <p>Winners of the prelims will go through the finals.<br>\
