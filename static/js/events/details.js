@@ -2255,12 +2255,13 @@ $('.card').on('click',function () {
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
-         <h1>Introduction:</h1>\
-        <p>Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering and science. We expect to see some really innovative work. It will be conducted in 2 rounds, selected students in first will give their presentation in final round in ELAN&ηvision 2018.</p>\
+        <h1>Introduction:</h1>\
+        <p>ELAN&ηvision is delighted to announce Paper Presentation which aims to provide a platform for innovation where students  present papers spanning various research topics pertaining to the different branches of engineering and science. We expect to see some really innovative work. The event will be conducted in two rounds and the qualifiers from the 1st round will be presenting their work in the 2nd round during ELAN&ηvision 2018.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement</h1>\
         <p><br><a  href='/static/pdf/paperpt.pdf'><button class='btn2'>Problem statement PDF</button></a></<p>\
+        <p>Register and submit your abstracts here: <a href='/paperpt'>elan.org.in/paperpt</a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
           <h1>Judging Criteria:</h1>\
