@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'webapp',
     'elmatrico',
     'paperpt',
+    'cryptex',
 ]
 
 MIDDLEWARE = [
