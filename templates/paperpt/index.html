@@ -48,7 +48,7 @@
 	        <a class="nav-link">{{ user.get_username }}</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="/newsite/dashboard">EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
+	        <a class="nav-link" href="/dashboard">EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="/login/logout/">Logout</a>
@@ -127,7 +127,7 @@
         {% endif %}
     {% else %}
     	<p style="margin:auto;width:100%;text-align: center">You haven't registered for this event</p>
-    	<p style="text-align: center;"><a href="/newsite/register/paperpt"><button class="btn btn-primary">Register for this Event</button></a></p>
+    	<p style="text-align: center;"><a href="/register/paperpt"><button class="btn btn-primary">Register for this Event</button></a></p>
     {% endif %}
     {% endif %}
 	</div>
