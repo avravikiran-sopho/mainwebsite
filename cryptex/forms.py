@@ -9,9 +9,14 @@ from django.conf import settings
 class playerForm(forms.ModelForm):
 	pname = forms.CharField(widget=forms.TextInput(attrs=
     {'name':"pname",'id':"pname",'placeholder':"Enter player name"}))
+    
 	class Meta:
 		model = player
 		fields = ('pname', )
 
+
+class answerForm(forms.Form):
+	answer = forms.CharField(widget=forms.TextInput(attrs=
+    {'name':"answer",'id':"answer",'placeholder':"Answer"}))
 
 

@@ -1,0 +1,100 @@
+
+
+{% load static %}
+{% include "base.html" %}
+
+<body>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/elmatrico/style.css' %}">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+
+	<script type="text/javascript">
+		{% if message %}
+		alert ( "{{ message }}" );
+		{% endif %}
+	</script>
+	<style type="text/css">
+		table {
+			color: black;
+		}
+		.title {
+			font-family: 'Orbitron', sans-serif;
+			text-align: center;
+			font-size: 5em;
+		}
+		@media(max-width:768px){
+			.title {
+				font-size: 2em;
+			}
+		}
+	</style>
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="/">
+	    <img src="{% static 'img/logo.png' %}" width=25% alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <!-- <li class="nav-item">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li> -->
+	      {% if user.is_authenticated %}
+	      <li class="nav-item">
+	        <a class="nav-link">{{ user.get_username }}</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/dashboard">EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
+	      </li>
+	       <li class="nav-item">
+	        <a class="nav-link" href="/cryptex">Cryptex</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/login/logout/">Logout</a>
+	      </li>
+	      {% else %}
+	      <li class="nav-item">
+	        <a class="nav-link" href="/crptex">Cryptex</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/login">Login/SignUp</a>
+	      </li>
+	      {% endif %}
+	    </ul>
+	  </div>
+	</nav>
+	
+	<h1 class="title">CRYPTEX <span style="font-family: sans-serif;">Leaderboard</span></h1>
+	<div>
+		<table class="table" style="text-align: center;width: 100%;">
+
+          <tbody>
+            <tr>
+              <td style="font-size:2.5em;font-family: BernardoModaSemibold;">Rank</td>
+              <td style="font-size:2.5em;font-family: BernardoModaSemibold;">Nickname</td>
+              <td style="font-size:2.5em;font-family: BernardoModaSemibold;">Level</td>
+            </tr>
+            {% if ordered_players %}
+            {% for player in ordered_players %}
+            <tr>
+            	<td>{{ forloop.counter }}</td>
+            	<td>{{ player.pname }}</td>
+            	<td>{{ player.level }}</td>
+            </tr>
+            {% endfor %}
+            {% else %}
+            <tr><td>Coming </td></tr>
+            {% endif %}
+          <tbody>
+        </table>
+	</div>
+	<div class="footer" style="text-align: center;margin-top: 5%;background-color: #eeeeee;bottom: 0;left:0;position: fixed;width: 100%;">For any technical issues, contact to web@elan.org.in</div>
+</body>
