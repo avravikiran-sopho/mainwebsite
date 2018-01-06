@@ -71,16 +71,16 @@
 		
 		<div class="container submission" style="display: block">
 			<h3>Rules:</h3>
-			<!-- <ul>
-			<li>Last date for submission of abstracts January 24, 2018.</li>
-			<li>The abstract should not exceed 500 words.</li>
-			<li>All relevant data and figures must be represented in the paper.</li>
-			<li>Organizers decision will be final and binding.</li>
-			<li>Teams of maximum 3 members are allowed.</li>
-			<li>Short listing will be done based on the abstract.</li>
-			<li>All results will be announced on the website and will be mailed to the team members.</li>
-			<li>Nominal fee will be charged at the time of presentation of paper(if selected).</li>
-			<li>Any abstract that is selected and is not presented shall not qualify for any award.</li> -->
+			<ul>
+			<li>This is an online event - Lets see who can google their way to find the answer.</li>
+			<li>Any kind of queries must be asked on this forum,</li>
+			<li>The hints for each question will be put here at regular intervals ( or when a lot of you are requesting for them, so keep posting/requesting :P )</li>
+			<li>The answer can range from a word to a phrase or may completely and utterly surprise you.</li>
+			<li>Kindly submit your answer in lowercase without any spaces. (Yes it is case sensitive)</li>
+			<li>In case of any dispute, the decision of the organizers will be final.</li>
+			<li>Event ends when the first person completes all the questions</li>
+			<li>Answers should not be written on the group page/forum. Otherwise the organizers have the full authority to discard the participant.</li>
+			<li>The organizing team has the right to change the rules and regulations of the event.</li>
 		</ul>
 		</div>
 	</div>
@@ -97,13 +97,14 @@
 	
 	<div class="container question" style="text-align: center;margin-bottom:20%">
 	{% if registered %}
-	<p>Events starts soon...</p>
-    <form method="post" name="form" id="form" action="/cryptex/" style="margin:auto;width:50%;text-align: center">
+	<p style="text-align: center;">Events starts on 12th January</p>
+	 {% if False %}
+     <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 	    {% csrf_token %}
 	    {{ form.as_p }}
 	    <button  class ="btn btn-primary" type="submit">Play</button>
     </form>
-        
+    {% endif %}
     {% else %}
 	<p style="margin:auto;width:100%;text-align: center">You haven't registered for this event</p>
 	<p style="text-align: center;"><a href="/register/cryptex"><button class="btn btn-primary">Register for this Event</button></a></p>

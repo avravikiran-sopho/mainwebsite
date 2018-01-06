@@ -37,11 +37,13 @@ def index(request):
             player_user = player.objects.get(user = request.user)
             registered =  EventRegister.objects.get(user = request.user,event ='CRYPTEX')
             question = str(player_user.level)
+            form = answerForm()
             return render(request, 'cryptex/play.html', {
                 'profile':profile,
                 'player':player_user,
                 'registered':registered,
                 'question':question,
+                'form':form,
             })
         
     else:
