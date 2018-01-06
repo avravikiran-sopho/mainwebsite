@@ -22,5 +22,5 @@ urlpatterns = [
     url(r'^login/', include('Auth.urls')),
     url(r'^elmatrico/', include('elmatrico.urls')),
     url(r'^paperpt/', include('paperpt.urls')),
-    url(r'^cryptex/', include('cryptex.urls')),
+    url(r'^crypte/', include('cryptex.urls')),
 ]
