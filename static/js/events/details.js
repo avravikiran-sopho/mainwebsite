@@ -12,7 +12,7 @@ $('.navimg2').on('click',function () {
 $('.card').on('click',function () {
       var name = $(this).attr('id');
       console.log(name);
-      var femina = "<h1 style='text-align:center'>Femina</h1><p>\
+      var femina = "<h1 style='text-align:center'>FBB Miss Femina</h1><p>\
           Nationality: Indian Passport Holder<br>\
           The applicant should be between 18 - 25 years of age as of December 31, 2018. The applicant will be required to produce their age proof (Passport, birth certificate, school leaving certificate, driver's license, etc).<br>\
           Relationship Status: The applicant should be unmarried.<br>\

@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^elmatrico/', include('elmatrico.urls')),
     url(r'^paperpt/', include('paperpt.urls')),
     url(r'^cryptex/', include('cryptex.urls')),
+    url('^', include('django.contrib.auth.urls')),
 ]
