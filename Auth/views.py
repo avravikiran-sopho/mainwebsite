@@ -68,6 +68,7 @@ def Register(request):
 			profile = form2.save(commit=False)
 			if password1 == password2:
 				user.set_password(password1)
+				user.email = username
 				user.save()
 				new_object=Profile()
 				# recent_user = authenticate(username=username,password=password1)
@@ -152,5 +153,4 @@ def activate(request, uidb64, token):
         return render(request,'webapp/linkconfirm.html',{'profile':profile,'message':message})
     else:
         return HttpResponse('Activation link is invalid!')
-
 
