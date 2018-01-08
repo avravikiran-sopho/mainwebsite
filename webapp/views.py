@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.contrib.auth.models import User
+from Auth.models import Profile
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
@@ -14,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-
+from .forms import teamForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -115,4 +116,5 @@ def eventregister(request,eventname):
 
 
 def team_register(request):
-	return render(request,'webapp/teamregister.html')
+	form = teamForm()
+	return render(request,'webapp/teamregister.html',{'form':form,})
