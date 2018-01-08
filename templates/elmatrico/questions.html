@@ -1,7 +1,7 @@
     {% load static %}
 	{% if user.is_authenticated %}
-    <div class="container question" style="text-align: center;">
-    <p style="width:50%;display:inline-block;text-align:right">Time Remaining:&nbsp;</p><p id="demo" style="text-align:left;width:45%;font-weight:bold;display:inline-block;font-family: 'Quattrocento', serif;"> </p>
+    <div class="container question" style="text-align: center;display:none;">
+    <p style="width:50%;display:inline-block;text-align:right">Time Remaining:&nbsp;</p><p style="text-align:left;width:45%;font-weight:bold;display:inline-block;font-family: 'Quattrocento', serif;"> </p>
       </div>
 	<div class="container question">
 		<button style="float: right;" type="button" class="btn btn-warning">Moderate</button>
@@ -96,11 +96,10 @@
 			<p style="margin:auto;width:50%;text-align: center">You have submitted {{ doc.document }}</p>
 	        <p style="margin:auto;width:50%;text-align: center;">Submitted at {{ doc.uploaded_at }}</p>
         {% else %}
-        <p style="margin:auto;width:50%;text-align: center">Max upload size is 20MB.</p>
+        <p style="margin:auto;width:50%;text-align: center">Event has eneded.</p>
         <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 		    {% csrf_token %}
-		    {{ form.as_p }}
-		    <button  class ="btn btn-primary" type="submit">Upload</button>
+		    
 		    <div class="upload-btn-wrapper">  
 			  
 			</div>
