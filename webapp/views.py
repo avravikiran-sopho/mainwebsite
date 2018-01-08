@@ -112,3 +112,7 @@ def eventregister(request,eventname):
 		return HttpResponseRedirect("/dashboard")
 	else:
 		return HttpResponseRedirect("/login")
+
+
+def team_register(request):
+	return render(request,'webapp/teamregister.html')
