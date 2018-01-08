@@ -81,15 +81,21 @@
     <div class="col-md-4 col-sm-12">
       
       <table class="table" style="text-align: center;width: 100%;">
-
           <tbody style="color: white">
             <tr>
               <th>Elan ID</th>
               <th>Email</th>
             </tr>
-            
+            <form method="post" action=".">{% csrf_token %}
+            <tr><td>{{ form.elanid1 }}</td><td>{{ form.email1 }}</td></tr>
+            <tr><td>{{ form.elanid2 }}</td><td>{{ form.email2 }}</td></tr>
+            <tr><td>{{ form.elanid3 }}</td><td>{{ form.email3 }}</td></tr>
+            <tr><td>{{ form.elanid4 }}</td><td>{{ form.email4 }}</td></tr>
+            <tr><td>{{ form.elanid5 }}</td><td>{{ form.email5 }}</td></tr>
+            <tr><td colspan="2"><button type="submit" name="submit" class="btn1">Submit</button></td></tr>
+            </form>
           <tbody>
-        </table>
+      </table>
         <div class="btn-cont"><a href="/events"><button class="btn1"><i class="fa fa-trophy"></i> Events</button></a></div>
     </div>
 
