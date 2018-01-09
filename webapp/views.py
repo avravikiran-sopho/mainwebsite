@@ -123,6 +123,7 @@ def team_register(request):
 			if form.is_valid():
 				print form.errors
 				data = form.cleaned_data
+				event = data['event']
 				elanid_list = []
 				email_list= []
 				for x in range(1, 6):
@@ -138,16 +139,42 @@ def team_register(request):
 							else:
 								form=teamForm()								
 								message = "Incorrect combination of ELAN ID & e-mail id."
+								print 1 
 								return render(request,'webapp/teamregister.html',{'form':form,'message':message})							
 						else:
 							form=teamForm()
-							message = "Incorrect combination of ELAN ID & e-mail id."
+							message = "Incorrect combination of ELAN ID , e-mail id."
+							print 2
 							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
 				leader_email = email_list[0]
 				leader = User.objects.get(username = leader_email)
-				
-				for id in elanid_list:
-					print id	
+				if TeamLeader.objects.filter(user = leader, event = event).exists():
+					message = "Team leader already exists for this event."
+					print 3
+					return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+				else:
+					leader_object = TeamLeader()
+					leader_object.user = leader
+					leader_object.event = event
+					leader_object.teamids = 1
+					leader_object.save()
+					teamleader = TeamLeader.objects.get(user = leader,event = event)
+					teamid = teamleader.id
+					teamleader.teamids = teamleader.id
+					teamleader.save()
+					for email in email_list:
+						member = User.objects.get(username = email)
+						if Team.objects.filter(user = member, event = event):
+							TeamLeader.objects.get(user = leader,event = event).delete()
+							print 4
+							message = "Some of the team members already formed a team for this event"
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+						else:
+							new_object=Team()
+							new_object.user = member
+							new_object.teamids = teamid
+							new_object.event = event
+							new_object.save()
 			return render(request,'webapp/teamregister.html',{'form':form,})
 		else:
 			form = teamForm()
