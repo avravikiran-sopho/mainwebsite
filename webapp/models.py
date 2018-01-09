@@ -31,10 +31,11 @@ class EventRegister(models.Model):
 		return str(self.user)+" - "+str(self.event)
 		
 class Team(models.Model):
-  teamids = models.IntegerField()
-  user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE, default=1)
-  event = models.CharField(max_length=100)
+    teamids = models.IntegerField()
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE, default=1)
+    event = models.CharField(max_length=100)
 
 class TeamLeader(models.Model):
 	user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE, default=1)
 	teamids = models.IntegerField()
+	event = models.CharField(max_length=100)

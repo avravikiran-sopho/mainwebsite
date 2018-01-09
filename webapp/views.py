@@ -5,7 +5,7 @@ from Auth.models import Profile
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from .models import Detail, EventName , EventRegister
+from .models import Detail, EventName , EventRegister, Team, TeamLeader
 import json
 from django.contrib.auth.decorators import login_required 
 from Auth.models import Profile
@@ -132,7 +132,7 @@ def team_register(request):
 						if Profile.objects.filter(elanids = elanid).exists():
 							profile = Profile.objects.get(elanids = elanid)
 							if profile.user.username == email:
-								elanid_list.append(data['elanid' + str(x)])
+								elanid_list.append(int(data['elanid' + str(x)][-5:]))
 								email_list.append(data['email' + str(x)])
 
 							else:
@@ -143,9 +143,11 @@ def team_register(request):
 							form=teamForm()
 							message = "Incorrect combination of ELAN ID & e-mail id."
 							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+				leader_email = email_list[0]
+				leader = User.objects.get(username = leader_email)
 				
-			print elanid_list
-			print email_list
+				for id in elanid_list:
+					print id	
 			return render(request,'webapp/teamregister.html',{'form':form,})
 		else:
 			form = teamForm()
