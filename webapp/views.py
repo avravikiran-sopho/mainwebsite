@@ -135,15 +135,15 @@ def team_register(request):
 								elanid_list.append(data['elanid' + str(x)])
 								email_list.append(data['email' + str(x)])
 							else:
-								print "Incorrect " + str(x)
 								form=teamForm()								
 								message = "Incorrect combination of ELAN ID & e-mail id."
 								return render(request,'webapp/teamregister.html',{'form':form,'message':message})							
 						else:
-							print "Incorrect " + str(x)
 							form=teamForm()
 							message = "Incorrect combination of ELAN ID & e-mail id."
 							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+			print elanid_list
+			print email_list
 			return render(request,'webapp/teamregister.html',{'form':form,})
 		else:
 			form = teamForm()
