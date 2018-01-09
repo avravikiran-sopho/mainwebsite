@@ -2,18 +2,37 @@
 from __future__ import unicode_literals
 
 from django.contrib import admin
+from Auth.models import Profile
 from .models import Detail, EventName, EventRegister, TeamLeader, Team
 # Register your models here.
 
 
 class DisplayEventRegister(admin.ModelAdmin):
-	list_display = ('user','event')
-	search_fields = ['event']
+	list_display = ('user','event','get_college','get_mobile','get_elanid')
+	search_fields = ['event','user__username','user__profile__college','user__profile__mobile','user__profile__elanids']
 	ordering = ('event',)
 	list_filter = ('event',)
 
+	def get_college(self, obj):
+		return obj.user.profile.college
+	get_college.short_description = 'College'
+
+	def get_mobile(self, obj):
+		return obj.user.profile.mobile
+	get_mobile.short_description = 'Mobile'
+
+	def get_elanid(self, obj):
+		return obj.user.profile.elanids
+	get_elanid.short_description = 'Elanid'
+
+class  DisplayTeamLeader(admin.ModelAdmin):
+	list_display = ('user','teamids','event')
+
+class  DisplayTeam(admin.ModelAdmin):
+	list_display = ('user','teamids','event')
+	
 admin.site.register(Detail)
 admin.site.register(EventName)
 admin.site.register(EventRegister, DisplayEventRegister)
-admin.site.register(TeamLeader)
-admin.site.register(Team)
+admin.site.register(TeamLeader, DisplayTeamLeader)
+admin.site.register(Team, DisplayTeam)
