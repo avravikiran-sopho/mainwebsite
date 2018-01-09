@@ -136,7 +136,13 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Coming Soon</h1>\
+        <h2>Problem statement:</h2><p>\
+        As the name suggests this event is based on one of the hottest topics in today’s world that is, internet of things. This event checks the basic level knowledge of the student in the field of IOT.<br>\
+        This event will consist of three rounds namely,<br>\
+        Qualification round<br>\
+        Second round<br>\
+        Final round<br>\
+        The qualification will test the amount of knowledge the student has in very basic level things related to IOT.<br>\ The second round will check the basic arduino knowledge of the student and the final round will be totally based on Arduino UNO.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1><p>\
@@ -147,13 +153,17 @@ $('.card').on('click',function () {
         5.  In the case of a tie the one who is faster to implement will be awarded.<br>\
         6.  Any kind of malpractices will not be entertained and the participant will be disqualified.<br>\
         <h1>Judging criteria:</h1><p>\
-        The participants who enter the second round will be given participation certificates.\
+        The team with maximum points at the end will be declared as winner. The participants who enter the second round will be given participation certificates.\
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize:</h1>\
           <p>Prize:INR 20,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>\
+        Rishideep-9542853064<br>\
+        Sam Chalyanth - 9705684020<br>\
+        Srujana-9515594498</p>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
@@ -1698,6 +1708,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
+    
     var art = "<h1 style='text-align:center'>Arts Exhibtioon</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
@@ -2229,12 +2240,8 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='4a'>\
         <h1>Organisers</h1><p>\
         <p>Saurav. C<br>\
-        es16btech11007@iith.ac.in<br>\
-        9618480733<br>\
-        Sai Raj.  B<br>\
-        me15btech11006@iith.ac.in<br>\
-        7660801623</p>\
-        <h1>Prize</h1>\
+        es16btech11007@iith.ac.in - 9618480733<br>\
+        Snehith - 8121618121</p>\ <h1>Prize</h1>\
         <p>Prizes Worth INR 50,000/-</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\

@@ -41,11 +41,11 @@ def Login(request):
 				profile = Profile.objects.get(user = user)
 				return HttpResponseRedirect("/dashboard")
 			else:
-				message = "username or password is incorrect"
+				message = "Username or Password is incorrect. Please try again."
 				# raise forms.ValidationError("Invalid username or password")
 				return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 		else:
-			message = "Form is not valid"
+			message = "Form is not valid. Please try again."
 			return render(request,'Auth/loginhome2.html',{'message':message,'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})
 	else:
 		return render(request,'Auth/loginhome2.html',{'LoginForm':LoginForm,'RegisterForm':RegisterForm,'ProfileForm':ProfileForm})

@@ -22,7 +22,7 @@ from django.http import HttpResponseRedirect
 
 def index(request):
     if request.method == 'POST':
-        form = playerForm(request.POST, request.FILES)
+        form = playerForm(request.POST)
         if form.is_valid():
             form.user = request.user
             # player = form.save(commit=False)
