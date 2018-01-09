@@ -5,8 +5,12 @@ from django.template.defaultfilters import filesizeformat
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
 
+CHOICES=[('QUADCOPTER','QUADCOPTER'),
+         ('ROBOWARS','ROBOWARS')]
 
 class teamForm(forms.Form):
+	event = forms.ChoiceField(choices=CHOICES)
+
 	elanid1 = forms.CharField(widget = forms.TextInput(attrs=
 		{'name':"elanid1",'id':"elanid1",'placeholder':"Elan ID"}))
 	email1 = forms.CharField(widget = forms.EmailInput(attrs=

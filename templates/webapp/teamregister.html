@@ -71,13 +71,12 @@
 	<div class="logo-div">
       <a href="/"><img src="/static/img/logo.png" class="logo"></a>
   </div>
+   <form method="post" action="/team_register/">{% csrf_token %}
   <div class="row" style="margin-top: 8%;">
-
+   
     <div class="col-md-4 col-sm-12">
       <p class="left">Select Event</p><br>
-      {% if message %}
-        <p>{{ message }}</p>
-      {% endif %}
+      {{ form.event }}
     </div>
 
     <div class="col-md-4 col-sm-12">
@@ -89,25 +88,26 @@
               <th>Email</th>
 
             </tr>
-            <form method="post" action="/team_register/">{% csrf_token %}
+            
             <tr><td>{{ form.elanid1 }}</td><td>{{ form.email1 }}</td></tr>
             <tr><td>{{ form.elanid2 }}</td><td>{{ form.email2 }}</td></tr>
             <tr><td>{{ form.elanid3 }}</td><td>{{ form.email3 }}</td></tr>
             <tr><td>{{ form.elanid4 }}</td><td>{{ form.email4 }}</td></tr>
             <tr><td>{{ form.elanid5 }}</td><td>{{ form.email5 }}</td></tr>
             <tr><td colspan="2"><button type="submit" name="submit" class="btn1">Submit</button></td></tr>
-            </form>
+            
           <tbody>
       </table>
         <div class="btn-cont"><a href="/events"><button class="btn1"><i class="fa fa-trophy"></i> Events</button></a></div>
     </div>
+   
     {{ message }}
     <div class="col-md-4 col-sm-12">
 
     </div>
 
   </div>
-    
+     </form>
 </body>
 <script type="text/javascript"> 
   {% if message %}
