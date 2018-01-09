@@ -75,7 +75,9 @@
 
     <div class="col-md-4 col-sm-12">
       <p class="left">Select Event</p><br>
-      
+      {% if message %}
+        <p>{{ message }}</p>
+      {% endif %}
     </div>
 
     <div class="col-md-4 col-sm-12">
@@ -85,8 +87,9 @@
             <tr>
               <th>Elan ID</th>
               <th>Email</th>
+
             </tr>
-            <form method="post" action=".">{% csrf_token %}
+            <form method="post" action="/team_register/">{% csrf_token %}
             <tr><td>{{ form.elanid1 }}</td><td>{{ form.email1 }}</td></tr>
             <tr><td>{{ form.elanid2 }}</td><td>{{ form.email2 }}</td></tr>
             <tr><td>{{ form.elanid3 }}</td><td>{{ form.email3 }}</td></tr>
@@ -98,7 +101,7 @@
       </table>
         <div class="btn-cont"><a href="/events"><button class="btn1"><i class="fa fa-trophy"></i> Events</button></a></div>
     </div>
-
+    {{ message }}
     <div class="col-md-4 col-sm-12">
 
     </div>
@@ -106,6 +109,11 @@
   </div>
     
 </body>
+<script type="text/javascript"> 
+  {% if message %}
+      alert("Incorrect combination of ELAN ID & e-mail id.");
+  {% endif %}
+</script>
 <script type='text/javascript' src="{% static '/js/home/nav.js' %}"></script>
 <script type='text/javascript' src="{% static 'js/home/classie.js' %}"></script>
 

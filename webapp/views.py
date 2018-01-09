@@ -116,5 +116,35 @@ def eventregister(request,eventname):
 
 
 def team_register(request):
-	form = teamForm()
-	return render(request,'webapp/teamregister.html',{'form':form,})
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		if request.method == "POST":
+			form = teamForm(request.POST)
+			if form.is_valid():
+				print form.errors
+				data = form.cleaned_data
+				elanid_list = []
+				email_list= []
+				for x in range(1, 6):
+					if data['elanid' + str(x)] != "":
+						elanid = int(data['elanid' + str(x)][-5:])
+						email = data['email' + str(x)]
+						if Profile.objects.filter(elanids = elanid).exists():
+							profile = Profile.objects.get(elanids = elanid)
+							if profile.user.username == email:
+								elanid_list.append(data['elanid' + str(x)])
+								email_list.append(data['email' + str(x)])
+							else:
+								print "Incorrect " + str(x)
+								form=teamForm()								
+								message = "Incorrect combination of ELAN ID & e-mail id."
+								return render(request,'webapp/teamregister.html',{'form':form,'message':message})							
+						else:
+							print "Incorrect " + str(x)
+							form=teamForm()
+							message = "Incorrect combination of ELAN ID & e-mail id."
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+			return render(request,'webapp/teamregister.html',{'form':form,})
+		else:
+			form = teamForm()
+			return render(request,'webapp/teamregister.html',{'form':form,})
