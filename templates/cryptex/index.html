@@ -79,42 +79,31 @@
 	<!-- <div class="container cover" style="margin: auto;text-align: center;"><img src="{% static 'img/el-matrico.png' %}" width=80%;></div>
 	<div class="container cover" style="margin: :auto;text-align: center;"><img src="{% static 'img/mathworks.png' %}" width=60%;></div><br> -->
 	<h1 class="title">CRYPTEX</h1>
-	{% if user.is_authenticated %}
-        <div class="container content" style="margin-bottom:1%;padding: 1%;">		
+	<div class="container content" style="margin-bottom:1%;padding: 1%;">		
 		
 		<div class="container submission" style="display: block">
-			
-			<ul>
-			<li>This is an online event - Lets see who can google their way to find the answer.</li>
-			<li>Any kind of queries must be asked on this forum,</li>
-			<li>The hints for each question will be put here at regular intervals ( or when a lot of you are requesting for them, so keep posting/requesting :P )</li>
-			<li>The answer can range from a word to a phrase or may completely and utterly surprise you.</li>
-			<li>Kindly submit your answer in lowercase without any spaces. (Yes it is case sensitive)</li>
-			<li>In case of any dispute, the decision of the organizers will be final.</li>
-			<li>Event ends when the first person completes all the questions</li>
-			<li>Answers should not be written on the group page/forum. Otherwise the organizers have the full authority to discard the participant.</li>
-			<li>The organizing team has the right to change the rules and regulations of the event.</li>
+			<h3>Rules</h3>
+		<ul>
+		<li>Every question has an answer. You may not understand the question but there is an answer. Always.</li>
+		<li>‎The Council of Admins' decisions is absolute, and will be enforced. </li>
+		<li>‎We've set up a working forum for you to use - the Admins shall post hints to questions as time goes on.</li> 
+		<li>Feel free to ask, but DO NOT REVEAL THE ANSWERS. Doing so will get you booted out/give the boot. </li>
+		<li>‎Follow the hints from anyone but the admins at your own peril. </li>
 		</ul>
+		<h3>Answer format</h3> 
+		<p>The answers to all questions must written in  LOWER CASE LETTERS WITH NO S P A C E S OR PUNCTUATION MARKS!!! notlikethatlikethis</p><br>
+
+		<p>Google is your best friend. Usually.</p> 
 		</div>
 	</div>
+	{% if user.is_authenticated %}
+        
 	{% else %}
 	<div class="container content" style="margin-bottom: 10%;">
-		<h3>Rules:</h3>
-    <ul>
-			<li>This is an online event - Lets see who can google their way to find the answer.</li>
-			<li>Any kind of queries must be asked on this forum,</li>
-			<li>The hints for each question will be put here at regular intervals ( or when a lot of you are requesting for them, so keep posting/requesting :P )</li>
-			<li>The answer can range from a word to a phrase or may completely and utterly surprise you.</li>
-			<li>Kindly submit your answer in lowercase without any spaces. (Yes it is case sensitive)</li>
-			<li>In case of any dispute, the decision of the organizers will be final.</li>
-			<li>Event ends when the first person completes all the questions</li>
-			<li>Answers should not be written on the group page/forum. Otherwise the organizers have the full authority to discard the participant.</li>
-			<li>The organizing team has the right to change the rules and regulations of the event.</li>
-		</ul>
 		</p><p style="text-align: center;">Login to participate
 		</p>
     <p style="text-align: center;"><a href="/login"><button class="btn btn-primary">Login / Sign Up</button></a></p>
-		{% endif %}
+	{% endif %}
 	</div>
 	{% if user.is_authenticated %}
 	
