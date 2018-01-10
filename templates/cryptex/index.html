@@ -25,6 +25,7 @@
 		.logo {
 			width: 25%;
 		}
+		
 		@media(max-width:768px){
 			.title {
 				font-size: 2em;
@@ -40,6 +41,7 @@
 				font-size: 3em;
 			}
 		}
+		
 	</style>
   <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
 
@@ -110,7 +112,7 @@
 	<div class="container question" style="text-align: center;margin-bottom:20%">
 	{% if registered %}
 	<p style="text-align: center;">Events starts this friday, 12th January</p>
-	 {% if False %}
+	 {% if True %}
      <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 	    {% csrf_token %}
 	    {{ form.as_p }}

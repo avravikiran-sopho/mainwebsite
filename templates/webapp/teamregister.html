@@ -72,7 +72,7 @@
       <a href="/"><img src="/static/img/logo.png" class="logo"></a>
   </div>
    <form method="post" action="/team_register/">{% csrf_token %}
-  <div class="row" style="margin-top: 8%;">
+  <div class="row" style="margin-top: 2%;">
    
     <div class="col-md-4 col-sm-12">
       <p class="left">Select Event</p><br>
@@ -94,10 +94,10 @@
             <tr><td>{{ form.elanid3 }}</td><td>{{ form.email3 }}</td></tr>
             <tr><td>{{ form.elanid4 }}</td><td>{{ form.email4 }}</td></tr>
             <tr><td>{{ form.elanid5 }}</td><td>{{ form.email5 }}</td></tr>
-            <tr><td colspan="2"><button type="submit" name="submit" class="btn1">Submit</button></td></tr>
-            
-          <tbody>
+          </tbody>
+
       </table>
+      <button type="submit" name="submit" class="btn1">Submit</button>
         <div class="btn-cont"><a href="/events"><button class="btn1"><i class="fa fa-trophy"></i> Events</button></a></div>
     </div>
    
@@ -117,8 +117,53 @@
 <script type='text/javascript' src="{% static '/js/home/nav.js' %}"></script>
 <script type='text/javascript' src="{% static 'js/home/classie.js' %}"></script>
 <script type="text/javascript">
-  var event = $('#id_event').val();
-  console.log (event);
+  $( document ).ready(function() {
+    $('.table tr').css({"display":"table-row"})
+    var event = $('#id_event').val();
+    event = event.replace(/ +/g, "");
+    event = (event.replace(/[^a-zA-Z ]/g, ""));
+    console.log(events[event].max);
+    var x = events[event].max-6;
+    console.log(x);
+    $( 'tr:gt(' + ( x ) + ')' ).hide();
+  });
+  var events = {
+    QUADCOPTERCHALLENGE : {min:1, max:5},
+    DTMFRACE : {min:1, max:5},
+    ELECTRONICBLOOPERS : {min:1, max:2},
+    JUGAADIT : {min:1, max:5},
+    IOTCHALLENGE : {min:1, max:5},
+    JUNKYARDWARS : {min:1, max:5},
+    BRIDGEBUILDERS : {min:1, max:5},
+    SALESMANOFFEST : {min:1, max:5},
+    DRIFTKING : {min:1, max:5},
+    CADPRO : {min:1, max:5},
+    ROBOSOCCER : {min:1, max:5},
+    ROBOPIRATES : {min:1, max:5},
+    GALILEOPROJECT : {min:1, max:5},
+    AQUANUT : {min:1, max:5},
+    ENIGMA : {min:1, max:5},
+    HACKAMAZE : {min:1, max:5},
+    SCIENCEQUIZ : {min:1, max:5},
+    AUTOMOBILEQUIZ : {min:1, max:5},
+  }
+  
+  
+  $(document).on('change', '#id_event', function() {
+    $('.table').css({"display":"block"})
+    $('.table tr').css({"display":"table-row"})
+    var event = $('#id_event').val();
+    event = event.replace(/ +/g, "");
+    event = (event.replace(/[^a-zA-Z ]/g, ""));
+    console.log(events[event].max);
+    var x = events[event].max-6;
+    console.log(x);
+    $( 'tr:gt(' + ( x ) + ')' ).hide();
+    // var sliced =  $('.table tr').slice(x,-1).remove();
+    // console.log(sliced);
+
+  });
+  
 </script>
 
 

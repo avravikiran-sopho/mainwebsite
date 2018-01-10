@@ -5,8 +5,24 @@ from django.template.defaultfilters import filesizeformat
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
 
-CHOICES=[('QUADCOPTER','QUADCOPTER'),
-         ('ROBOWARS','ROBOWARS')]
+CHOICES=[('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
+         ('DTMF RACE','DTMF RACE'),
+         ('ELECTRONIC BLOOPERS','ELECTRONIC BLOOPERS'),
+         ('JUGAAD IT','JUGAAD IT'),
+         ('IOT CHALLENGE','IOT CHALLENGE'),
+         ('JUNKYARD WARS','JUNKYARD WARS'),
+         ('BRIDGE BUILDERS','BRIDGE BUILDERS'),
+         ('SALESMAN OF FEST','SALESMAN OF FEST'),
+         ('DRIFT KING','DRIFT KING'),
+         ('CADPRO','CADPRO'),
+         ('ROBOSOCCER','ROBOSOCCER'),
+         ('ROBO-PIRATES','ROBO-PIRATES'),
+         ('GALILEO PROJECT','GALILEO PROJECT'),
+         ('AQUANUT','AQUANUT'),
+         ('ENIGMA','ENIGMA'),
+         ('HACK-A-MAZE','HACK-A-MAZE'),
+         ('SCIENCE QUIZ','SCIENCE QUIZ'),
+         ('AUTOMOBILE QUIZ','AUTOMOBILE QUIZ'),]
 
 class teamForm(forms.Form):
 	event = forms.ChoiceField(choices=CHOICES)

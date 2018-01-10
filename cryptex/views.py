@@ -44,8 +44,7 @@ def index(request):
                 'registered':registered,
                 'question':question,
                 'form':form,
-            })
-        
+            })  
     else:
         try:
             user = request.user
@@ -69,8 +68,8 @@ def index(request):
                     'form':form,
                     'registered':registered,
                 })
-        except:
-            print 'except'
+        except Exception as e: 
+            print(e)
             return render(request, 'cryptex/index.html', {
                 })
 
@@ -95,7 +94,11 @@ def validate(request):
                 form = answerForm()
                 return HttpResponseRedirect("/cryptex")
             else:
-                return HttpResponseRedirect("/cryptex")
+                message = "Try Again !!"
+                registered = True
+                return render(request, 'cryptex/play.html', {'question':str(player_level),'form':form,'message':message,'registered':True})
+        else:
+            return HttpResponseRedirect("/cryptex")
 
 def leaderboard(request):
     profile = Profile.objects.get(user = request.user)
