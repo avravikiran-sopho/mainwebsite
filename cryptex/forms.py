@@ -7,9 +7,8 @@ from django.conf import settings
 
 
 class playerForm(forms.ModelForm):
-	pname = forms.CharField(widget=forms.TextInput(attrs=
-    {'name':"pname",'id':"pname",'placeholder':"Enter player name"}))
-    
+	pname = forms.CharField(label="Player Name:",widget=forms.TextInput(attrs=
+		{'name':"pname",'id':"pname",'placeholder':"Enter player name",}))
 	class Meta:
 		model = player
 		fields = ('pname', )
@@ -17,6 +16,6 @@ class playerForm(forms.ModelForm):
 
 class answerForm(forms.Form):
 	answer = forms.CharField(widget=forms.TextInput(attrs=
-    {'name':"answer",'id':"answer",'placeholder':"Answer"}))
+    {'name':"answer",'id':"answer",'placeholder':"Enter your answer"}))
 
 

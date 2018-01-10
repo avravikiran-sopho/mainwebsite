@@ -41,7 +41,7 @@
 				font-size: 3em;
 			}
 		}
-		
+
 	</style>
   <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
 
@@ -112,12 +112,16 @@
 	<div class="container question" style="text-align: center;margin-bottom:20%">
 	{% if registered %}
 	<p style="text-align: center;">Events starts this friday, 12th January</p>
-	 {% if False %}
+
+	 {% if True %}
+	 {% ifequal user.get_username 'admin@elan.org.in' %}
      <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 	    {% csrf_token %}
 	    {{ form.as_p }}
 	    <button  class ="btn btn-primary" type="submit">Play</button>
     </form>
+	 {% endifequal %}
+	 
     {% endif %}
     {% else %}
     <p style="margin:auto;width:100%;text-align: center">Events starts this friday, 12th January</p>
