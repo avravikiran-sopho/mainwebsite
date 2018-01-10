@@ -118,8 +118,9 @@
 	    {% csrf_token %}
 	    {{ form.as_p }}
 	    <button  class ="btn btn-primary" type="submit">Play</button>
-	 {% endifequal %}
     </form>
+	 {% endifequal %}
+	 
     {% endif %}
     {% else %}
     <p style="margin:auto;width:100%;text-align: center">Events starts this friday, 12th January</p>
