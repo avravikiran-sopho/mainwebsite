@@ -28,13 +28,13 @@ class teamForm(forms.Form):
 	event = forms.ChoiceField(choices=CHOICES)
 
 	elanid1 = forms.CharField(widget = forms.TextInput(attrs=
-		{'name':"elanid1",'id':"elanid1",'placeholder':"Elan ID"}))
+		{'name':"elanid1",'id':"elanid1",'placeholder':"Elan ID - Team leader"}))
 	email1 = forms.CharField(widget = forms.EmailInput(attrs=
-		{'name':"email1",'id':"emailid1",'placeholder':"Email"}))
+		{'name':"email1",'id':"emailid1",'placeholder':"Email- Team leader"}))
 
-	elanid2 = forms.CharField(required=False,widget = forms.TextInput(attrs=
+	elanid2 = forms.CharField(widget = forms.TextInput(attrs=
 		{'name':"elanid2",'id':"username",'placeholder':"Elan ID"}))
-	email2 = forms.CharField(required=False,widget = forms.EmailInput(attrs=
+	email2 = forms.CharField(widget = forms.EmailInput(attrs=
 		{'name':"email2",'id':"username",'placeholder':"Email"}))
 
 	elanid3 = forms.CharField(required=False,widget = forms.TextInput(attrs=

@@ -12,6 +12,6 @@ class DisplayProfile(admin.ModelAdmin):
 	def get_active(self, obj):
 		return obj.user.is_active
 	get_active.short_description = 'Active'
-	search_fields = ['elanids','mobile','full_name','country','user__is_active']
+	search_fields = ['elanids','mobile','full_name','country','user__is_active','user__username']
 	ordering = ('user','elanids',)
 admin.site.register(Profile, DisplayProfile)

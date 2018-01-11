@@ -29,6 +29,9 @@
     .table td, .table th {
       border:none;
     }
+    .team_table tr td {
+      width:25%;
+    }
 </style>
 {% if message %}
 <script type="text/javascript"> 
@@ -71,7 +74,7 @@
 	<div class="logo-div">
       <a href="/"><img src="/static/img/logo.png" class="logo"></a>
   </div>
-  <div class="row" style="margin-top: 8%;">
+  <div class="row" style="margin-top: 2%;">
 
     <div class="col-md-4 col-sm-12">
       <p class="left">Welcome, {{ profile.full_name }}.</p><br>
@@ -108,6 +111,27 @@
       </ul>
     </div>
 
+  </div>
+  <div class="row">
+   <div class="col-md-12 col-sm-12">
+    <a href="/team_register"><button class="btn1"><i class="fa fa-"></i> Register as a Team for a Event</button></a>
+     <table class="table team_table" style="text-align: center;width: 100%;">
+          <tbody style="color: white;">
+            <tr>
+              <td colspan=4 style="font-size:2.5em;font-family: BernardoModaSemibold;">Teams</td>
+            </tr>
+            {% if team_array %}
+            <tr><th>Team ID</th><th>Team member</th><th>Member ID</th><th>Event</th></tr>
+            {% for member in team_array %}
+            <tr><td>EN18IITHT{{ member.teamids|stringformat:"04d" }}</td><td>{{ member.user }}</td><td>EN18IITH{{ member.user.id|stringformat:"05d" }}</td><td>{{ member.event }}</td></tr>
+            {% endfor %}
+            {% else %}
+            <tr><td>You haven't formed any teams.</td></tr>
+            {% endif %}
+          <tbody>
+        </table>
+   </div>
+    
   </div>
     
 </body>
