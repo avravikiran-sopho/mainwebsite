@@ -83,8 +83,9 @@ def validate(request):
             profile = Profile.objects.get(user = request.user)
             player_level = player_user.level
             correct_answer = answer.objects.get(problem = player_level)
-            print correct_answer.ans
-            print user_answer
+            file = open("templates/cryptex/"+str(player_level)+".txt","a+")
+            file.write(user_answer+" - "+player_user.pname+"\n")
+            file.close() 
             if user_answer == correct_answer.ans:
                 player_level +=1
                 player_user.level=player_level
@@ -96,7 +97,16 @@ def validate(request):
             else:
                 message = "Try Again !!"
                 registered = True
-                return render(request, 'cryptex/play.html', {'question':str(player_level),'form':form,'message':message,'registered':True})
+                profile = Profile.objects.get(user = request.user)
+                player_user = player.objects.get(user = request.user)
+                return render(request, 'cryptex/play.html', {
+                    'form':form,
+                    'profile':profile,
+                    'registered':registered,
+                    'player':player_user,
+                    'question':str(player_level),
+                    'message':message
+                })
         else:
             return HttpResponseRedirect("/cryptex")
 
