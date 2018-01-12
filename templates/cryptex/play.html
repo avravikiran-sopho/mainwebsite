@@ -82,7 +82,15 @@
 		      left:0;
 		    }
 		}
+
 	</style>
+	{% ifequal int(question) 31 %}
+	<style>
+		#form {
+			display: none;
+		}
+	</style>
+	{% endifequal %}
 
 
   <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
