@@ -58,6 +58,8 @@ def facebookbot(request):
 		return render(request,'webapp/fbbot.html')
 def hackathon(request):
 	return render(request,'webapp/hackathon.html')
+def social(request):
+	return render(request,'webapp/mypledge.html')
 def events(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)
