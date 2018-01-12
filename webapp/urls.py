@@ -16,5 +16,6 @@ urlpatterns = [
     url(r'^facebookbot$', views.facebookbot),
     url(r'^events/(?P<name>.+)$',views.details),
     url(r'^register/(?P<eventname>.+)$',views.eventregister,name='eventregister'),
-    url(r'^team_register/$',views.team_register,)
+    url(r'^team_register/$',views.team_register),
+    url(r'^mypledge$', views.social),
 ]

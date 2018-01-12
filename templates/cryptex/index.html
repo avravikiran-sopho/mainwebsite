@@ -112,8 +112,9 @@
 	<div class="container question" style="text-align: center;margin-bottom:20%">
 	{% if registered %}
 	<p style="text-align: center;">Events starts this friday, 12th January</p>
+
 	 {% if True %}
-	 {% ifequal user 'admin@elan.org.in' %}
+	 {% ifequal user.get_username 'admin@elan.org.in' %}
      <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 	    {% csrf_token %}
 	    {{ form.as_p }}
