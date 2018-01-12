@@ -475,7 +475,7 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
         <p>Prizes Worth INR 50,000/-\ </p>\ <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>sachin - 7207873406<br>Ayush Negi - 828003282<br>Sai Sandeep - 9177785183<br>Lokesh - 9010880613<br>Trinadh - 9666254100</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
