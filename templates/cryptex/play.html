@@ -17,9 +17,10 @@
 			font-size: 5em;
 		}
 		.footer {
-			position: absolute;
+			position: fixed;
 			bottom: 5%;
 		    right:0;
+			z-index:-1000;
 			text-align: center;
 			width: 100%;
 		    background: rgba(0,0,0,0);
@@ -84,13 +85,6 @@
 		}
 
 	</style>
-	{% ifequal int(question) 31 %}
-	<style>
-		#form {
-			display: none;
-		}
-	</style>
-	{% endifequal %}
 
 
   <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
@@ -137,7 +131,7 @@
 	</div>
 	{% if user.is_authenticated %}
 	{% if registered %}
-	<div class="container question" style="text-align: center;">
+	<div class="container question" style="text-align: center;margin-bottom:10%;">
 	{% with "cryptex/"|add:question|add:".html" as template %}
 	{% include template %}
 	{% endwith %}
@@ -164,11 +158,12 @@
     {% endif %}
 	</div>
 	<div class="footer">
-		{% ifequal qusetion 18 %}
+		{% ifequal question 21 %}
 		<a target="_blank" href="https://twitter.com/elan_iith"><img class="footerimg" src="{% static 'img/beta/footer/twitter.png' %}"></a>
 		<a target="_blank" href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="{% static 'img/beta/footer/fb.png' %}"></a>
 		<a target="_blank" href="https://www.instagram.com/elan_and_nvision/"><img class="footerimg" src="{% static 'img/beta/footer/insta.png' %}"></a>
-    	<a target="_blank" href="https://www.youtube.com/user/ElanIITHyderabad"><img class="footerimg" src="{% static 'img/beta/footer/yt.png' %}"></a>
+	<!-- <a target="_blank" href="https://www.youtube.com/user/ElanIITHyderabad"> -->
+    	<a target="_blank" href="https://www.youtube.com/watch?v=h0OTZo3-K5s"><img class="footerimg" src="{% static 'img/beta/footer/yt.png' %}"></a>
 		{% else %}
 		<a target="_blank" href="https://twitter.com/elan_iith"><img class="footerimg" src="{% static 'img/beta/footer/twitter.png' %}"></a>
 		<a target="_blank" href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="{% static 'img/beta/footer/fb.png' %}"></a>
