@@ -12,7 +12,7 @@ $('.navimg2').on('click',function () {
 $('.card').on('click',function () {
       var name = $(this).attr('id');
       console.log(name);
-      var femina = "<h1 style='text-align:center'>Femina</h1><p>\
+      var femina = "<h1 style='text-align:center'>FBB Miss Femina</h1><p>\
           Nationality: Indian Passport Holder<br>\
           The applicant should be between 18 - 25 years of age as of December 31, 2018. The applicant will be required to produce their age proof (Passport, birth certificate, school leaving certificate, driver's license, etc).<br>\
           Relationship Status: The applicant should be unmarried.<br>\
@@ -136,7 +136,13 @@ $('.card').on('click',function () {
         </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>Coming Soon</h1>\
+        <h2>Problem statement:</h2><p>\
+        As the name suggests this event is based on one of the hottest topics in today’s world that is, internet of things. This event checks the basic level knowledge of the student in the field of IOT.<br>\
+        This event will consist of three rounds namely,<br>\
+        Qualification round<br>\
+        Second round<br>\
+        Final round<br>\
+        The qualification will test the amount of knowledge the student has in very basic level things related to IOT.<br>\ The second round will check the basic arduino knowledge of the student and the final round will be totally based on Arduino UNO.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1><p>\
@@ -147,13 +153,17 @@ $('.card').on('click',function () {
         5.  In the case of a tie the one who is faster to implement will be awarded.<br>\
         6.  Any kind of malpractices will not be entertained and the participant will be disqualified.<br>\
         <h1>Judging criteria:</h1><p>\
-        The participants who enter the second round will be given participation certificates.\
+        The team with maximum points at the end will be declared as winner. The participants who enter the second round will be given participation certificates.\
         </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize:</h1>\
           <p>Prize:INR 20,000/-</p>\
         <h1>Organisers:</h1>\
+        <p>\
+        Rishideep-9542853064<br>\
+        Sam Chalyanth - 9705684020<br>\
+        Srujana-9515594498</p>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
@@ -1698,6 +1708,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
+    
     var art = "<h1 style='text-align:center'>Arts Exhibtioon</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
@@ -2081,7 +2092,7 @@ $('.card').on('click',function () {
         Travel on a double bass and riff through the jungle which has creatures who are calm like a bomb. Elan is back with its signature Event, the metal battle. Get ready to put the stage on Wildfire.<br>\
         'For those about to rock, we salute you!'' - AC/DC<br>\
         <h1>Event Format</h1>\ <p>This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p>Each band interested in participating should upload their demos/videos to <a   href='https://drive.google.com/drive/folders/1CfX1U7KmDeJQPNSaJeQ7n6xPvQy2Dh6K?usp=sharing'>This Drive</a>\
-        <br>and fill out this <a href=''https://goo.gl/forms/7gxAkYFkM0z9bPZk2>form</a><br>(Do not upload more than 2 videos in the drive link.)</p>\ Out of this 5 bands will be shortlisted, and will be performing at Elan-e-Jung prelims, Elan 2018.<br>\
+        <br>and fill out this <a href=\"https://goo.gl/forms/7gxAkYFkM0z9bPZk2\">form</a><br>(Do not upload more than 2 videos in the drive link.)</p>\ Out of this 5 bands will be shortlisted, and will be performing at Elan-e-Jung prelims, Elan 2018.<br>\
         Each band will be given 20 minutes to perform including sound check.</p>\
         <h1>Finals:</h1>\
         <p>Winners of the prelims will go through the finals.<br>\
@@ -2229,12 +2240,8 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='4a'>\
         <h1>Organisers</h1><p>\
         <p>Saurav. C<br>\
-        es16btech11007@iith.ac.in<br>\
-        9618480733<br>\
-        Sai Raj.  B<br>\
-        me15btech11006@iith.ac.in<br>\
-        7660801623</p>\
-        <h1>Prize</h1>\
+        es16btech11007@iith.ac.in - 9618480733<br>\
+        Snehith - 8121618121</p>\ <h1>Prize</h1>\
         <p>Prizes Worth INR 50,000/-</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\

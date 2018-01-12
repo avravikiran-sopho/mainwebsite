@@ -144,7 +144,7 @@ a:hover{
 hr {
 	border: 0;
 	height: 1px;
-	width:90%;
+	width:100%;
 	background-color:#fff;
 
 
@@ -860,6 +860,7 @@ h1{
 	text-align:center; /* centrage horizontal */
 	height: 75%;
 	line-height: 100vh;
+	font-family: 'Bellefair', serif;
 }
 .textIntro span{
 	color: #FFFFFF;
@@ -887,14 +888,14 @@ h1{
 }
 
 .textIntro.colored span#sp4 {
-	color: #fdb935;
+	color: #e98e7d;
 }
 .textIntro.colored span#sp3 {
-	color: #2ecc71;
+	color: #cde4b0;
 }
 
 .bloc{
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-family: 'Bellefair',Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color:#fff;
 	font-size: 35px;
 	max-width:75%;
@@ -903,7 +904,6 @@ h1{
 	line-height: 45px;
 	display: inline-table;
 	vertical-align:middle;
-
 	user-select:none;
 	cursor: default;
 

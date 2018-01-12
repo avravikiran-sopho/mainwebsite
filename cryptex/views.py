@@ -22,7 +22,7 @@ from django.http import HttpResponseRedirect
 
 def index(request):
     if request.method == 'POST':
-        form = playerForm(request.POST, request.FILES)
+        form = playerForm(request.POST)
         if form.is_valid():
             form.user = request.user
             # player = form.save(commit=False)
@@ -44,8 +44,7 @@ def index(request):
                 'registered':registered,
                 'question':question,
                 'form':form,
-            })
-        
+            })  
     else:
         try:
             user = request.user
@@ -69,8 +68,8 @@ def index(request):
                     'form':form,
                     'registered':registered,
                 })
-        except:
-            print 'except'
+        except Exception as e: 
+            print(e)
             return render(request, 'cryptex/index.html', {
                 })
 
@@ -84,8 +83,9 @@ def validate(request):
             profile = Profile.objects.get(user = request.user)
             player_level = player_user.level
             correct_answer = answer.objects.get(problem = player_level)
-            print correct_answer.ans
-            print user_answer
+            file = open("templates/cryptex/"+str(player_level)+".txt","a+")
+            file.write(user_answer+" - "+player_user.pname+"\n")
+            file.close() 
             if user_answer == correct_answer.ans:
                 player_level +=1
                 player_user.level=player_level
@@ -95,7 +95,20 @@ def validate(request):
                 form = answerForm()
                 return HttpResponseRedirect("/cryptex")
             else:
-                return HttpResponseRedirect("/cryptex")
+                message = "Try Again !!"
+                registered = True
+                profile = Profile.objects.get(user = request.user)
+                player_user = player.objects.get(user = request.user)
+                return render(request, 'cryptex/play.html', {
+                    'form':form,
+                    'profile':profile,
+                    'registered':registered,
+                    'player':player_user,
+                    'question':str(player_level),
+                    'message':message
+                })
+        else:
+            return HttpResponseRedirect("/cryptex")
 
 def leaderboard(request):
     profile = Profile.objects.get(user = request.user)

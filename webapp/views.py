@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.contrib.auth.models import User
+from Auth.models import Profile
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from .models import Detail, EventName , EventRegister
+from .models import Detail, EventName , EventRegister, Team, TeamLeader
 import json
 from django.contrib.auth.decorators import login_required 
 from Auth.models import Profile
@@ -14,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-
+from .forms import teamForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -89,7 +90,16 @@ def workshops(request):
 def dashboard(request):	
 	profile = Profile.objects.get(user = request.user)
 	events = EventRegister.objects.filter(user = request.user)
-	return render(request,'webapp/dashboard.html',{'profile':profile,'events':events})
+	try:
+		teams = Team.objects.filter(user = request.user)
+		team_array=[]
+		for team in teams:
+			team_members = Team.objects.filter(teamids = team.teamids)
+			for member in team_members:
+				team_array.append(member)
+	except Exception as e: 
+            print(e)
+	return render(request,'webapp/dashboard.html',{'profile':profile,'events':events,'team_array':team_array})
 
 
 def details(request,name):
@@ -112,3 +122,99 @@ def eventregister(request,eventname):
 		return HttpResponseRedirect("/dashboard")
 	else:
 		return HttpResponseRedirect("/login")
+
+
+def team_register(request):
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		if request.method == "POST":
+			form = teamForm(request.POST)
+			if form.is_valid():
+				print form.errors
+				data = form.cleaned_data
+				event = data['event']
+				elanid_list = []
+				email_list= []
+				for x in range(1, 6):
+					if data['elanid' + str(x)] != "":
+						elanid_raw = data['elanid' + str(x)]
+						print elanid_raw[:8]
+						if elanid_raw[:8] == "EN18IITH":
+							try:
+								elanid = int(data['elanid' + str(x)][-5:])
+								email = data['email' + str(x)]
+								if Profile.objects.filter(elanids = elanid).exists():
+									profile = Profile.objects.get(elanids = elanid)
+									if profile.user.username == email:
+										elanid_list.append(int(data['elanid' + str(x)][-5:]))
+										email_list.append(data['email' + str(x)])
+
+									else:
+																	
+										message = "Incorrect combination of ELAN ID & e-mail id."
+										print 1 
+										return render(request,'webapp/teamregister.html',{'form':form,'message':message})							
+								else:
+									
+									message = "Incorrect combination of ELAN ID , e-mail id."
+									print 2
+									return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+							except:
+								message = "Incorrect ELAN ID"
+								print 8
+								return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+
+						else:
+							message = "Incorrect ELAN ID"
+							print 7
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+
+				leader_email = email_list[0]
+				leader = User.objects.get(username = leader_email)
+				if TeamLeader.objects.filter(user = leader, event = event).exists():
+					message = "Team leader already exists for this event."
+					print 3
+					return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+				else:
+					leader_object = TeamLeader()
+					leader_object.user = leader
+					leader_object.event = event
+					leader_object.teamids = 1
+					leader_object.save()
+					teamleader = TeamLeader.objects.get(user = leader,event = event)
+					teamid = teamleader.id
+					teamleader.teamids = teamleader.id
+					teamleader.save()
+					if EventRegister.objects.filter(user = leader,event = event).exists():
+						pass
+					else:
+						new_object = EventRegister()
+						new_object.user = leader
+						new_object.event = event
+						new_object.uploaded_at = localtime(now())
+						new_object.save()
+					for email in email_list:
+						member = User.objects.get(username = email)
+						if Team.objects.filter(user = member, event = event):
+							TeamLeader.objects.get(user = leader,event = event).delete()
+							print 4
+							message = "Some of the team members already formed a team for this event"
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+						else:
+							new_object=Team()
+							new_object.user = member
+							new_object.teamids = teamid
+							new_object.event = event
+							new_object.save()
+							if EventRegister.objects.filter(user = member,event = event).exists():
+								pass
+							else:
+								new_object = EventRegister()
+								new_object.user = member
+								new_object.event = event
+								new_object.uploaded_at = localtime(now())
+								new_object.save()
+			return HttpResponseRedirect("/dashboard")
+		else:
+			form = teamForm()
+			return render(request,'webapp/teamregister.html',{'form':form,})
