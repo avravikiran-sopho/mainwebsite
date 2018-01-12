@@ -475,7 +475,7 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
         <p>Prizes Worth INR 50,000/-\ </p>\ <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>sachin - 7207873406<br>Ayush Negi - 828003282<br>Sai Sandeep - 9177785183<br>Lokesh - 9010880613<br>Trinadh - 9666254100</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -504,7 +504,16 @@ $('.card').on('click',function () {
         <p><br><a  href='/static/pdf/robowars.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>Coming Soon</h1>\
+        <h1>Rules and Regulations:</h1>\
+        <p>The maximum size of a team is 4.<br>\
+        A robot that is unsafe, as deemed by the judges, will be disqualified immediately and the opponent robot will be declared as the winner.<br>\
+        The bot is not allowed to leave anything behind during the run. It should not leave any mark on the arena. Any bot found damaging the arena will be immediately disqualified.<br>\
+        If there is any kind of ambiguity in the selection of weapon systems, please clarify the same with the event organizers to avoid further confusion.<br>\
+        The Victory if both bots remain mobile will be based on the judges at their discretion.The judge's decision will be final and the points will be kept confidential.<br>\
+        Changes in rules, if any, will be highlighted on the website.</p>\
+        <h1>Certificate Policy:</h1><p>\
+        The top 3 teams emerging from this competition will be awarded a Certificate of Excellence.<br>\
+        All teams who have registered online and participated in the event during fest will be awarded a Participation Certificate</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
