@@ -23,7 +23,8 @@ CHOICES=[('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
          ('ENIGMA','ENIGMA'),
          ('HACK-A-MAZE','HACK-A-MAZE'),
          ('SCIENCE QUIZ','SCIENCE QUIZ'),
-         ('AUTOMOBILE QUIZ','AUTOMOBILE QUIZ'),]
+         ('AUTOMOBILE QUIZ','AUTOMOBILE QUIZ'),
+		 ('PAPER PRESENTATION','PAPER PRESENTATION'),]
 
 class teamForm(forms.Form):
 	event = forms.ChoiceField(choices=CHOICES)
