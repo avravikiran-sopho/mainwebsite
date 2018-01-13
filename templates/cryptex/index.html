@@ -118,13 +118,11 @@
 	<p style="text-align: center;">Events starts this friday, 12th January</p>
 
 	 {% if True %}
-	 {% ifequal user.get_username 'es16btech11025@iith.ac.in' %}
      <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
 	    {% csrf_token %}
 	    {{ form.as_p }}
 	    <button  class ="btn btn-primary" type="submit">Play</button>
     </form>
-	 {% endifequal %}
 	 
     {% endif %}
     {% else %}

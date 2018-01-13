@@ -11,16 +11,22 @@
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
 	<style type="text/css">
+		body {
+			min-height: 100%;
+		}
 		.title {
 			font-family: 'Orbitron', sans-serif;
 			text-align: center;
 			font-size: 5em;
 		}
+		.subtitle {
+			text-align: center;
+			font-size: 2em;
+		}
 		.footer {
-			position: fixed;
-			bottom: 5%;
+			position: absolute;
+			bottom: 0;
 		    right:0;
-			z-index:-1000;
 			text-align: center;
 			width: 100%;
 		    background: rgba(0,0,0,0);
@@ -85,6 +91,7 @@
 		}
 
 	</style>
+	
 
 
   <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
@@ -114,6 +121,9 @@
 	        <a class="nav-link" href="/cryptex/leaderboard">Leaderboard</a>
 	      </li>
 	      <li class="nav-item">
+	        <a class="nav-link" href="http://forum.elan.org.in">Forum</a>
+	      </li>
+	      <li class="nav-item">
 	        <a class="nav-link" href="/login/logout/">Logout</a>
 	      </li>
 	      {% else %}
@@ -128,14 +138,18 @@
 	<!-- <div class="container cover" style="margin: auto;text-align: center;"><img src="{% static 'img/el-matrico.png' %}" width=80%;></div>
 	<div class="container cover" style="margin: :auto;text-align: center;"><img src="{% static 'img/mathworks.png' %}" width=60%;></div><br> -->
 	<h1 class="title">CRYPTEX</h1>
+	<p class="subtitle"><a target="_blank" href="http://forum.elan.org.in">Forum is live again!</a></p>
 	</div>
 	{% if user.is_authenticated %}
 	{% if registered %}
-	<div class="container question" style="text-align: center;margin-bottom:10%;">
+	<div class="container question" style="text-align: center;">
 	{% with "cryptex/"|add:question|add:".html" as template %}
 	{% include template %}
 	{% endwith %}
 
+	{% if question|add:0 == 29 %}
+	<div></div>
+	{% else %}
     <form method="post" name="form" id="form" action="/cryptex/validate/" style="margin:auto;width:50%;text-align: center">
 	    {% csrf_token %}
 	    {{ form.as_p }}
@@ -145,7 +159,8 @@
 			{% endif %}
 		</div>
 	    <button  class ="btn btn-primary" type="submit">Submit</button>
-    </form>
+    </form>	
+	{% endif %}
     
         
     {% else %}
@@ -157,20 +172,20 @@
 	<p style="text-align: center;"><a href="/login"><button class="btn btn-primary">Login</button></a></p>
     {% endif %}
 	</div>
-	<div class="footer">
-		{% ifequal question 21 %}
-		<a target="_blank" href="https://twitter.com/elan_iith"><img class="footerimg" src="{% static 'img/beta/footer/twitter.png' %}"></a>
-		<a target="_blank" href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="{% static 'img/beta/footer/fb.png' %}"></a>
-		<a target="_blank" href="https://www.instagram.com/elan_and_nvision/"><img class="footerimg" src="{% static 'img/beta/footer/insta.png' %}"></a>
-	<!-- <a target="_blank" href="https://www.youtube.com/user/ElanIITHyderabad"> -->
-    	<a target="_blank" href="https://www.youtube.com/watch?v=h0OTZo3-K5s"><img class="footerimg" src="{% static 'img/beta/footer/yt.png' %}"></a>
-		{% else %}
-		<a target="_blank" href="https://twitter.com/elan_iith"><img class="footerimg" src="{% static 'img/beta/footer/twitter.png' %}"></a>
-		<a target="_blank" href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="{% static 'img/beta/footer/fb.png' %}"></a>
-		<a target="_blank" href="https://www.instagram.com/elan_and_nvision/"><img class="footerimg" src="{% static 'img/beta/footer/insta.png' %}"></a>
-    	<a target="_blank" href="https://www.youtube.com/user/ElanIITHyderabad"><img class="footerimg" src="{% static 'img/beta/footer/yt.png' %}"></a>
-		{% endifequal %}
-		
-    </div>
-	<div class="footer" style="text-align: center;margin-top: 5%;background-color: #eeeeee;bottom: 0;left:0;position: fixed;width: 100%;">For any technical issues, contact to web@elan.org.in</div>
+	<div class="footer" style="text-align: center;margin-top: 5%;background-color: #ffffff;bottom: 0;left:0;position: fixed;width: 100%;">
+		Ask and recieve hints at the <a target="_blank" href="http://forum.elan.org.in">Forum</a>
+			{% if question|add:0 == 21 %}
+			<a target="_blank" href="https://twitter.com/elan_iith"><img class="footerimg" src="{% static 'img/beta/footer/twitter.png' %}"></a>
+			<a target="_blank" href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="{% static 'img/beta/footer/fb.png' %}"></a>
+			<a target="_blank" href="https://www.instagram.com/elan_and_nvision/"><img class="footerimg" src="{% static 'img/beta/footer/insta.png' %}"></a>
+	    	<!-- <a target="_blank" href="https://www.youtube.com/user/ElanIITHyderabad"> -->
+	    	<a target="_blank" href="https://www.youtube.com/watch?v=h0OTZo3-K5s"><img class="footerimg" src="{% static 'img/beta/footer/yt.png' %}"></a>
+			{% else %}
+			<a target="_blank" href="https://twitter.com/elan_iith"><img class="footerimg" src="{% static 'img/beta/footer/twitter.png' %}"></a>
+			<a target="_blank" href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="{% static 'img/beta/footer/fb.png' %}"></a>
+			<a target="_blank" href="https://www.instagram.com/elan_and_nvision/"><img class="footerimg" src="{% static 'img/beta/footer/insta.png' %}"></a>
+	    	<a target="_blank" href="https://www.youtube.com/user/ElanIITHyderabad"><img class="footerimg" src="{% static 'img/beta/footer/yt.png' %}"></a>
+			{% endif %}
+		For any technical issues, contact to web@elan.org.in
+	</div>
 </body>
