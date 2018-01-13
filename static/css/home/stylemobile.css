@@ -300,9 +300,11 @@ sup {
 	height: auto;
 }
 #msection1 .titleunder{
-	width: 100vw;
 	height: auto;
-	text-align: center;
+    font-size: xx-large;
+    margin-top: 1.1em;
+    text-align: center;
+    font-family: 'Joti One';
 }
 #msection1 .titleunder img{
 	width: 100%;
