@@ -9,7 +9,7 @@ from django.contrib import admin
 class DisplayPlayer(admin.ModelAdmin):
 	list_display = ('user','level','pname',)
 	ordering = ('level',)
-	search_fields = ['player__user__username','pname',]
+	search_fields = ['user__username','pname',]
 
 class DisplayAnswer(admin.ModelAdmin):
 	list_display = ('problem',)
