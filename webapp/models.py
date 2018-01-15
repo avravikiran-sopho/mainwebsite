@@ -39,3 +39,8 @@ class TeamLeader(models.Model):
 	user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE, default=1)
 	teamids = models.IntegerField()
 	event = models.CharField(max_length=100)
+
+class Social(models.Model):
+	name = models.CharField(max_length=100)
+	email = models.CharField(max_length=100)
+	message = models.TextField()

@@ -4,6 +4,7 @@ from django import forms
 from django.template.defaultfilters import filesizeformat
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
+from .models import Social
 
 CHOICES=[('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
          ('DTMF RACE','DTMF RACE'),
@@ -23,7 +24,8 @@ CHOICES=[('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
          ('ENIGMA','ENIGMA'),
          ('HACK-A-MAZE','HACK-A-MAZE'),
          ('SCIENCE QUIZ','SCIENCE QUIZ'),
-         ('AUTOMOBILE QUIZ','AUTOMOBILE QUIZ'),]
+         ('AUTOMOBILE QUIZ','AUTOMOBILE QUIZ'),
+		 ('PAPER PRESENTATION','PAPER PRESENTATION'),]
 
 class teamForm(forms.Form):
 	event = forms.ChoiceField(choices=CHOICES)
@@ -54,5 +56,8 @@ class teamForm(forms.Form):
 		{'name':"email15",'id':"username",'placeholder':"Email"}))
 
 
+class socialForm(forms.Form):
 
-
+	class Meta:
+		model = Social
+		fields = ['name','email','message',]

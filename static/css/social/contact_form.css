@@ -1,0 +1,113 @@
+
+.probootstrap-section{
+    padding:7em 0
+}
+.probootstrap-section.probootstrap-border-top{
+    border-top:1px solid rgba(0,0,0,.1)
+}
+.probootstrap-section.probootstrap-border-bottom{
+    border-bottom:1px solid rgba(0,0,0,.1)
+}
+.probootstrap-section>.container.probootstrap-border-top{
+    padding-top:50px;
+    border-top:1px solid rgba(0,0,0,.1)
+}
+.probootstrap-section.probootstrap-bg-white{
+    background: #EAFFEB;
+}
+@media screen and (max-width:768px){
+    section[data-section=menu]{
+        margin-top:0
+    }
+    .probootstrap-section{
+        padding:3em 0
+    }
+}
+.probootstrap-section-bg{
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:7em 0;
+    position:relative;
+    height:600px
+}
+.probootstrap-section-bg.overlay:before{
+    content:"";
+    background:rgba(0,0,0,.2);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0
+}
+.probootstrap-section-bg .probootstrap-heading{
+    margin-top:250px
+}
+
+    .probootstrap-section-bg{
+        padding:3em 0;
+        height:300px
+    }
+    .probootstrap-section-bg .probootstrap-heading{
+        margin-top:50px
+    }
+
+    .probootstrap-heading .primary-heading{
+        font-family:"Pinyon Script",serif;
+        color:#FFA33E;
+        margin:0;
+        padding:0;
+        font-size:80px
+    }
+
+    .probootstrap-heading.dark .secondary-heading{
+        color:#000
+    }
+    .probootstrap-heading .seperator{
+        display:block;
+        margin:0 auto 10px;
+        color:#ccc;
+        font-weight:300
+    }
+
+    #form-para{
+      color: #8b8e94;
+    line-height: 24px;
+    font-size: 15px;
+    }
+
+    .probootstrap-heading .primary-heading {
+    font-family: "Pinyon Script",serif;
+    color: #00A5F9;
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+}
+
+    @media screen and (max-width:768px){
+        .probootstrap-heading .primary-heading{
+            font-size:70px
+        }
+    }
+    .probootstrap-heading .secondary-heading{
+        text-transform:uppercase;
+        color:#fff;
+        margin:0;
+        padding:0;
+        letter-spacing:.05em;
+        font-size:50px;
+        position:relative;
+        top:9px;
+        font-weight:700;
+        line-height:40px
+    }
+    @media screen and (max-width:768px){
+        .probootstrap-heading .secondary-heading{
+            font-size:40px
+        }
+    }
+
+    @media (max-width:800px) {
+      .mobile_hide{
+        display:none;
+      }
+    }

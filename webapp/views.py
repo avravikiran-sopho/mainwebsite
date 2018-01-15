@@ -15,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from .forms import teamForm
+from .forms import teamForm, socialForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -59,7 +59,8 @@ def facebookbot(request):
 def hackathon(request):
 	return render(request,'webapp/hackathon.html')
 def social(request):
-	return render(request,'webapp/mypledge.html')
+	form = socialForm()
+	return render(request,'webapp/mypledge.html',{'form':form})
 def events(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)

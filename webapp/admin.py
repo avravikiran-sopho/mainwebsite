@@ -33,8 +33,12 @@ class  DisplayTeamLeader(admin.ModelAdmin):
 
 class  DisplayTeam(admin.ModelAdmin):
 	list_display = ('user','teamids','event')
+
+class  DisplaySocial(admin.ModelAdmin):
+	list_display = ('name','email','message')
 	
 admin.site.register(Detail)
+admin.site.register(Social,DisplaySocial)
 admin.site.register(EventName)
 admin.site.register(EventRegister, DisplayEventRegister)
 admin.site.register(TeamLeader, DisplayTeamLeader)

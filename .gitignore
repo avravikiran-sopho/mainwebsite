@@ -105,3 +105,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Cryptex txt Hints
+/templates/cryptex/*.txt
