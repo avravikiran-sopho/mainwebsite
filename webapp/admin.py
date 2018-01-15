@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.contrib import admin
 from Auth.models import Profile
-from .models import Detail, EventName, EventRegister, TeamLeader, Team
+from .models import Detail, EventName, EventRegister, TeamLeader, Team, Social
 # Register your models here.
 
 
