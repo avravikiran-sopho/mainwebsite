@@ -5,7 +5,7 @@ from Auth.models import Profile
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from .models import Detail, EventName , EventRegister, Team, TeamLeader
+from .models import Detail, EventName , EventRegister, Team, TeamLeader, Social
 import json
 from django.contrib.auth.decorators import login_required 
 from Auth.models import Profile
@@ -58,9 +58,28 @@ def facebookbot(request):
 		return render(request,'webapp/fbbot.html')
 def hackathon(request):
 	return render(request,'webapp/hackathon.html')
+
 def social(request):
-	form = socialForm()
-	return render(request,'webapp/mypledge.html',{'form':form})
+	if request.method == "POST":
+		form = socialForm(request.POST)
+		if form.is_valid():
+			data = form.cleaned_data
+			new_object = Social()
+			new_object.name = data['name']
+			new_object.email = data['email']
+			new_object.message = data['message']
+			new_object.save()
+			message = "Your response is recorded."
+			form = socialForm()
+			return render(request,'webapp/mypledge.html',{'form':form,'message':message})
+		else:
+			message = "Invalid input."
+			return render(request,'webapp/mypledge.html',{'form':form,'message':message})
+	else:
+		form = socialForm()
+		return render(request,'webapp/mypledge.html',{'form':form})
+
+
 def events(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)
