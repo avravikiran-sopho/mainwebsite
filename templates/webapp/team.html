@@ -1,7 +1,9 @@
 
     {% load static %}
     {% include "base.html" %}
-
+    <!-- FAVICONS -->
+  	<link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+  	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon.png' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'css/team.css' %}">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
   <script type="text/javascript" src="{% static 'js/scroll.min.js' %}"></script>
@@ -11,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 
-    
+
 	<body>
     <!-- Nav -->
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
@@ -62,7 +64,7 @@
         <li><button class="mbtn" id="btn7">Marketing</button></li>
         <li><button class="mbtn" id="btn8">Infra & Pronites</button></li>
       </ul>
-    </div>  
+    </div>
 
 
 
@@ -201,7 +203,7 @@
           </div>
         </div>
         <div class="container">
-          
+
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/gitanjali.JPG' %}" alt="Card image cap">
@@ -244,7 +246,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/anvesh.JPG' %}" alt="Card image cap">
@@ -811,14 +813,14 @@
       //   $(this).find(".socialbtns").slideDown();
       //   var x = $(this).attr('id');
       //     var name = "static/img/team/"+x+".JPG"
-      //     console.log(name); 
-      //    $('.img-big').fadeOut(500, function() {            
+      //     console.log(name);
+      //    $('.img-big').fadeOut(500, function() {
       //       $('.img-big').attr("src",name);
-      //       $('.img-big').fadeIn(500);            
-      //   });}, function(){   
+      //       $('.img-big').fadeIn(500);
+      //   });}, function(){
       //     var x = $(this).attr('id');
       //     var name = "static/img/team/"+x+".JPG"
-      //     console.log(name);       
+      //     console.log(name);
       //     $(this).find(".card-content").slideUp(0);
       //     $(this).find(".socialbtns").slideUp(0);
       //     $('.img-big').attr("src",name);
