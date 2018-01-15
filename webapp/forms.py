@@ -57,7 +57,12 @@ class teamForm(forms.Form):
 
 
 class socialForm(forms.Form):
-
+	name = forms.CharField(widget=forms.TextInput(attrs=
+    	{'name':"name",'id':"c_name",'class':"form-control",'placeholder':"Name"}))
+	email = forms.CharField(widget=forms.EmailInput(attrs=
+    	{'name':"email",'id':"c_email",'class':"form-control",'placeholder':"Email"}))
+	message = forms.CharField(widget=forms.Textarea(attrs=
+    	{'name':"message",'id':"c_message",'class':"form-control",'placeholder':"Message"}))
 	class Meta:
 		model = Social
 		fields = ['name','email','message',]
