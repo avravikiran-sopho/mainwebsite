@@ -1988,65 +1988,65 @@ $('.card').on('click',function () {
         <p>'Fire in the hole'.  If you know what I mean,<br>\
         Come join us for a fun filled day of gaming.<br>\
         Let’s find out, who is the pro!</p>\ <h1>GAMES</h1><p>\
-        DoTA 2<br>\
-        CS:GO<br>\
-        Call of Duty: Modern Warfare 3</p>\ <h1>RULES</h1><p>\
-        The teams for DoTA 2, CS:GO need to consist of five members each.<br>\
-        The games will be held in a tournament style format.<br>\
-        In case of malpractice the concerned team will be disqualified.<br>\
-        Organiser’s decision final and binding to all</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> DoTA 2<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> CS:GO<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Call of Duty: Modern Warfare 3</p>\ <h1>RULES</h1><p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The teams for DoTA 2, CS:GO need to consist of five members each.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The games will be held in a tournament style format.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> In case of malpractice the concerned team will be disqualified.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all</p>\
         ";
     var destination = "<h1 style='text-align:center'>Final Destiantion</h1>\
         <h1>ABOUT</h1><p>\
-        Ever dreamt of finding Blackbeard’s Treasure.<br>\
+        Ever dreamt of finding Blackbeard’s Treasure? \
         If yes then you are just in the right place.<br>\
-        ELAN brings to you a real treasure, If you can find it!!</p>\ <h1>RULES</h1><p>\
-        Teams should consist of 4 members.<br>\
-        The teams should assemble 30 min before the start of the game.<br>\
-        There will be different clues to be solved at the different checkpoints.<br>\
-        The first team coming at each checkpoint will get the opportunity to perform the task first.<br>\
-        Without solving one clue you can't move to the next.<br>\
-        The first two teams to complete every task and bag maximum points will be rewarded.<br>\
-        Malpractice will lead to disqualification.<br>\
-        Organiser’s decision final and binding to all.</p>";
+        ELAN brings to you a real treasure, if you can find it!!</p>\ <h1>RULES</h1><p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Teams should consist of 4 members.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The teams should assemble 30 min before the start of the game.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There will be different clues to be solved at the different checkpoints.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The first team coming at each checkpoint will get the opportunity to perform the task first.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Without solving one clue you can't move to the next.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The first two teams to complete every task and bag maximum points will be rewarded.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Malpractice will lead to disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>";
     var food= "<h1 style='text-align:center'>Foodathon</h1>\
         <h1>ABOUT</h1>\
         <p>Haters will hate but 'Food is not a word, It’s a religion'.<br>\
         ELAN invites all the foodies for a real competition.<br>\
-        Let’s see who is the biggest foodie. But wait, Is it so simple!!<br>\
-        We don’t think so</p>\
+        Let’s see who is the biggest foodie. But wait, is it so simple?<br>\
+        We don’t think so.</p>\
         <h1>RULES</h1><p>\
-        Individual participation.<br>\
-        Onspot registration with limited number of entries.<br>\
-        Organiser’s decision final and binding to all.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i> Individual participation.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Onspot registration with limited number of entries.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>";
     var casino = "<h1 style='text-align:center'>Casino</h1><h1>ABOUT</h1><p>\
         Got the perfect poker face? Think you’re luckier than the rest?<br>\
-        Put it to the test at the Casino!<br>\
+        Put it to the test at the Casino!<br><br>\
         For those who have aces up their sleeves, to those who just want to have some fun,the excitement of gambling never dies.<br>\
         Whether it’s the spin of the roulette wheel that catches your eye,<br>\
         or the shouts of ‘hit’ and ‘stay’ from the blackjack table that draw you in, the<br>\
         casino just won’t let you leave. May the odds be ever in your favour!</p>";
     var minute = "<h1 style='text-align:center'>Minute To Win It</h1>\
         <h1>ABOUT</h1><p>\
-        Fun and Goodies, What a great combination.<br>\
-        Isn’t it? ELAN presents you all the traditional games with a little twist.<br>\
+        Fun and Goodies, what a great combination!\
+        Isn’t it? <br>ELAN presents you all the traditional games with a little twist.<br>\
         Get ready to grab some goodies!</p>\  <h1>RULES</h1><p>\
-        The events can be performed single or in a group depending on the event.<br>\
-        No malpractices.<br>\
-        The decision of the organizers is final.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i> The events can be performed single or in a group depending on the event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> No malpractices.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organizers is final.</p>";
     var madads = "<h1 style='text-align:center'>Mad Ads</h1>\
         <h1>ABOUT</h1><p>\
         Mad Ads is all about having fun, it’s about laughing and having a good time.<br>\
         Entertain the audience with some hilarious and innovative ads!<br>\
         Well you may get something in return, but only if you are hilarious enough!</p>\
         <h1>RULES</h1><p>\
-        This is a group event-group of 4-5.<br>\
-        Every member of the group should participate.<br>\
-        The Product will be given by the organizers and in no case it can be exchanged.<br>\
-        The group will be given 30 minutes for preparing the AD.<br>\
-        The AD should be 3 min in length.<br>\
-        No vulgarity allowed and sportsmanship to be followed.<br>\
-        Organiser’s decision final and binding to all.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> This is a group event-group of 4-5.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Every member of the group should participate.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Product will be given by the organizers and in no case it can be exchanged.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The group will be given 30 minutes for preparing the AD.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The ad should be 3 minutes in length.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> No vulgarity allowed and sportsmanship to be followed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>\
         ";
     var ramp = "<h1 style='text-align:center'>Walk The Ramp</h1>\
         <h1>ABOUT</h1>\
@@ -2061,16 +2061,16 @@ $('.card').on('click',function () {
     var social = "<h1 style='text-align:center'>Social Experiment</h1>\
         <h1>ABOUT</h1>\ <p>Have you were been PRANKED before ?<br>\
         Have you were been asked random general questions ?<br>\
-        If NO is your answer to these, get ready to experience them soon ;P</p>";
+        If NO is your answer to these, get ready to experience them soon:P</p>";
     var wheel = "<h1 style='text-align:center'>Wheel-Of-Fortune</h1>\
         <h1>ABOUT</h1><p>\
         Like to quiz? Here’s a chance to put those grey cells to work.<br>\
         But don’t forget to get your lucky charms because the stakes are high!<br>\
         May the odds always be in your favour…</p>\
         <h1>RULES</h1><p>\
-        Participation in teams of 2.<br>\
-        Organiser’s decision final and binding to all.<br>\
-        Online and On-spot registration with limited number of entries.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participation in teams of 2.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Online and On-spot registration with limited number of entries.</p>\
         ";
     var snakes = "<h1 style='text-align:center'>Snakes and Ladders</h1>\
         <h1>ABOUT</h1><p>\
@@ -2083,8 +2083,8 @@ $('.card').on('click',function () {
         <h1>ABOUT</h1><p>\
         Get ready to give life to the piece of paper to fly higher with the help of your creative and engineering skills.<p>\
         <h1>RULES</h1>\
-        <p>Onspot registration.<br>\
-        Organiser’s will describe the rules.</p>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Onspot registration.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s will describe the rules.</p>\
         ";
     var coffee = "<h1 style='text-align:center'>Coffee Conversation</h1>\
         <h1>ABOUT</h1>\
@@ -2094,9 +2094,9 @@ $('.card').on('click',function () {
         and have to answer questions about the person  they were teamed up with.<br>\
         The team that answers most questions correctly wins, but everyone goes home   having made a new friend. Cheers!</p>\
         <h1>RULES</h1>\
-        <p>Partners will be assigned by random chits.<br>\
-        Participants will be given 10 minutes with their partners.<br>\
-        The most correct answers will win.</p>";
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Partners will be assigned by random chits.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants will be given 10 minutes with their partners.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The most correct answers will win.</p>";
     var elanejung = "<h1 style='text-align:center'>Elan-E-Jung</h1><p>\
         Travel on a double bass and riff through the jungle which has creatures who are calm like a bomb. Elan is back with its signature Event, the metal battle. Get ready to put the stage on Wildfire.<br>\
         'For those about to rock, we salute you!'' - AC/DC<br>\
