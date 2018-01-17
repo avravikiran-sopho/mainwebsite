@@ -2154,18 +2154,18 @@ $('.card').on('click',function () {
         ";
     var detective = "<h1 style='text-align:center'>Mr Detective</h1>\
         <p>In this event, the contesting parties will be provided a story detailing a weird event (Think failed heists, murders, smashed cookie jars and stuff). With the help of supreme reading comprehension skills and mental mettle, contestants will attempt to serve justice.</p>\
-        <h1>Rules:</h1><p>\ a) This is an offline event. Any questions/hint requests will be addressed at the discretion of the organiser(s).<br>\
-        b) Contesting parties should have no more than 4 people. A Party can consist of a single person as well, despite the inherent sadness of a single person party.</p>\
+        <h1>Rules:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i>  This is an offline event. Any questions/hint requests will be addressed at the discretion of the organiser(s).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i>  Contesting parties should have no more than 4 people. A Party can consist of a single person as well, despite the inherent sadness of a single person party.</p>\
         <h1>Judging Criteria:</h1><p>\
-        a) Soundness of the explanation offered - Both logically and in ability to explain various narrative events.<br>\
-        b) Time taken to come up with explanation.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i>  Soundness of the explanation offered - Both logically and in ability to explain various narrative events.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i>  Time taken to come up with explanation.</p>";
     var conclave = "<h1 style='text-align:center'>Quiz Conclave</h1><p>\
         Jack of all trades or master of one ? Find out at quiz conclave which pampers and punishes participants with a choice of x quizzes in x different fields. In this quizzes, the quizmaster will make you call in your inner pop culture guru to reveal just exactly how much anime you binge watched. Do you feel lucky , may the odds be with you.</p>\
         <h1>Rules:</h1><p>\
-        0. This obviously is an offline event.<br>\
-        1. The first rule of the Quiz Club is quizmaster's decision is final.<br.\
-        2. No peeking. We call on your quizzer's honor.<br>\
-        3. ‎Ships are safe in the harbour but that is not their purpose. Quizzers are safe with Google but that is not their purpose. Don't use Google or anything more than your gray matter.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i>  This obviously is an offline event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i>  The first rule of the Quiz Club is quizmaster's decision is final.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i>  No peeking. We call on your quizzer's honor.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i>  ‎Ships are safe in the harbour but that is not their purpose. Quizzers are safe with Google but that is not their purpose. Don't use Google or anything more than your gray matter.</p>";
     var elmatrico = "<h1 style='text-align:center'>Elmatrico</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
