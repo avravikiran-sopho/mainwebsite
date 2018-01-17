@@ -13,15 +13,15 @@ $('.card').on('click',function () {
       var name = $(this).attr('id');
       console.log(name);
       var femina = "<h1 style='text-align:center'>FBB Miss Femina</h1><p>\
-          Nationality: Indian Passport Holder<br>\
-          The applicant should be between 18 - 25 years of age as of December 31, 2018. The applicant will be required to produce their age proof (Passport, birth certificate, school leaving certificate, driver's license, etc).<br>\
-          Relationship Status: The applicant should be unmarried.<br>\
-          Height: 5'5\" and above(without heels)<br>\
-          Unmarried/ single/ not engaged<br>\
-          Student of any recognized educational institution.<br>\
-          If selected, the applicant will have to follow the dress code of a Black Cocktail Dress and Stilettos while walking the ramp<br>\
-          For any queries Contact Kabir Sharda: 9867327421 or email at kabir@elan.org.in<br>\
-          The applicant must agree to abide by all rules, as changed from time to time by the Organisers.</p>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> Nationality: Indian Passport Holder<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> The applicant should be between 18 - 25 years of age as of December 31, 2018. The applicant will be required to produce their age proof (Passport, birth certificate, school leaving certificate, driver's license, etc).<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> Relationship Status: The applicant should be unmarried.<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> Height: 5'5\" and above(without heels)<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> Unmarried/ single/ not engaged<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> Student of any recognized educational institution.<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> If selected, the applicant will have to follow the dress code of a Black Cocktail Dress and Stilettos while walking the ramp<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> For any queries Contact Kabir Sharda: 9867327421 or email at kabir@elan.org.in<br>\
+          <i class='fa fa-circle' style='font-size:8px;'></i> The applicant must agree to abide by all rules, as changed from time to time by the Organisers.</p>\
           ";
       var dtmf = "<h1 style='text-align:center'>DTMF Race</h1>\
           <ul  class='nav nav-tabs'>\
@@ -1315,9 +1315,9 @@ $('.card').on('click',function () {
         </div>\
         ";
 
-        
-        
-        
+
+
+
     var octave = "<h1 style='text-align:center'>Octaves:A Solo Instrument Competition</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
@@ -1717,7 +1717,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    
+
     var art = "<h1 style='text-align:center'>Arts Exhibtioon</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
@@ -2100,54 +2100,54 @@ $('.card').on('click',function () {
     var elanejung = "<h1 style='text-align:center'>Elan-E-Jung</h1><p>\
         Travel on a double bass and riff through the jungle which has creatures who are calm like a bomb. Elan is back with its signature Event, the metal battle. Get ready to put the stage on Wildfire.<br>\
         'For those about to rock, we salute you!'' - AC/DC<br>\
-        <h1>Event Format</h1>\ <p>This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p>Each band interested in participating should upload their demos/videos to google drive  and share the link with <a href='mailto:kabir@elan.org.in'>kabir@elan.org.in</a>.\
-        <br>and fill out this <a href=\"https://goo.gl/forms/hSrqpXdRgnQ8Bv8K2\">form</a><br>(Do not upload more than 2 videos in the drive link.)</p>\ Out of this 5 bands will be shortlisted, and will be performing at Elan-e-Jung prelims, Elan 2018.<br>\
-        Each band will be given 20 minutes to perform including sound check.</p>\
+        <h1>Event Format</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> Each band interested in participating should upload their demos/videos to google drive  and share the link with <a href='mailto:kabir@elan.org.in'>kabir@elan.org.in</a>.\
+        <br>and fill out this <a href=\"https://goo.gl/forms/hSrqpXdRgnQ8Bv8K2\">form</a>.<br>(Do not upload more than 2 videos in the drive link.)</p>\<i class='fa fa-circle' style='font-size:8px;'></i>  Out of this 5 bands will be shortlisted, and will be performing at Elan-e-Jung prelims, Elan 2018.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each band will be given 20 minutes to perform including sound check.</p>\
         <h1>Finals:</h1>\
-        <p>Winners of the prelims will go through the finals.<br>\
-        Each band will be given 20 mins to perform on stage including sound check (subjected to changes).<br>\
-        The winner and the first runner up will be given prizes. (Not yet decided).</p>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Winners of the prelims will go through the finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each band will be given 20 mins to perform on stage including sound check (subjected to changes).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The winner and the first runner up will be given prizes. (Not yet decided).</p>\
         <h1>Rules and Regulations:</h1>\
-        <p>Language of songs is not a criterion. The band can be fully instrumental as well. The genre of the band should be any variation of metal. <br>\
-        No band can have more than 7 members. Also, no person can play for more than 2 different bands.<br>\
-        The bands cannot share the same frontman.<br>\ IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.<br>\
-        In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.<br>\ The decision is dependent on the nature of the damage and the judges' discretion. <br>\
-        IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.<br>\ In case of any dispute the decision of the organizers will be final and binding.<br>\
-        Consumption of Alcohol and Drugs is strictly prohibited on Campus.</p>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Language of songs is not a criterion. The band can be fully instrumental as well. The genre of the band should be any variation of metal. <br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> No band can have more than 7 members. Also, no person can play for more than 2 different bands.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The bands cannot share the same frontman.<br>\ <i class='fa fa-circle' style='font-size:8px;'></i> IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.<br>\ <i class='fa fa-circle' style='font-size:8px;'></i> The decision is dependent on the nature of the damage and the judges' discretion. <br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.<br>\ In case of any dispute the decision of the organizers will be final and binding.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Consumption of Alcohol and Drugs is strictly prohibited on Campus.</p>\
         <h1>Contact Person:</h1><p>\
         Kabir Sharda<br>\
         kabir@elan.org.in<br>\
         9867327421</p>\
         ";
     var manthan = "<h1 style='text-align:center'>Manthan</h1>\
-        <h1>Event Format</h1>\ <p>This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p>Each band interested in participating should upload their videos on a google drive and share the link with <a href='mailto:kabir@elan.org.in'>kabir@elan.org.in</a>. Fill ut this <a href='https://goo.gl/forms/PBGzR7Zo0DTLIoEQ'>form</a> as well.<br>Don't upload more than 2 videos in the drive link.<br>\  Out of this 5 bands will be shortlisted, and will be performing at Manthan prelims, Elan 2017.<br>\
-        Each band will be given 20 minutes to perform including sound check.<br>\
+        <h1>Event Format</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> Each band interested in participating should upload their videos on a google drive and share the link with <a href='mailto:kabir@elan.org.in'>kabir@elan.org.in</a>. Fill ut this <a href='https://goo.gl/forms/PBGzR7Zo0DTLIoEQ'>form</a> as well.<br><i class='fa fa-circle' style='font-size:8px;'></i> Don't upload more than 2 videos in the drive link.<br>\ <i class='fa fa-circle' style='font-size:8px;'></i>  Out of this 5 bands will be shortlisted, and will be performing at Manthan prelims, Elan 2017.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each band will be given 20 minutes to perform including sound check.<br>\
         <h1>RULES AND REGULATIONS</h1>\
-        <p>Any non-professional band is allowed to register. You need not be a college band to participate in this event.<br>\
-        Language is no criterion. We are looking for bands that play fusion music (anything except metal) and in any language.<br>\
-        Registering team should send/upload one demo in the process of registration. The demo need not be a studio recording.<br>\
-        Incorrect information will result in disqualification, whether discovered prior to, during or after the finals and the Candidate shall be liable to the Organizers for such misrepresentation.<br>\
-        Candidates must conduct themselves in a proper manner and portray high moral standards. Candidates will not consume any alcoholic beverages, use illegal drugs or public smoking or use foul language or should not misconduct in any way during the course of the entire event.<br>\
-        The Judges' decision shall be final and binding for all.<br>\
-        The decision of the organizers with respect to line-up is final and abiding.<br>\
-        The Elan 2017 team holds the right to change the rules at any moment of time.</p>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Any non-professional band is allowed to register. You need not be a college band to participate in this event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Language is no criterion. We are looking for bands that play fusion music (anything except metal) and in any language.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registering team should send/upload one demo in the process of registration. The demo need not be a studio recording.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Incorrect information will result in disqualification, whether discovered prior to, during or after the finals and the Candidate shall be liable to the Organizers for such misrepresentation.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Candidates must conduct themselves in a proper manner and portray high moral standards. Candidates will not consume any alcoholic beverages, use illegal drugs or public smoking or use foul language or should not misconduct in any way during the course of the entire event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Judges' decision shall be final and binding for all.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organizers with respect to line-up is final and abiding.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Elan 2017 team holds the right to change the rules at any moment of time.</p>\
         <h1>JUDGING CRITERIA</h1><p>\
-        The winners of the prelims will go through to the finals.<br>\
-        The winners will be announced by the judges immediately after the event. Judge’s decision is considered final and should be abided by everyone.<br>\
-        All the finalists will be given the participation certificates.<br>\
-        The Prize will be distributed only among the top 2 contestants.<br>\
-        The crowd‘s response is considered important.<br>\
-        The following will be looked in the contestants/bands performance:<br>\
-        Entertainment<br>\
-        Public involvement<br>\
-        Energy<br>\
-        Attitude<br>\
-        The winner and the first runner up will be given prizes. (Not yet decided).</p>\          <h1>Rules and Regulations:</h1><p>\
-        Language of songs is not a criterion. The band can be fully instrumental as well. The genre of the band should be any variation of metal. <br>\
-        No band can have more than 7 members. Also, no person can play for more than 2 different bands.<br>\ The bands cannot share the same frontman.<br>\ IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.<br>\ In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.<br>\
-        The decision is dependent on the nature of the damage and the judges' discretion. <br>\
-        IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.<br>\ In case of any dispute the decision of the organizers will be final and binding.<br>\
-        Consumption of Alcohol and Drugs is strictly prohibited on Campus.</p>\      <h1>Contact Person:</h1>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The winners of the prelims will go through to the finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The winners will be announced by the judges immediately after the event. Judge’s decision is considered final and should be abided by everyone.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the finalists will be given the participation certificates.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Prize will be distributed only among the top 2 contestants.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The crowd‘s response is considered important.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The following will be looked in the contestants/bands performance:<br><br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Entertainment<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Public involvement<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Energy<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Attitude<br><br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The winner and the first runner up will be given prizes. (Not yet decided).</p>\          <h1>Rules and Regulations:</h1><p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Language of songs is not a criterion. The band can be fully instrumental as well. The genre of the band should be any variation of metal. <br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> No band can have more than 7 members. Also, no person can play for more than 2 different bands.<br>\<i class='fa fa-circle' style='font-size:8px;'></i>  The bands cannot share the same frontman.<br>\ IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.<br>\ <i class='fa fa-circle' style='font-size:8px;'></i> In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision is dependent on the nature of the damage and the judges' discretion. <br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.<br>\ <i class='fa fa-circle' style='font-size:8px;'></i> In case of any dispute the decision of the organizers will be final and binding.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Consumption of Alcohol and Drugs is strictly prohibited on Campus.</p>\      <h1>Contact Person:</h1>\
         <p>Kabir Sharda<br>\
         kabir@elan.org.in<br>\
         9867327421</p>\
@@ -2306,7 +2306,7 @@ $('.card').on('click',function () {
         </div>\
         ";
     var def = "<h1 style='text-align:center'>Coming Soon...</h1>";
-    
+
     if(name == "dtmf") {
       $('#details').html(dtmf);
     } else if (name == "bloopers") {
@@ -2430,9 +2430,9 @@ $('.card').on('click',function () {
     }
 
 
-      
 
-      
+
+
       var id = $(this).attr('id');
       var link = "/register/"+id;
       console.log(id);
@@ -2450,5 +2450,3 @@ $('.card').on('click',function () {
       $('.register-link').attr("href",link)
 
     });
-    
-
