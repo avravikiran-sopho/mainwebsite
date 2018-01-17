@@ -190,9 +190,9 @@ $('.card').on('click',function () {
         </p></div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
-        <p>Round 1<br>\
-         This round will be theoretical and some general question on electronics will be asked.<br> \
-        Round 2<br>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Round 1<br>\
+         This round will be theoretical and some general question on electronics will be asked.<br><br> \
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 2<br>\
         In this a circuit will be given to the each team. The circuit which will be given to each team will be identical.The required information will be given about the circuit. <br>\
         The participants are also allowed to google about the circuit.</p> \
         </div>\
@@ -201,9 +201,9 @@ $('.card').on('click',function () {
         1. The main goal of round one is to select 8 teams out of all the teams.<br>\
         2. Team size can be 1 to 3</p>\
         <h1>Judging criteria:</h1><p>\
-        The performance in the first round will decide who goes to next     round.<br> \
-        The team which finishes debugging and fixing the circuit is declared as winner<br>\
-        Organiser verdict is the final and binding</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The performance in the first round will decide who goes to next     round.<br> \
+        <i class='fa fa-circle' style='font-size:8px;'></i> The team which finishes debugging and fixing the circuit is declared as winner<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser verdict is the final and binding</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
@@ -291,8 +291,8 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
         <p>Participants have to design a Bridge using Popsicle sticks (icecream sticks) satisfying the given constraints.<br>\
-        <br><a  href='/static/pdf/bridge.pdf'><button class='btn2'>Problem statement PDF</button></a>\
-        Event Format:<br>\
+        <br><a  href='/static/pdf/bridge.pdf'><button class='btn2'>Problem statement PDF</button></a><br>\
+        <h1>Event Format:</h1><br>\
         1.There will be only one round in which bridges will be tested.<br>2.Participants have to come with their bridges.\
         </div>\
         <div class='tab-pane' id='3a'>\
@@ -415,8 +415,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
-        <p>It will be an on-spot designing round. Participants will be given a problem statement at the time of event and they have to submit their design in the specified time limit.<br>\ Each Question will carry some points according to the type of question and its level of difficulty.<br>\
-        Models can be prepared in any CAD software (CATIA/Pro E/AutoCad/Solidworks/Solidedge) and the final file must be prepared in IGES or STEP format. Bring your own laptops with necessary softwares installed.<br>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> It will be an on-spot designing round. Participants will be given a problem statement at the time of event and they have to submit their design in the specified time limit.<br>\<i class='fa fa-circle' style='font-size:8px;'></i>  Each Question will carry some points according to the type of question and its level of difficulty.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Models can be prepared in any CAD software (CATIA/Pro E/AutoCad/Solidworks/Solidedge) and the final file must be prepared in IGES or STEP format. Bring your own laptops with necessary softwares installed.<br>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Event rules:</h1><p>\
@@ -426,9 +426,9 @@ $('.card').on('click',function () {
         1.Any sign of plagiarism from internet or from other participant will lead to direct disqualification.<br>\
         2.Participant can only submit once. In case of multiple submissions only the first entry will be considered for evaluation.<br>\
         3.The design will be evaluated on the following aspects:<br>\
-          A. Originality of the Design<br>\
-          B. Clear and easily comprehensible design<br>\
-          C. Time Taken<br>\
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. Originality of the Design<br>\
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. Clear and easily comprehensible design<br>\
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. Time Taken<br><br>\
         4.Certificate of Merit and Prizes will be given for the top two teams.<br>\
         5.Participation Certificate will be given for those who registered online and participated in the event.<br>\
         6.Participation Certificate is not guaranteed for those who registered onspot for the event.<br>\
@@ -470,7 +470,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>General Rules</h1>\
-        <p>A team can have a maximum of 4 members.</p>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> A team can have a maximum of 4 members.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
@@ -505,15 +505,15 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>Rules and Regulations:</h1>\
-        <p>The maximum size of a team is 4.<br>\
-        A robot that is unsafe, as deemed by the judges, will be disqualified immediately and the opponent robot will be declared as the winner.<br>\
-        The bot is not allowed to leave anything behind during the run. It should not leave any mark on the arena. Any bot found damaging the arena will be immediately disqualified.<br>\
-        If there is any kind of ambiguity in the selection of weapon systems, please clarify the same with the event organizers to avoid further confusion.<br>\
-        The Victory if both bots remain mobile will be based on the judges at their discretion.The judge's decision will be final and the points will be kept confidential.<br>\
-        Changes in rules, if any, will be highlighted on the website.</p>\
+        <p>1. The maximum size of a team is 4.<br>\
+        2. A robot that is unsafe, as deemed by the judges, will be disqualified immediately and the opponent robot will be declared as the winner.<br>\
+        3. The bot is not allowed to leave anything behind during the run. It should not leave any mark on the arena. Any bot found damaging the arena will be immediately disqualified.<br>\
+        4. If there is any kind of ambiguity in the selection of weapon systems, please clarify the same with the event organizers to avoid further confusion.<br>\
+        5. The Victory if both bots remain mobile will be based on the judges at their discretion.The judge's decision will be final and the points will be kept confidential.<br>\
+        6. Changes in rules, if any, will be highlighted on the website.</p>\
         <h1>Certificate Policy:</h1><p>\
-        The top 3 teams emerging from this competition will be awarded a Certificate of Excellence.<br>\
-        All teams who have registered online and participated in the event during fest will be awarded a Participation Certificate</p>\
+        1. The top 3 teams emerging from this competition will be awarded a Certificate of Excellence.<br>\
+        2. All teams who have registered online and participated in the event during fest will be awarded a Participation Certificate</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
@@ -679,12 +679,14 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='3a'>\
         <h1>Rules and Regulations:</h1><p>\
         1.  A maximum of three members are allowed in a team.<br>\
-        2.  There can be students from different institutions in a team.<br>\3.  Only plastic soft drink bottles are to be used as the rocket body.<br>\
-        4.  The rocket can be multi-staged but the total volume of the pressure chamber should not exceed 1.5 litres.<br>\5.  The water rocket must only use compressed ambient atmospheric air as source of energy. Pressure compressors (foot pump) and water shall be provided.<br>\
+        2.  There can be students from different institutions in a team.<br>\
+        3.  Only plastic soft drink bottles are to be used as the rocket body.<br>\
+        4.  The rocket can be multi-staged but the total volume of the pressure chamber should not exceed 1.5 litres.<br>\
+        5.  The water rocket must only use compressed ambient atmospheric air as source of energy. Pressure compressors (foot pump) and water shall be provided.<br>\
         6.  The amount of water to be filled in the rocket is left to the choice of the team.<br>\
         7.  The pressure inside the pressure chamber should not exceed 50 psi.<br>\
         8.  Launchers will not be provided by the organizers. Each team must have their own launchers.<br>\
-        9.  The rocket must be launched from a stationary position using a fixed launcher.Slingshots, trebuchets, catapults, cannons, and all other forms of launcher boost assists are forbidden. In other words, the internal pressure of the rocket must be the only source of energy for the rocket.<br>\
+        9.  The rocket must be launched from a stationary position using a fixed launcher.Slingshots, trebuchets, catapults, cannons, and all other forms of launcher boost assists are forbidden. In other words, the internal pressure of the rocket must be the only source of energy for the rocket.<br><br><br>\
         A team can get disqualified if:<br>\
         1.  Any rocket is found to be dangerous to launch by the organizers and judges.<br>\
         2.  A rocket blasts before the launch.<br>\
@@ -727,11 +729,11 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1><p>\
         The event will be consisting of three rounds.<br>\
-        Round 1:<br>\
-        A quiz will be conducted to screen the participants. This quiz is based mostly on optics and physics of light.<br>\
-        Round 2:<br>\
-        Another quiz will be conducted to screen the participants. This quiz is based on Skymap and a few stellar objects.<br>\
-        Round 3:<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 1:<br>\
+        A quiz will be conducted to screen the participants. This quiz is based mostly on optics and physics of light.<br><br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 2:<br>\
+        Another quiz will be conducted to screen the participants. This quiz is based on Skymap and a few stellar objects.<br><br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 3:<br>\
         The top ten teams from the quizzes will qualify to the third round. The teams have to make a terrestrial telescope with the components and infrastructure provided by the organizers.<br>\
         </p>\
         </div>\
@@ -2192,12 +2194,12 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='3a'>\
           <h1>ELMATRICO RULES</h1><p>\
-        The competition must be played individually.<br>\
-        The problem statement is divided into 3 parts - easy , moderate and difficult.<br>\
-        All the question in easy part carries 5 marks,moderate 10 marks and difficult 30 marks.<br>\
-        Plagiarism will result in disqualification.<br>\
-        All the relevant information regarding The question is given in the question itself.<br>\
-        The organisers verdict is final.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The competition must be played individually.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The problem statement is divided into 3 parts - easy , moderate and difficult.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the question in easy part carries 5 marks,moderate 10 marks and difficult 30 marks.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Plagiarism will result in disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the relevant information regarding The question is given in the question itself.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The organisers verdict is final.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Organisers</h1><p>\
@@ -2239,12 +2241,12 @@ $('.card').on('click',function () {
         <br><a  href='/static/pdf/quadcopter.pdf'><button class='btn2'>Problem statement PDF</button></a></div>\
         <div class='tab-pane' id='3a'> \
         <h1 id='rules'>Team Specifications:</h1> \
-        <p>1)Team can have a max of 5 people.<br>\
-        2)Participants from a team can be from different colleges.</p>\
+        <p>1. Team can have a max of 5 people.<br>\
+        2. Participants from a team can be from different colleges.</p>\
         <h1>Certificate Policy:</h1><p>\
-        1)Certificate of Merit and Prizes will be given for the top two teams.<br>\
-        2)Participation Certificate will be given for those who registered online and participated in the event.<br>\
-        3)Participation Certificate is not guaranteed for those who registered onspot for the event.</p>\
+        1. Certificate of Merit and Prizes will be given for the top two teams.<br>\
+        2. Participation Certificate will be given for those who registered online and participated in the event.<br>\
+        3. Participation Certificate is not guaranteed for those who registered onspot for the event.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Organisers</h1><p>\
