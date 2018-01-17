@@ -3,6 +3,9 @@
   {% load static %}
   {% include "base.html" %}
   <title>Events | ELAN & ηvision 2018</title>
+  <!-- FAVICONS -->
+	<link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon.png' %}">
   <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
   <!--{% load static %}-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
@@ -24,7 +27,7 @@
 
 
 <style type="text/css">
-    
+
 h1.domaintitle {
   font-family: 'BernardoModaSemibold'!important;
   font-size:3em;
@@ -124,7 +127,7 @@ h1.domaintitle {
                     <div class="text">Litr</div>
                 </div>
             </div>
-            
+
           <div class="col-xs-2 col-xs-2-mod down-parallelogram" id="pr3">
                 <img class="img-display" src="{% static 'img/events/biggy.jpg' %}" alt="technical">
                 <div class="img-overlay" id="biggiesimg">
@@ -282,7 +285,7 @@ h1.domaintitle {
         </div>
         </div>
     </div>
-    
+
     <div class="card-column" id="techdiv" style="margin-top: 2%;width: 60%;">
         <h1 class="domaintitle">Techy</h1><hr>
         <div class="container button-group filters-button-group" style="">
@@ -299,9 +302,9 @@ h1.domaintitle {
           <button class="btn1" data-filter=".online"><i class="fab fa-internet-explorer"></i>&nbsp;ONLINE</button>
           <button class="btn1" data-filter=".quadcopter"><i class="fas fa-gamepad"></i>&nbsp;QUADCOPTER</button>
           <button class="btn1" data-filter=".paper"><i class="fab fa-pied-piper-pp"></i>&nbsp;PAPER PRESENTATION</button>
-          
+
         </div>
-        
+
         <div class="card-column" id="techisotope" style="margin-top: 2%;width: 60%;">
         <div class="card text-center events online" id="bot">
             <img class="card-img-top img-fluid" src="{% static 'img/events/codeabot.jpg' %}" alt="Card image cap">
@@ -532,7 +535,7 @@ h1.domaintitle {
             </div>
         </div>
         <h1 class="cultidomains">Music</h1><hr>
-        
+
         <div class="card text-center events music" id="vibrazione">
             <img class="card-img-top img-fluid" src="{% static 'img/events/vibrazione.jpg' %}" alt="Card image cap">
             <div class="card-block">
@@ -675,7 +678,7 @@ h1.domaintitle {
 </body>
 
 <script>
-    $('#cultimg').mouseenter( function(){ 
+    $('#cultimg').mouseenter( function(){
         $('#cultimg').fadeIn(function(){
             $('.stretch').attr("src","{% static 'img/events/culti_bg.jpg' %}");
             $('#background').fadeIn();
@@ -687,7 +690,7 @@ h1.domaintitle {
             $('.img-display').css("opacity",0.01);
         });
     });
-    $('#cultimg').mouseleave( function(){ 
+    $('#cultimg').mouseleave( function(){
         $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#techimg').css("opacity",1);
@@ -697,9 +700,9 @@ h1.domaintitle {
         $('#cultimg').css("opacity",1);
         $('#infiimg').css("opacity",1);
       $('.img-display').css("opacity",1);
-        
+
     });
-    $('#techimg').mouseenter( function(){ 
+    $('#techimg').mouseenter( function(){
         $('#techimg').fadeIn(function(){
             $('.stretch').attr("src","{% static 'img/events/techy_bg.jpg' %}");
             $('#background').fadeIn();
@@ -711,7 +714,7 @@ h1.domaintitle {
           $('#infiimg').css("opacity",0.01);
         });
     });
-    $('#techimg').mouseleave( function(){ 
+    $('#techimg').mouseleave( function(){
        $('.stretch').removeAttr('src');
         $('#cultimg').css("opacity",1);
         $('#onlineimg').css("opacity",1);
@@ -721,7 +724,7 @@ h1.domaintitle {
         $('#infiimg').css("opacity",1);
       $('.img-display').css("opacity",1);
     });
-    $('#onlineimg').mouseenter( function(){ 
+    $('#onlineimg').mouseenter( function(){
         $('#onlineimg').fadeIn(function(){
             $('.stretch').attr("src","{% static 'img/events/biggy_bg.jpg' %}");
             $('#cultimg').css("opacity",0.01);
@@ -733,7 +736,7 @@ h1.domaintitle {
           $('.img-display').css("opacity",0.01);
         });
     });
-    $('#onlineimg').mouseleave( function(){ 
+    $('#onlineimg').mouseleave( function(){
         $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#cultimg').css("opacity",1);
@@ -743,7 +746,7 @@ h1.domaintitle {
       $('.img-display').css("opacity",1);
       $('#infiimg').css("opacity",1);
     });
-    $('#litrimg').mouseenter( function(){ 
+    $('#litrimg').mouseenter( function(){
         $('#litrimg').fadeIn(function(){
             $('.stretch').attr("src","{% static 'img/events/litr_bg.jpg' %}");
             $('#cultimg').css("opacity",0.01);
@@ -755,7 +758,7 @@ h1.domaintitle {
           $('.img-display').css("opacity",0.01);
         });
     });
-    $('#litrimg').mouseleave( function(){ 
+    $('#litrimg').mouseleave( function(){
         $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#cultimg').css("opacity",1);
@@ -765,7 +768,7 @@ h1.domaintitle {
       $('.img-display').css("opacity",1);
       $('#infiimg').css("opacity",1);
     });
-    $('#biggiesimg').mouseenter( function(){ 
+    $('#biggiesimg').mouseenter( function(){
         $('#biggiesimg').fadeIn(function(){
             $('.stretch').attr("src","{% static 'img/events/biggy_bg.jpg' %}");
             $('#background').fadeIn();
@@ -777,7 +780,7 @@ h1.domaintitle {
           $('.img-display').css("opacity",0.01);
         });
     });
-    $('#biggiesimg').mouseleave( function(){ 
+    $('#biggiesimg').mouseleave( function(){
         $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#cultimg').css("opacity",1);
@@ -788,7 +791,7 @@ h1.domaintitle {
         $('#infiimg').css("opacity",1);
       $('.img-display').css("opacity",1);
     });
-    $('#infiimg').mouseenter( function(){ 
+    $('#infiimg').mouseenter( function(){
         $('#infiimg').fadeIn(function(){
             $('.stretch').attr("src","{% static 'img/events/infi_bg.jpg' %}");
             $('#background').fadeIn();
@@ -800,7 +803,7 @@ h1.domaintitle {
           $('.img-display').css("opacity",0.01);
         });
     });
-    $('#infiimg').mouseleave( function(){ 
+    $('#infiimg').mouseleave( function(){
         $('.stretch').removeAttr('src');
         $('#background').fadeOut();
         $('#cultimg').css("opacity",1);
@@ -811,7 +814,7 @@ h1.domaintitle {
         $('#biggiesimg').css("opacity",1);
       $('.img-display').css("opacity",1);
     });
-    $('#techimg').on('click',function () { 
+    $('#techimg').on('click',function () {
       $('.events-box').slideToggle('slow');
       $('#techdiv').slideToggle('slow');
       $('.navbtn').fadeToggle('slow');
@@ -926,9 +929,9 @@ h1.domaintitle {
         $('.navbtn img').removeClass('litr');
         $('.navbtn img').removeClass('online');
       }
-      
+
     });
-    
+
 </script>
 <script>
   // bind filter button click
@@ -960,10 +963,10 @@ h1.domaintitle {
       if ( !matchesSelector( event.target, 'button' ) ) {
         return;
       }
-      
+
       buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
       event.target.classList.add('is-checked');
-      
+
     });
   }
   //isotope
@@ -973,9 +976,9 @@ h1.domaintitle {
     if ($( window ).width() < 786) {
         $('#techisotope').isotope({
           filter: '*',
-        });    
+        });
     }
-    
+
 </script>
 <script type="text/javascript">
     $(document).ready(function(){
