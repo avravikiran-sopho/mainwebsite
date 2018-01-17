@@ -1,7 +1,7 @@
 html, body{
   height: 100%;
 }
-body { 
+body {
       background-image: url('/static/img/bg.png');
       background-repeat: repeat;
       background-attachment: fixed;
@@ -14,11 +14,11 @@ h1 {
   margin: 2% 0;
   text-align: center;
   /*font-family: 'Spectral SC', serif; */
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 
-hr { 
+hr {
   margin-top: 00px;
     border: 1.5px solid #dafcff;
     width: 30%;
@@ -26,7 +26,7 @@ hr {
     -webkit-box-shadow: 0px 0px 289px 104px rgba(0,131,177,0.77);
     -moz-box-shadow: 0px 0px 289px 104px rgba(0,131,177,0.77);
     box-shadow: 0px 0px 13px 2px rgba(0,131,177,0.77);
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 
@@ -135,7 +135,7 @@ hr {
 }
 
 .btn1:hover {
-  border:solid 2px #ffffff;  
+  border:solid 2px #ffffff;
  color: #ffffff;
 }
 .btn1:focus {
@@ -146,10 +146,10 @@ hr {
 }
 #background {
     transition-duration: 1s;
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    left: 0px; 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
     top: 0px;
     display: none;
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
@@ -221,7 +221,7 @@ span {
     -moz-border-radius: 10px;
     border-radius: 10px;
     font-size: 1.2em;
-    font-family: 'Spectral SC', serif;    
+    font-family: 'Spectral SC', serif;
     background-color: rgba(70,70,70,0.5);
 }
 
@@ -248,7 +248,7 @@ span {
 -moz-border-radius: 10px;
 border-radius: 10px;
     font-family: 'Spectral SC', serif;
-    font-size: 1em;    
+    font-size: 1em;
     background-color: rgba(150,150,150,0.5);
 }
 h4 {
@@ -269,7 +269,7 @@ h4 {
 -moz-border-radius-topright: 10px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
-    
+
 }
 
 .card-column {
@@ -282,7 +282,7 @@ border-top-right-radius: 10px;
 }
 
 #techdiv {
-  
+
 }
 
 .navbtn {
@@ -330,7 +330,7 @@ i {
 }
 
 .is-checked {
-  border:solid 2px #ffffff;  
+  border:solid 2px #ffffff;
  color: #ffffff;
 }
 
@@ -346,7 +346,7 @@ i {
   background-color: rgba(10,10,10,0.1);
   border-radius: 25px 25px 25px 25px;
   display:none;
-  overflow-y:scroll; 
+  overflow-y:scroll;
   font-size: 1.1em;
   -webkit-box-shadow: -5px 5px 25px 0px rgba(255,255,255,0.2);
 -moz-box-shadow: -5px 5px 25px 0px rgba(255,255,255,0.2);
@@ -428,7 +428,7 @@ font-family: 'Amaranth', sans-serif;
     -moz-transform: skew(-5deg);
     -o-transform: skew(-5deg);
     transform: skew(-5deg);
-    
+
     margin: 10% auto;
     overflow: hidden;
     clear: both;
@@ -488,7 +488,7 @@ font-family: 'Amaranth', sans-serif;
 }
 .up-parallelogram:hover .img-display {
   opacity: 0.01;
-  
+
 }
 .up-parallelogram:hover {
 /*
@@ -519,7 +519,7 @@ font-family: 'Amaranth', sans-serif;
 
 .down-parallelogram:hover .img-display {
   opacity: 1;
-  
+
 }
 .down-parallelogram:hover {
 /*
@@ -527,7 +527,7 @@ font-family: 'Amaranth', sans-serif;
   -moz-box-shadow: -29px 26px 52px 0px rgba(0,0,0,0.75);
   box-shadow: -29px 26px 52px 0px rgba(0,0,0,0.75);
 */
-  
+
 }
 
 .down-parallelogram:hover .img-overlay {
@@ -599,7 +599,7 @@ font-family: 'Amaranth', sans-serif;
   margin-top: 10px;
 }
 #pr1,#pr2,#pr3,#pr4,#pr4 {
-  background-color: rgba(0,0,0,0);  
+  background-color: rgba(0,0,0,0);
 }
 
 
@@ -819,7 +819,7 @@ make it thinner, then set it to again wrap around the entire parent element.
     }
     .navbtnr {
       left: 90%;
-    } 
+    }
     .card {
       width: 100%!important;
       height: 250px;
@@ -830,7 +830,7 @@ make it thinner, then set it to again wrap around the entire parent element.
     .card-column {
       width:60%;
       margin-left:auto;
-      margin-right: auto; 
+      margin-right: auto;
     }
 
     .button-group{
@@ -859,7 +859,7 @@ make it thinner, then set it to again wrap around the entire parent element.
       left: 0;
     right: 0;
     text-align: center;
-      bottom: 10%!important;  
+      bottom: 10%!important;
     }
     .btn1 {
       padding: 2%;
