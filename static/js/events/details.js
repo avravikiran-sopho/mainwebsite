@@ -1030,7 +1030,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition(HHI Auditions)</h1>\
+    var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition (HHI Auditions)</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -1048,113 +1048,113 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. Breakfree has always been one the most awaited events of Elan & ηvision.It consists of ‘three’ categories, namely:<br>\
-        1.Group Dance<br>\
-        2.Solo Dance<br>\
-        3.Duet<br>\
-        Adding to the enthusiasm of the event,this year Breakfree is associating with HIP-HOP INTERNATIONAL(HHI) INDIA to conduct the regional auditions of Indian Hip Hop Dance Championship for Hyderabad during the three days of the fest.<br>\
-        HIP-HOP INTERNATIONAL(HHI) INDIA is the only International dance platform in India and Indian Hip Hop Dance Championship is India’s most celebrated dance festival.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Group Dance<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Solo Dance<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Duet<br><br>\
+        Adding to the enthusiasm of the event,this year Breakfree is associating with <i>HIP-HOP INTERNATIONAL(HHI) INDIA </i>to conduct the regional auditions of Indian Hip Hop Dance Championship for Hyderabad during the three days of the fest.<br><br>\
+        HIP-HOP INTERNATIONAL(HHI) INDIA is the only International dance platform in India and Indian Hip Hop Dance Championship is India’s most celebrated dance festival.<br><br>\
         'Pick your body up and drop it on the floor<br>\
         We never quit, we never rest on the floor<br>\
         If I ain't wrong we'll probably die on the floor'<br>\
-        - Lines from Jlo's 'on the floor'.<br>\ If you really dance from the heart, if dance runs through your veins and if dance is in every minute of your life, then this is where you should be!<br>\
+        - Lines from Jlo's 'on the floor'.<br><br>\ If you really dance from the heart, if dance runs through your veins and if dance is in every minute of your life, then this is where you should be!<br>\
         So rise and dance.<br>\
         Dance with energy and show us whatchya got!!</p>\
         </div>\
         <div class='tab-pane' id='2a'><br>\
         <p>Coordination is what matters when it comes to a group performance. It is a group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop it.</p>\
         <h1>EVENT FORMAT:</h1><p>\
-        The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
-        Minimum size of the team-6 and maximum size of the team-30.<br>\
-        All the teams shall participate in the prelims.<br>\
-        For the prelims the teams should mail a recorded dance video of the crew to laxmi.g@elan.org.in.<br>\
-        Twenty five teams will be shortlisted from the video round.<br>\
-        The teams qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
-        During the whole competition, at any given time, minimum of 4  performers should be on the stage and a maximum of 20 performers should be on the stage.<br>\
-        The video sent for the video round should be 4-10 mins long.<br>\
-        The video sent should be shot in a single take without any speed modulations.<br>\
-        The song must be of 6-9 minutes long for finale.<br>\
-        Participants should not perform the song (or part of the song) which was performed during the prelims in the finals. This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Minimum size of the team-6 and maximum size of the team-30.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the teams shall participate in the prelims.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> For the prelims the teams should mail a recorded dance video of the crew to laxmi.g@elan.org.in.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Twenty five teams will be shortlisted from the video round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The teams qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> During the whole competition, at any given time, minimum of 4  performers should be on the stage and a maximum of 20 performers should be on the stage.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The video sent for the video round should be 4-10 mins long.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The video sent should be shot in a single take without any speed modulations.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The song must be of 6-9 minutes long for finale.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should not perform the song (or part of the song) which was performed during the prelims in the finals. This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.</p>\
         <h1>REGISTRATION:</h1><p>\
-        Only on-line registrations allowed for this event.<br>\
-        The head of the team should register online with the participant names ,contact number and crew name.<br>\
-        Each team will receive a confirmation mail back with the details of the team.<br>\
-        Teams should bring the print out of the confirmation mail.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Only on-line registrations allowed for this event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The head of the team should register online with the participant names ,contact number and crew name.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each team will receive a confirmation mail back with the details of the team.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Teams should bring the print out of the confirmation mail.</p>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        Event is only for college students having a valid ID cards.<br>\
-        Each team should contain a head to represent the team.<br>\
-        All forms of dance are permitted.<br>\
-        Each team should contain a minimum of 6 participants.<br>\
-        Organizers will not provide the songs that participants require. Teams should bring their songs in a pendrive.<br>\
-        Teams should bring their own props but they should use them only with the approval of the organizers.<br>\
-        Any kind of fluid or flame is not allowed on the stage.<br>\
-        Each team would be given 3 mins of time for stage rehearsal and a stage setup time of 1 min.<br>\
-        The decision of the organizers and judges shall be final and binding.<br>\
-        The result for the event will be declared immediately after all the performances have been completed.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Event is only for college students having a valid ID cards.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each team should contain a head to represent the team.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All forms of dance are permitted.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each team should contain a minimum of 6 participants.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organizers will not provide the songs that participants require. Teams should bring their songs in a pendrive.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Teams should bring their own props but they should use them only with the approval of the organizers.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Any kind of fluid or flame is not allowed on the stage.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each team would be given 3 mins of time for stage rehearsal and a stage setup time of 1 min.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organizers and judges shall be final and binding.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The result for the event will be declared immediately after all the performances have been completed.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Group coordination<br>\
-        Choreography<br>\
-        Expressions<br>\
-        Versatility<br>\
-        Movement finishing<br>\
-        Timing<br>\
-        Stage utilisation</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Group coordination<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Choreography<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Expressions<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Versatility<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Movement finishing<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Timing<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Stage utilisation</p>\
         </div>\
         <div class='tab-pane' id='3a'><br>\
         <p>Got your own dance style you think you've mastered?<br>\
         An event for pro solo dancers, Lose your feet is where you can make the crowd go crazy with those awesome, super cool moves of yours!<br>\
         <h1>EVENT FORMAT:</h1><p>\
-        The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
-        For the prelims round the contestants should mail the recorded dance video to laxmi.g@elan.org.in.<br>\
-        Ten participants will be shortlisted from the video round.<br>\
-        The participants qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
-        Performance duration should be 3-5 min for prelims and  5-7 min for final.<br>\
-        For prelims and final you have to bring your own song. You cannot repeat dance steps or moves. You can get similar music beats, but not similar dance steps.<br>\
-        Participants should bring their music/song in a pen drive.<br>\
-        You can perform any type of non-classical dance like hip-hop, stepping, popping, etc.</p> <h1>RULES AND REGULATIONS:</h1><p>\
-        Registration must be done online.<br>\
-        Participants should produce their ID card at the registration desk.<br>\
-        Props are allowed but heavy props like chairs, tables can be arranged. But you have to inform the event manager by mail or on phone at least 1 day before event.<br>\
-        No fire, water and heavy objects be used in stage.<br>\
-        No indecency/obscenity will be tolerated on stage.<br>\
-        Judges and coordinators decisions will be final and binding. There are no arguments in this regard.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> For the prelims round the contestants should mail the recorded dance video to laxmi.g@elan.org.in.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Ten participants will be shortlisted from the video round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The participants qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Performance duration should be 3-5 min for prelims and  5-7 min for final.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> For prelims and final you have to bring your own song. You cannot repeat dance steps or moves. You can get similar music beats, but not similar dance steps.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should bring their music/song in a pen drive.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> You can perform any type of non-classical dance like hip-hop, stepping, popping, etc.</p> <h1>RULES AND REGULATIONS:</h1><p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registration must be done online.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should produce their ID card at the registration desk.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Props are allowed but heavy props like chairs, tables can be arranged. But you have to inform the event manager by mail or on phone at least 1 day before event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> No fire, water and heavy objects be used in stage.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> No indecency/obscenity will be tolerated on stage.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Judges and coordinators decisions will be final and binding. There are no arguments in this regard.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Choreography<br>\
-        Footwork<br>\
-        Finishing of movements<br>\
-        Versatility<br>\
-        Timing and rhythm<br>\
-        Energy level<br>\
-        Stage utilization<br>\
-        Overall impact.<br>\
-        Innovation & originality<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Choreography<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Footwork<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Finishing of movements<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Versatility<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Timing and rhythm<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Energy level<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Stage utilization<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Overall impact.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Innovation & originality<br>\
         </div>\
         <div class='tab-pane' id='4a'><br>\
         <p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event</p>\
         <h1>EVENT FORMAT:</h1><p>\
-        The event consists of two rounds-prelims and finals.<br>\
-        The participants can either register online or on-spot.<br>\
-        All the duos that’ve been registered shall participate in the prelims.<br>\
-        Based on the prelims performances five duos will be shortlisted for finals.<br>\
-        The prelims performance should last 2-5 mins long and the finals should last 1-3 mins long.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event consists of two rounds-prelims and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The participants can either register online or on-spot.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the duos that’ve been registered shall participate in the prelims.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Based on the prelims performances five duos will be shortlisted for finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The prelims performance should last 2-5 mins long and the finals should last 1-3 mins long.</p>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        The team should consist of two participants irrespective of their gender.<br>\
-        Participants should produce their ID card at the registration desk.<br>\
-        Round 1(preliminary round):<br>\
-        Participants can perform any style of dance for any song of their choice.<br>\
-        Time of performance should not exceed 4 minutes.<br>\
-        Participants will be given an extra time of 1 minute for settling down.<br>\
-        Round 2(final round):<br>\ Participants should dance to the tracks given by the Organizers<br>\
-        Each team will be given time to choreograph for the song, which will not exceed 15 minutes.<br>\
-        An additional time of 2 minutes will be given for settling.<br>\
-        Time of performance should not exceed 3 minutes.<br>\
-        Decision taken by the organisers and the judges will be final and binding.<br>\
-        Props are allowed but heavy props like chairs, tables can be arranged. But you have to inform the event manager by mail or on phone at least 1 day before event.<br>\
-        No fire, water and heavy objects be used in stage.<br>\
-        No indecency/obscenity will be tolerated on stage.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The team should consist of two participants irrespective of their gender.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should produce their ID card at the registration desk.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 1(preliminary round):<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Participants can perform any style of dance for any song of their choice.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Time of performance should not exceed 4 minutes.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Participants will be given an extra time of 1 minute for settling down.<br><br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 2(final round):<br>\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Participants should dance to the tracks given by the Organizers<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Each team will be given time to choreograph for the song, which will not exceed 15 minutes.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> An additional time of 2 minutes will be given for settling.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Time of performance should not exceed 3 minutes.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Decision taken by the organisers and the judges will be final and binding.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Props are allowed but heavy props like chairs, tables can be arranged. But you have to inform the event manager by mail or on phone at least 1 day before event.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> No fire, water and heavy objects be used in stage.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> No indecency/obscenity will be tolerated on stage.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Synchronisation<br>\
-        Choreography<br>\
-        Expressions</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Synchronisation<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Choreography<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Expressions</p>\
         </div>\
         <div class='tab-pane' id='5a'>\
         <h1>PRIZES(Breakfree in total):</h1>\
@@ -1184,32 +1184,32 @@ $('.card').on('click',function () {
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
-        <p>Dance, as we know ,is one of the 64 forms of art in the Indian Culture. It embodies all forms of physical art and learning. It is a kinetic form of body language expressed in unarticulated emotions.\ Classical dance is the fusion of mind's emotions and body's articulate movements. So, we call upon all the classical dancers to come and produce the medly of most graceful and most expressive.\
+        <p>Dance, as we know ,is one of the 64 forms of art in the Indian Culture. It embodies all forms of physical art and learning. It is a kinetic form of body language expressed in unarticulated emotions.\ Classical dance is the fusion of mind's emotions and body's articulate movements. So, we call upon all the classical dancers to come and produce the medly of most graceful and most expressive.<br>\
         Come....drown yourself in divine, grace, beauty, tenderness to delight the eyes and souls of the viewers.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1>\
-        <p>Event consists of only one round and the results are decided by the judge.<br>\
-        The competition is open only to college students with a valid ID card.<br>\
-        You can perform in any Indian classical dance form [we'd love to see Bharatanatyam, Kuchipudi, Odissi, Mohiniyattam and others]. However there are no separate judging categories for the different forms.<br>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Event consists of only one round and the results are decided by the judge.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The competition is open only to college students with a valid ID card.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> You can perform in any Indian classical dance form [we'd love to see Bharatanatyam, Kuchipudi, Odissi, Mohiniyattam and others]. However there are no separate judging categories for the different forms.<br>\
         </div>\
         <div class='tab-pane' id='3a'>\
         </p><h1>RULES AND REGULATIONS:</h1><p>\
-        Semi-classical/ classical on Bollywood songs are strictly not allowed.<br>\
-        Live music is not allowed.<br>\
-        The participants will perform on pre-recorded music which should be brought in a pen drive by the participants.<br>\
-        Participants would be given a maximum performance time of 10 minutes and the performance should last for a minimum of 5 mins, anyone exceeding this time limit will get penalty of points.<br>\
-        There will be a small weightage for costumes. Dance should consist of both Nritya and Abhinaya.<br>\
-        Participants will have to bring their own costumes, accessories and make-up for the competition.<br>\
-        Any illegal or unethical act related to the competition and or on its stage, auditorium premises will lead to immediate disqualification.<br>\
-        Points will be awarded for rhythm, choice of song and dance, expression, costumes and synchronization.<br>\
-        Organizers decision is final and binding to all.<br>\
-        Obscenity of any kind is not allowed and will lead to immediate disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Semi-classical/ classical on Bollywood songs are strictly not allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Live music is not allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The participants will perform on pre-recorded music which should be brought in a pen drive by the participants.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants would be given a maximum performance time of 10 minutes and the performance should last for a minimum of 5 mins, anyone exceeding this time limit will get penalty of points.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There will be a small weightage for costumes. Dance should consist of both Nritya and Abhinaya.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants will have to bring their own costumes, accessories and make-up for the competition.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Any illegal or unethical act related to the competition and or on its stage, auditorium premises will lead to immediate disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Points will be awarded for rhythm, choice of song and dance, expression, costumes and synchronization.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organizers decision is final and binding to all.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Obscenity of any kind is not allowed and will lead to immediate disqualification.<br>\
         </p><h1>JUDGING CRITERIA:</h1><p>\
-        Rhythm<br>\
-        Choice of song and dance<br>\
-        Expressions<br>\
-        Costume<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Rhythm<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Choice of song and dance<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Expressions<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Costume<br></p>\
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>PRIZES:</h1><p>\
@@ -1240,17 +1240,17 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        There will be only one-round for this event.<br>\
-        The participants will battle in a one-on-one face-off.The pairing of participants will be decided by the organizers.<br>\
-        The participants would be given a track by the organizers 2 hours prior to the event.<br>\
-        Registrations can be done online or on-spot.<br>\
-        On-spot registrations close 3 hours prior to the commencement of the event.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There will be only one-round for this event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The participants will battle in a one-on-one face-off.The pairing of participants will be decided by the organizers.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The participants would be given a track by the organizers 2 hours prior to the event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registrations can be done online or on-spot.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> On-spot registrations close 3 hours prior to the commencement of the event.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         </p><h1>RULES AND REGULATIONS:</h1><p>\
-        <p>\ All sorts of western dance forms are allowed.<br>\
-        Participants should choose only one dance form and choreograph the track accordingly.<br>\
-        Any kind of inappropriate behaviour will lead to disqualification.</p>\
+        <p>\ <i class='fa fa-circle' style='font-size:8px;'></i> All sorts of western dance forms are allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should choose only one dance form and choreograph the track accordingly.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Any kind of inappropriate behaviour will lead to disqualification.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1280,29 +1280,29 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT</h1><p>\
-        Registrations can be online or on-spot during Elan & ηvision 2018.<br>\
-        This competition consists of 2 rounds- prelims and finals.<br>\
-        Depending on the prelims performance 10 participants would be selected for the finals.<br>\
-        Participants can sing any song of his/her choice of genre bollywood music/film music.<br>\
-        Prelims Round: To participate in the Vibrazione, you must have 5 songs that you know very well and must be ready to perform any of those 5 songs for the competition. If someone else has chosen your song, or something does not work out with your first choice, you will need to be ready to sing your other choice.<br>\
-        Finals: For finals participant can sing any bollywood or film song of his/her own choice.<br>\
-        The performances of participants will be video recorded and uploaded onto the website of ATKT.in.<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registrations can be online or on-spot during Elan & ηvision 2018.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> This competition consists of 2 rounds- prelims and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Depending on the prelims performance 10 participants would be selected for the finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants can sing any song of his/her choice of genre bollywood music/film music.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Prelims Round: To participate in the Vibrazione, you must have 5 songs that you know very well and must be ready to perform any of those 5 songs for the competition. If someone else has chosen your song, or something does not work out with your first choice, you will need to be ready to sing your other choice.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Finals: For finals participant can sing any bollywood or film song of his/her own choice.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The performances of participants will be video recorded and uploaded onto the website of ATKT.in.<br></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        On Spot Registrations closes one hour before the start of the event.<br>\
-        Songs containing vulgar or explicit lyrics will not be allowed. Contestants who, during their performance, use vulgar lyrics or perform in an obscene manner will be disqualified from the competition, NO RAP.<br>\
-        Participants can bring a karaoke track or play an accompanying instrument and are also allowed to have an instrumentalist accompanist(max 2)  ONLY for the final round and not for the prelims. <br>\
-        For prelims round time limit is 2 minutes and for finals there is a 3 minute time limit on all songs.The participants should perform for a minimum of 90 seconds(including Mukhda and antara).NO EXCEPTIONS.<br>\
-        NO BACKING VOCALS ALLOWED.<br>\
-        Participant exceeding prescribed time limit will invite a penalty.<br>\
-        Decision of the organisers and the judges is final. No arguing with judges is allowed. Any contestant, their or associates who argue with a judge may be deemed to be using offensive behavior and the contestant may be disqualified from competition.<br>\
-        The decision of the judges and the organizers is final and abiding.<br>\
-        The organizing team has the right to change any or all the rules mentioned above.<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> On Spot Registrations closes one hour before the start of the event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Songs containing vulgar or explicit lyrics will not be allowed. Contestants who, during their performance, use vulgar lyrics or perform in an obscene manner will be disqualified from the competition, NO RAP.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants can bring a karaoke track or play an accompanying instrument and are also allowed to have an instrumentalist accompanist(max 2)  ONLY for the final round and not for the prelims. <br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> For prelims round time limit is 2 minutes and for finals there is a 3 minute time limit on all songs.The participants should perform for a minimum of 90 seconds(including Mukhda and antara).<br>NO EXCEPTIONS.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> NO BACKING VOCALS ALLOWED.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participant exceeding prescribed time limit will invite a penalty.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Decision of the organisers and the judges is final. No arguing with judges is allowed. Any contestant, their or associates who argue with a judge may be deemed to be using offensive behavior and the contestant may be disqualified from competition.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the judges and the organizers is final and abiding.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The organizing team has the right to change any or all the rules mentioned above.<br></p>\
         <h1>JUDGING CRITERIA:</h1>\
-        <p>Vocal ability<br>\
-        Stage presence<br>\
-        Appearance<br></p>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Vocal ability<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Stage presence<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Appearance<br></p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1339,28 +1339,28 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        This being a solo competition allows no more than one person per team.<br>\
-        Registration: On the spot/Online.<br>\
-        On-spot registrations would be closed 1 hour before the event.<br>\ Duration of each performance in the first round: 6 min (empty stage to empty stage).<br>\
-        Duration of each performance in the second round: as long as the backing track lasts (empty stage to empty stage).<br>\
-        There will be two categories. Melody and percussion instruments.<br>\
-        Round 1:<br>\ Participants will be given 6 minutes to play anything they want.<br>\
-        Based on the scores of the first round 2 participants from each category progresses into the second round.<br>\
-        Overshooting the time limit will result in a penalty.<br>\
-        Round 2:<br>\
-        The second round will be a face-off between the top two from each category. Ie, the first in melody vs the second in melody and similarly for percussion.<br>\
-        After qualification after the first round, the finalists will be given tracks to play over. Ie, the melody finalists will be given tracks with percussion to play over and vice-versa. This will be done to ensure fair judging.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> This being a solo competition allows no more than one person per team.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registration: On the spot/Online.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> On-spot registrations would be closed 1 hour before the event.<br>\ Duration of each performance in the first round: 6 min (empty stage to empty stage).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Duration of each performance in the second round: as long as the backing track lasts (empty stage to empty stage).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There will be two categories. Melody and percussion instruments.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 1:<br>\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class='fa fa-circle' style='font-size:8px;'></i>  Participants will be given 6 minutes to play anything they want.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Based on the scores of the first round 2 participants from each category progresses into the second round.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Overshooting the time limit will result in a penalty.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Round 2:<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> The second round will be a face-off between the top two from each category. Ie, the first in melody vs the second in melody and similarly for percussion.<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> After qualification after the first round, the finalists will be given tracks to play over. Ie, the melody finalists will be given tracks with percussion to play over and vice-versa. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> This will be done to ensure fair judging.<br>\
         </div>\
         <div class='tab-pane' id='3a'>\
         </p><h1>RULES AND REGULATIONS:</h1><p>\
-        A participant can stick to ONLY ONE instrument for the entire competition.<br>\
-        Electric instruments are allowed.<br>\
-        Keyboards can be played only in the piano patch.<br>\
-        Availability of the following instruments is assured (if required) : A keyboard (in piano tune), acoustic guitar, and drums.<br>\
-        Decision of the event organizers and the judges will be final and abiding.<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> A participant can stick to ONLY ONE instrument for the entire competition.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Electric instruments are allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Keyboards can be played only in the piano patch.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Availability of the following instruments is assured (if required) : A keyboard (in piano tune), acoustic guitar, and drums.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Decision of the event organizers and the judges will be final and abiding.<br></p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Rhythm<br>\
-        Creativity<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Rhythm<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br></p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1390,40 +1390,40 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>\
-        The most awaited event is back with a bang in Elan & ηvision 2018!!<br>\
+        The most awaited event is back with a bang in Elan & ηvision 2018!!<br><br>\
         For all the aspiring DJ's out there!! Can you mix 'em good enough?!Then what are you waiting for?!!Spin 'em to own 'em!!<br>\
         Battle with the beats! Fight with the tunes! May the best win!This is the War of DJ's, where DJ's compete with each other, on a huge platform, like never before!</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        The event consists of two rounds-Prelims and finals.<br>\
-        Participants should register online for the event or even on-spot.<br>\
-        On-spot registrations would be closed 1 hour before the event starts.<br>\
-        Each DJ will be given a maximum time of 20mins to perform for both prelims and finals.<br>\
-        5mins would be given as a spare time for each of them before their performance to settle down.<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event consists of two rounds-Prelims and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should register online for the event or even on-spot.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> On-spot registrations would be closed 1 hour before the event starts.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each DJ will be given a maximum time of 20mins to perform for both prelims and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> 5 minutes would be given as a spare time for each of them before their performance to settle down.<br></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        This is an individual event. No DJ duos are allowed.<br>\
-        The participants should be of the age 17-25 years of age and the participants should produce age proof at the registration desk on the day of event.<br>\
-        Time limit should be strictly followed by the participants. Participant will be penalized by judges for not doing so.<br>\
-        A minimum of three genres to be used. Language is not a barrier.<br>\
-        A minimum of six songs to be played and 4 CDs to be changed.<br>\
-        Tags must be avoided. They can attract negative points.<br>\
-        Participants should have their own music. No music will be provided by the organizers.<br>\
-        Props or costumes will have to be arranged by the participants.<br>\
-        Obscenity in any form is strictly prohibited and would lead to disqualification.<br>\
-        Decision of organisers and judges will be final and abiding.<br>\
-        Style statement will also be rewarded.<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> This is an individual event. No DJ duos are allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The participants should be of the age 17-25 years of age and the participants should produce age proof at the registration desk on the day of event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Time limit should be strictly followed by the participants. Participant will be penalized by judges for not doing so.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> A minimum of three genres to be used. Language is not a barrier.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> A minimum of six songs to be played and 4 CDs to be changed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Tags must be avoided. They can attract negative points.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should have their own music. No music will be provided by the organizers.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Props or costumes will have to be arranged by the participants.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Obscenity in any form is strictly prohibited and would lead to disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Decision of organisers and judges will be final and abiding.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Style statement will also be rewarded.<br></p>\
         <h1>INFRASTRUCTURE SUPPLIED:</h1><p>\
-        A DJ console(Mark I) and mixer<br>\
-        4 bin DJ sound system<br>\
-        Effect lights[sprinklers, lasers, cans, and smoke]<br>\
-        Sound Monitors<br>\
-        2 mics<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> A DJ console(Mark I) and mixer<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> 4 bin DJ sound system<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Effect lights[sprinklers, lasers, cans, and smoke]<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Sound Monitors<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> 2 mics<br></p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Mixing<br>\ Style statement<br>\
-        Crowd engagement<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Mixing<br>\ <i class='fa fa-circle' style='font-size:8px;'></i>Style statement<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Crowd engagement<br></p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1450,30 +1450,30 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>\
-        Haven't you ever wanted to change the way our country functions? Well, it's time to be the change you want to see!<br>\
+        Haven't you ever wanted to change the way our country functions? Well, it's time to be the change you want to see!<br><br>\
         Elan & ηvision 2018 is bringing Forward, Nukkad Natak-A Street Play Competition.<br>\ It is all about creating awareness about social problems that plague our soil and bringing about realization in our youth!</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        The event comprises of only one round.<br>\
-        Participants can choose any theme of their choice any perform for a 20-30 minutes(including the setup time).<br>\
-        Teams are allowed to have music accompanists for their play.<br>\
-        The team size should be 8-20(including music accompanists).<br>\
-        Participants should get their own props,although bigger props like char can be arranged by the organising team if informed beforehand.<br>\
-        The play can be enacted in Hindi or English.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event comprises of only one round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants can choose any theme of their choice any perform for a 20-30 minutes(including the setup time).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Teams are allowed to have music accompanists for their play.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The team size should be 8-20(including music accompanists).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should get their own props,although bigger props like char can be arranged by the organising team if informed beforehand.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The play can be enacted in Hindi or English.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        Only on-line registrations are available for this event.<br>\
-        The head of the team should register online with the participant names ,contact number and team name.<br>\
-        Each team will receive a confirmation mail with the details of the team.<br>\
-        Teams should bring the print out of the confirmation mail.<br>\
-        Any kind of fluids, live animals and flame is STRICTLY not allowed.<br>\
-        Time limit should be strictly followed failing which there will be deduction in your respective score.<br>\
-        Plays can be based on any theme but inappropriate content or content defaming any political party or religious group is STRICTLY prohibited.<br>\
-        Obscenity of any kind, is not allowed and may lead to disqualification.<br>\
-        You are not allowed to play any recorded music using mobile phones or tapes.<br>\
-        The decision of the judges and organisers will be final and binding.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Only on-line registrations are available for this event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The head of the team should register online with the participant names ,contact number and team name.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each team will receive a confirmation mail with the details of the team.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Teams should bring the print out of the confirmation mail.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Any kind of fluids, live animals and flame is STRICTLY not allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Time limit should be strictly followed failing which there will be deduction in your respective score.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Plays can be based on any theme but inappropriate content or content defaming any political party or religious group is STRICTLY prohibited.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Obscenity of any kind, is not allowed and may lead to disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> You are not allowed to play any recorded music using mobile phones or tapes.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the judges and organisers will be final and binding.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1502,24 +1502,24 @@ $('.card').on('click',function () {
         <p>This one’s for all the pro stage performers out there! A perfect place for those who can take over the crowd with their humorous comedy and exceptional acting skills. An unprecedented opportunity to showcase your pro skills as a \"Stand-up Comedian\", or a \"Mono-Actor\".A Stage to perform and a huge crowd to be captivated. Step up, and leave the audience enthralled !</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>EVENT FORMAT:</h1><p>\ There will be 2 rounds, prelims and final.<br>\
-        Your performance could either be a 'mono-act', or a 'stand-up comedy', or both.<br>\
-        Languages preferred are English, Hindi, and Telugu.<br>\
-        Duration of act should be 4-7mins for the prelims. It is 6-10mins for final round .<br>\
-        Registration can be done online or on-spot during Elan & ηvision 2018.</p>\
+        <h1>EVENT FORMAT:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i>There will be 2 rounds, prelims and final.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Your performance could either be a 'mono-act', or a 'stand-up comedy', or both.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Languages preferred are English, Hindi, and Telugu.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Duration of act should be 4-7mins for the prelims. It is 6-10mins for final round .<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registration can be done online or on-spot during Elan & ηvision 2018.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>RULES AND REGULATIONS:</h1><p>\ Age limit for the participants is 15-25 years.<br> \
-        Any kind of fluid or flame is not allowed on stage.<br>\
-        Time limit should be strictly followed failing which there will be deduction in your respective score.<br>\
-        Music/background tracks for the performance, if any, are to be arranged by the participants itself.<br>\
-        If you need any props for mono-acting then bring your own.<br>\
-        Large props like chairs and tables etc. can be arranged, but the participants have to inform earlier.<br>\
-        Judge and organisers decisions are final and abiding.</p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> Age limit for the participants is 15-25 years.<br> \
+        <i class='fa fa-circle' style='font-size:8px;'></i> Any kind of fluid or flame is not allowed on stage.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Time limit should be strictly followed failing which there will be deduction in your respective score.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Music/background tracks for the performance, if any, are to be arranged by the participants itself.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> If you need any props for mono-acting then bring your own.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Large props like chairs and tables etc. can be arranged, but the participants have to inform earlier.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Judge and organisers decisions are final and abiding.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Expressions<br>\
-        Sense of humour<br>\
-        Acting skills</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Expressions<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Sense of humour<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Acting skills</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1548,31 +1548,31 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        The event will be conducted in one round.<br>\
-        There is no specific theme for this event.The participants are free to choose any theme.<br>\
-        Languages preferred are English, Hindi, and Telugu.<br>\
-        Duration of the play should be 30-45 mins(including stage setup time).<br>\
-        Registrations must be done on-line for this event.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event will be conducted in one round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There is no specific theme for this event.The participants are free to choose any theme.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Languages preferred are English, Hindi, and Telugu.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Duration of the play should be 30-45 mins(including stage setup time).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registrations must be done on-line for this event.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>RULES AND REGULATIONS:</h1><p>\ The team size should be 5-15 members.<br>\
-        Stage play comprises of multiple scenes and may have blackouts.<br>\
-        Backstage voiceovers and narrations are allowed during the performance.<br>\
-        Pre-recorded music is allowed and should be brought in a pen drive in .mp3 format only. It will not be allowed in any other form.<br>\
-        Participants will be provided a laptop and are expected to appoint someone to sit and play during the performance.<br>\
-        Music may also be played live. <br>\
-        Participants will be provided a light control box, from which the lighting on the stage can be controlled.<br>\
-        Any kind of fluids, live animals, flame, heavy and sharp objects or any other material which has a possibility of damaging the stage is STRICTLY not allowed.<br>\
-        Time limit should be strictly followed failing which there will be deduction in your respective score.<br>\
-        Inappropriate content or content defaming any political party or religious group is strictly prohibited. There should not be any direct implication against anyone.<br>\
-        Use of unparliamentary language is strictly prohibited and will lead to disqualification.<br>\
-        The props required for the play should be brought by the participants itself.However,large props like chairs and tables etc. can be arranged, but the participants have to inform earlier.<br>\
-        The decision of the judges and organizers will be final and binding.</p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> The team size should be 5-15 members.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Stage play comprises of multiple scenes and may have blackouts.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Backstage voiceovers and narrations are allowed during the performance.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Pre-recorded music is allowed and should be brought in a pen drive in .mp3 format only. It will not be allowed in any other form.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i >Participants will be provided a laptop and are expected to appoint someone to sit and play during the performance.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Music may also be played live. <br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants will be provided a light control box, from which the lighting on the stage can be controlled.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Any kind of fluids, live animals, flame, heavy and sharp objects or any other material which has a possibility of damaging the stage is STRICTLY not allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Time limit should be strictly followed failing which there will be deduction in your respective score.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Inappropriate content or content defaming any political party or religious group is strictly prohibited. There should not be any direct implication against anyone.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Use of unparliamentary language is strictly prohibited and will lead to disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The props required for the play should be brought by the participants itself.However,large props like chairs and tables etc. can be arranged, but the participants have to inform earlier.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i>The decision of the judges and organizers will be final and binding.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Acting<br>\
-        Direction<br>\
-        Screenplay <br>\
-        Overall impact</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Acting<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Direction<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Screenplay <br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Overall Impact</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1599,23 +1599,23 @@ $('.card').on('click',function () {
         <p>A perfect opportunity to test your ability to be creative and prompt together with the presence of mind. Ever thought that you could have delivered the dialogues better than the actors in the movie? Then this is the right place for you to be.Elan & ηvision 2018 presents a unique event \"Lend Your Voice\" </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>EVENT FORMAT:</h1><p>\ The contestants are provided with an option of a few ACTION HERO VIDEOS.<br>\
-        They will be given half hour to choose the video.<br>\
-        After choosing the video the participants will be given another half hour for preparation in which they are supposed to come up with a humorous and entertaining version of the video by putting their own voice into the characters.<br>\
-        They are then supposed to perform it on stage while the video is being played, with the actual dialogues muted.<br>\
-        All the videos will be 1 min long</p>\
+        <h1>EVENT FORMAT:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> The contestants are provided with an option of a few ACTION HERO VIDEOS.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> They will be given half hour to choose the video.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> After choosing the video the participants will be given another half hour for preparation in which they are supposed to come up with a humorous and entertaining version of the video by putting their own voice into the characters.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> They are then supposed to perform it on stage while the video is being played, with the actual dialogues muted.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the videos will be 1 min long</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>RULES AND REGULATIONS:</h1><p>\ It consists of only one round.<br>\
-        The participants will be given a given a movie clipping one hour before the competition.<br>\
-        During the competition, the audio of the clipping will be muted, and the participants have to make out their own dialogues and deliver it parallel in sequence with the video and must make it as funny as possible.<br>\
-        The clippings will be given in English, Telugu or Hindi as per your choice.<br>\
-        You will be judged based on the dialogues you make and the way you present it.<br>\
-        Use of unparliamentary language is strictly prohibited and will lead to disqualification.<br>\
-        The decision of the judges and organizers is final and binding.</p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> It consists of only one round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The participants will be given a given a movie clipping one hour before the competition.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> During the competition, the audio of the clipping will be muted, and the participants have to make out their own dialogues and deliver it parallel in sequence with the video and must make it as funny as possible.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The clippings will be given in English, Telugu or Hindi as per your choice.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> You will be judged based on the dialogues you make and the way you present it.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Use of unparliamentary language is strictly prohibited and will lead to disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the judges and organizers is final and binding.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Dialogue presentation<br>\
-        Creativity</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Dialogue presentation<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Creativity</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1646,27 +1646,27 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        The event film fare fiesta is spread over two days.<br>\
-        All the entries are judged on the first day to shortlist 6 out of them. These 6 will be judged on second day by esteemed judges.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event film fare fiesta is spread over two days.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the entries are judged on the first day to shortlist 6 out of them. These 6 will be judged on second day by esteemed judges.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        Run time should not be more than 20 minutes<br>\
-        Movie should be shot at a minimum resolution of 480 pixels. Marks might be reduced due to poor video/ audio quality.<br>\
-        Any attempt at copyright infringement can lead to immediate disqualification.<br>\
-        Plagiarism is accepted with due credits.<br>\
-        Films in languages other than English, Hindi, and Telugu should be accompanied with subtitles.<br>\
-        Participants should send their videos/youtube links of the videos to xxx@iith.ac.in .<br>\
-        The decision of the organizers and the judges is final and binding. <br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Run time should not be more than 20 minutes<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Movie should be shot at a minimum resolution of 480 pixels. Marks might be reduced due to poor video/ audio quality.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Any attempt at copyright infringement can lead to immediate disqualification.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Plagiarism is accepted with due credits.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Films in languages other than English, Hindi, and Telugu should be accompanied with subtitles.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should send their videos/youtube links of the videos to xxx@iith.ac.in .<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organizers and the judges is final and binding. <br></p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Script<br>\
-        Direction<br>\
-        Screenplay<br>\
-        Costumes<br>\
-        Dialogues<br>\
-        Cinematography<br>\
-        Sound editing/ mixing<br>\
-        Visual effects<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Script<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Direction<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Screenplay<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Costumes<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Dialogues<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Cinematography<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Sound editing/ mixing<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Visual effects<br></p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1701,14 +1701,14 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        There are no online registrations for this event.<br>\
-        There are only on-spot registrations available for this event.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There are no online registrations for this event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There are only on-spot registrations available for this event.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        The captures must be only during the 3 days of the Elan & ηvision 2018 fest and only inside IIT Hyderabad premises.<br>\
-        The pics must be taken only using a Digi-cam or a Bluetooth enabled mobile (for transfer purpose).<br>\
-        Winner is judged according to the moments captured in the best way.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The captures must be only during the 3 days of the Elan & ηvision 2018 fest and only inside IIT Hyderabad premises.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The pics must be taken only using a Digi-cam or a Bluetooth enabled mobile (for transfer purpose).<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Winner is judged according to the moments captured in the best way.<br>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1741,22 +1741,22 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        Registrations can be done online or on the spot.<br>\
-        Participants are to submit finished works of art.<br>\
-        Paintings will be exhibited throughout the fest in Elan & ηvision 2018 gallery.<br>\
-        The three best paintings will be selected and prizes will be announced on the last day of the fest.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registrations can be done online or on the spot.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants are to submit finished works of art.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Paintings will be exhibited throughout the fest in Elan & ηvision 2018 gallery.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The three best paintings will be selected and prizes will be announced on the last day of the fest.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        Paintings can be either brought in person or can be sent by post.<br>\
-        Entries that are received on or before 9 Feb 2018 will be evaluated. Those received through post during Elan & ηvision 2018 will not be evaluated, only those received in person are evaluated.<br>\
-        The painting should be at least of A3 size.<bR>\
-        Judges and organisers decision is final and binding.<br>\
-        Organizers are not responsible for any delay or damage caused to the entries.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Paintings can be either brought in person or can be sent by post.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Entries that are received on or before 9 Feb 2018 will be evaluated. Those received through post during Elan & ηvision 2018 will not be evaluated, only those received in person are evaluated.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The painting should be at least of A3 size.<bR>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Judges and organisers decision is final and binding.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organizers are not responsible for any delay or damage caused to the entries.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Topic chosen<br>\
-        Creativity<br>\
-        Coloration Skills</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Topic<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Coloration Skills</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1786,21 +1786,21 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        Registrations will be done on the spot during Elan & ηvision 2018.<br>\
-        Each Team must consist of 2 members.<br>\
-        The following materials will be provided to you:<br>\ Cosmetic grade face paint<br>\
-        Brushes<br>\
-        Tissues<br>\
-        The event goes on for all the three days during the fest.<br>\
-        Winners will be declared for each of the three days.<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registrations will be done on the spot during Elan & ηvision 2018.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each Team must consist of 2 members.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The following materials will be provided to you:<br>\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Cosmetic grade face paint<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Brushes<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Tissues<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event goes on for all the three days during the fest.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Winners will be declared for each of the three days.<br></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        There are no theme constraints. All kinds of themes and patterns are allowed.<br>\
-        Participants should use only the materials provided by the organizers.<br>\
-        Decision of judge and the organisers shall be final and abiding.</p>\
-        <h1>JUDGING CRITERIA:</h1><p>\ Creativity<br>\
-        Time taken<br></p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There are no theme constraints. All kinds of themes and patterns are allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should use only the materials provided by the organizers.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Decision of judge and the organisers shall be final and abiding.</p>\
+        <h1>JUDGING CRITERIA:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Time taken<br></p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
@@ -1830,27 +1830,27 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        Registrations will be done on the spot during Elan & ηvision 2018.<br>\
-        Each Team must consist of 2 members.<br>\
-        The following materials will be provided to you:<br>\ Nail polishes<br>\
-        Nail art pens<br>\
-        The event goes on for all the three days during the fest.<br>\
-        Winners will be declared for each of the three days.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registrations will be done on the spot during Elan & ηvision 2018.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each Team must consist of 2 members.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The following materials will be provided to you:<br>\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Nail polishes<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Nail art pens<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> The event goes on for all the three days during the fest.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Winners will be declared for each of the three days.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        Contestants shall use only the paints provided to them by the organizers.<br>\
-        There will be a time limit of 7 minutes and you should complete in that time.<br>\
-        The decision of the judges and the organisers is final and abiding.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Contestants shall use only the paints provided to them by the organizers.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There will be a time limit of 7 minutes and you should complete in that time.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the judges and the organisers is final and abiding.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\ Neatness<br>\
-        Time duration<br>\
-        Attractiveness</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Time duration<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Attractiveness</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.1,000.</p>\
         <h1>Organizers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Will be updated soon.</p>\
         </div>\
         </div>\
         </div>\
@@ -1874,26 +1874,26 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1>\
-        <p>Registrations will be on the spot during Elan & ηvision 2018.<br>\
-        Each Team must consist of 2 members.<br>\
-        Mehendi cones will be provided by the organisers.<br>\
-        Designs are of your own choice.</p>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> Registrations will be on the spot during Elan & ηvision 2018.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Each Team must consist of 2 members.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Mehendi cones will be provided by the organisers.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Designs are of your own choice.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
         <h1>RULES AND REGULATIONS:</h1><p>\
-        There will be a time limit of 1 hour.<br>\
-        There is no limit on the number of cones. You can use as many as you want<br>\
-        You will be allowed to put mehendi only one hand.<br>\
-        The decision of judges and organisers is final and abiding.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There will be a time limit of 1 hour.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There is no limit on the number of cones. You can use as many as you want<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> You will be allowed to put mehendi only one hand.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of judges and organisers is final and abiding.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\ Attractivness<br>\
-        Creativity<br>\
-        Neatness </p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Neatness </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.1,000.</p>\
         <h1>ORGANISERS:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Will be updated soon.</p>\
         </div>\
         </div>\
         </div>\
@@ -1916,23 +1916,23 @@ $('.card').on('click',function () {
         <p>Come! Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay! Win exciting prizes!!</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
-        <h1>EVENT FORMAT:</h1><p>\ Registrations will be on the spot during Elan & ηvision 2018<br>\
-        The following materials will be provided to you<br>\ Polymer clay<bR>\
-        Paints (if required)<br>\
-        One can select his/her own theme or model. Every participant will be given limited amount of clay and time, so one has to really plan out his model so as to not run out of clay.</p>\
+        <h1>EVENT FORMAT:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> Registrations will be on the spot during the fest.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The following materials will be provided to you<br>\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Polymer clay<br>\
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Paints (if required)<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> One can select his/her own theme or model. Every participant will be given limited amount of clay and time, so one has to really plan out his model so as to not run out of clay.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>RULES AND REGULATIONS:</h1><p>\ The amount of clay and paint provided will be limited.Team size should be less than 3.<br>\
-        The final results will be announced on the final day of Elan & ηvision 2018.<br>\
-        The decision of the organisers and judges is final and abiding to all.</p>\
-        <h1>JUDGING CRITERIA:</h1><p>\ Creativity<br>\
-        Finishing </p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> The amount of clay and paint provided will be limited.Team size should be less than 3.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The final results will be announced on the final day of Elan & ηvision 2018.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organisers and judges is final and abiding to all.</p>\
+        <h1>JUDGING CRITERIA:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Finishing </p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.1,000.</p>\
         <h1>ORGANISERS:</h1>\
-        <p>will be updated soon</p>\
+        <p>Will be updated soon.</p>\
         </div>\
         </div>\
         </div>\
@@ -1957,25 +1957,25 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>EVENT FORMAT:</h1><p>\
-        The event will be conducted in three rounds-on-spot,interview and finals.<br>\
-        For the on-spot round,the participants would be given a random topic to speak on for 2 minutes.<br>\
-        Based on the on-spot round,10 candidates would be selected for the interview round.<br>\
-        These 10 candidates will be interviewed by asking questions and giving them situations.<br>\
-        5 candidates will be selected for the final round.<br>\
-        In final round, the contestant will have to host a show like an actual RJ does . The Contestants are expected to entertain the audiences by telling stories, current affairs (about Elan & ηvision 2018 ), cinema news, etc. Each contestant has to perform for maximum of 20 minutes.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event will be conducted in three rounds-on-spot,interview and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> For the on-spot round,the participants would be given a random topic to speak on for 2 minutes.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Based on the on-spot round,10 candidates would be selected for the interview round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> These 10 candidates will be interviewed by asking questions and giving them situations.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> 5 candidates will be selected for the final round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> In final round, the contestant will have to host a show like an actual RJ does . The Contestants are expected to entertain the audiences by telling stories, current affairs (about Elan & ηvision 2018 ), cinema news, etc. Each contestant has to perform for maximum of 20 minutes.</p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>RULES AND REGULATIONS:</h1><p>\ Registrations can be done online or On Spot.<br>\
-        On Spot Registrations will close 1 hour before the commencement of the event<br>\
-        This is an individual event.<br>\
-        Time limit should be strictly followed. Participant will be heavily penalized by judges for not doing so.<br>\
-        The Participants can speak in Telugu, Hindi or English. Other languages are not allowed.<br>\
-        Decision of judges and organisers will be final and abiding.<br></p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\ <i class='fa fa-circle' style='font-size:8px;'></i> Registrations can be done online or On Spot.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> On Spot Registrations will close 1 hour before the commencement of the event<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> This is an individual event.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Time limit should be strictly followed. Participant will be heavily penalized by judges for not doing so.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Participants can speak in Telugu, Hindi or English. Other languages are not allowed.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Decision of judges and organisers will be final and abiding.<br></p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        Spontaneity<br>\
-        Sense of humour<br>\
-        Voice<br>\
-        Tone of speech</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Spontaneity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Sense of humour<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Voice<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Tone of speech</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
