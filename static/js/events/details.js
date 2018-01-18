@@ -2253,17 +2253,20 @@ $('.card').on('click',function () {
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
         <h1 id='intro'>Introduction:</h1><p>\
-        Design and build a wireless remote controlled flying drone to complete the tasks with highest points possible. There are two Levels in the competition, of which the second one is a surprise Level which will be disclosed at the venue.<br>\
+        Design and build a wireless remote controlled flying drone to complete the tasks with highest points possible. There are three Levels in the competition, of which one is a surprise Level which will be disclosed at the venue and the other is bonus level.<br>\
         Top 3 teams from ROUND-1 are eligible to compete in ROUND-2.</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1 id='problem'>Problem Statement:</h1><p>\
-        The event is based on finding the most agile and fastest drone. The problem statement is simple: pass through three rounds and the team with maximum number of points wins.</p>\
+        The event is based on finding the agilest and fastest drone. The problem statement is simple: Pass through given levels and the team with a maximum number of points wins.</p>\
         <br><a  href='/static/pdf/quadcopter.pdf'><button class='btn2'>Problem statement PDF</button></a></div>\
         <div class='tab-pane' id='3a'> \
         <h1 id='rules'>Team Specifications:</h1> \
-        <p>1. Team can have a max of 5 people.<br>\
-        2. Participants from a team can be from different colleges.</p>\
+        <p>1.Team can have a max of 5 people.<br>\
+        2.No person can be a part of more than one team.<br>\
+        3.All students must carry a valid identity card<br>\
+        4.All members of team need to register for the event<br>\
+        5.Students from different educational institutes can form a team.</p>\
         <h1>Certificate Policy:</h1><p>\
         1. Certificate of Merit and Prizes will be given for the top two teams.<br>\
         2. Participation Certificate will be given for those who registered online and participated in the event.<br>\
@@ -2273,7 +2276,7 @@ $('.card').on('click',function () {
         <h1>Organisers</h1><p>\
         <p>Saurav. C<br>\
         es16btech11007@iith.ac.in - 9618480733<br>\
-        Snehith - 8121618121</p>\ <h1>Prize</h1>\
+        Snehith - 8121618121<br>Dharmgya Sharma-8570040404<br>Parth Bhala-7798231598</p>\ <h1>Prize</h1>\
         <p>Prizes Worth INR 50,000/-</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
