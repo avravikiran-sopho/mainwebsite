@@ -2274,8 +2274,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Organisers</h1><p>\
-        <p>Saurav. C<br>\
-        es16btech11007@iith.ac.in - 9618480733<br>\
+        <p>Saurav. C - 9618480733<br>\
         Snehith - 8121618121<br>Dharmgya Sharma-8570040404<br>Parth Bhala-7798231598</p>\ <h1>Prize</h1>\
         <p>Prizes Worth INR 50,000/-</p>\
         <h1>Contact:</h1>\
