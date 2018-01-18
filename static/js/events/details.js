@@ -7,8 +7,6 @@ $('.navimg2').on('click',function () {
       $('.register-link').attr("href","")
 });
 
-
-
 $('.card').on('click',function () {
       var name = $(this).attr('id');
       console.log(name);
@@ -2254,7 +2252,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1 id='intro'>Introduction:</h1><p>\
         Design and build a wireless remote controlled flying drone to complete the tasks with highest points possible. There are three Levels in the competition, of which one is a surprise Level which will be disclosed at the venue and the other is bonus level.<br>\
-        Top 3 teams from ROUND-1 are eligible to compete in ROUND-2.</p>\
+        </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1 id='problem'>Problem Statement:</h1><p>\
