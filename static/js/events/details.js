@@ -1484,7 +1484,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         </div>";
-    var andaaz = "<h1 style='text-align:center'>Andaaz Apna Apna: A Mono acting competition</h1>\
+    var andaaz = "<h1 style='text-align:center'>Stand Up: The Comedy & Mono acting competition</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
