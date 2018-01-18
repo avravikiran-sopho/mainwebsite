@@ -7,8 +7,6 @@ $('.navimg2').on('click',function () {
       $('.register-link').attr("href","")
 });
 
-
-
 $('.card').on('click',function () {
       var name = $(this).attr('id');
       console.log(name);
@@ -67,7 +65,7 @@ $('.card').on('click',function () {
           <h1>Prize:</h1>\
           <p>Prizes Worth INR 10,000/-</p>\
           <h1>Organisers:</h1>\
-          <p>Will be updated soon</p>\
+          <p>Vivek vardhan-9701103218<br>Chakradhar-8500584109<br>Athava Naga Teja-7660827557<br>Dheeraj-9640783673</p>\
           <h1>Contact:</h1>\
           <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
           </p>\
@@ -110,7 +108,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>Prizes Worth INR 5,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon\
+        <p>Gowtham -9705311199<br>Abhishek Bairagi-7089079662<br>Gaurav Gijare-7058906800\
         </p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
@@ -161,6 +159,7 @@ $('.card').on('click',function () {
           <p>Prize:INR 20,000/-</p>\
         <h1>Organisers:</h1>\
         <p>\
+        Ketan iyengar-9769563302<br>\
         Rishideep-9542853064<br>\
         Sam Chalyanth - 9705684020<br>\
         Srujana-9515594498</p>\
@@ -209,7 +208,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
          <p>Prizes Worth INR 10,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Pran prateep-9494688054<br>Sumanth-9640493740<br>Saketh-8790774329 <br>Md Bilal-8125908531</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -438,7 +437,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>Prizes Worth INR 15,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Akshar kota-9440021015<br>Radhakrishna -9704179963<br>vijay-9492867842<br>Akhil George-9445299569</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </p>\
@@ -520,7 +519,7 @@ $('.card').on('click',function () {
         <p> Prizes Worth INR 50,000/-\
         </p>\
         <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Abhilash Reddy-8096811565<br>Dinesh Chandra -8555930809<br>Revanth Naik-97012 09025</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -560,7 +559,7 @@ $('.card').on('click',function () {
         <h1>Prize:</h1>\
         <p>Prizes Worth INR 40,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Vagesha Vardhan-9786954979<br>Bhanu Prasad-9100292117<br>N Yashodhan Reddy - 9553999950<br>Manohar Reddy - 7382082375<br>Srihas-7093313695</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -607,7 +606,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>Prizes Worth INR 25,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Maniteja -9010774589<br>Shanmkarao-9000273721<br>Abhilash-97013 40387<br>Venkat-9494219983</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -642,7 +641,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>Prizes Worth INR 15,000/-</p>\
         <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Baasha-9848604799<br>Khaja Redyy-7382013283<br>Sunil varma- 8317682299<br>Srihith paruchuru- 8332003346</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -702,7 +701,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1><p>\
         Prizes Worth INR 20,000/-</p>\
         <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Raja Pradyumna-7093328322<br>Ashish-8500183293<br>Haveesh Singirikonda-7799665254</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -890,7 +889,7 @@ $('.card').on('click',function () {
         <h1> Prize</h1><p> \
         Prizes Worth INR 20,000/-</p>\
         <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Deepak Nathani-9177289949<br>Adarsh Bandi-9640724328<br>Varun Perumalla-7674024633</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -933,7 +932,7 @@ $('.card').on('click',function () {
         <h1> Prize: </h1><p> \
         Prizes Worth INR 10,000/-</p>\
         <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Deepak Nathani-9177289949<br>Surgan jandial-9419243611<br>Rishi-9100641264</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -979,7 +978,7 @@ $('.card').on('click',function () {
         <h1> Prize: </h1><p> \
         Prize Worth: INR 4,000/-</p>\
         <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Tribhuvan-9494376070<br>Srivamshi-9515789977<br>Abhiram-7901480409<br>Gajanan-9492922371</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -1023,7 +1022,7 @@ $('.card').on('click',function () {
         <h1>Prize:</h1><p>\
         Prize Worth: INR 4,000/-</p>\
         <h1>Organisers</h1>\
-        <p>Will be updated soon</p>\
+        <p>Mann Khivasara-9403909136<br>Cholleti Alekhya-7981127888</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
