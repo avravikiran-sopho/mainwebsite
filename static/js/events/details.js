@@ -606,7 +606,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>Prizes Worth INR 25,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Maniteja -9010774589<br>Shanmkarao-9000273721<br>Abhilash-97013 40387<br>Venkat-9494219983</p>\
+        <p>Maniteja -9010774589<br>Shanmukha Rao Samanthula-9000273721<br>Abhilash-97013 40387<br>Venkat-9494219983</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
