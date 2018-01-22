@@ -36,7 +36,7 @@ class  DisplayTeam(admin.ModelAdmin):
 
 class  DisplaySocial(admin.ModelAdmin):
 	list_display = ('name','email','message')
-	
+
 admin.site.register(Detail)
 admin.site.register(Social,DisplaySocial)
 admin.site.register(EventName)
