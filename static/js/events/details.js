@@ -2332,6 +2332,7 @@ $('.card').on('click',function () {
     var helloworld = "<h1 style='text-align:center'>Event has ended.</h1>";
     var def = "<h1 style='text-align:center'>Coming Soon...</h1>";
 
+
     if(name == "dtmf") {
       $('#details').html(dtmf);
     } else if (name == "bloopers") {
