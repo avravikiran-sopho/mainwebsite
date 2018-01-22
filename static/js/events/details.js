@@ -1062,18 +1062,11 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='2a'><br>\ <h1>Group Dance</h1> \
         <p>Coordination is what matters when it comes to a group performance. It is a group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop it.</p>\
         <h1>EVENT FORMAT:</h1><p>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Event will be conducted in 1 round at the IIT Hyderabad campus.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Minimum size of the team-6 and maximum size of the team-30.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> All the teams shall participate in the prelims.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> For the prelims the teams should mail a recorded dance video of the crew to laxmi.g@elan.org.in.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Twenty five teams will be shortlisted from the video round.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The teams qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the teams who have registered shall participate in the competition.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> During the whole competition, at any given time, minimum of 4  performers should be on the stage and a maximum of 20 performers should be on the stage.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The video sent for the video round should be at least 4 minutes long.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The video sent should be shot in a single take without any speed modulations.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The deadline to submit your videos for the prelims is 26th January 2018. ELAN ID of the contestant must be included in the mail.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The song must be 5-8 minutes long for finals.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should not perform the song (or part of the song) which was performed during the prelims in the finals. This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The song must be of 3-5 minutes long for finals.</p>\
         <h1>REGISTRATION:</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Only on-line registrations allowed for this event.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The head of the team should register online with the participant names ,contact number and crew name.<br>\
@@ -1091,27 +1084,28 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> The result for the event will be declared immediately after all the performances have been completed.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i>The organising team has the complete right to change the prize money if the participation is less than twenty-five.<br></p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Group coordination<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Choreography<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Expressions<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Versatility<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Movement finishing<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Timing<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Stage utilisation</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Musicality<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Music Mix<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Stage Use<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Performance<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Crowd Appeal<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Synchronization<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Difficulty of Execution<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Formation and Transaction<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Attire</p>\
         </div>\
         <div class='tab-pane' id='3a'><br>\
         <h1>Solo Dance</h1><p>Got your own dance style you think you've mastered?<br>\
         An event for pro solo dancers, make the crowd go crazy with those awesome, super cool moves of yours!<br>\
         <h1>EVENT FORMAT:</h1><p>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> For the prelims round the contestants should mail the recorded dance video to laxmi.g@elan.org.in by 26th of January 2018. ELAN ID of the contestant must be included in the mail.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Ten participants will be shortlisted from the video round.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The participants qualified in the video round shall participate finals that takes place during the 3 days of the fest.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Performance duration should be atleast 2 minutes for prelims, and  3-4 minutes for final.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event will be conducted in 1 round at the IIT Hyderabad campus.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Performance duration should be 2-3 min for final.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> For prelims and final you have to bring your own song. You cannot repeat dance steps or moves. You can get similar music beats, but not similar dance steps.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should bring their music/song in a pen drive.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> You can perform any type of non-classical dance like hip-hop, stepping, popping, etc.</p> <h1>RULES AND REGULATIONS:</h1><p>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Registration must be done online.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants should bring their music/song in a pen drive and save the track on your name.</p>\
+        <h1>RULES AND REGULATIONS:</h1><p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Registration can be done online and on-spot.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> You can perform any type of non-classical dance like hip-hop, stepping, popping, etc.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Participants should produce their ID card at the registration desk.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Props are allowed but heavy props like chairs, tables can be arranged. But you have to inform the event manager by mail or on phone at least 1 day before event.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> No fire, water and heavy objects be used in stage.<br>\
@@ -1119,25 +1113,19 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Judges and coordinators decisions will be final and binding. There are no arguments in this regard.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The organising team has the complete right to change the prize money if the participation is less than ten.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Choreography<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Footwork<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Finishing of movements<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Versatility<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Timing and rhythm<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Energy level<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Stage utilization<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Overall impact.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Innovation & originality<br>\
-        </div>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Musicality<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Stage Use<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Performance<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Crowd Appeal<br>\
+        </p></div>\
         <div class='tab-pane' id='4a'><br>\
         <h1>Duet</h1><p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event</p>\
         <h1>EVENT FORMAT:</h1><p>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The event consists of two rounds-prelims and finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The event consists of 1 round which would take place agt the IIT Hyderabad’s campus.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The participants can either register online or on-spot.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> All the duos that’ve been registered shall participate in the prelims.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i>The videos should be sent to laxmi.g@elan.org.in by 26th of January 2018. ELAN ID of the contestant must be included in the mail.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Based on the prelims performances ten duos will be shortlisted for finals.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The prelims performance should last for at least 2 minutes and the finals should last 3-4 minutes.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> All the duos that’ve been registered shall participate in the competition.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The prelims performance should last 2-3 mins long.</p>\
         <h1>RULES AND REGULATIONS:</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Registrations should be done online.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> One of the two members in the duo should register with their name and contact number.<br>\
@@ -1150,12 +1138,14 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> No indecency/obscenity will be tolerated on stage.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The organising team has the complete right to change the prize money if the participation is less than ten.</p>\
         <h1>JUDGING CRITERIA:</h1><p>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Synchronisation<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Choreography<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Expressions</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Musicality<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Creativity<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Synchronization<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Stage Use<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Performance</p>\
         </div>\
         <div class='tab-pane' id='5a'>\
-        <h1>PRIZES(Breakfree in total):</h1>\
+        <h1>PRIZES:</h1>\
         <p>Prizes worth Rs.55,000.</p>\
         <p>The winners from each category would be selected for the HIP-HOP INTERNATIONAL(HHI) finals which would be held in Mumbai.</p>\
         <h1>ORGANISERS:</h1><p>\
@@ -2472,21 +2462,29 @@ $('.card').on('click',function () {
       $('#infidiv').slideUp('slow');
       $('#biggiesdiv').slideUp('slow');
       $('.event-details').slideToggle('slow');
-      $('.register-div').fadeIn('slow');
+      $('.register-div').fadeIn('fast');
+      if (id == 'breakfree') {
+        $('.register-div').fadeOut('fast');
+      }
       $('.navbtn img').addClass('navimg2');
       $('.navbtn img').removeClass('navimg1');
-      $('.register-link').attr("href",link)
+      $('.register-link').attr("href",link);
+
+
 
     });
 
     function groupDance() {
-      $('.register-link').attr("href",'register/groupdance')
+      $('.register-link').attr("href",'register/groupdance');
+      $('.register-div').fadeIn('fast');
     }
 
     function soloDance() {
-      $('.register-link').attr("href",'register/solodance')
+      $('.register-link').attr("href",'register/solodance');
+      $('.register-div').fadeIn('fast');
     }
 
     function duet() {
-      $('.register-link').attr("href",'register/duet')
+      $('.register-link').attr("href",'register/duet');
+      $('.register-div').fadeIn('fast');
     }
