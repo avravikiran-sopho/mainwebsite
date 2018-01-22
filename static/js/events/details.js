@@ -1031,21 +1031,21 @@ $('.card').on('click',function () {
         ";
     var breakfree = "<h1 style='text-align:center'>Breakfree:Western Dance Competition (HHI Auditions)</h1>\
         <ul  class='nav nav-tabs'>\
-        <li class='active' style='font-size: 1.1em;margin: 1%;'>\
+        <li class='active' style='font-size:1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#2a' data-toggle='tab'>&nbsp;Group Dance</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;' ><a onclick='$('#reglink').attr('href','/register/groupdance');' id='groupdance' style='color:white' href='#2a' data-toggle='tab'>&nbsp;Group Dance</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#3a' data-toggle='tab'>&nbsp;Solo Dance</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;' ><a id='solodance' style='color:white' href='#3a' data-toggle='tab'>&nbsp;Solo Dance</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#4a' data-toggle='tab'>&nbsp;Duet</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;' ><a id='duet' style='color:white' href='#4a' data-toggle='tab'>&nbsp;Duet</a>\
         </li>\
         <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#5a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
-        <h1>Introduction</h1>\
+        <h1>Group Dance</h1><h1>Introduction</h1>\
         <p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. Breakfree has always been one the most awaited events of Elan & ηvision.It consists of ‘three’ categories, namely:<br>\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Group Dance<br>\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Solo Dance<br>\
@@ -1100,7 +1100,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Stage utilisation</p>\
         </div>\
         <div class='tab-pane' id='3a'><br>\
-        <p>Got your own dance style you think you've mastered?<br>\
+        <h1>Solo Dance</h1><p>Got your own dance style you think you've mastered?<br>\
         An event for pro solo dancers, make the crowd go crazy with those awesome, super cool moves of yours!<br>\
         <h1>EVENT FORMAT:</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
@@ -1130,7 +1130,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Innovation & originality<br>\
         </div>\
         <div class='tab-pane' id='4a'><br>\
-        <p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event</p>\
+        <h1>Duet</h1><p>A perfect event for a pair of dancers. Participants need to showcase their talent by dancing in duo. Could be couple or anyone who can dance to the grooves coordinating each other which is by the way very essential part of this event</p>\
         <h1>EVENT FORMAT:</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The event consists of two rounds-prelims and finals.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The participants can either register online or on-spot.<br>\
@@ -2329,6 +2329,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
+    var helloworld = "<h1 style='text-align:center'>Event has ended.</h1>";
     var def = "<h1 style='text-align:center'>Coming Soon...</h1>";
 
     if(name == "dtmf") {
@@ -2359,6 +2360,8 @@ $('.card').on('click',function () {
       $('#details').html(robopirates);
     } else if (name == "linerobot") {
       $('#details').html(linerobot);
+    } else if (name == "helloworld") {
+      $('#details').html(helloworld);
     } else if (name == "aquanet") {
       $('#details').html(aquanet);
     } else if (name == "galileo") {

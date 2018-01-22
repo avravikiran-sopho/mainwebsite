@@ -29,7 +29,7 @@ class EventRegister(models.Model):
 	time = models.DateTimeField(auto_now_add=True)
 	def __str__(self):
 		return str(self.user)+" - "+str(self.event)
-		
+
 class Team(models.Model):
     teamids = models.IntegerField()
     user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE, default=1)
