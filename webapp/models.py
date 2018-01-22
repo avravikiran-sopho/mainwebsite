@@ -18,7 +18,7 @@ class Detail(models.Model):
 		return str(self.name)
 
 class EventName(models.Model):
-	shortname = models.CharField(max_length=100)
+	shortname = models.CharField(max_length=50)
 	name = models.CharField(max_length=100)
 	def __str__(self):
 		return str(self.name)

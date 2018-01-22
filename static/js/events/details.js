@@ -1034,18 +1034,18 @@ $('.card').on('click',function () {
         <li class='active' style='font-size:1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;' ><a onclick='$('#reglink').attr('href','/register/groupdance');' id='groupdance' style='color:white' href='#2a' data-toggle='tab'>&nbsp;Group Dance</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;' ><a onclick='return groupDance();' id='groupdance' style='color:white' href='#2a' data-toggle='tab'>&nbsp;Group Dance</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;' ><a id='solodance' style='color:white' href='#3a' data-toggle='tab'>&nbsp;Solo Dance</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;' ><a  onclick='return soloDance();' id='solodance' style='color:white' href='#3a' data-toggle='tab'>&nbsp;Solo Dance</a>\
         </li>\
-        <li class='' style='font-size: 1.1em;margin: 1%;' ><a id='duet' style='color:white' href='#4a' data-toggle='tab'>&nbsp;Duet</a>\
+        <li class='' style='font-size: 1.1em;margin: 1%;' ><a  onclick='return duet();' id='duet' style='color:white' href='#4a' data-toggle='tab'>&nbsp;Duet</a>\
         </li>\
         <li class='' style='font-size: 1.1em;margin: 1%;'><a style='color:white' href='#5a' data-toggle='tab'><i class='fas fa-trophy'></i>&nbsp;Organizers & Prizes</a>\
         </li>\
         </ul>\
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
-        <h1>Group Dance</h1><h1>Introduction</h1>\
+        <h1>Introduction</h1>\
         <p>Welcome to the true culture of break dance. Elan & ηvision 2018 provides a platform for all the passionate dancers to show their talent and mesmerize the audience. Breakfree has always been one the most awaited events of Elan & ηvision.It consists of ‘three’ categories, namely:<br>\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Group Dance<br>\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Solo Dance<br>\
@@ -1059,7 +1059,7 @@ $('.card').on('click',function () {
         So rise and dance.<br>\
         Dance with energy and show us whatchya got!!</p>\
         </div>\
-        <div class='tab-pane' id='2a'><br>\
+        <div class='tab-pane' id='2a'><br>\ <h1>Group Dance</h1> \
         <p>Coordination is what matters when it comes to a group performance. It is a group dance event where one can show off their individual talents or spellbind the crowd with their coordination. It's time to move n shake n drop it.</p>\
         <h1>EVENT FORMAT:</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The Event will be conducted in 2 rounds - Prelims(video round) and finals.<br>\
@@ -2478,3 +2478,15 @@ $('.card').on('click',function () {
       $('.register-link').attr("href",link)
 
     });
+
+    function groupDance() {
+      $('.register-link').attr("href",'register/groupdance')
+    }
+
+    function soloDance() {
+      $('.register-link').attr("href",'register/solodance')
+    }
+
+    function duet() {
+      $('.register-link').attr("href",'register/duet')
+    }
