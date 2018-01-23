@@ -47,16 +47,17 @@ $('.card').on('click',function () {
           <br><br><a  href='/static/pdf/dtmf.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>Event rules:</h1>\
-          1. A team may consist of a maximum of 4 members.<br> \
-          2. All members of team need to register for the event.<br>\
-          3. If a team is not ready when their challenge round is called by the judge, the team forfeits and the opposing team is declared the winner by default.<br>\
-          4. The machine should be controlled by a wireless remote control mechanism throughout the race.<br> \
-          5. Each team is allowed to have only one machine.<br> \
-          6. The machines have to use an onboard power supply. No external power supply will be allowed.<br> \
-          7. Teams shall bring their own power supply for all its machines.<br> \
-          8. Organizer’s decision shall be treated as final and binding on all.<br> \
-          \
+        <h1>Event rules:</h1><p>\
+        1.A team may consist of a maximum of 4 members.<br>\
+        2.No person can be a part of more than one team.<br>\
+        3.All students must carry a valid identity card<br>\
+        4.All members of team need to register for the event<br>\
+        5.Students from different educational institutes can form a team.<br>\
+        6.Organizer’s decision shall be treated as final and binding on all.</p>\
+        <h1>Certification Policy:</h1><p>\
+        1.Certificate of Merit and Prizes will be given for the top two teams.<br>\
+        2. Participation Certificate will be given for those who registered online and participated in the event.<br>\
+        3. Participation Certificate is not guaranteed for those who registered on spot for the event.</p>\
           <h1>Judging criteria:</h1>\
           <p>The bot which completes the race in the least possible time is declared as winner\
           </p>\
@@ -259,7 +260,10 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>Prizes Worth INR 10,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Venkat-9490552078<br>\
+        Sagar Balla-+91 90108 60164<br>\
+        B.Dhanush-9121491040<br>\
+        Aparna Ambarapu-9182254470</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </p>\
@@ -303,9 +307,12 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 24,000/-</p>\
+        <p>Prizes Worth INR 20,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Will be updated soon</p>\
+        <p>Sreekanth-+91 94920 01624<br>\
+        Sushanth-+91 95507 90976<br>\
+        Joel Prakash-9121635775<br>\
+        Chandra Kiran-8330925099</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -468,9 +475,17 @@ $('.card').on('click',function () {
         <br><br><a  href='/static/pdf/driftking.pdf'><button class='btn2'>Problem statement PDF</button></a>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>General Rules</h1>\
-        <p><i class='fa fa-circle' style='font-size:8px;'></i> A team can have a maximum of 4 members.</p>\
-        </div>\
+        <h1>Rules and Regulations:</h1><p>\
+        1.Team can have a max of 4 people.<br>\
+        2.No person can be a part of more than one team.<br>\
+        3.All students must carry a valid identity card<br>\
+        4.All members of team need to register for the event<br>\
+        5.Students from different educational institutes can form a team.</p>\
+        <h1>Certification Policy:</h1><p>\
+        1. Certificate of Merit and Prizes will be given for the top two teams.<br>\
+        2. Participation Certificate will be given for those who registered online and participated in the event.<br>\
+        3. Participation Certificate is not guaranteed for those who registered onspot for the event<br>\
+        </p></div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
         <p>Prizes Worth INR 50,000/-\ </p>\ <h1>Organisers</h1>\
@@ -628,14 +643,24 @@ $('.card').on('click',function () {
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
-        <p>The objective of this contest is for a robot to follow a black line on a white background, without losing the line, and navigating several 90 degree turns. The robot to complete the course in the shortest period of time while accurately tracking the course line from start to finish wins.</p>\
+        <p>Robotics events are incomplete without a line follower competition. A simple black line on a white background and your robot must follow it. The track is filled withbends and curves.The task is to build an autonomous robot which is capable of traversing a black line on a white background. </p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement</h1>\
         <p><br><a  href='/static/pdf/linerobo.pdf'><button class='btn2'>Problem statement PDF</button></a></p>\
         </div>\
         <div class='tab-pane' id='3a'>\
-        <h1>Coming Soon</h1>\
+        <h1>RULES AND REGULATIONS</h1><p>\
+        1.A team may consist of a maximum of 2 members.<br>\
+        2.No person can be a part of more than one team.<br>\
+        3.All students must carry a valid identity card<br>\
+        4.All members of team need to register for the event<br>\
+        5.Students from different educational institutes can form a team.<br>\
+        6.Organizer’s decision shall be treated as final and binding on all.</p>\
+        <h1>Certificate Policy:</h1><p>\
+        1. Certificate of Merit and Prizes will be given for the top two teams.<br>\
+        2. Participation Certificate will be given for those who registered online and participated in the event.<br>\
+        3. Participation Certificate is not guaranteed for those who registered on spot for the event.</p>\
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
