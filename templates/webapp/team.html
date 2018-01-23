@@ -10,11 +10,23 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-
 
 	<body>
+    <style>
+    .mhead{
+      margin-top:1.2em;
+      margin-bottom:1em;
+      font-family: 'Open Sans';
+      letter-spacing: 2px;
+      text-decoration: underline;
+      text-underline-position:below;
+    }
+        @media(min-width:800px){
+          .mhead{
+            display:none;
+          }
+        }
+    </style>
     <!-- Nav -->
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
     <h3 style="margin: 0;"><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
@@ -53,7 +65,7 @@
       <ul class="m-list">
         <li><button class="mbtn" id="btn1">Overall Coordinator</button></li>
         <li><button class="mbtn" id="btn2">Finance & Hospitality</button></li>
-        <li><button class="mbtn" id="btn3">Op, Transport & Secy</button></li>
+        <li><button class="mbtn" id="btn3">OP, Transport & Secy</button></li>
         <li><button class="mbtn" id="btn4">Technical Events</button></li>
       </ul>
     </div>
@@ -95,6 +107,7 @@
 
       <div id="two">
         <div class="container">
+          <h2 class="mhead">Finance & Hospitality</h2>
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/chirayu.jpg' %}" alt="Card image cap">
@@ -187,6 +200,7 @@
 
       <div id="three">
         <div class="container">
+          <h2 class="mhead">OP, Transport & Security</h2>
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/siva.JPG' %}" alt="Card image cap">
@@ -323,6 +337,7 @@
 
       <div id="four">
         <div class="container">
+          <h2 class="mhead">Technical Events</h2>
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/suprabath.JPG' %}" alt="Card image cap">
@@ -387,6 +402,7 @@
 
       <div id="five">
         <div class="container">
+          <h2 class="mhead">Cultural Events</h2>
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/nanda.JPG' %}" alt="Card image cap">
@@ -479,6 +495,7 @@
 
       <div id="six">
         <div class="container">
+          <h2 class="mhead">Creatives & Web</h2>
           <div class="card" id="shivom">
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/shivom.JPG' %}" alt="Card image cap">
@@ -626,6 +643,7 @@
 
       <div id="seven">
         <div class="container">
+          <h2 class="mhead">Marketing</h2>
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/aman.JPG' %}" alt="Card image cap">
@@ -661,7 +679,7 @@
               <img class="card-img" src="{% static 'img/team/laxmi.JPG' %}" alt="Card image cap">
             </div>
             <div class="card-block">
-              <p class="card-title">lakshmi Mangu</p>
+              <p class="card-title">Lakshmi Mangu</p>
               <p class="card-content" >Marketing Coordinator</p>
               <p class="card-content">+91-9494663939</p>
               <p class="card-content">lakshmi@elan.org.in</p>
@@ -731,6 +749,7 @@
 
       <div id="eight">
         <div class="container">
+          <h2 class="mhead">Infra & Pronites</h2>
           <div class="card" >
             <div class="img-div">
               <img class="card-img" src="{% static 'img/team/yash.JPG' %}" alt="Card image cap">
