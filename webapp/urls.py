@@ -18,5 +18,6 @@ urlpatterns = [
     url(r'^register/(?P<eventname>.+)$',views.eventregister,name='eventregister'),
     url(r'^team_register/$',views.team_register),
     url(r'^mypledge$', views.social),
+	url(r'^deregister$', views.deregister),
     # url(r'^mypledge_message$', views.message),
 ]

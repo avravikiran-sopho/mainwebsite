@@ -28,7 +28,7 @@ class EventRegister(models.Model):
 	event = models.CharField(max_length=100)
 	time = models.DateTimeField(auto_now_add=True)
 	def __str__(self):
-		return str(self.user)+" - "+str(self.event)
+		return str(self.event)
 
 class Team(models.Model):
     teamids = models.IntegerField()

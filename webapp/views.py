@@ -7,7 +7,7 @@ from django.shortcuts import render
 from django.contrib.auth.models import User
 from .models import Detail, EventName , EventRegister, Team, TeamLeader, Social
 import json
-from django.contrib.auth.decorators import login_required 
+from django.contrib.auth.decorators import login_required
 from Auth.models import Profile
 from django.core.mail import EmailMessage
 from django.conf import settings
@@ -15,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from .forms import teamForm, socialForm
+from .forms import teamForm, socialForm , deregisterForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -109,7 +109,7 @@ def workshops(request):
 		return render(request,'webapp/workshops.html')
 
 @login_required
-def dashboard(request):	
+def dashboard(request):
 	profile = Profile.objects.get(user = request.user)
 	events = EventRegister.objects.filter(user = request.user)
 	try:
@@ -119,7 +119,7 @@ def dashboard(request):
 			team_members = Team.objects.filter(teamids = team.teamids)
 			for member in team_members:
 				team_array.append(member)
-	except Exception as e: 
+	except Exception as e:
             print(e)
 	return render(request,'webapp/dashboard.html',{'profile':profile,'events':events,'team_array':team_array})
 
@@ -140,7 +140,7 @@ def eventregister(request,eventname):
 				new_object.uploaded_at = localtime(now())
 				new_object.save()
 		else:
-			return HttpResponseRedirect("/events")	
+			return HttpResponseRedirect("/events")
 		return HttpResponseRedirect("/dashboard")
 	else:
 		return HttpResponseRedirect("/login")
@@ -172,31 +172,31 @@ def team_register(request):
 										email_list.append(data['email' + str(x)])
 
 									else:
-																	
+
 										message = "Incorrect combination of ELAN ID & e-mail id."
-										print 1 
-										return render(request,'webapp/teamregister.html',{'form':form,'message':message})							
+										print 1
+										return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
 								else:
-									
+
 									message = "Incorrect combination of ELAN ID , e-mail id."
 									print 2
-									return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+									return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
 							except:
 								message = "Incorrect ELAN ID"
 								print 8
-								return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+								return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
 
 						else:
 							message = "Incorrect ELAN ID"
 							print 7
-							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
 
 				leader_email = email_list[0]
 				leader = User.objects.get(username = leader_email)
 				if TeamLeader.objects.filter(user = leader, event = event).exists():
 					message = "Team leader already exists for this event."
 					print 3
-					return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+					return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
 				else:
 					leader_object = TeamLeader()
 					leader_object.user = leader
@@ -221,7 +221,7 @@ def team_register(request):
 							TeamLeader.objects.get(user = leader,event = event).delete()
 							print 4
 							message = "Some of the team members already formed a team for this event"
-							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
 						else:
 							new_object=Team()
 							new_object.user = member
@@ -237,6 +237,23 @@ def team_register(request):
 								new_object.uploaded_at = localtime(now())
 								new_object.save()
 			return HttpResponseRedirect("/dashboard")
-		else:
-			form = teamForm()
-			return render(request,'webapp/teamregister.html',{'form':form,})
+        else:
+            form = teamForm()
+            return render(request,'webapp/teamregister.html',{'form':form,'profile':profile})
+
+
+
+def deregister(request):
+    if request.user.is_authenticated():
+        profile = Profile.objects.get(user = request.user)
+        if request.method == "POST":
+            event = request.POST.get('reg_events')
+            print event
+            EventRegister.objects.filter(user = request.user, event = event).delete()
+            return HttpResponseRedirect("/dashboard")
+        else:
+            form = deregisterForm(user = request.user)
+            return render(request,'webapp/deregister.html',{'form':form,'profile':profile})
+
+    else:
+        return HttpResponseRedirect("/login")
