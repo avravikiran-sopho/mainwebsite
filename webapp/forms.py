@@ -4,7 +4,7 @@ from django import forms
 from django.template.defaultfilters import filesizeformat
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
-from .models import Social
+from .models import Social, EventName, EventRegister
 
 CHOICES=[('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
          ('DTMF RACE','DTMF RACE'),
@@ -60,10 +60,19 @@ class teamForm(forms.Form):
 class socialForm(forms.Form):
 	name = forms.CharField(widget=forms.TextInput(attrs=
     	{'name':"name",'id':"c_name",'class':"form-control",'placeholder':"Name"}))
-	email = forms.CharField(widget=forms.EmailInput(attrs=
+	email = forms.CharField(required=False,widget=forms.EmailInput(attrs=
     	{'name':"email",'id':"c_email",'class':"form-control",'placeholder':"Email"}))
 	message = forms.CharField(widget=forms.Textarea(attrs=
     	{'name':"message",'id':"c_message",'class':"form-control",'placeholder':"Message"}))
 	class Meta:
 		model = Social
 		fields = ['name','email','message',]
+
+class deregisterForm(forms.ModelForm):
+    reg_events = forms.ModelChoiceField(queryset=EventRegister.objects.none())
+    class Meta:
+        model = EventRegister
+        fields = ['event',]
+    def __init__(self, user, *args, **kwargs):
+        super(deregisterForm, self).__init__(*args, **kwargs)
+        self.fields['reg_events'].queryset = EventRegister.objects.filter(user=user).values_list('event',flat=True)
