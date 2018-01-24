@@ -1699,7 +1699,7 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         Prizes worth Rs.5,000.<br>\
-        The winning team gets to do another short-film with the Chai Bisket team and the film will be uploaded on YouTube onto the Chai Bisket original channel.</p>\
+        </p>\
         <h1>ORGANISERS:</h1><p>\
         Pradhyumna M Dinni - 9492586679<br>\
         Sandy Sharma - 7288958195</p>\

@@ -1,0 +1,21 @@
+--2018-01-24 14:48:08--  https://doc-0g-ao-docs.googleusercontent.com/docs/securesc/v5caqhg0ug6v4pd4undir21u0n3kfhnn/tsg5cvpjduo36mre6em7ij4kpj8a25jg/1516802400000/10783833030633758342/09351433255459413880/1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?h=15912725881414948772&e=download
+Resolving doc-0g-ao-docs.googleusercontent.com (doc-0g-ao-docs.googleusercontent.com)... 2404:6800:4001:804::2001, 172.217.24.161
+Connecting to doc-0g-ao-docs.googleusercontent.com (doc-0g-ao-docs.googleusercontent.com)|2404:6800:4001:804::2001|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://docs.google.com/a/elan.org.in/nonceSigner?nonce=4ildbrcp4sbke&continue=https://doc-0g-ao-docs.googleusercontent.com/docs/securesc/v5caqhg0ug6v4pd4undir21u0n3kfhnn/tsg5cvpjduo36mre6em7ij4kpj8a25jg/1516802400000/10783833030633758342/09351433255459413880/1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?e%3Ddownload%26h%3D15912725881414948772&hash=dtevedkmffq2t0brm144k8j4eurnt5j9 [following]
+--2018-01-24 14:48:08--  https://docs.google.com/a/elan.org.in/nonceSigner?nonce=4ildbrcp4sbke&continue=https://doc-0g-ao-docs.googleusercontent.com/docs/securesc/v5caqhg0ug6v4pd4undir21u0n3kfhnn/tsg5cvpjduo36mre6em7ij4kpj8a25jg/1516802400000/10783833030633758342/09351433255459413880/1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?e%3Ddownload%26h%3D15912725881414948772&hash=dtevedkmffq2t0brm144k8j4eurnt5j9
+Resolving docs.google.com (docs.google.com)... 2404:6800:4001:804::200e, 172.217.24.174
+Connecting to docs.google.com (docs.google.com)|2404:6800:4001:804::200e|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://www.google.com/a/elan.org.in/ServiceLogin?service=wise&passive=1209600&continue=https://docs.google.com/a/elan.org.in/nonceSigner?nonce%3D4ildbrcp4sbke%26continue%3Dhttps://doc-0g-ao-docs.googleusercontent.com/docs/securesc/v5caqhg0ug6v4pd4undir21u0n3kfhnn/tsg5cvpjduo36mre6em7ij4kpj8a25jg/1516802400000/10783833030633758342/09351433255459413880/1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?e%253Ddownload%2526h%253D15912725881414948772%26hash%3Ddtevedkmffq2t0brm144k8j4eurnt5j9&followup=https://docs.google.com/a/elan.org.in/nonceSigner?nonce%3D4ildbrcp4sbke%26continue%3Dhttps://doc-0g-ao-docs.googleusercontent.com/docs/securesc/v5caqhg0ug6v4pd4undir21u0n3kfhnn/tsg5cvpjduo36mre6em7ij4kpj8a25jg/1516802400000/10783833030633758342/09351433255459413880/1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?e%253Ddownload%2526h%253D15912725881414948772%26hash%3Ddtevedkmffq2t0brm144k8j4eurnt5j9&ltmpl=homepage [following]
+--2018-01-24 14:48:09--  https://www.google.com/a/elan.org.in/ServiceLogin?service=wise&passive=1209600&continue=https://docs.google.com/a/elan.org.in/nonceSigner?nonce%3D4ildbrcp4sbke%26continue%3Dhttps://doc-0g-ao-docs.googleusercontent.com/docs/securesc/v5caqhg0ug6v4pd4undir21u0n3kfhnn/tsg5cvpjduo36mre6em7ij4kpj8a25jg/1516802400000/10783833030633758342/09351433255459413880/1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?e%253Ddownload%2526h%253D15912725881414948772%26hash%3Ddtevedkmffq2t0brm144k8j4eurnt5j9&followup=https://docs.google.com/a/elan.org.in/nonceSigner?nonce%3D4ildbrcp4sbke%26continue%3Dhttps://doc-0g-ao-docs.googleusercontent.com/docs/securesc/v5caqhg0ug6v4pd4undir21u0n3kfhnn/tsg5cvpjduo36mre6em7ij4kpj8a25jg/1516802400000/10783833030633758342/09351433255459413880/1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?e%253Ddownload%2526h%253D15912725881414948772%26hash%3Ddtevedkmffq2t0brm144k8j4eurnt5j9&ltmpl=homepage
+Resolving www.google.com (www.google.com)... 2404:6800:4001:804::2004, 172.217.24.164
+Connecting to www.google.com (www.google.com)|2404:6800:4001:804::2004|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3713 (3.6K) [text/html]
+Saving to: ‘1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?h=15912725881414948772&e=download.1’
+
+     0K ...                                                   100% 31.0M=0s
+
+2018-01-24 14:48:09 (31.0 MB/s) - ‘1IDSyF17PjC17pUp0x3VgFMvfQFT_lQYp?h=15912725881414948772&e=download.1’ saved [3713/3713]
+
