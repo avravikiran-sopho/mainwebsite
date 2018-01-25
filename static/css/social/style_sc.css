@@ -1385,7 +1385,9 @@ header .navbar-brand {
 .services {
 	border-bottom: 1px solid #eaebec;
 	/*background-color: #f7f8fa;*/
-	background: url('/static/img/social/sec2.png');
+	background: url('https://png.pngtree.com/thumb_back/fh260/back_pic/04/28/34/83583d7510e77e4.jpg');
+
+
 }
 
 .single-service {
@@ -2812,7 +2814,7 @@ footer.footer .team-member-box .team-member {
 
 /* PRELOADER IMAGE BACKGROUND */
 .status {
-	background-image: url(/static/img/social/loader.gif);
+	background-image: url('https://media.giphy.com/media/l44QumBtrDajNwEfe/giphy.gif');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2842,7 +2844,7 @@ a:hover {
 }
 
 .border-bottom-hover:hover {
-	border-bottom-color: #006603;
+	border-bottom-color: #8B4513;
 }
 
 .sticky-navigation .main-navigation li a:hover,
@@ -2900,7 +2902,7 @@ a:hover {
 }
 
 .colored-text {
-	color: #00660A;
+	color: #8B4513;
 }
 
 /* COLORED BORDERS AND LINES */

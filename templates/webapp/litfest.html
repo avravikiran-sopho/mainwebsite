@@ -1,0 +1,515 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US" class="no-js" style="overflow-x:hidden;">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <!-- FAVICONS -->
+      	<link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+      	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon.png' %}">
+
+        <!-- EXTERNAL FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Rajdhani" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+        <!-- FontAwesome CDN -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <title>#my_ecopledge | Elan & &eta;Vision 2k18 | IIT Hyderabad</title>
+
+
+        <meta name="description" content="#my_ecopledge, Social Cause Campaign by Elan & nVision 2k18, IIT Hyderabad">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="#my_ecopledge - Social Cause Campaign by Elan & nVision 2k18, IIT Hyderabad">
+        <meta property="og:description" content="#my_ecopledge - Social Cause Campaign by Elan & nVision 2k18, IIT Hyderabad">
+        <meta property="og:site_name" content="Elan & nVision 2k18">
+
+        <!-- EXTERNAL STYLESHEETS -->
+        <link rel="stylesheet" href="{% static 'css/social/bootstrap.min.css' %}" type="text/css" media="all">
+        <link rel="stylesheet" href="{% static 'css/social/style_sc.css' %}" type="text/css" media="all">
+        <link rel="stylesheet" href="{% static 'css/social/contact_form.css' %}">
+
+        <!-- jQuery & jQuery Migrate -->
+        <script type="text/javascript" src="{% static 'js/social/jquery.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/jquery-migrate.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/bootstrap.min.js' %}"></script>
+
+    </head>
+    {% if message %}
+    <script type="text/javascript">alert('{{ message }}');
+    </script>
+    {% endif %}
+    <body class="home blog mega-menu-primary" dir="ltr">
+        <div id="mobilebgfix">
+            <div class="mobile-bg-fix-whole-site">
+                <div class="preloader" >
+                  <img src="{% static 'img/social/nav-logo.png' %}" style="max-width:30%;margin-bottom:50px;">
+                    <div class="status"></div>
+                </div>
+                <header id="masthead" role="banner" data-stellar-background-ratio="0.5" class="header header-style-one site-header" style="opacity: 1;">
+                    <div class="overlay-layer-nav sticky-navigation-open" style="min-height: 70px;">
+                        <div class="navbar navbar-inverse navbar-fixed-top sticky-navigation appear-on-scroll">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button title="Toggle Menu" type="button" class="navbar-toggle menu-toggle" id="menu-toggle" data-toggle="collapse" data-target="#menu-primary"> <span class="screen-reader-text">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                    <a href="https://elan.org.in" class="navbar-brand" title="Parallax One"><img src="{% static 'img/social/nav-logo.png' %}" alt="Elan & &eta;Vision 2k18"></a>
+                                </div>
+                                <div aria-label="Primary Menu" id="menu-primary" class="navbar-collapse collapse">
+                                    <div id="site-header-menu" class="site-header-menu">
+                                        <nav id="site-navigation" class="main-navigation" role="navigation">
+                                            <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
+                                                <div class="mega-menu-toggle" tabindex="0">
+                                                    <div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1" id="mega-toggle-block-1"></div>
+                                                </div>
+                                                <ul id="mega-menu-primary" class="mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="disabled" data-effect-speed="200" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true">
+                                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6158" id="mega-menu-item-6158"><a class="mega-menu-link" href="https://elan.org.in" tabindex="0">Home</a></li>
+                                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6158" id="mega-menu-item-6158"><a class="mega-menu-link scroll" href="#services" tabindex="0">Events</a></li>
+                                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-6165" id="mega-menu-item-6165"><a class="mega-menu-link scroll" href="#contactinfo" tabindex="0">Contact</a></li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul id="parallax_move" style="width: 2025px; margin-left: -60px; margin-top: -60px; position: absolute; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                            <li id="landing-bg" class="layer layer2" data-depth="0.20" style="background-image: url('{% static 'img/litfest/landing.jpg' %}'); height: 873px; transform: translate3d(34.6781px, -9.56763px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></li>
+                        </ul>
+                        <div class="overlay-layer-wrap" style="background: rgba(0, 0, 0, 0.6);">
+                            <div class="container overlay-layer" id="parallax_header" style="padding-top: 154px;">
+                                <div class="only-logo">
+                                    <div id="only-logo-inner" class="navbar">
+                                        <!-- <div id="parallax_only_logo" class="navbar-header"><img src="{% static 'img/social/logo-2.png' %}" style="width:100px;height:100px;" alt="Parallax One"></div> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 intro-section-text-wrap">
+                                        <div id="intro-section" class="intro-section">
+                                            <h2 id="intro_section_text_1" class="intro white-text" style="font-family:'Pacifico';">Litfest</h2><br>
+                                            <h5 id="intro_section_text_2"   class="intro white-text" style="font-size:2.0em;font-family:'Rajdhani';margin-bottom:3.5em;">Jan 26<sup>st</sup> - Feb 11<sup>th</sup></h5>
+                                            <h5 id="intro_section_text_2" class="white-text" style="font-size:28px;font-family:'Rajdhani';">By <br> <br><span style="font-size:1.5em;">Elan & &eta;Vision, IIT Hyderabad</span></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                    <section class="services" id="services" role="region" aria-label="Services">
+                        <div class="section-overlay-layer">
+                            <div class="container">
+                                <div class="section-header">
+                                    <h2 style="color:#8B4513">Events</h2>
+                                    <div class="colored-line" style="background:#8B4513"></div>
+                                </div>
+                                <div id="our_services_wrap" class="services-wrap
+                                    our_services_wrap_piterest parallax_one_grid parallax_one_grid_u7N5yNyxVC">
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_1 parallax_one_grid_first " >
+                                        <div id="card1" class="service-box" parallax_onegrid-attr="this-0">
+                                            <div class="single-service border-bottom-hover" style="height:46em;">
+                                                <h3 class="colored-text">Tweet a tale</h3>
+                                                <p>Harry Potter series: 1,084,170 words. Vikram Seth's A Suitable Boy,: 453,840 words. Paradise Lost: 93,525 words<br><br>
+                                                But you do not have those many words to shine. You are not allowed to let your writing flow. Can you impress us in 140 characters or less?
+                                                <br><br><b>Organizers:</b>Stavan,Haveesh<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  ">
+                                        <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
+                                            <div class="single-service border-bottom-hover" style="height:46em;">
+
+                                                <h3 class="colored-text">Spin with Six</h3>
+                                                <p id="prb">Test your imagination and ability to twist given conditions to favor your own grounds.<br><br>
+                                                i)	You will be given 6 random words and all you have to do is use them in your composition.<br><br>
+                                                ii)	You cannot change the form of the word eg. “eat” cannot appear as “eating” in your story.<br><br>
+                                                iii)	You will get a bonus if you are able to use the six words in exactly the same order as given.<br><br>
+                                                iv)	The length of the composition should be more than 680 and less than 720 words. We will count each word so be careful.
+                                                <br><br><b>Organizers:</b>Maruthi, Abhishek Agarwal<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_3 parallax_one_grid_last ">
+                                        <div id="card3" class="service-box" parallax_onegrid-attr="this-2">
+                                            <div class="single-service border-bottom-hover" style="height:46em;">
+
+                                                <h3 class="colored-text">Sweetheart</h3>
+                                                <p style="padding-bottom:12px">1.) quote nicholas sparks or zelda fitzgerald, but dont make your letter just another page of Safe Haven. love tastes best when it is original.<br><br>
+                                                2.) There is no restriction on the number of words, or even the format for that matter. sonnets or musings or stories or plain letters, happy or sad- it's your choice. Give it an emily bronte ending or a Jane austen one.<br><br>
+                                                3.)It's great to keep the love flowing, but it's even better when you know it's limited.  All the entries should be mailed to <__> by <___>.
+                                                  <br><br><b>Organizers:</b>Rishika, Abhishek Bairargi, Yogesh<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_1 parallax_one_grid_first ">
+                                        <div id="card1" class="service-box" parallax_onegrid-attr="this-0">
+                                            <div class="single-service border-bottom-hover" style="height:42em;">
+                                                <h3 class="colored-text">Status check</h3>
+                                                <p>TYou've read them, shared them and maybe even uploaded them at some point in the recent past.<br><br><br>
+
+                                                Statuses and Stories!<br><br>
+
+                                                Take a memorable moment from your past or present and write a short description, that connects to the picture of that time period.<br><br><br>
+
+                                                Be crisp and creative in your story.
+                                                Humourous or not- make sure that you're honest about it.
+                                                <br><br><b>Organizers:</b>Dhruv, Joel<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  ">
+                                        <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
+                                            <div class="single-service border-bottom-hover" style="height:42em;">
+
+                                                <h3 class="colored-text">Teeny Tiny Details</h3>
+                                                <p id="prb">Upload only 1 (unedited, unfiltered) photo to go along with your story. Pick out those treasured moments, and pour your heart out!<br><br>
+                                                  2) ‎Use your own photos and refrain from using quotes- create your own, it's your status.<br><br>
+                                                  3) ‎Feel free to have the story and photo on any subject! Be a buzzing bee or soaring eagle. Show us your perspectives!<br><br>
+                                                  4) ‎The word limit for the story is 500 Characters. Make the most of it.<br><br>
+                                                  5) ‎Put in blah format and give it to blah and blah blah.
+
+                                                  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_3 parallax_one_grid_last ">
+                                        <div id="card3" class="service-box" parallax_onegrid-attr="this-2">
+                                            <div class="single-service border-bottom-hover" style="height:42em;">
+
+                                                <h3 class="colored-text">Skip it</h3>
+                                                <p style="padding-bottom:12px">
+                                                Show off your vocab. Write an entire story without ever using one particular letter from the English Alphabet!<br><br>
+                                                i)	You can’t use one particular letter from the Alphabet (to be announced later).<br>
+                                                ii)	The Entry should be one complete composition, and it can be any length, as long as it is complete.<br>
+                                                iii)	If you have abstained from using any other letter of the English Alphabet, (needs to be noted at the beginning of the entry), you will be awarded a bonus based on how common that letter is.<br>
+                                                iv)	Longer compositions will fetch higher score.
+                                                <br><br><b>Organizers:</b>Maruthi, Abhishek Agarwal<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_1 parallax_one_grid_first ">
+                                        <div id="card1" class="service-box" parallax_onegrid-attr="this-0">
+                                            <div class="single-service border-bottom-hover" style="height:54em;">
+                                                <h3 class="colored-text">Memeify </h3>
+                                                <p>
+                                              Whether you think memes are something sed to give a bit of pseudo-academic gravitas to stupid viral shit or something vital to our culture, you can't deny that they make you laugh.<br>
+
+                                              Some are so good that they make you lmao And others are so cringy they make you  roflmao.<br>
+
+                                              We, @ Memers United ahem LitFest bring you the meme contest of the year.<br>
+                                              (Drumrolls)<br>
+
+                                              If you think you've got what it takes to be a Memelord, we just have a couple of guidelines for you.<br>
+                                              1. Do some original thinking.<br>
+                                              2. ‎If you're deviating from the standard template, be sure that you have the permission to do so. (You're very much welcome to use your friend's faces if you have asked them.<br>
+                                              3. ‎I lied when I said there were two guidelines. This is the third. We need them in English, we need them before __ and they need to be posted on __ with other requisite details.
+
+                                              <br><br><b>Organizers:</b>Nikhil P, Rishika<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  ">
+                                        <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
+                                            <div class="single-service border-bottom-hover" style="height:54em;">
+
+                                                <h3 class="colored-text">‎BingIt</h3>
+                                                <p id="prb">Can you impress us in 42 words or less?<br><br>
+
+                                                Some guidelines:<br>
+                                                1. This a competition for the best one liners. As the definition of one-liners is subjective organizers decision will be final on what constitutes a one-liner.<br>
+                                                2. Please note that three sentences or even 42 words is stretching it.<br>
+                                                3. We are not putting up any genre constraints: your pieces can be profound,sarcastic or
+                                                 plain funny as long as they are original.<br>
+                                                4. The one-liner can be a standalone or can be a response to something.
+                                                <br><br><b>Organizers:</b>Haveesh, Nikhil P<br>
+</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_3 parallax_one_grid_last ">
+                                        <div id="card3" class="service-box" parallax_onegrid-attr="this-2">
+                                            <div class="single-service border-bottom-hover" style="height:54em;">
+
+                                                <h3 class="colored-text">Bohemian Litr</h3>
+                                                <p style="padding-bottom:12px">Tired of speaking or writing in the same old monotonous-drony English?<br>
+
+                                                Here's a chance for you to bamboozle us with your Unconventional choice of English style..<br>
+
+                                                The rules are as follows:<br>
+
+                                                1) It can be any kind of legit English, right from Archaic Shakespeare's to scripts from the Hood.<br>
+
+                                                2) As for the format, you can send us a poem/rhyme/rap, a story or even a popular phrase 'remodelled'.<br>
+
+                                                3)A word limit being '680 - 720' words<br>
+                                                <br><br><b>Organizers:</b>Raghav, Sagar<br>
+</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  " >
+                                        <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
+                                            <div class="single-service border-bottom-hover" style="height:54em;">
+
+
+                                                <h3 class="colored-text">Twist it </h3>
+                                                <p>Ever wanted your favorite story to have a different ending or a 'twisted' progression?<br>
+
+                                                Well, here's a chance for you to let your imagination run wild.<br>
+
+                                                'Twist it' is an event that abides by the following rules:<br>
+
+                                                1) You can have any story/movie/plot of your choice and 'twist' it, but make sure there's not too much change.<br>
+
+                                                2) There are no rules as to what genre or format a story is to be written, as long as it's original and not a rip off from some fan fiction.<br>
+
+                                                3) The jury will be judging you on how well the story is presented, depth of added plot and will not judge on how long the story is.<br>
+
+                                                4)Here's a very brief, basic structured example :<br>
+                                                 " After the gruelling battle of Hogwarts, Harry seemed to find everything slowly fading away. His surroundings slowly apparated into his yet so familiar closet.
+                                                This was all just a dream..."
+                                                <br><br><b>Organizers:</b>Rishika, Gautham
+<br>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- /FORM -->
+
+                    <div class="contact-info" id="contactinfo" role="region" aria-label="Contact Info">
+                        <div class="section-overlay-layer">
+                            <div class="container">
+                              <h2 class="dark-text">Contact Us</h2>
+                              <div class="colored-line"></div>
+                                <div class="row contact-links" style="font-size:20px;line-height:27px;">
+                                  <div class="col-sm-12 col-md-6 col-md-offset-3">
+                                      <strong>Jeel Bhavasar </strong><br>
+                                      Litr Coordinator <br>
+                                      +91 9100283774<br>
+                                      jeel@elan.org.in                                    <br>
+                                      <ul class="social-icons">
+                                          <li> <a target="_blank" href="https://facebook.com/jeel.bhavsar.50"> <span class="fa parallax-one-footer-icons fa-facebook transparent-text-dark"></span> </a></li>
+                                      </ul>
+                                  </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer itemscope="" itemtype="http://schema.org/WPFooter" id="footer" role="contentinfo" class="footer grey-bg">
+                    <div class="container">
+                        <div class="footer-widget-wrap"></div>
+                        <div class="footer-bottom-wrap">
+                            <span class="parallax_one_copyright_content"><a href="https://elan.org.in"><img src="{% static 'img/social/nav-logo.png' %}" alt="ELAN & &eta;Vision 2k18" style="max-width:35%;"></a></span>
+                            <div id="socialicons">
+                              <a class="icon" href="https://www.facebook.com/elan.iithyderabad/" title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                              <a class="icon" href="https://twitter.com/elan_nvision" title="Follow with Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                              <a class="icon" href="https://www.youtube.com/user/ElanIITHyderabad" title="Follow with Instagram" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                              <a class="icon" href="https://www.instagram.com/elan_and_nvision/" title="Follow with YouTube" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div><br>
+                            <div class="row text-center">
+                              <div id="home-btn" class="col-sm-12 col-md-6 col-xs-push-3 col-md-push-4">
+                                <a href="https://elan.org.in" style="text-decoration:none;color:#000"><div class="button">HOME</div></a>
+                              </div>
+                              <div id="events-btn" class="col-sm-12 col-xs-push-3 col-md-push-0 col-md-6">
+                                <a href="https://elan.org.in/events" style="text-decoration:none;color:#000"><div class="button">EVENTS</div></a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    <style type="text/css">.overlay-layer-wrap{background:rgba(0, 0, 0, 0.5)}</style>
+
+        <script type="text/javascript">
+                    var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+        </script>
+        <script type="text/javascript" src="{% static 'js/social/custom.all.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/plugin.home.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/custom.home.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/skip-link-focus-fix.js' %}"></script>
+        <script>skipLinkFocus.init();</script>
+        <script type="text/javascript" src="{% static 'js/social/hoverIntent.min.js' %}"></script>
+        <script type="text/javascript">var megamenu = {"timeout":"300","interval":"100"};</script>
+        <script type="text/javascript" src="{% static 'js/social/maxmegamenu.js' %}"></script>
+    </body>
+
+  <!-- ScrollReveal Plugin -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+      var revealDesktop = function(){
+        window.sr = ScrollReveal();
+
+          sr.reveal('.only-logo',{
+            duration: 1000,
+            // delay: 200,
+          });
+          sr.reveal('#intro_section_text_1',{
+            duration: 1000,
+            // delay: 600,
+          });
+          sr.reveal('#intro_section_text_2',{
+            duration: 1000,
+            // delay: 1000,
+          });
+
+
+        sr.reveal('#card1',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'left',
+        });
+        sr.reveal('#card2',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#card3',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'right',
+        });
+        sr.reveal('.brief-content-two',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'left',
+        });
+        sr.reveal('.brief-content-one',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+        sr.reveal('#thought',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+          sr.reveal('#form_para',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#form',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('.contact-links',{
+          duration: 1000,
+          viewfactor:0.4,
+          origin: 'bottom',
+        });
+      }
+
+      var revealMobile = function(){
+        window.sr = ScrollReveal();
+
+          sr.reveal('.only-logo',{
+            duration: 1000,
+            // delay: 200,
+          });
+          sr.reveal('#intro_section_text_1',{
+            duration: 1000,
+            // delay: 600,
+          });
+          sr.reveal('#intro_section_text_2',{
+            duration: 1000,
+            // delay: 1000,
+          });
+
+
+        sr.reveal('#card1',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#card2',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#card3',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('.brief-content-two',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+        sr.reveal('.brief-content-one',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+        sr.reveal('#thought',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+          sr.reveal('#form_para',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#form',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('.contact-links',{
+          duration: 1000,
+          viewfactor:0.4,
+          origin: 'bottom',
+        });
+      }
+
+      jQuery(document).ready(function($){
+        var width = $(window).width();
+        if(width>800){
+          revealDesktop();
+        }
+        else{
+          revealMobile();
+        }
+      });
+    </script>
+    <script>
+    jQuery(document).ready(function($) {
+
+var scrollLink = $('.scroll');
+
+// Smooth scrolling
+scrollLink.click(function(e) {
+  e.preventDefault();
+  $('body,html').animate({
+    scrollTop: $(this.hash).offset().top
+  }, 1000 );
+});
+});
+
+    </script>
+    <script>
+
+    </script>
+</html>
