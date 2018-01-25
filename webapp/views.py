@@ -59,6 +59,9 @@ def facebookbot(request):
 def hackathon(request):
 	return render(request,'webapp/hackathon.html')
 
+def litfest(request):
+	return render(request,'webapp/litfest.html')
+
 def social(request):
 	if request.method == "POST":
 		form = socialForm(request.POST)
