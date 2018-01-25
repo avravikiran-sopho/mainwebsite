@@ -175,28 +175,28 @@ def team_register(request):
 
 										message = "Incorrect combination of ELAN ID & e-mail id."
 										print 1
-										return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
+										return render(request,'webapp/teamregister.html',{'form':form,'message':message})
 								else:
 
 									message = "Incorrect combination of ELAN ID , e-mail id."
 									print 2
-									return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
+									return render(request,'webapp/teamregister.html',{'form':form,'message':message})
 							except:
 								message = "Incorrect ELAN ID"
 								print 8
-								return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
+								return render(request,'webapp/teamregister.html',{'form':form,'message':message})
 
 						else:
 							message = "Incorrect ELAN ID"
 							print 7
-							return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
 
 				leader_email = email_list[0]
 				leader = User.objects.get(username = leader_email)
 				if TeamLeader.objects.filter(user = leader, event = event).exists():
 					message = "Team leader already exists for this event."
 					print 3
-					return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
+					return render(request,'webapp/teamregister.html',{'form':form,'message':message})
 				else:
 					leader_object = TeamLeader()
 					leader_object.user = leader
@@ -221,7 +221,7 @@ def team_register(request):
 							TeamLeader.objects.get(user = leader,event = event).delete()
 							print 4
 							message = "Some of the team members already formed a team for this event"
-							return render(request,'webapp/teamregister.html',{'form':form,'message':message,'profile':profile})
+							return render(request,'webapp/teamregister.html',{'form':form,'message':message})
 						else:
 							new_object=Team()
 							new_object.user = member
@@ -237,9 +237,9 @@ def team_register(request):
 								new_object.uploaded_at = localtime(now())
 								new_object.save()
 			return HttpResponseRedirect("/dashboard")
-        else:
-            form = teamForm()
-            return render(request,'webapp/teamregister.html',{'form':form,'profile':profile})
+		else:
+			form = teamForm()
+			return render(request,'webapp/teamregister.html',{'form':form,})
 
 
 
