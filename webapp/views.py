@@ -62,6 +62,9 @@ def hackathon(request):
 def litfest(request):
 	return render(request,'webapp/litfest.html')
 
+def litw(request):
+	return render(request,'webapp/litr_workshop.html')
+
 def social(request):
 	if request.method == "POST":
 		form = socialForm(request.POST)

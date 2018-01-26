@@ -1,0 +1,467 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US" class="no-js" style="overflow-x:hidden;">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <!-- FAVICONS -->
+      	<link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+      	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon.png' %}">
+
+        <!-- EXTERNAL FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Rajdhani" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+        <!-- FontAwesome CDN -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <title>Litr Workshop | Elan & &eta;Vision 2k18 | IIT Hyderabad</title>
+
+
+        <meta name="description" content="#my_ecopledge, Social Cause Campaign by Elan & nVision 2k18, IIT Hyderabad">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="#my_ecopledge - Social Cause Campaign by Elan & nVision 2k18, IIT Hyderabad">
+        <meta property="og:description" content="#my_ecopledge - Social Cause Campaign by Elan & nVision 2k18, IIT Hyderabad">
+        <meta property="og:site_name" content="Elan & nVision 2k18">
+
+        <!-- EXTERNAL STYLESHEETS -->
+        <link rel="stylesheet" href="{% static 'css/litw/bootstrap.min.css' %}" type="text/css" media="all">
+        <link rel="stylesheet" href="{% static 'css/litw/style_sc.css' %}" type="text/css" media="all">
+        <link rel="stylesheet" href="{% static 'css/litw/contact_form.css' %}">
+
+        <!-- jQuery & jQuery Migrate -->
+        <script type="text/javascript" src="{% static 'js/social/jquery.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/jquery-migrate.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/bootstrap.min.js' %}"></script>
+
+    </head>
+    {% if message %}
+    <script type="text/javascript">alert('{{ message }}');
+    </script>
+    {% endif %}
+    <body class="home blog mega-menu-primary" dir="ltr">
+        <div id="mobilebgfix">
+            <div class="mobile-bg-fix-whole-site">
+                <div class="preloader" >
+                  <img src="{% static 'img/social/nav-logo.png' %}" style="max-width:30%;margin-bottom:50px;">
+                    <div class="status"></div>
+                </div>
+                <header id="masthead" role="banner" data-stellar-background-ratio="0.5" class="header header-style-one site-header" style="opacity: 1;">
+                    <div class="overlay-layer-nav sticky-navigation-open" style="min-height: 70px;">
+                        <div class="navbar navbar-inverse navbar-fixed-top sticky-navigation appear-on-scroll">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button title="Toggle Menu" type="button" class="navbar-toggle menu-toggle" id="menu-toggle" data-toggle="collapse" data-target="#menu-primary"> <span class="screen-reader-text">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                    <a href="https://elan.org.in" class="navbar-brand" title="Parallax One"><img src="{% static 'img/social/nav-logo.png' %}" alt="Elan & &eta;Vision 2k18"></a>
+                                </div>
+                                <div aria-label="Primary Menu" id="menu-primary" class="navbar-collapse collapse">
+                                    <div id="site-header-menu" class="site-header-menu">
+                                        <nav id="site-navigation" class="main-navigation" role="navigation">
+                                            <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
+                                                <div class="mega-menu-toggle" tabindex="0">
+                                                    <div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1" id="mega-toggle-block-1"></div>
+                                                </div>
+                                                <ul id="mega-menu-primary" class="mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="disabled" data-effect-speed="200" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true">
+                                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6158" id="mega-menu-item-6158"><a class="mega-menu-link" href="https://elan.org.in" tabindex="0">Home</a></li>
+                                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6158" id="mega-menu-item-6158"><a class="mega-menu-link scroll" href="#services" tabindex="0">About</a></li>
+                                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6159" id="mega-menu-item-6159"><a class="mega-menu-link scroll" href="#story" tabindex="0">Participate</a></li>
+                                                    <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6160" id="mega-menu-item-6160"><a class="mega-menu-link scroll" href="#message" tabindex="0">Register</a></li>
+                                                    <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-6165" id="mega-menu-item-6165"><a class="mega-menu-link scroll" href="#contactinfo" tabindex="0">Contact</a></li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul id="parallax_move" style="width: 2025px; margin-left: -60px; margin-top: -60px; position: absolute; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                            <li id="landing-bg" class="layer layer2" data-depth="0.20" style="background-image: url('{% static 'img/social/landing.jpg' %}'); height: 873px; transform: translate3d(34.6781px, -9.56763px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></li>
+                        </ul>
+                        <div class="overlay-layer-wrap" style="background: rgba(0, 0, 0, 0.6);">
+                            <div class="container overlay-layer" id="parallax_header" style="padding-top: 154px;">
+                                <div class="only-logo">
+                                    <div id="only-logo-inner" class="navbar">
+                                        <div id="parallax_only_logo" class="navbar-header"><img src="{% static 'img/social/logo-2.png' %}" style="width:100px;height:100px;" alt="Parallax One"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 intro-section-text-wrap">
+                                        <div id="intro-section" class="intro-section">
+                                            <h2 id="intro_section_text_1" class="intro white-text" style="font-family:'Pacifico';">#my_ecopledge</h2><br>
+                                            <h5 id="intro_section_text_2"   class="intro white-text" style="font-size:2.0em;font-family:'Rajdhani';margin-bottom:3.5em;">Jan 21<sup>st</sup> - Feb 11<sup>th</sup></h5>
+                                            <h5 id="intro_section_text_2" class="white-text" style="font-size:28px;font-family:'Rajdhani';">A social cause initiative by <br> <br><span style="font-size:1.5em;">Elan & &eta;Vision, IIT Hyderabad</span></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                    <section class="services" id="services" role="region" aria-label="Services">
+                        <div class="section-overlay-layer">
+                            <div class="container">
+                                <div class="section-header">
+                                    <h2 style="color:#C3F8C9">About</h2>
+                                    <div class="colored-line" style="background:#00c410"></div>
+                                    <div class="sub-heading" style="color:#C3F8C9"><strong>Save the world before it’s too late</strong></div>
+                                </div>
+                                <div id="our_services_wrap" class="services-wrap
+                                    our_services_wrap_piterest parallax_one_grid parallax_one_grid_u7N5yNyxVC">
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_1 parallax_one_grid_first ">
+                                        <div id="card1" class="service-box" parallax_onegrid-attr="this-0">
+                                            <div class="single-service border-bottom-hover" style="height:29em;">
+                                                <div class="service-icon colored-text"><img src="{% static 'img/social/energy.png' %}" style="max-width:25%;"></div>
+                                                <h3 class="colored-text">Save Energy</h3>
+                                                <p>Thousand tonnes of CO<sub>2</sub> is being released in the atmosphere every second.<br><br>
+Millions of tonnes of harmful gases like nitrogen and sulfur oxides are being released every year. These gases are killing us day by day.
+</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  ">
+                                        <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
+                                            <div class="single-service border-bottom-hover" style="height:29em;">
+                                                <div class="service-icon colored-text"><img src="{% static 'img/social/bag.png' %}" style="max-width:24%;"></div>
+                                                <h3 class="colored-text">Reduce, Reuse, Recycle</h3>
+                                                <p id="prb">Out of total 8300 million tonnes of plastic generated till date, just 9% is recycled.<br><br> All the rest 91% is either burned or is accumulated in the natural environment.
+</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parallax_one_grid_col_3 parallax_one_grid_column_3 parallax_one_grid_last ">
+                                        <div id="card3" class="service-box" parallax_onegrid-attr="this-2">
+                                            <div class="single-service border-bottom-hover" style="height:29em;">
+                                                <div class="service-icon colored-text"><img src="{% static 'img/social/plant.png' %}" style="max-width:27%;"></div>
+                                                <h3 class="colored-text">Plant a Tree</h3>
+                                                <p style="padding-bottom:12px">About 6 billion trees are cut down each year. One tree can converts 21 kg of CO<sub>2</sub> to O<sub>2</sub> per year.<br><br> By cutting so many trees we are depriving our atmosphere of about 90 billion kg of oxygen per year.
+</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="brief text-left brief-design-one brief-left" id="story" role="region" aria-label="About">
+                        <div class="section-overlay-layer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 brief-content-two">
+                                        <div class="brief-image-right"> <img src="{% static 'img/social/1727.jpg' %}" alt=" About"></div>
+                                    </div>
+                                    <div class="col-md-6 content-section brief-content-one">
+                                        <h2 class="text-left dark-text">Participate Now!</h2>
+                                        <div class="colored-line-left"></div>
+                                        <div class="brief-content-text">
+
+                                            <ul>
+                                                <li>From January 21<sup>st</sup>, write down your pledges on a piece of paper, take a picture of it and upload it to your social media accounts using <strong>#my_ecopledge</strong>. <br> Tag your friends and encourage them to be a part of the campaign.
+</li>
+                                                <br><li>Plant a tree in your locality and take care of it and upload a picture of it using #my_ecopledge.
+</li>
+                                              <br>  <li>Reduce enegy consumption by using public transport, carpooling and adopting energy efficient ways to save electricity. <br>
+
+                                              <br>  <li>Reduce the use of plastic by switching to eco-friendly alternatives and do not litter to ensure the recycling of plastic.
+</li>
+                                            </ul>
+                                            <a href="#message" class="scroll"><input type="submit" value="Register" class=" btn btn-primary btn-lg"></input></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+  <section class="call-to-action ribbon-wrap" id="ribbon" style="background-image:url('{% static 'img/social/parallax.jpg' %}');" role="region" aria-label="Ribbon">
+                        <div class="section-overlay-layer">
+                            <div class="container">
+                                <div id="thought" class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <h2 class="white-text strong">The greatest threat to our planet is the belief that someone else will save it.</h2>
+                                        <div style="text-align:center;color:#fff;font-size:1.5em;">Robert Swan, OBE</div>
+                                        <div style="color:#fff;">Polar Explorer & Environmentalist</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FORM -->
+                    <section class="probootstrap-section probootstrap-bg-white" data-section="contact" id="message">
+    <div class="container">
+      <div class="row">
+        <div id="form_para" class="col-md-5 text-center probootstrap-animate fadeInUp probootstrap-animated">
+          <div class="probootstrap-heading dark" style="margin-top:50px;">
+            <h1 class="primary-heading" style="font-family:'Great Vibes';">Spread</h1>
+            <h3 class="secondary-heading">The Message</h3>
+          </div>
+ <p id="form-para" style="margin-top:25px;"><span class="mobile_hide">We live in a wonderful world that is full of beauty, charm and adventure, and we want to save it for our future generations.</span>
+<br>Leave your message for the environment here, and become a part of this great campaign!
+</p>
+        </div>
+        <div id="form" class="col-md-6 col-md-push-1 probootstrap-animate fadeInUp probootstrap-animated">
+          <form method="post" action="/mypledge" class="probootstrap-form">
+            {% csrf_token %}
+            <div class="form-group">
+              <label for="c_name">Your Name</label>
+              <div class="form-field">
+                <!-- <input type="text" id="c_name" class="form-control"> -->
+                {{ form.name }}
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c_email">Your Email</label>
+              <div class="form-field">
+                {{ form.email }}
+                <!-- <input type="text" id="c_email" class="form-control"> -->
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c_message">Your Message</label>
+              <div class="form-field">
+                {{ form.message }}
+                <!-- <textarea name="c_message" id="c_message" cols="30" rows="10" class="form-control"></textarea> -->
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="c_submit" id="c_submit" value="Register" class="btn btn-primary btn-lg">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+                    <!-- /FORM -->
+
+                    <div class="contact-info" id="contactinfo" role="region" aria-label="Contact Info">
+                        <div class="section-overlay-layer">
+                            <div class="container">
+                              <h2 class="dark-text">Contact Us</h2>
+                              <div class="colored-line"></div>
+                                <div class="row contact-links" style="font-size:20px;line-height:27px;">
+                                  <div class="col-sm-12 col-md-6">
+                                      <strong>Pramudit Tripathi </strong><br>
+                                      Social Cause Coordinator <br>
+                                      +91-9044535443<br>
+                                      pramudit@elan.org.in                                    <br>
+                                      <ul class="social-icons">
+                                          <li> <a target="_blank" href="https://www.facebook.com/pramudit99"> <span class="fa parallax-one-footer-icons fa-facebook transparent-text-dark"></span> </a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-sm-12 col-md-6" id="nanda">
+                                    <strong>Nanda Kumar </strong><br>
+                                    Cultural Events Core<br>
+                                    +91-9573950314<br>
+                                    nanda@elan.org.in                                    <br>
+                                    <ul class="social-icons">
+                                        <li> <a target="_blank" href="https://www.instagram.com/me_nandu/"> <span class="fa parallax-one-footer-icons fa-instagram transparent-text-dark"></span> </a></li>
+                                        <!-- <li> <a target="_blank" href="#"> <span class="fa parallax-one-footer-icons fa-instagram transparent-text-dark"></span> </a></li> -->
+                                    </ul>
+                                </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer itemscope="" itemtype="http://schema.org/WPFooter" id="footer" role="contentinfo" class="footer grey-bg">
+                    <div class="container">
+                        <div class="footer-widget-wrap"></div>
+                        <div class="footer-bottom-wrap">
+                            <span class="parallax_one_copyright_content"><a href="https://elan.org.in"><img src="{% static 'img/social/nav-logo.png' %}" alt="ELAN & &eta;Vision 2k18" style="max-width:35%;"></a></span>
+                            <div id="socialicons">
+                              <a class="icon" href="https://www.facebook.com/elan.iithyderabad/" title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                              <a class="icon" href="https://twitter.com/elan_nvision" title="Follow with Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                              <a class="icon" href="https://www.youtube.com/user/ElanIITHyderabad" title="Follow with Instagram" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                              <a class="icon" href="https://www.instagram.com/elan_and_nvision/" title="Follow with YouTube" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div><br>
+                            <div class="row text-center">
+                              <div id="home-btn" class="col-sm-12 col-md-6 col-xs-push-3 col-md-push-4">
+                                <a href="https://elan.org.in" style="text-decoration:none;color:#000"><div class="button">HOME</div></a>
+                              </div>
+                              <div id="events-btn" class="col-sm-12 col-xs-push-3 col-md-push-0 col-md-6">
+                                <a href="https://elan.org.in/events" style="text-decoration:none;color:#000"><div class="button">EVENTS</div></a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    <style type="text/css">.overlay-layer-wrap{background:rgba(0, 0, 0, 0.5)}</style>
+
+        <script type="text/javascript">
+                    var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+        </script>
+        <script type="text/javascript" src="{% static 'js/social/custom.all.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/plugin.home.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/custom.home.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/social/skip-link-focus-fix.js' %}"></script>
+        <script>skipLinkFocus.init();</script>
+        <script type="text/javascript" src="{% static 'js/social/hoverIntent.min.js' %}"></script>
+        <script type="text/javascript">var megamenu = {"timeout":"300","interval":"100"};</script>
+        <script type="text/javascript" src="{% static 'js/social/maxmegamenu.js' %}"></script>
+    </body>
+
+  <!-- ScrollReveal Plugin -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+      var revealDesktop = function(){
+        window.sr = ScrollReveal();
+
+          sr.reveal('.only-logo',{
+            duration: 1000,
+            // delay: 200,
+          });
+          sr.reveal('#intro_section_text_1',{
+            duration: 1000,
+            // delay: 600,
+          });
+          sr.reveal('#intro_section_text_2',{
+            duration: 1000,
+            // delay: 1000,
+          });
+
+
+        sr.reveal('#card1',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'left',
+        });
+        sr.reveal('#card2',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#card3',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'right',
+        });
+        sr.reveal('.brief-content-two',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'left',
+        });
+        sr.reveal('.brief-content-one',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+        sr.reveal('#thought',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+          sr.reveal('#form_para',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#form',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('.contact-links',{
+          duration: 1000,
+          viewfactor:0.4,
+          origin: 'bottom',
+        });
+      }
+
+      var revealMobile = function(){
+        window.sr = ScrollReveal();
+
+          sr.reveal('.only-logo',{
+            duration: 1000,
+            // delay: 200,
+          });
+          sr.reveal('#intro_section_text_1',{
+            duration: 1000,
+            // delay: 600,
+          });
+          sr.reveal('#intro_section_text_2',{
+            duration: 1000,
+            // delay: 1000,
+          });
+
+
+        sr.reveal('#card1',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#card2',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#card3',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('.brief-content-two',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+        sr.reveal('.brief-content-one',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+        sr.reveal('#thought',{
+          duration: 1200,
+          viewfactor:0.8,
+          origin: 'bottom',
+        });
+          sr.reveal('#form_para',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('#form',{
+          duration: 1200,
+          viewfactor:0.6,
+          origin: 'bottom',
+        });
+        sr.reveal('.contact-links',{
+          duration: 1000,
+          viewfactor:0.4,
+          origin: 'bottom',
+        });
+      }
+
+      jQuery(document).ready(function($){
+        var width = $(window).width();
+        if(width>800){
+          revealDesktop();
+        }
+        else{
+          revealMobile();
+        }
+      });
+    </script>
+    <script>
+    jQuery(document).ready(function($) {
+
+var scrollLink = $('.scroll');
+
+// Smooth scrolling
+scrollLink.click(function(e) {
+  e.preventDefault();
+  $('body,html').animate({
+    scrollTop: $(this.hash).offset().top
+  }, 1000 );
+});
+});
+
+    </script>
+    <script>
+
+    </script>
+</html>
