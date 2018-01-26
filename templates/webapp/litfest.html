@@ -17,7 +17,7 @@
         <!-- FontAwesome CDN -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <title>#my_ecopledge | Elan & &eta;Vision 2k18 | IIT Hyderabad</title>
+        <title>Litfest 2k18 | Elan & &eta;Vision 2k18 | IIT Hyderabad</title>
 
 
         <meta name="description" content="#my_ecopledge, Social Cause Campaign by Elan & nVision 2k18, IIT Hyderabad">
@@ -31,6 +31,36 @@
         <link rel="stylesheet" href="{% static 'css/social/bootstrap.min.css' %}" type="text/css" media="all">
         <link rel="stylesheet" href="{% static 'css/social/style_sc.css' %}" type="text/css" media="all">
         <link rel="stylesheet" href="{% static 'css/social/contact_form.css' %}">
+        <style media="screen">
+        .single-service{
+          height:58em;
+        }
+        .single-service h3.colored-text{
+          text-decoration: underline;
+        }
+        @media(min-width:801px){
+          #msg-mobile{
+            display:none;
+          }
+          #parallax_header{
+            padding-top:154px;
+          }
+
+        }
+        @media(max-width:800px){
+          #msg{
+            display:none;
+          }
+          #msg-mobile{
+            color:white;
+            font-size: 15px;
+            text-align: center;
+          }
+          #parallax_header{
+            padding-top:0px;
+          }
+        }
+        </style>
 
         <!-- jQuery & jQuery Migrate -->
         <script type="text/javascript" src="{% static 'js/social/jquery.js' %}"></script>
@@ -67,6 +97,7 @@
                                                 <ul id="mega-menu-primary" class="mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="disabled" data-effect-speed="200" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true">
                                                     <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6158" id="mega-menu-item-6158"><a class="mega-menu-link" href="https://elan.org.in" tabindex="0">Home</a></li>
                                                     <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6158" id="mega-menu-item-6158"><a class="mega-menu-link scroll" href="#services" tabindex="0">Events</a></li>
+                                                    <!-- <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-6158" id="mega-menu-item-6158"><a class="mega-menu-link scroll" href="#story" tabindex="0">Participate</a></li> -->
                                                     <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-6165" id="mega-menu-item-6165"><a class="mega-menu-link scroll" href="#contactinfo" tabindex="0">Contact</a></li>
                                                 </ul>
                                             </div>
@@ -79,7 +110,7 @@
                             <li id="landing-bg" class="layer layer2" data-depth="0.20" style="background-image: url('{% static 'img/litfest/landing.jpg' %}'); height: 873px; transform: translate3d(34.6781px, -9.56763px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></li>
                         </ul>
                         <div class="overlay-layer-wrap" style="background: rgba(0, 0, 0, 0.6);">
-                            <div class="container overlay-layer" id="parallax_header" style="padding-top: 154px;">
+                            <div class="container overlay-layer" id="parallax_header">
                                 <div class="only-logo">
                                     <div id="only-logo-inner" class="navbar">
                                         <!-- <div id="parallax_only_logo" class="navbar-header"><img src="{% static 'img/social/logo-2.png' %}" style="width:100px;height:100px;" alt="Parallax One"></div> -->
@@ -88,11 +119,19 @@
                                 <div class="row">
                                     <div class="col-md-12 intro-section-text-wrap">
                                         <div id="intro-section" class="intro-section">
-                                            <h2 id="intro_section_text_1" class="intro white-text" style="font-family:'Pacifico';">Litfest</h2><br>
-                                            <h5 id="intro_section_text_2"   class="intro white-text" style="font-size:2.0em;font-family:'Rajdhani';margin-bottom:3.5em;">Jan 26<sup>st</sup> - Feb 11<sup>th</sup></h5>
+                                            <h2 id="intro_section_text_1" class="intro white-text" style="font-family:'Pacifico';text-decoration:underline;">Litfest 2k18</h2><br>
+                                            <h5 id="intro_section_text_2"   class="intro white-text" style="font-size:2.0em;font-family:'Rajdhani';margin-bottom:3.5em;"><em>Jan 26<sup>st</sup> - Feb 11<sup>th</sup></em></h5>
                                             <h5 id="intro_section_text_2" class="white-text" style="font-size:28px;font-family:'Rajdhani';">By <br> <br><span style="font-size:1.5em;">Elan & &eta;Vision, IIT Hyderabad</span></h5>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row">
+                                  <div id="msg" class="col-md-12" style="color:white;position:absolute;bottom:0;left:25%;">
+                                    <h3>E-mail your entries to <a href="mailto:litfest@elan.org.in">litfest@elan.org.in</a>. You may participate in as many events as you like.</h3>
+                                  </div>
+                                  <div id="msg-mobile">
+                                    <p>E-mail your entries to <a href="mailto:litfest@elan.org.in">litfest@elan.org.in</a>. <br>You may participate in as many events as you like.</p>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -103,13 +142,15 @@
                             <div class="container">
                                 <div class="section-header">
                                     <h2 style="color:#8B4513">Events</h2>
-                                    <div class="colored-line" style="background:#8B4513"></div>
+                                    <div class="colored-line" style="background:#8B4513"></div><br><br>
+                                    <!-- <h3 style="color:#8B4513;"><em>E-mail your entries to <a href="@mailto:litfest@elan.org.in">litfest@elan.org.in</a></em></h3> -->
+                                    <!-- <h3 style="color:#8B4513;"><em>You may participate in as many events as you like.</em></h3> -->
                                 </div>
                                 <div id="our_services_wrap" class="services-wrap
                                     our_services_wrap_piterest parallax_one_grid parallax_one_grid_u7N5yNyxVC">
                                     <div class="parallax_one_grid_col_3 parallax_one_grid_column_1 parallax_one_grid_first " >
                                         <div id="card1" class="service-box" parallax_onegrid-attr="this-0">
-                                            <div class="single-service border-bottom-hover" style="height:46em;">
+                                            <div class="single-service border-bottom-hover" style="height:30em;">
                                                 <h3 class="colored-text">Tweet a tale</h3>
                                                 <p>Harry Potter series: 1,084,170 words. Vikram Seth's A Suitable Boy,: 453,840 words. Paradise Lost: 93,525 words<br><br>
                                                 But you do not have those many words to shine. You are not allowed to let your writing flow. Can you impress us in 140 characters or less?
@@ -120,7 +161,7 @@
                                     </div>
                                     <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  ">
                                         <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
-                                            <div class="single-service border-bottom-hover" style="height:46em;">
+                                            <div class="single-service border-bottom-hover" style="height:47em;">
 
                                                 <h3 class="colored-text">Spin with Six</h3>
                                                 <p id="prb">Test your imagination and ability to twist given conditions to favor your own grounds.<br><br>
@@ -135,7 +176,7 @@
                                     </div>
                                     <div class="parallax_one_grid_col_3 parallax_one_grid_column_3 parallax_one_grid_last ">
                                         <div id="card3" class="service-box" parallax_onegrid-attr="this-2">
-                                            <div class="single-service border-bottom-hover" style="height:46em;">
+                                            <div class="single-service border-bottom-hover" style="height:44em;">
 
                                                 <h3 class="colored-text">Sweetheart</h3>
                                                 <p style="padding-bottom:12px">1.) quote nicholas sparks or zelda fitzgerald, but dont make your letter just another page of Safe Haven. love tastes best when it is original.<br><br>
@@ -198,15 +239,15 @@
 
                                     <div class="parallax_one_grid_col_3 parallax_one_grid_column_1 parallax_one_grid_first ">
                                         <div id="card1" class="service-box" parallax_onegrid-attr="this-0">
-                                            <div class="single-service border-bottom-hover" style="height:54em;">
+                                            <div class="single-service border-bottom-hover" style="height:61em;">
                                                 <h3 class="colored-text">Memeify </h3>
                                                 <p>
-                                              Whether you think memes are something sed to give a bit of pseudo-academic gravitas to stupid viral shit or something vital to our culture, you can't deny that they make you laugh.<br>
+                                              Whether you think memes are something sed to give a bit of pseudo-academic gravitas to stupid viral shit or something vital to our culture, you can't deny that they make you laugh.<br><br>
 
-                                              Some are so good that they make you lmao And others are so cringy they make you  roflmao.<br>
+                                              Some are so good that they make you lmao And others are so cringy they make you  roflmao.<br><br>
 
                                               We, @ Memers United ahem LitFest bring you the meme contest of the year.<br>
-                                              (Drumrolls)<br>
+                                              (Drumrolls)<br><br>
 
                                               If you think you've got what it takes to be a Memelord, we just have a couple of guidelines for you.<br>
                                               1. Do some original thinking.<br>
@@ -220,7 +261,7 @@
                                     </div>
                                     <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  ">
                                         <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
-                                            <div class="single-service border-bottom-hover" style="height:54em;">
+                                            <div class="single-service border-bottom-hover" style="height:43em;">
 
                                                 <h3 class="colored-text">‎BingIt</h3>
                                                 <p id="prb">Can you impress us in 42 words or less?<br><br>
@@ -238,7 +279,7 @@
                                     </div>
                                     <div class="parallax_one_grid_col_3 parallax_one_grid_column_3 parallax_one_grid_last ">
                                         <div id="card3" class="service-box" parallax_onegrid-attr="this-2">
-                                            <div class="single-service border-bottom-hover" style="height:54em;">
+                                            <div class="single-service border-bottom-hover" style="height:42em;">
 
                                                 <h3 class="colored-text">Bohemian Litr</h3>
                                                 <p style="padding-bottom:12px">Tired of speaking or writing in the same old monotonous-drony English?<br>
@@ -260,15 +301,15 @@
 
                                     <div class="parallax_one_grid_col_3 parallax_one_grid_column_2  " >
                                         <div id="card2" class="service-box" parallax_onegrid-attr="this-1">
-                                            <div class="single-service border-bottom-hover" style="height:54em;">
+                                            <div class="single-service border-bottom-hover" style="height:61em;">
 
 
                                                 <h3 class="colored-text">Twist it </h3>
                                                 <p>Ever wanted your favorite story to have a different ending or a 'twisted' progression?<br>
 
-                                                Well, here's a chance for you to let your imagination run wild.<br>
+                                                Well, here's a chance for you to let your imagination run wild.<br><br>
 
-                                                'Twist it' is an event that abides by the following rules:<br>
+                                                'Twist it' is an event that abides by the following rules:<br><br>
 
                                                 1) You can have any story/movie/plot of your choice and 'twist' it, but make sure there's not too much change.<br>
 
@@ -276,7 +317,7 @@
 
                                                 3) The jury will be judging you on how well the story is presented, depth of added plot and will not judge on how long the story is.<br>
 
-                                                4)Here's a very brief, basic structured example :<br>
+                                                4)Here's a very brief, basic structured example :<br><br>
                                                  " After the gruelling battle of Hogwarts, Harry seemed to find everything slowly fading away. His surroundings slowly apparated into his yet so familiar closet.
                                                 This was all just a dream..."
                                                 <br><br><b>Organizers:</b>Rishika, Gautham
@@ -293,18 +334,55 @@
 
                     <!-- /FORM -->
 
+                    <!-- PARTICIPATE -->
+                    <section class="brief text-left brief-design-one brief-left" id="story" role="region" aria-label="About" style="display:none;">
+                        <div class="section-overlay-layer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 brief-content-two">
+                                        <div class="brief-image-right"> <img src="{% static 'img/social/1727.jpg' %}" alt=" About"></div>
+                                    </div>
+                                    <div class="col-md-6 content-section brief-content-one">
+                                        <h2 class="text-left dark-text">Participate Now!</h2>
+                                        <div class="colored-line-left"></div>
+                                        <div class="brief-content-text">
+
+                                            <ul>
+                                                <li>E-mail your entries to litfest@elan.org.in
+</li>
+                                                <br><li>You may participate in as many events as you like.
+</li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                      <!-- PARTICIPATE -->
+
                     <div class="contact-info" id="contactinfo" role="region" aria-label="Contact Info">
                         <div class="section-overlay-layer">
                             <div class="container">
                               <h2 class="dark-text">Contact Us</h2>
                               <div class="colored-line"></div>
                                 <div class="row contact-links" style="font-size:20px;line-height:27px;">
-                                  <div class="col-sm-12 col-md-6 col-md-offset-3">
+                                  <div class="col-sm-12 col-md-6">
                                       <strong>Jeel Bhavasar </strong><br>
                                       Litr Coordinator <br>
                                       +91 9100283774<br>
-                                      jeel@elan.org.in                                    <br>
+                                      <a href="mailto:jeel@elan.org.in">jeel@elan.org.in</a>                                    <br>
                                       <ul class="social-icons">
+                                          <li> <a target="_blank" href="https://facebook.com/jeel.bhavsar.50"> <span class="fa parallax-one-footer-icons fa-facebook transparent-text-dark"></span> </a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-sm-12 col-md-6">
+                                      <strong>Rishika</strong><br>
+                                      +91 9963093434<br>
+                                      <a href="mailto:ce17btech11030@iith.ac.in">ce17btech11030@iith.ac.in</a>                                   <br>
+                                      <ul class="social-icons" style="display:none;">
                                           <li> <a target="_blank" href="https://facebook.com/jeel.bhavsar.50"> <span class="fa parallax-one-footer-icons fa-facebook transparent-text-dark"></span> </a></li>
                                       </ul>
                                   </div>
