@@ -38,6 +38,7 @@ $('.card').on('click',function () {
         <h1>Introduction</h1>\
           <p>Gear up with your wireless bot. Here comes the race which will test the strength, stability, and cruelty of your bot. It's all about racing towards the finish line through tough terrain by crushing your opponents. Let's see who’s bot is better equipped, better designed to win.\
           </p>\
+          <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1>\
@@ -90,6 +91,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1> \
         <p>Passionate about Electronics? Then this one is for you. This January, come and get immersed in an exciting world of electronics. Prove your mettle by participating in this quiz.\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Coming Soon</h1>\
@@ -133,6 +135,7 @@ $('.card').on('click',function () {
         <h1>Introduction:</h1><br>\
         <p>Being human, we have always been fascinated with gadgets, they make life simpler and work efficiently. IoT is not only making every single gadget smarter than ever before but also they are making them easily accessible across the globe. That is why this is still an active area of interest. So let's make some gadget which simplifies our life using IoT. To achieve this come and participate in this event and show what you’ve got in you to make the world a smarter place.\
         </p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h2>Problem statement:</h2><p>\
@@ -187,7 +190,8 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1><p>\
         One of the important works of an electric student is to debug a circuit. This event will test your ability to understand the circuit and debug it. You will have to tweak the circuit given to you to make it work according to the problem statement.\
-        </p></div>\
+        </p><p>Event will be on 10th or 11th Febuary 2018</p>\
+        </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
         <p><i class='fa fa-circle' style='font-size:8px;'></i> Round 1<br>\
@@ -233,6 +237,7 @@ $('.card').on('click',function () {
         <h1>Introduction</h1>\
         <p>'Engineers like to solve problems .If there are no problems handily available, they will create their own problems'-Scott Adams.</p>\
         <p>It’s time for your team to dive into innovation and creativity, find a good solution and emerge as jugaads. So, pile up your enthusiasm to win the battle.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Event Format:</h1><p>\
@@ -290,6 +295,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendour .This event aims to harness practical design and constructional abilities of the participants.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
@@ -335,6 +341,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
         <p>This events tests the sales capability of participants and also shows their convincing power. We believe that sales is also one of the quality of entrepreneurship. This tests that quality.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Coming Soon</h1>\
@@ -378,6 +385,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
         <p>This event encourages people to express their idea in front of the crowd. This event focusses on the skills required for pitching in front of large crowds. Pitch is the first thing that is required by any entrepreneur. The main aim of the event is to decide the best pitch.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Coming Soon</h1>\
@@ -418,6 +426,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
         <p>CAD PRO Design Challenge will test your designing skills in 3D design software and here, you have to prove your expertise in a challenging scenario where you race against time.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
@@ -468,6 +477,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
         <p>Want to try making an IC engine? Drift king gives you a chance to design a machine with given constraints. In this event, the contestants are expected to make to an IC engine powered machine, that can be controlled remotely using a wireless remote controller, which can race against machines of similar construct on an all-terrain track packed with a number of obstacles.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1>\
@@ -512,6 +522,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1><p>\
         <p>Interested in designing a bot? Want to test your robotic skills? The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement:</h1><p>\
@@ -557,6 +568,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
         <p>A soccer freak as well as a Robotics Freak too? well, this event is just for you. RoboSoccer combines the universal excitement and amusement inspired by football, with the thrill and satisfaction of making a working robot from scratch. This event is a platform to showcase their robotics talents and bringing the football spirit alive. Teams are expected to build and operate a manual robot to play one-on-one soccer in a knockout tournament but just with cheering, heckling, massacres, nail-biters and a lot more!</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement:</h1>\ <p>Build two bots that can kick a table tennis ball into the opponent’s Goal Post following the rules. Use your creativity and come up with innovative kicking mechanisms to smash the ball into the goal post.</p>\
@@ -597,6 +609,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>Too bored with ground based robot events, you have come to the right place. Pirates is a ‘one of a kind’ event where you are given the platform to create your own robot which floats and navigates on water. Starting from scratch, you get the chance to showcase your creativity and awaken the little engineer in you.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1>\
@@ -621,7 +634,7 @@ $('.card').on('click',function () {
         <h1>Prize</h1>\
         <p>Prizes Worth INR 25,000/-</p>\
         <h1>Organisers:</h1>\
-        <p>Maniteja -9010774589<br>Shanmukha Rao Samanthula-9000273721<br>Abhilash-97013 40387<br>Venkat-9494219983</p>\
+        <p>Shanmukha Rao Samanthula-9000273721<br>Maniteja -9010774589<br>Abhilash-97013 40387<br>Venkat-9494219983</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -644,6 +657,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>Robotics events are incomplete without a line follower competition. A simple black line on a white background and your robot must follow it. The track is filled withbends and curves.The task is to build an autonomous robot which is capable of traversing a black line on a white background. </p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem Statement</h1>\
@@ -694,6 +708,7 @@ $('.card').on('click',function () {
         In this event, participants have to build a Water rocket which is pressurised by compressed air.\
         'Be a Newton and test the Third law for yourselves'\
         </p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement</h1><p>\
@@ -749,6 +764,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction</h1>\
         <p>'By taking the sense our sense of sight far beyond the realm of our forebear’s imagination, these wonderful instruments, the telescopes, open the way to a deeper and more perfect understanding of nature.' - Rene Descartes.<br> Make your own Optical tube. This event is based on building of a simple terrestrial telescope with given components. Also, test your talent in physics by participating in a challenging quiz.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1><p>\
@@ -806,6 +822,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
         <p>Find the mysterious secret techniques to decrypt the given texts/messages. Clear all the levels in the allotted time to become the ultimate cryptacker</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1><p>\
@@ -853,6 +870,7 @@ $('.card').on('click',function () {
         <h1>Introduction:</h1><p> \
         Compete against others hackers in exploring different levels of a challenge maze with your hacking skills.\
         You will have to find your way to victory to defeat others.</p> \
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1> Problem statement</h1><p> \
@@ -896,6 +914,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
         <p>Proquest is a competitive programming competition composed of three levels, for participants of all levels of expertise. Experience the beginner, medium and advance levels of programming from pen and paper programming to a truly challenging problem statement.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Coming Soon</h1>\
@@ -937,6 +956,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1><p> \
         Algorithma is the perfect event for those who like to solve mathematical and logical puzzles as well as design algorithms, regardless of your knowledge of programming.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1><p> \
@@ -980,6 +1000,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1><p> \
         If petrol and diesel be your lifeblood, and the piston beat your heart beat, this quiz shall be tailor-made for you. By our very own automobile gods, an open challenge to other gods to win the race. Come, for it is going to be legendary</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1><p> \
@@ -1026,6 +1047,7 @@ $('.card').on('click',function () {
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1><p> \
         Be it a Mars rover or technology that everyone is looking forward to in the country, 4G. Explore the world around you in a new way. Learn things that your friends haven't even heard of by participating in this enthralling quiz.</p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1>Problem statement:</h1><p> \
@@ -1972,7 +1994,6 @@ $('.card').on('click',function () {
         </div>\
         ";
     var rj = "<h1 style='text-align:center'>RJ Hunt: Competition for pro RJ s</h1>\
-        <h1 style='text-align:center'>Clay Modelling</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -2269,6 +2290,7 @@ $('.card').on('click',function () {
         <h1 id='intro'>Introduction:</h1><p>\
         Design and build a wireless remote controlled flying drone to complete the tasks with highest points possible. There are three Levels in the competition, of which one is a surprise Level which will be disclosed at the venue and the other is bonus level.<br>\
         </p>\
+        <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
         <h1 id='problem'>Problem Statement:</h1><p>\
