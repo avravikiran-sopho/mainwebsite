@@ -1,0 +1,9 @@
+Blockchain is a decentralized data base which is generally used as security for cryptocurrency bitcoin .To put it in simple words
+its a way of storing and sharing information across a network of users in an open virtual space .In food for example a retailer
+would knoow with whom his supplier has had dealings by simply scanning the QR code.
+Blockchain makes a supply chain more transparent at an all-new level.It also empowers the entire chain to be more responsive to 
+any food safety disorder massive organizations like Nestle and Unilever are considering blockchain technologies for that 
+By using blockchain consumer can get information in 2.2 seconds.During an outbreak of contamination a company can save 
+lifes using blockchain 
+so i would like to conclude that blockchain is useful in many aspects so countries like india should embrace such kind pf
+technologies 

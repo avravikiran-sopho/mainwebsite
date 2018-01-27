@@ -1,0 +1,8 @@
+The development of a country depends on the development of village.As part of the smart village project we need a system 
+that helps village to develop in areas like education security etc.Government have to provide some awareness projects.
+This is done by online village monitoring syste the entire process has three modules
+1)Admin module:This helps us to customize firstsearch to meet the needs of users. This serves as the backbone ofrest of systems
+these are used to take care of security issues
+2)Volunteer module:this givesb us an opportunity to help people in villages by providing services like healthcare,roads
+and other needs.The voluntary services module is essential to understand a victim's needs and offering meaningful support
+3)Reportor module:this is for unattended process of alarm signals and the reportors are employeed to report the news.
