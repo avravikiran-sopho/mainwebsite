@@ -96,10 +96,6 @@
 		</ul>
 		</div>
 	</div>
-		<div class="container question" style="text-align: center;">
-	<p style="width:100%;display-inline-block;text-align:center;">Deadline extended till 27th Jan 2018</p>
-    <p style="width:50%;display:inline-block;text-align:right">Time Remaining:&nbsp;</p><p id="demo" style="text-align:left;width:45%;font-weight:bold;display:inline-block;font-family: 'Quattrocento', serif;"> </p>
-      </div>
     {% else %}
 	</div>
 	<div class="container content" style="margin-bottom: 10%;">
@@ -117,16 +113,9 @@
 		{% if files %}
 			<p style="margin:auto;width:50%;text-align: center">You have submitted {{ files.file }}</p>
 	        <p style="margin:auto;width:50%;text-align: center;">Submitted at {{ files.uploaded_at }}</p>
+		<p style="margin:auto;width:100%;text-align:center">Event has ended.Thankyou for showing interest in this event.</p>
         {% else %}
-        <p style="margin:auto;width:50%;text-align: center">Max upload size is 20MB.</p>
-        <form method="post" name="form" id="form" style="margin:auto;width:50%;text-align: center" enctype="multipart/form-data">
-		    {% csrf_token %}
-		    {{ form.as_p }}
-		    <button  class ="btn btn-primary" type="submit">Upload</button>
-		    <div class="upload-btn-wrapper">  
-			  
-			</div>
-        </form>
+	<p style="margin:auto;width:100%;text-align:center">Event has ended.Thankyou for showing interest in this event.</p>
         
         {% endif %}
     {% else %}
