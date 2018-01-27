@@ -20,6 +20,6 @@ urlpatterns = [
     url(r'^mypledge$', views.social),
 	url(r'^deregister$', views.deregister),
 	url(r'^litfest$', views.litfest),
-	url(r'^litw$', views.litw),
+	url(r'^litw$', views.spokenword),
     # url(r'^mypledge_message$', views.message),
 ]
