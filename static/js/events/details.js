@@ -2157,7 +2157,7 @@ $('.card').on('click',function () {
         9867327421</p>\
         ";
     var manthan = "<h1 style='text-align:center'>Manthan</h1>\
-        <h1>Event Format</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> Each band interested in participating should upload their videos on a google drive and share the link with <a href='mailto:kabir@elan.org.in'>kabir@elan.org.in</a>. Fill ut this <a href='https://goo.gl/forms/PBGzR7Zo0DTLIoEQ2'>form</a> as well.<br><i class='fa fa-circle' style='font-size:8px;'></i> Don't upload more than 2 videos in the drive link.<br>\ <i class='fa fa-circle' style='font-size:8px;'></i>  Out of this 5 bands will be shortlisted, and will be performing at Manthan prelims, Elan 2017.<br>\
+        <h1>Event Format</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> This event will consist of 2 rounds</p>\  <h1>Prelims:</h1>\ <p><i class='fa fa-circle' style='font-size:8px;'></i> Each band interested in participating should upload their videos on a google drive and share the link with <a href='mailto:kabir@elan.org.in'>kabir@elan.org.in</a>. Fill ut this <a href='https://goo.gl/forms/PBGzR7Zo0DTLIoEQ2'>form</a> as well.<br><i class='fa fa-circle' style='font-size:8px;'></i> Don't upload more than 2 videos in the drive link.<br>\ <i class='fa fa-circle' style='font-size:8px;'></i>  Out of this 5 bands will be shortlisted, and will be performing at Manthan prelims, Elan 2018.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Each band will be given 20 minutes to perform including sound check.<br>\
         <h1>RULES AND REGULATIONS</h1>\
         <p><i class='fa fa-circle' style='font-size:8px;'></i> Any non-professional band is allowed to register. You need not be a college band to participate in this event.<br>\
@@ -2167,7 +2167,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Candidates must conduct themselves in a proper manner and portray high moral standards. Candidates will not consume any alcoholic beverages, use illegal drugs or public smoking or use foul language or should not misconduct in any way during the course of the entire event.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The Judges' decision shall be final and binding for all.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organizers with respect to line-up is final and abiding.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The Elan 2017 team holds the right to change the rules at any moment of time.</p>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> The Elan 2018 team holds the right to change the rules at any moment of time.</p>\
         <h1>JUDGING CRITERIA</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The winners of the prelims will go through to the finals.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The winners will be announced by the judges immediately after the event. Judge’s decision is considered final and should be abided by everyone.<br>\
