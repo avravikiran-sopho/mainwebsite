@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.contrib import admin
 from Auth.models import Profile
-from .models import Detail, EventName, EventRegister, TeamLeader, Team, Social
+from .models import Detail, EventName, EventRegister, TeamLeader, Team, Social, SpokenWord
 # Register your models here.
 
 
@@ -37,10 +37,14 @@ class  DisplayTeam(admin.ModelAdmin):
 class  DisplaySocial(admin.ModelAdmin):
 	list_display = ('name','email','message')
 
+class  DisplaySpokenWord(admin.ModelAdmin):
+	list_display = ('name','email','mobile')
+
 admin.site.register(Detail)
 admin.site.register(Social,DisplaySocial)
 admin.site.register(EventName)
 admin.site.register(EventRegister, DisplayEventRegister)
 admin.site.register(TeamLeader, DisplayTeamLeader)
 admin.site.register(Team, DisplayTeam)
+admin.site.register(SpokenWord, DisplaySpokenWord)
 
