@@ -4,7 +4,7 @@ from django import forms
 from django.template.defaultfilters import filesizeformat
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
-from .models import Social, EventName, EventRegister
+from .models import Social, EventName, EventRegister, SpokenWord
 
 CHOICES=[('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
          ('DTMF RACE','DTMF RACE'),
@@ -67,6 +67,17 @@ class socialForm(forms.Form):
 	class Meta:
 		model = Social
 		fields = ['name','email','message',]
+
+class spokenwordForm(forms.Form):
+	name = forms.CharField(widget=forms.TextInput(attrs=
+    	{'name':"name",'id':"c_name",'class':"form-control",'placeholder':"Name"}))
+	email = forms.CharField(widget=forms.EmailInput(attrs=
+    	{'name':"email",'id':"c_email",'class':"form-control",'placeholder':"Email"}))
+	mobile = forms.CharField(widget=forms.NumberInput(attrs=
+    	{'name':"mobile",'id':"c_message",'class':"form-control",'placeholder':"Mobile"}))
+	class Meta:
+		model = SpokenWord
+		fields = ['name','email','mobile',]
 
 class deregisterForm(forms.ModelForm):
     reg_events = forms.ModelChoiceField(queryset=EventRegister.objects.none())

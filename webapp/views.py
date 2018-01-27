@@ -5,7 +5,7 @@ from Auth.models import Profile
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from .models import Detail, EventName , EventRegister, Team, TeamLeader, Social
+from .models import Detail, EventName , EventRegister, Team, TeamLeader, Social, SpokenWord
 import json
 from django.contrib.auth.decorators import login_required
 from Auth.models import Profile
@@ -15,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from .forms import teamForm, socialForm , deregisterForm
+from .forms import teamForm, socialForm , deregisterForm, spokenwordForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -84,6 +84,27 @@ def social(request):
 	else:
 		form = socialForm()
 		return render(request,'webapp/mypledge.html',{'form':form})
+
+def spokenword(request):
+    if request.method == "POST":
+        form = spokenwordForm(request.POST)
+        print form.errors
+        if form.is_valid():
+			data = form.cleaned_data
+			new_object = SpokenWord()
+			new_object.name = data['name']
+			new_object.email = data['email']
+			new_object.mobile = data['mobile']
+			new_object.save()
+			message = "Your response is recorded."
+			form = spokenwordForm()
+			return render(request,'webapp/litr_workshop.html',{'form':form,'message':message})
+        else:
+            message = "Invalid input."
+            return render(request,'webapp/litr_workshop.html',{'form':form,'message':message})
+    else:
+        form = spokenwordForm()
+        return render(request,'webapp/litr_workshop.html',{'form':form})
 
 
 def events(request):
