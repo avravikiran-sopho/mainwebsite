@@ -86,25 +86,26 @@ def social(request):
 		return render(request,'webapp/mypledge.html',{'form':form})
 
 def spokenword(request):
-    if request.method == "POST":
-        form = spokenwordForm(request.POST)
-        print form.errors
-        if form.is_valid():
-			data = form.cleaned_data
-			new_object = SpokenWord()
-			new_object.name = data['name']
-			new_object.email = data['email']
-			new_object.mobile = data['mobile']
-			new_object.save()
-			message = "Your response is recorded."
-			form = spokenwordForm()
-			return render(request,'webapp/litr_workshop.html',{'form':form,'message':message})
-        else:
-            message = "Invalid input."
-            return render(request,'webapp/litr_workshop.html',{'form':form,'message':message})
-    else:
-        form = spokenwordForm()
-        return render(request,'webapp/litr_workshop.html',{'form':form})
+    return render(request,'webapp/spokenword.html')
+    # if request.method == "POST":
+    #     form = spokenwordForm(request.POST)
+    #     print form.errors
+    #     if form.is_valid():
+	# 		data = form.cleaned_data
+	# 		new_object = SpokenWord()
+	# 		new_object.name = data['name']
+	# 		new_object.email = data['email']
+	# 		new_object.mobile = data['mobile']
+	# 		new_object.save()
+	# 		message = "Your response is recorded."
+	# 		form = spokenwordForm()
+	# 		return render(request,'webapp/litr_workshop.html',{'form':form,'message':message})
+    #     else:
+    #         message = "Invalid input."
+    #         return render(request,'webapp/litr_workshop.html',{'form':form,'message':message})
+    # else:
+    #     form = spokenwordForm()
+    #     return render(request,'webapp/litr_workshop.html',{'form':form})
 
 
 def events(request):
