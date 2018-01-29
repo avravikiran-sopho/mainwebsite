@@ -62,7 +62,7 @@ class socialForm(forms.Form):
     	{'name':"name",'id':"c_name",'class':"form-control",'placeholder':"Name"}))
 	email = forms.CharField(required=False,widget=forms.EmailInput(attrs=
     	{'name':"email",'id':"c_email",'class':"form-control",'placeholder':"Email"}))
-	message = forms.CharField(widget=forms.Textarea(attrs=
+	message = forms.CharField(required=False,widget=forms.Textarea(attrs=
     	{'name':"message",'id':"c_message",'class':"form-control",'placeholder':"Message"}))
 	class Meta:
 		model = Social
