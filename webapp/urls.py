@@ -21,5 +21,8 @@ urlpatterns = [
 	url(r'^deregister$', views.deregister),
 	url(r'^litfest$', views.litfest),
 	url(r'^spokenword$', views.spokenword),
+	url(r'^media/(?P<path>.*)$', serve, {
+            'document_root': settings.MEDIA_ROOT,
+        }),
     # url(r'^mypledge_message$', views.message),
 ]
