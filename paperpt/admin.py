@@ -7,7 +7,7 @@ from django.contrib import admin
 
 class  DisplayPaperpt(admin.ModelAdmin):
     list_display = ('user','get_name','get_elanid','file',)
-    search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids']
+    search_fields = ['user','user__username','user__profile__full_name','user__profile__elanids']
 
     def get_name(self, obj):
 		return obj.user.profile.full_name
