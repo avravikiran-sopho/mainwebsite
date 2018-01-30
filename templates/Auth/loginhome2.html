@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bungee|Orbitron" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{% static 'css/home/nav.css' %}">
 <style>
-  	
+
 .spot {
   position: absolute;
   width: 100%;
@@ -17,7 +17,7 @@
   left: 0;
 }
 /*
-    This is the outer svg wrapper that the SVG itself will 
+    This is the outer svg wrapper that the SVG itself will
     fill. Multiple svg-wrapper classes can be put side by side.
 */
 
@@ -47,7 +47,7 @@
   stroke-dashoffset: -220;
   transition: 1s all ease;
 }
-/* 
+/*
     Pushing the text up into the SVG. Without this the
     text would be below the div's.
 */
@@ -63,7 +63,7 @@
   font-weight: 100;
   font-size: 1.1em;
 }
-/* 
+/*
     Changing the shape on hover. I change the color of the stroke,
 make it thinner, then set it to again wrap around the entire parent element.
 */
@@ -74,6 +74,11 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-dashoffset: 0;
   stroke: #06D6A0;
 }
+
+.cbp-spmenu a.nav-link {
+
+  height: 2vh;
+}
   </style>
 
 <body>
@@ -82,19 +87,17 @@ make it thinner, then set it to again wrap around the entire parent element.
 
 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
     <h3 style="margin: 0;"><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
-    <a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+    <a class="nav-link is_active" href="/login"><i class="fa fa-ticket" aria-hidden="true"></i>Register</a>
+    <a class="nav-link " href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
     <a class="nav-link " href="/events"><i class="fa fa-trophy" aria-hidden="true"></i>Events</a>
-    <a class="nav-link" href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
+    <a class="nav-link " href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
     <a class="nav-link" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</a>
     <a class="nav-link" href="/team"><i class="fa fa-users" aria-hidden="true"></i>Team</a>
     <a class="nav-link" href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>Pronites</a>
-    {% if user.is_authenticated %}
-    <a class="nav-link" href="/newsite/dashboard"><i class="fa fa-id-card" aria-hidden="true"></i>EN18IITH{{ profile.elanids|stringformat:"05d" }}</a>
-    <a class="nav-link" style="font-size:0.9em;"><i class="fa fa-envelope" aria-hidden="true"></i>{{ user.get_username }}</a>
-    <a class="nav-link" href="/login/logout"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
-    {% else %}
-    <a class="nav-link is_active" href="/login"><i class="fa fa-ticket" aria-hidden="true"></i>Register</a>
-    {% endif %}
+    <a class="nav-link" href="/hackathon"><i class="fa fa-header" aria-hidden="true"></i>Hackathon</a>
+    <a class="nav-link" href="/litfest"><i class="fa fa-pencil" aria-hidden="true"></i>Litfest</a>
+	<a class="nav-link" href="/mypledge"><i class="fa fa-envira" aria-hidden="true"></i>Social Cause</a>
+	<a class="nav-link" href="/#accomo"><i class="fa fa-bed" aria-hidden="true"></i>Accomodation</a>
     <div class="social">
   <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
   <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
@@ -135,25 +138,25 @@ make it thinner, then set it to again wrap around the entire parent element.
             <form  id="login_form" action="/login/do_login/" method="post" autocomplete="on">
               {% csrf_token %}
               <h1 class="form_title">Sign	 In</h1>
-              <p> 
+              <p>
               <i class="fa fa-user" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
               <!-- <label for="username" class="uname">E-mail/Username</label> -->
               {{ LoginForm.username }}
               </p>
-              <p> 
+              <p>
                 <i class="fa fa-key" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                 <!-- <label for="password" class="youpasswd"> Password </label> -->
                 {{ LoginForm.password }}
               </p>
 <!--
-              <p class="keeplogin"> 
-                <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+              <p class="keeplogin">
+                <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
                 <label for="loginkeeping">Keep me logged in</label>
-              </p> 
+              </p>
 -->
 
-              <p class="login button" style="text-align: center;"> 
-                <input type="submit" value="Login" /> 
+              <p class="login button" style="text-align: center;">
+                <input type="submit" value="Login" />
               </p>
 
 						<!-- <div class="login-btn-cont">
@@ -166,7 +169,7 @@ make it thinner, then set it to again wrap around the entire parent element.
                 </svg>
               </div>
 						</div> -->
-            
+
             <p class="change_link">
               <a href="/password_reset" style="float: left;">Forgot Password?</a>
               Not registered yet?
@@ -178,38 +181,38 @@ make it thinner, then set it to again wrap around the entire parent element.
         <div id="register" class="animate form">
             <form id="reg_form" action="/login/do_register/" method="post">
                 {% csrf_token %}
-                <h1 class="form_title"> Register </h1> 
-                <p> 
+                <h1 class="form_title"> Register </h1>
+                <p>
                     <i class="fa fa-user" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="usernamesignup" class="uname">Username</label> -->
                     {{ ProfileForm.full_name }}
                 </p>
-              <p> 
+              <p>
                     <i class="fa fa-graduation-cap" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="college" class="uname">College</label> -->
                     {{ ProfileForm.college }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-mobile" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:22px;"></i>
                     <!-- <label for="userphone" class="uname">Contact</label> -->
                     {{ ProfileForm.mobile }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-home" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="address" class="uname">Address</label> -->
                     {{ ProfileForm.adress }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-home" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="address" class="uname">Address</label> -->
                     {{ ProfileForm.city }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-home" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="address" class="uname">Address</label> -->
                     {{ ProfileForm.country }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-home" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="address" class="uname">Address</label> -->
                     {{ ProfileForm.zipcode }}
@@ -217,25 +220,25 @@ make it thinner, then set it to again wrap around the entire parent element.
                 <p>
                   {{ ProfileForm.gender }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-envelope" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="emailsignup" class="youmail">E-mail</label> -->
-                    {{ RegisterForm.username }} 
+                    {{ RegisterForm.username }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-key" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="passwordsignup" class="youpasswd">Password</label> -->
                     {{ RegisterForm.password1 }}
                 </p>
-                <p> 
+                <p>
                     <i class="fa fa-key" style="position:absolute;padding-left:8px;padding-top:15px;color:rgb(73,68,68);font-size:18px;"></i>
                     <!-- <label for="passwordsignup_confirm" class="youpasswd">Confirm Password </label> -->
                     {{ RegisterForm.password2 }}
                 </p>
-                
-                                
-                 <p class="signin button" style="text-align: center;"> 
-									<input type="submit" value="Sign up"/> 
+
+
+                 <p class="signin button" style="text-align: center;">
+									<input type="submit" value="Sign up"/>
 								</p>
 								<!-- <div class="login-btn-cont">
 									<div class="svg-wrapper reg-svg-cont">
@@ -247,15 +250,15 @@ make it thinner, then set it to again wrap around the entire parent element.
                   </svg>
                   </div>
                 </div> -->
-    
-                <p class="change_link">  
+
+                <p class="change_link">
 									Already registered?
 									<a href="#tologin" class="to_register"> Sign In </a>
 								</p>
             </form>
-          </div>						
           </div>
-      </div>  
+          </div>
+      </div>
   </section>
 </div>
 </body>
