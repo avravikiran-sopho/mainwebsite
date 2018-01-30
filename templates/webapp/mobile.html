@@ -105,6 +105,21 @@ position:absolute;
 
 </style>
 
+<style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+</style>
 </head>
 
 <body>
@@ -148,7 +163,7 @@ position:absolute;
     {% endif %}
     <a class="nav-link is_active" href="/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
     <a class="nav-link" href="/events"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;Events</a>
-    <a class="nav-link" href="/sponsors"><i class="fa fa-handshake" aria-hidden="true"></i>&nbsp;Sponsors</a>
+    <a class="nav-link" href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;Sponsors</a>
     <a class="nav-link" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>&nbsp;Workshops</a>
     <a class="nav-link" href="/team"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Team</a>
     <a class="nav-link" href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;Pronites</a>
@@ -156,10 +171,10 @@ position:absolute;
 		<a class="nav-link" href="/litfest"><i class="fa fa-pencil" aria-hidden="true"></i>Litfest</a>
 	<a class="nav-link" href="/mypledge"><i class="fa fa-envira" aria-hidden="true"></i>Social Cause</a>
     <div class="social">
-  <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fas fa-facebook"></i></a>
-  <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fas fa-twitter"></i></a>
-  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fas fa-youtube"></i></a>
-  <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fas fa-instagram"></i></a>
+  <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" class="icon fb"><i class="fa fa-youtube-play"></i></a>
+  <a href="https://www.instagram.com/elan_and_nvision/" target="_blank" class="icon fb"><i class="fa fa-instagram"></i></a>
 </div>
 </nav>
 
@@ -264,14 +279,31 @@ position:absolute;
 		</div>
 	</div>
 </div>
+
+<div class="container" id="social" style="text-align: center;background: url(../../static/img/social/1727.jpg);">
+	<div class="blocmiddle" style="margin-top:1em;">
+		<h1 class="hrafter">SOCIAL CAUSE</h1>
+		<img src="{% static 'img/social/1727.jpg' %}" style="max-width:80%;max-height:20vh;" alt="">
+		<p class="paragraph" style="color: #fff;font-family:sans-serif;font-family: 'Poiret One', cursive;margin:0 auto; max-width:90%;"><br><br>We live in a wonderful world that is full of beauty, charm and adventure, and we want to save it for our future generations.</p><br><br><p style="font-size:2.8em;font-family:'BernardoModaSemibold';"><b>#myEcoPledge</b></p>
+		<a href="/mypledge" class="ghost-button-thick-border" style="padding-top:0.7em;margin-top:1em;margin-bottom:2em;font-family: 'Poiret One', cursive;">Know More</a>
+	</div>
+</div>
+
 <div class="container" id="accomo">
 	<div class="blocmiddle">
 		<h1 class="hrafter">Accomodation</h1>
 		<p class="paragraph" style="color: #fff;font-family:sans-serif;font-family: 'Poiret One', cursive;margin:0 auto; max-width:90%;">Accommodation during the fest will be provided from 9th to 11th Feb. <br><br> Accommodation will start from 9th Feb 6:00 P.M.</p>
-		<a href="https://elan.org.in/static/pdf/rules.pdf" target="_blank" class="ghost-button-thick-border" style="padding-top:0.7em;margin-top:1em;font-family: 'Poiret One', cursive;">Rules</a>
+		<a href="https://elan.org.in/static/pdf/rules.pdf" target="_blank" class="ghost-button-thick-border" style="padding-top:0.7em;margin-top:1em;font-family: 'Poiret One', cursive;">Rules</a><br>
 		<a href="https://www.townscript.com/e/elan-nvision-accommodation-241002" target="_blank" class="ghost-button-thick-border" style="padding-top:0.7em;margin-top:1em;font-family: 'Poiret One', cursive;">Pay</a>
 	</div>
 </div>
+
+<!-- MAPS -->
+<!-- <div class="google-maps">
+    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=IIT%20Hyderabad&key=AIzaSyA-T7XjKQnAuCeMnRyU7S3chvQEx9w1Pwg" allowfullscreen></iframe>
+</div> -->
+<!-- /MAPS -->
+
 <footer id="section13" style="display:none;">
 
 	<div class="container">
