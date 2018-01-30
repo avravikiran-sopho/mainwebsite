@@ -1,6 +1,8 @@
 
 from . import views
 from django.conf.urls import include,url
+from django.views.static import serve
+from django.conf import settings
 
 urlpatterns = [
 	url(r'^$', views.index),
