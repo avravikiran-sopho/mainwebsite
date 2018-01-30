@@ -499,8 +499,8 @@ But what is the solution? <br>
 </div>
 
 </div>
-<div class="section12" style="display:none">
-	<div class="slide-info">
+<div class="section12">
+	<div class="slide-info" >
 		<div class="legume legume1"><img src=""></div>
 		<div class="legume legume2"><img src=""></div>
 		<div class="legume legume3"><img src=""></div>
@@ -512,35 +512,36 @@ But what is the solution? <br>
 
 
 	</div>
-	<div class="info-container">
+	<div class="info-container" style="color:white;">
 			<div class="info">
 
-				<div class="horaires">
-					<div class="title">
-												<h3>Lorm Ipsu</h3>
-													<div class="days">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt				</div>
-							<div class="hours">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt		</div>
+				<div class="horaires" style="margin-bottom1%;">
+					<div class="title" style="width:100%;">
+												<h2>Accomodation</h2>
+												<p style="font-size:24px;font-weight:bold;line-height:1.5em;">
+								Accommodation during ELAN & nvision will be provided from 9th to 11th Feb. Accommodation will start from 9th Feb 6:00 pm.<br>
+							<a target="_blank" href="{% static 'pdf/rules.pdf' %}"><button style="border: white solid 3px;padding:0.3em;" class="btn1"><span style="color:white;font-size:0.6em;">Rules to be followed in the campus</span></button></a>
 
 					</div>
 				</div>
 
-				<div class="phone">
-					<h3>Lorem Ipsum</h3>
-					<p>12 34 56 78 91 20</p>
-				</div>
+				<div class="phone" style="margin:1%";>
+					<h2>Venue</h2>
+					<p style="font-size:24px;font-weight:bold;">Indian Institute of Technology Hyderabad<br><br>
+					Kandi, Sangareddy 502285<br><br>
+					Telangana, INDIA</p>
+				</div><br>
 
 				<div class="likeus">
-					<h3>Lorem Ipsum</h3>
+					<a target="_blank" href="https://www.townscript.com/e/elan-nvision-accommodation-241002"><button class="btn1" style="border: white solid 3px;"><span style="color:white;font-size:0.8em;">Pay for Accomodation</span></button></a>
 					<div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 				</div>
 
 
 			</div>
 		</div>
-	<div class="map">
-		<div class="infomap">
+	<div class="map" >
+		<div class="infomap" style="display:none">
 			<div class="align-middle">
 				<div class="address">
 					<a href="">
@@ -949,4 +950,19 @@ But what is the solution? <br>
 		$(this).find('i').toggleClass('fa-hover');
 	});
 </script>
+<script>
+function initMap() {
+			var iith = {lat: 17.594703, lng:78.123105};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 4,
+				center: iith
+			});
+			var marker = new google.maps.Marker({
+				position: iith,
+				map: map
+			});
+		}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-T7XjKQnAuCeMnRyU7S3chvQEx9w1Pwg&callback=initMap"></script>
 </html>

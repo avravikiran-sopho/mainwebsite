@@ -913,7 +913,7 @@ $('.card').on('click',function () {
         <div class='tab-content'>\
         <div class='tab-pane active' id='1a'>\
         <h1>Introduction:</h1>\
-        <p>Proquest is a competitive programming competition composed of three levels, for participants of all levels of expertise. Experience the beginner, medium and advance levels of programming from pen and paper programming to a truly challenging problem statement.</p>\
+        <p>Proquest is a competitive programming competition composed of two levels, for participants of all levels of expertise. Experience different levels of programming from pen and paper programming to a truly challenging problem statements.</p>\
         <p>Event will be on 10th or 11th Febuary 2018</p>\
         </div>\
         <div class='tab-pane' id='2a'>\
