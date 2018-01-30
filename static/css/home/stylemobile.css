@@ -392,6 +392,14 @@ sup {
 		transform: rotate(180deg);
 }
 
+.hrafter:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #fff; /* This creates the border. Replace black with whatever color you want. */
+}
 
 #msection_abt{
 	background-color: #ffda81;
@@ -1304,6 +1312,16 @@ ul li .blocRight {
 .menu-icon-svg.is-closed svg {
 	-webkit-animation: pathanimation-out 0.5s linear;
 	animation: pathanimation-out 0.5s linear;
+}
+
+#accomo{
+	text-align: center;
+	background: #E98E7D;
+}
+
+#accomo>div.blocmiddle{
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 @-webkit-keyframes pathanimation {
