@@ -47,4 +47,3 @@ admin.site.register(EventRegister, DisplayEventRegister)
 admin.site.register(TeamLeader, DisplayTeamLeader)
 admin.site.register(Team, DisplayTeam)
 admin.site.register(SpokenWord, DisplaySpokenWord)
-

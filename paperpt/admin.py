@@ -4,4 +4,17 @@ from .models import paperpt
 from django.contrib import admin
 
 # Register your models here.
-admin.site.register(paperpt)
+
+class  DisplayPaperpt(admin.ModelAdmin):
+    list_display = ('user','get_name','get_elanid','file',)
+    search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids']
+
+    def get_name(self, obj):
+		return obj.user.profile.full_name
+    get_name.short_description = 'Name'
+
+    def get_elanid(self, obj):
+		return obj.user.profile.elanids
+    get_elanid.short_description = 'Elanid'
+
+admin.site.register(paperpt,DisplayPaperpt)
