@@ -6,10 +6,12 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Elan & nvision 2018</title>
+    <title>Spoken Word | Elan & &eta;Vision 2k18 | Litr Workshop | IIT Hyderabad</title>
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon.png' %}">
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -18,18 +20,38 @@
     <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
+    <meta name="description" content="Spoken Word Poetry Workshop by Litr @ Elan & nVision 2k18, IIT Hyderabad">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Spoken Word Poetry Workshop by Litr @ Elan & nVision 2k18, IIT Hyderabad">
+    <meta property="og:description" content="Spoken Word Poetry Workshop by Litr @ Elan & nVision 2k18, IIT Hyderabad">
+    <meta property="og:site_name" content="Elan & nVision 2k18">
 
     <!-- Custom styles for this template -->
     <link href="{% static 'css/spoken/grayscale.css' %}" rel="stylesheet">
 
   </head>
 
+  <!-- CUSTOM STYLING -->
+
+  <style>
+    .brand-img-norm{
+      max-width: 35%;
+    }
+    .brand-img-shrink{
+      max-width:25%;
+    }
+    #brand-img{
+      transition: all ease 0.3s;
+    }
+  </style>
+
   <body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="text-transform: lowercase !important">elan & &#951;vision</a>
+        <a class="navbar-brand js-scroll-trigger" href="https://elan.org.in" style="text-transform: lowercase !important"><img src="{% static 'img/new_logo_big.png' %}" alt="ELAN & nVision 2k18" class="img-rounded pull-left" id="brand-img"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -59,6 +81,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 mx-auto">
+              <a href="http://atkt.in"><img src="{% static 'img/spoken/atkt.png' %}" alt="atkt.in" class="img-rounded center-block" style="max-width:10%;"></a>
               <h1 class="brand-heading">Spoken Word</h1>
               <p class="intro-text">Learn | Write | Perform</p>
               <p class="intro-text">A Workshop by Abhinaya Murthy</p>
@@ -153,6 +176,7 @@
     <!-- Custom scripts for this template -->
     <script src="{% static 'js/spoken/grayscale.min.js' %}"></script>
 
+
     <script>
       function initMap() {
         var myLatLng = {lat: 17.5871303, lng: 78.1228921};
@@ -174,6 +198,7 @@
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7l-Y90wLTdLfa7qCwCTMJmbwVj0Bpf1A&sensor=false&callback=initMap"></script>
+
 
   </body>
 
