@@ -6,7 +6,7 @@ from django.conf import settings
 
 urlpatterns = [
 	url(r'^$', views.index),
-    url(r'^mobile$', views.mobile),
+    url(r'^mobile/$', views.mobile),
     url(r'^team$', views.team),
     url(r'^events$', views.events),
     url(r'^dashboard$', views.dashboard),

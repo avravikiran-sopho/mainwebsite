@@ -26,8 +26,18 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
+	var urls      = window.location.href;
+	console.log(urls);
+
 	if ($(window).width() <= 768) {
-		window.location.href = "/mobile";
+
+		if (urls.indexOf("accomo") >= 0) {
+			window.location.href = "/mobile/#accomo";
+		}
+		else {
+			window.location.href = "/mobile/";
+		}
+
 	};
 </script>
 
@@ -955,19 +965,7 @@ But what is the solution? <br>
 		$(this).find('i').toggleClass('fa-hover');
 	});
 </script>
-<script>
-function initMap() {
-			var iith = {lat: 17.594703, lng:78.123105};
-			var map = new google.maps.Map(document.getElementById('map'), {
-				zoom: 4,
-				center: iith
-			});
-			var marker = new google.maps.Marker({
-				position: iith,
-				map: map
-			});
-		}
-</script>
+
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-T7XjKQnAuCeMnRyU7S3chvQEx9w1Pwg&callback=initMap"></script>
 </html>
