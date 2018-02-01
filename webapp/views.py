@@ -136,6 +136,9 @@ def workshops(request):
 	else:
 		return render(request,'webapp/workshops.html')
 
+def workshopnew(request):
+		return render(request,'webapp/workshops_new.html')
+
 @login_required
 def dashboard(request):
 	profile = Profile.objects.get(user = request.user)
