@@ -24,6 +24,7 @@ urlpatterns = [
 	url(r'^deregister$', views.deregister),
 	url(r'^litfest$', views.litfest),
 	url(r'^spokenword$', views.spokenword),
+	url(r'^associate$', views.associate),
 	# url(r'^wnew$', views.workshopnew),
 	url(r'^media/(?P<path>.*)$', serve, {
             'document_root': settings.MEDIA_ROOT,

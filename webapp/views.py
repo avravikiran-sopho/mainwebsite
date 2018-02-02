@@ -65,6 +65,9 @@ def litfest(request):
 def litw(request):
 	return render(request,'webapp/litr_workshop.html')
 
+def associate(request):
+	return render(request,'webapp/associate.html')
+
 def social(request):
 	if request.method == "POST":
 		form = socialForm(request.POST)
