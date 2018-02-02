@@ -65,6 +65,9 @@ def litfest(request):
 def litw(request):
 	return render(request,'webapp/litr_workshop.html')
 
+def associate(request):
+	return render(request,'webapp/associate.html')
+
 def social(request):
 	if request.method == "POST":
 		form = socialForm(request.POST)
@@ -135,6 +138,9 @@ def workshops(request):
 		return render(request,'webapp/workshops.html',{'profile':profile})
 	else:
 		return render(request,'webapp/workshops.html')
+
+def workshopnew(request):
+		return render(request,'webapp/workshops_new.html')
 
 @login_required
 def dashboard(request):
