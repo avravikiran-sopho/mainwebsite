@@ -1,16 +1,26 @@
 
     {% load static %}
     {% include "base.html" %}
-    <title>Sponsors | ELAN & ηvision 2018</title>
+    <title>Sponsors | ELAN & ηvision 2k18 | IIT Hyderabad</title>
     <!-- FAVICONS -->
   	<link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
   	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon.png' %}">
+    <meta name="description" content="Sponsors Elan & nVision 2k18, IIT Hyderabad">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sponsors Elan & nVision 2k18, IIT Hyderabad">
+    <meta property="og:description" content="Sponsors Elan & nVision 2k18, IIT Hyderabad">
+    <meta property="og:site_name" content="Elan & nVision 2k18">
     <!-- Bootstrap -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/sponsors.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <style type="text/css">
+      h2{
+        font-size:1.8em;
+        font-family: 'Montserrat', sans-serif;
+      }
       .logo-div {
           width: 100%;
           text-align: center;
@@ -29,30 +39,11 @@
       width: 100%;
     }
 }
-
+    *{
+      transition: all 0.3s ease;
+    }
     </style>
-  <!--Body section-->
-    <!--Commenting out the navbar
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="../Home_main/index.html" class="navbar-brand"><img src = " ./icons/newlogo.png' %}" class="img-responsive" style="width:49.9px; height:41.1px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 18px">
-        <ul class="nav navbar-nav ml-auto navstyle">
-          <li class="nav-item">
-            <a class="nav-link" href="../Home_main/index.html">Home </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Sponsors 2018 <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="spons2017.html">Sponsors 2017</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
     <!-- Nav -->
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
     <h3 style="margin: 0;"><img src="{% static 'img/home/p0_1_new.png' %}" alt="Elan & &eta;Vision 2018"></h3>
@@ -88,8 +79,9 @@
         <!-- nav ends -->
 
     <div class="logo-div" style="margin-top:2%;">
-      <a href="/"><img src="/static/img/logo.png" class="logo"></a>
-    </div>
+      <a href="/"><img src="/static/img/new_logo_big.png" class="logo"></a>
+    </div><br>
+    <br>
     <div class= "container" style="text-align: center;margin-top:2%;">
       <h2 class="title-font">Title Sponsor</h2>
 
@@ -98,76 +90,76 @@
         <a class="thumbnail" style="width: 100%" target="_blank" href="http://www.cyient.com/">
           <img class="img-responsive" src="{% static 'img/beta/sponsors/cyient.jpg' %}">
         </a><br>
-        <h3>CYIENT</h3>
-      </div>
+      <br>  <h3>CYIENT</h3>
+      </div><br>
         <div class="row">
 
             <div class="col-sm-4" align="center">
-                <h2>Major Sponsor</h2>
+                <h2>Major Sponsor</h2><br>
                 <a href="http://www.whataftercollege.com/"><img style="width:80%" class="blueshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/wac.png' %}"></a>
-                <h3>What After College</h3>
+                  br<h3>What After College</h3>
             </div>
             <div class="col-sm-4" align="center">
-                <h2>Major Sponsor</h2>
+                <h2>Major Sponsor</h2><br>
                 <a href="http://www.gailonline.com"><img style="width:90%" class="blueshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/gail.png' %}"></a>
-                <h3>GAIL</h3>
+                  br<h3>GAIL</h3>
             </div>
             <div class="col-sm-4" align="center">
-                <h2>Major Sponsor</h2>
-                <a href="http://www.pfcindia.com/"><img style="width:70%" class="blueshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/pfc.jpg' %}"></a>
-                <h3>PFC</h3>
+                <h2>Major Sponsor</h2><br>
+                <a href="http://www.pfcindia.com/"><img style="width:65%" class="blueshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/pfc.jpg' %}"></a>
+                <br><h3>PFC</h3>
             </div>
-        </div>
+        </div><br><br>
         <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <h2> Outreach partner</h2>
+                <h2> Outreach partner</h2><br>
                 <a href="http://www.azureskynet.com/"><img style="width:60%;" class="shadow img-responsive rounded img-thumbnail" src="{% static 'img/beta/sponsors/azure.jpg' %}"></a>
-                <h3>Azure Skynet</h3>
+                <br><h3>Azure Skynet</h3>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <h2> Outreach partner</h2>
+                <h2> Outreach partner</h2><br><br><br>
                 <a href="https://entrench.in/"><img class="shadow img-responsive rounded img-thumbnail" src="{% static 'img/beta/sponsors/entrench.jpg' %}"></a>
-                <h3>Entrench Electronics</h3>
+                <br><h3>Entrench Electronics</h3>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <h2> Outreach partner</h2>
+                <h2> Outreach partner</h2><br><br><br>
                 <a href="http://www.skillthon.com/"><img class="shadow img-responsive rounded img-thumbnail" src="{% static 'img/beta/sponsors/skillthon.png' %}"></a>
-                <h3>Skillthon</h3>
+              <br>  <h3>Skillthon</h3>
             </div>
-        </div>
+        </div><br><br>
         <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <h2>Workshop partner</h2>
+                <h2>Workshop partner</h2><br>
                 <a href="https://www.techtrontechnologies.com/"><img class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/beta/sponsors/techtron.jpg' %}"></a>
-                <h3>Techtron Technologies</h3>
+                <br><h3>Techtron Technologies</h3>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <h2>Online Events partner</h2>
+                <h2>Online Events partner</h2><br>
                 <a href="https://in.mathworks.com/"><img class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/mathworks.jpg' %}"></a>
-                <h3>Mathworks</h3>
+              <br>  <h3>Mathworks</h3>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <h2>Online Events partner</h2>
+                <h2>Online Events partner</h2><br>
                 <a href="https://www.hackerearth.com/"><img class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/hackerearth.png' %}"></a>
-                <h3>Hackerearth</h3>
+              <br>  <h3>Hackerearth</h3>
             </div>
-        </div>
+        </div><br><br>
         <div class="row">
-            <div class="col-md-6 col-sm-4 col-xs-4 col-md-offset-4" >
-                <h2>Coding partner</h2>
-                <a href="https://www.ibm.com"><img class="whiteshadow img-responsive rounded img-thumbnail" style="max-width:80%;" src="{% static 'img/sponsors/ibm.jpg' %}"></a>
-                <h3>IBM</h3>
+            <div class="col-md-6 col-sm-4 col-xs-4 col-md-offset-5" >
+                <h2>Coding partner</h2><br>
+                <a href="https://www.ibm.com"><img class="whiteshadow img-responsive rounded img-thumbnail" style="max-width:60%;" src="{% static 'img/sponsors/ibm.jpg' %}"></a>
+                <br><h3>IBM</h3>
             </div>
             <div class="col-md-6 col-sm-4 col-xs-4 ">
-                <h2>Voice Partner</h2>
+                <h2>Voice Partner</h2><br>
                 <a href="http://www.radiomirchi.com/"><img class="whiteshadow img-responsive rounded img-thumbnail" style="max-width:50%;" src="{% static 'img/sponsors/radiomirchi.png' %}"></a>
-                <h3>radio Mirchi</h3>
+              <br>  <h3>Radio Mirchi</h3>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4" style="display:none">
-                <h4>Online Events partner</h4>
+                <h4>Online Events partner</h4><br>
                 <a href="https://www.hackerearth.com/"><img class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/hackerearth.png' %}"></a>
             </div>
-        </div>
+        </div><br><br>
 
         <h1>Previous Sponsors</h1>
         <h4 class="title-font">Title Sponsor</h4>
