@@ -50,6 +50,14 @@ def cisco(request):
 		return render(request,'webapp/cisco.html',{'profile':profile})
 	else:
 		return render(request,'webapp/cisco.html')
+
+def ibm(request):
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		return render(request,'webapp/ibm.html',{'profile':profile})
+	else:
+		return render(request,'webapp/ibm.html')
+
 def facebookbot(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)

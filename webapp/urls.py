@@ -14,6 +14,7 @@ urlpatterns = [
     url(r'^pronites$', views.pronites),
     # url(r'^workshops$', views.workshops),
     url(r'^workshops$', views.workshopnew),
+	url(r'^freeworkshops$', views.workshops),
     url(r'^cisco$', views.cisco),
     url(r'^hackathon$', views.hackathon),
     url(r'^facebookbot$', views.facebookbot),
@@ -25,6 +26,7 @@ urlpatterns = [
 	url(r'^litfest$', views.litfest),
 	url(r'^spokenword$', views.spokenword),
 	url(r'^associate$', views.associate),
+	url(r'^ibm$', views.ibm),
 	# url(r'^wnew$', views.workshopnew),
 	url(r'^media/(?P<path>.*)$', serve, {
             'document_root': settings.MEDIA_ROOT,
