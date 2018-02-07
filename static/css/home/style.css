@@ -1127,7 +1127,7 @@ h1{
     color: white;
     line-height: 30px;
     font-size: 1.4em;
-    font-weight: bolder;
+		font-weight: normal;
     font-family: BernardoModa;
 }
 
@@ -1868,7 +1868,7 @@ a.rslides_nav.rslides1_nav.prev {
 .section9 .paragraph{
 
 	position: absolute;
-	bottom: 95vh;
+	bottom: 30%;
     left: calc(55% - 10px);
 }
 .paragraph h1{
