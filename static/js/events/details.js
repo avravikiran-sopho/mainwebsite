@@ -65,7 +65,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize:</h1>\
-          <p>Prizes Worth INR 10,000/-</p>\
+          <p>Prizes Worth INR 10,000*/-</p>\
+          <p>Prizes will be given after April 2nd 2018</p>\
           <h1>Organisers:</h1>\
           <p>Vivek vardhan-9701103218<br>Chakradhar-8500584109<br>Athava Naga Teja-7660827557<br>Dheeraj-9640783673</p>\
           <h1>Contact:</h1>\
@@ -109,7 +110,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 5,000/-</p>\
+        <p>Prizes Worth INR 5,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Gowtham -9705311199<br>Abhishek Bairagi-7089079662<br>Gaurav Gijare-7058906800\
         </p>\
@@ -160,7 +162,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>Prize:</h1>\
-          <p>Prize:INR 20,000/-</p>\
+          <p>Prize:INR 20,000*/-</p>\
+          <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>\
         Ketan iyengar-9769563302<br>\
@@ -211,7 +214,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-         <p>Prizes Worth INR 10,000/-</p>\
+         <p>Prizes Worth INR 10,000*/-</p>\
+         <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Pran prateep-9494688054<br>Sumanth-9640493740<br>Saketh-8790774329 <br>Md Bilal-8125908531</p>\
         <h1>Contact:</h1>\
@@ -263,7 +267,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 10,000/-</p>\
+        <p>Prizes Worth INR 10,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Venkat-9490552078<br>\
         Sagar Balla-+91 90108 60164<br>\
@@ -313,7 +318,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 20,000/-</p>\
+        <p>Prizes Worth INR 20,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Sreekanth-+91 94920 01624<br>\
         Sushanth-+91 95507 90976<br>\
@@ -359,7 +365,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 3,000/-</p>\
+        <p>Prizes Worth INR 3,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Keshav Chouksey</p>\
         <p>+91 9424485766</p>\
@@ -400,7 +407,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 3,000/-</p>\
+        <p>Prizes Worth INR 3,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organizers</h1>\
         <p>Keshav Chouksey</p>\
         <p>+91 9424485766</p>\
@@ -451,7 +459,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 15,000/-</p>\
+        <p>Prizes Worth INR 15,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Akshar kota-9440021015<br>Radhakrishna -9704179963<br>vijay-9492867842<br>Akhil George-9445299569</p>\
         <h1>Contact:</h1>\
@@ -498,7 +507,7 @@ $('.card').on('click',function () {
         </p></div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 50,000/-\ </p>\ <h1>Organisers</h1>\
+        <p>Prizes Worth INR 50,000*/-\ </p>\ <p>Prizes will be given after April 2nd 2018</p>\ <h1>Organisers</h1>\
         <p>sachin - 7207873406<br>Ayush Negi - 828003282<br>Sai Sandeep - 9177785183<br>Lokesh - 9010880613<br>Trinadh - 9666254100</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
@@ -542,7 +551,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p> Prizes Worth INR 50,000/-\
+        <p> Prizes Worth INR 50,000*/-\
+        <p>Prizes will be given after April 2nd 2018</p>\
         </p>\
         <h1>Organisers</h1>\
         <p>Abhilash Reddy-8096811565<br>Dinesh Chandra -8555930809<br>Revanth Naik-97012 09025</p>\
@@ -584,7 +594,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize:</h1>\
-        <p>Prizes Worth INR 40,000/-</p>\
+        <p>Prizes Worth INR 40,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Vagesha Vardhan-9786954979<br>Bhanu Prasad-9100292117<br>N Yashodhan Reddy - 9553999950<br>Manohar Reddy - 7382082375<br>Srihas-7093313695</p>\
         <h1>Contact:</h1>\
@@ -632,7 +643,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 25,000/-</p>\
+        <p>Prizes Worth INR 25,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Shanmukha Rao Samanthula-9000273721<br>Maniteja -9010774589<br>Abhilash-97013 40387<br>Venkat-9494219983</p>\
         <h1>Contact:</h1>\
@@ -678,7 +690,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 15,000/-</p>\
+        <p>Prizes Worth INR 15,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Baasha-9848604799<br>Khaja Redyy-7382013283<br>Sunil varma- 8317682299<br>Srihith paruchuru- 8332003346</p>\
         <h1>Contact:</h1>\
@@ -739,7 +752,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1><p>\
-        Prizes Worth INR 20,000/-</p>\
+        Prizes Worth INR 20,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Raja Pradyumna-7093328322<br>Ashish-8500183293<br>Haveesh Singirikonda-7799665254</p>\
         <h1>Contact:</h1>\
@@ -797,7 +811,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1><p>\
-        Prizes Worth INR 10,000/-</p>\
+        Prizes Worth INR 10,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -844,7 +859,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize:</h1><p>\
-        Prizes Worth INR 10,000/-</p>\
+        Prizes Worth INR 10,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
         <h1>Contact:</h1>\
@@ -888,7 +904,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1><p> \
-        Prizes Worth INR 20,000/-\
+        Prizes Worth INR 20,000*/-\
+        <p>Prizes will be given after April 2nd 2018</p>\
         </p>\
         <h1>Organisers</h1>\
         <p>Will be updated soon</p>\
@@ -931,7 +948,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize</h1><p> \
-        Prizes Worth INR 20,000/-</p>\
+        Prizes Worth INR 20,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Deepak Nathani-9177289949<br>Adarsh Bandi-9640724328<br>Varun Perumalla-7674024633</p>\
         <h1>Contact:</h1>\
@@ -975,7 +993,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize: </h1><p> \
-        Prizes Worth INR 10,000/-</p>\
+        Prizes Worth INR 10,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Deepak Nathani-9177289949<br>Surgan jandial-9419243611<br>Rishi-9100641264</p>\
         <h1>Contact:</h1>\
@@ -1022,7 +1041,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1> Prize: </h1><p> \
-        Prize Worth: INR 4,000/-</p>\
+        Prize Worth: INR 4,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Tribhuvan-9494376070<br>Srivamshi-9515789977<br>Abhiram-7901480409<br>Gajanan-9492922371</p>\
         <h1>Contact:</h1>\
@@ -1067,7 +1087,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize:</h1><p>\
-        Prize Worth: INR 4,000/-</p>\
+        Prize Worth: INR 4,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers</h1>\
         <p>Mann Khivasara-9403909136<br>Cholleti Alekhya-7981127888</p>\
         <h1>Contact:</h1>\
@@ -1193,7 +1214,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='5a'>\
         <h1>PRIZES:</h1>\
-        <p>Prizes worth Rs.55,000.</p>\
+        <p>Prizes worth Rs.55,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <p>The winners from each category would be selected for the HIP-HOP INTERNATIONAL(HHI) finals which would be held in Mumbai.</p>\
         <h1>ORGANISERS:</h1><p>\
         Raktim Goswami - 8255061193<br>\
@@ -1249,7 +1271,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
           <h1>PRIZES:</h1><p>\
-        Prizes worth INR 15,000.</p>\
+        Prizes worth INR 15,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1><p>\
         Hema Varshita - 8096355327\
         </p>\
@@ -1291,7 +1314,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.10,000.</p>\
+        Prizes worth Rs.10,000*.</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         Will be updated soon.</p>\
         </div>\
@@ -1344,7 +1368,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.15,000.</p>\
+        Prizes worth Rs.15,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <p>The winner and the first runner-up of the event will be directly selected for round 2 of ATKT.in Singing Toppers and additionally,top 5 performers will stand a chance to next round depending on the number of views to their videos.</p>\
         <h1>ORGANISERS:</h1><p>\
         Siri Chandana - 9550345920<br>\
@@ -1403,7 +1428,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.15,000.</p>\
+        Prizes worth Rs.15,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1><p>\
         Siri Chandana - 9550345920<br>\
         Prathyusha - 7989240021<br>\
@@ -1468,7 +1494,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.25,000.</p>\
+        Prizes worth Rs.25,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         <p>Will be updated soon</p>\
         </div>\
@@ -1519,7 +1546,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.15,000.</p>\
+        Prizes worth Rs.15,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1><p>\
         Aditya Patel - 7389582623<br>\
         Ahmed Z Sihorwala - 9581151952</p>\
@@ -1567,7 +1595,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.9,000.</p>\
+        Prizes worth Rs.9,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1><p>\
         Manthan Chavan - 9657595883</p>\
         </div>\
@@ -1621,7 +1650,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.15,000.</p>\
+        Prizes worth Rs.15,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         <p>Bharath - 9989493337</p>\
         </div>\
@@ -1666,7 +1696,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.2,000.</p>\
+        Prizes worth Rs.2,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         <p>Will be updated soon</p>\
         </div>\
@@ -1720,8 +1751,9 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.5,000.<br>\
+        Prizes worth Rs.5,000*/-<br>\
         </p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1><p>\
         Pradhyumna M Dinni - 9492586679<br>\
         Sandy Sharma - 7288958195</p>\
@@ -1763,7 +1795,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.3,000.</p>\
+        Prizes worth Rs.3,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         <p>Will be updated soon</p>\
         </div>\
@@ -1812,7 +1845,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.16,000.</p>\
+        Prizes worth Rs.16,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1><p>\
         Vignatha - 9121386955</p>\
         </div>\
@@ -1857,7 +1891,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.1,000.</p>\
+        Prizes worth Rs.1,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         <p>Will be updated soon</p>\
         </div>\
@@ -1902,7 +1937,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.1,000.</p>\
+        Prizes worth Rs.1,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organizers</h1>\
         <p>Will be updated soon.</p>\
         </div>\
@@ -1946,7 +1982,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.1,000.</p>\
+        Prizes worth Rs.1,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         <p>Will be updated soon.</p>\
         </div>\
@@ -1986,7 +2023,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.1,000.</p>\
+        Prizes worth Rs.1,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>ORGANISERS:</h1>\
         <p>Will be updated soon.</p>\
         </div>\
@@ -2035,7 +2073,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
-        Prizes worth Rs.7,000.</p>\
+        Prizes worth Rs.7,000*/-</p>\
         <h1>ORGANISERS:</h1><p>\
         Swetha Gummala - 9618110220</p>\
         </div>\
@@ -2266,7 +2304,8 @@ $('.card').on('click',function () {
         shivarag@elan.org.in<br>\
         91-8885011011</p>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 5000/-</p>\
+        <p>Prizes Worth INR 5000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Contact:</h1>\
           <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -2312,7 +2351,8 @@ $('.card').on('click',function () {
         <h1>Organisers</h1><p>\
         <p>Saurav. C - 9618480733<br>\
         Snehith - 8121618121<br>Dharmgya Sharma-8570040404<br>Parth Bhala-7798231598</p>\ <h1>Prize</h1>\
-        <p>Prizes Worth INR 50,000/-</p>\
+        <p>Prizes Worth INR 50,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
@@ -2359,7 +2399,8 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 20,000/-</p>\
+        <p>Prizes Worth INR 20,000*/-</p>\
+        <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Contact:</h1>\
         <p><a href='mailto:techy@elan.org.in'>techy@elan.org.in</a></p>\
         </div>\
