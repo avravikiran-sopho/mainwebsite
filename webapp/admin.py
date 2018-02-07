@@ -30,9 +30,11 @@ class DisplayEventRegister(admin.ModelAdmin):
 
 class  DisplayTeamLeader(admin.ModelAdmin):
 	list_display = ('user','teamids','event')
+	search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids','teamids']
 
 class  DisplayTeam(admin.ModelAdmin):
 	list_display = ('user','teamids','event')
+	search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids','teamids']
 
 class  DisplaySocial(admin.ModelAdmin):
 	list_display = ('name','email','message')
