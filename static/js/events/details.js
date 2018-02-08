@@ -267,7 +267,7 @@ $('.card').on('click',function () {
         </div>\
         <div class='tab-pane' id='4a'>\
         <h1>Prize</h1>\
-        <p>Prizes Worth INR 10,000*/-</p>\
+        <p>Prizes Worth INR 5,000*/-</p>\
         <p>Prizes will be given after April 2nd 2018</p>\
         <h1>Organisers:</h1>\
         <p>Venkat-9490552078<br>\

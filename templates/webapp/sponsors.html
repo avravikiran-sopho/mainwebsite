@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="{% static 'css/home/nav.css' %}" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <style type="text/css">
+    .row {
+      width: 100%;
+    }
       h2{
         font-size:1.8em;
         font-family: 'Montserrat', sans-serif;
@@ -87,13 +90,22 @@
     <div class= "container" style="text-align: center;margin-top:2%;">
       <h2 class="title-font">Title Sponsor</h2>
 
-
-      <div class="col-md-6 col-sm-6 col-xs-6 offset-sm-3" class="titlesponsors" ><br>
+      <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-6 offset-sm-3 " class="titlesponsors" ><br>
         <a class="thumbnail" style="width: 100%" target="_blank" href="http://www.cyient.com/">
           <img class="img-responsive" src="{% static 'img/beta/sponsors/cyient.jpg' %}">
         </a><br>
       <br>  <h3>CYIENT</h3>
-      </div><br>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-6 offset-sm-3 ">
+                <h2>Associate sponsor</h2><br>
+                <a target="_blank" href="http://www.telanganatourism.gov.in/"><img style="width:100%;" class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/tt.png' %}"></a>
+              <br>  <h3>Telangana Tourism</h3>
+      </div>
+    </div>
+      <br><br>
         <div class="row">
 
             <div class="col-sm-4" align="center">
@@ -200,12 +212,12 @@
          <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-4">
                 <h2>Hackathon Partner</h2><br>
-                <a target="_blank" href="ecell.iith.ac.in/"><img class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/ecell.png' %}"></a>
+                <a target="_blank" href="ecell.iith.ac.in/"><img style="width:60%;" class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/ecell.png' %}"></a>
                 <br><h3>Ecell IITH</h3>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4">
                 <h2>Hackathon partner</h2><br>
-                <a target="_blank" href="https://www.facebook.com/BabuNuvuBtechah/"><img class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/dot_tech.png' %}"></a>
+                <a target="_blank" href="https://www.facebook.com/BabuNuvuBtechah/"><img style="width:60%;" class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/dot_tech.png' %}"></a>
               <br>  <h3>.tech</h3>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4">
@@ -298,17 +310,40 @@
                 <a target="_blank" href="https://smaaash.in/"><img style="width:50%;" class="whiteshadow img-responsive rounded img-thumbnail" style="max-width:85%" src="{% static 'img/sponsors/smaash.png' %}"></a>
                 <br>  <h3>Smaaash</h3>
             </div>
+            <div class="col-md-4 col-sm-4 col-xs-4" id="zebronics">
+                <h2>Experience Partner</h2><br>
+                <a target="_blank" href="https://www.xoxoday.com/"><img style="width:100%;" class="whiteshadow img-responsive rounded img-thumbnail" style="max-width:85%" src="{% static 'img/sponsors/XOXODAY.png' %}"></a>
+                <br>  <h3>Xoxoday</h3>
+            </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-4 ">
-                <h2>Associate sponsor</h2><br>
-                <a target="_blank" href="http://www.telanganatourism.gov.in/"><img style="width:100%;" class="whiteshadow img-responsive rounded img-thumbnail" src="{% static 'img/sponsors/tt.png' %}"></a>
-              <br>  <h3>Telangana Tourism</h3>
-        </div></div><br><br>
+            
+        </div><br><br>
+
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4" >
+                <h2>Cultural Partner</h2><br><br>
+                <a target="_blank" href="https://www.britishcouncil.in/"><img style="width:100%;" class="whiteshadow img-responsive rounded img-thumbnail"  src="{% static 'img/sponsors/british.png' %}"></a>
+                <br><h3>British Council</h3>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4" id="zebronics">
+                <h2>Fitness Partner</h2><br>
+                <a target="_blank" href=""><img style="width:80%;" class="whiteshadow img-responsive rounded img-thumbnail" style="max-width:85%" src="{% static 'img/sponsors/fitness.png' %}"></a>
+                <br>  <h3>LRK Fitness</h3>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4" id="zebronics">
+                <h2>Online Media Partner</h2><br>
+                <a target="_blank" href=""><img style="width:50%;" class="whiteshadow img-responsive rounded img-thumbnail" style="max-width:85%" src="{% static 'img/sponsors/Reto.png' %}"></a>
+                <br><h3>Reto</h3>
+            </div>
+
+            
+        </div></div><br>
 
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12" >
                 <h2>Knowledge partner</h2><br><br>
-                <a target="_blank" href="www.fsm.ac.in/"><img style="width:50%;" class="whiteshadow img-responsive rounded img-thumbnail"  src="{% static 'img/sponsors/fore.jpg' %}"></a>
+                <a target="_blank" href="www.fsm.ac.in/"><img style="width:30%;" class="whiteshadow img-responsive rounded img-thumbnail"  src="{% static 'img/sponsors/fore.jpg' %}"></a>
                 <br><h3>Fore shool of management</h3>
             </div>
         </div></div><br><br>
