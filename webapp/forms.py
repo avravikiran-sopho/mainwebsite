@@ -78,6 +78,15 @@ class spokenwordForm(forms.Form):
 		model = SpokenWord
 		fields = ['name','email','mobile',]
 
+# class eventsForm(forms.ModelForm):
+# 	elanid = forms.CharField(widget=forms.TextInput(attrs=
+#     	{'name':"elanid",'placeholder':"Elanid"}))
+# 	events = forms.ModelChoiceField(queryset=EventName.objects.all())
+# 	class Meta:
+# 		model = EventName
+#         fields = ['name']
+
+
 class deregisterForm(forms.ModelForm):
     reg_events = forms.ModelChoiceField(queryset=EventRegister.objects.none())
     class Meta:

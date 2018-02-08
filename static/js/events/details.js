@@ -21,7 +21,7 @@ $('.card').on('click',function () {
           <i class='fa fa-circle' style='font-size:8px;'></i> For any queries Contact Kabir Sharda: 9867327421 or email at kabir@elan.org.in<br>\
           <i class='fa fa-circle' style='font-size:8px;'></i> The applicant must agree to abide by all rules, as changed from time to time by the Organisers.</p>\
           ";
-      var dtmf = "<h1 style='text-align:center'>DTMF Race</h1>\
+      var dtmf = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>DTMF Race</h1>\
           <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -76,7 +76,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
           ";
-    var bloopers = "<h1 style='text-align:center'>Electronic Bloopers</h1>\
+    var bloopers = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Electronic Bloopers</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -120,7 +120,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         </div>";
-    var iot = "<h1 style='text-align:center'>IOT Challenge</h1>\
+    var iot = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>IOT Challenge</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -177,7 +177,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var jugaad= "<h1 style='text-align:center'>Jugaad IT</h1>\
+    var jugaad= "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Jugaad IT</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -224,7 +224,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var junkyard ="<h1>Junkyard Wars</h1>\
+    var junkyard ="<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Junkyard Wars</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -284,7 +284,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var bridge = "<h1 style='text-align:center'>Bridge Builder</h1>\
+    var bridge = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Bridge Builder</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -331,7 +331,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var salesman ="<h1>Salesman of Fest</h1>\
+    var salesman ="<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Salesman of Fest</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -376,7 +376,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var crowd = "<h1 style='text-align:center'>Crowd Pitch</h1>\
+    var crowd = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Crowd Pitch</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -418,7 +418,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var cadpro = "<h1 style='text-align:center'>CADPRO</h1>\
+    var cadpro = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>CADPRO</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -470,7 +470,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var drift = "<h1 style='text-align:center'>Drift King</h1>\
+    var drift = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Drift King</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -515,7 +515,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var robowars = "<h1 style='text-align:center'>Robowars</h1>\
+    var robowars = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Robowars</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -562,7 +562,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var robosoccer = "<h1 style='text-align:center'>RoboSoccer</h1>\
+    var robosoccer = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>RoboSoccer</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -604,7 +604,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var robopirates = "<h1 style='text-align:center'>Robo-Pirates</h1>\
+    var robopirates = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Robo-Pirates</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -653,7 +653,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var linerobot = "<h1 style='text-align:center'>Line Robo</h1>\
+    var linerobot = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Line Robo</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -700,7 +700,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var aquanet = "<h1 style='text-align:center'>Aquanaut</h1>\
+    var aquanet = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Aquanaut</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -762,7 +762,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var galileo = "<h1 style='text-align:center'>Galileo Project</h1>\
+    var galileo = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Galileo Project</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -821,7 +821,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var enigma = "<h1 style='text-align:center'>Enigma</h1>\
+    var enigma = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Enigma</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -869,7 +869,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var hackamaze = "<h1 style='text-align:center'>HACK-A-MAZE</h1>\
+    var hackamaze = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>HACK-A-MAZE</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -915,7 +915,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var quest = "<h1 style='text-align:center'>PRO-Quest</h1>\
+    var quest = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>PRO-Quest</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -958,7 +958,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var algo = "<h1 style='text-align:center'>Algorthima</h1>\
+    var algo = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Algorthima</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -1003,7 +1003,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var automobile ="<h1>Automobile Quiz</h1>\
+    var automobile ="<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Automobile Quiz</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -1051,7 +1051,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var scitech = "<h1 style='text-align:center'>Science Quiz</h1>\
+    var scitech = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Science Quiz</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -2262,7 +2262,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i>  The first rule of the Quiz Club is quizmaster's decision is final.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i>  No peeking. We call on your quizzer's honor.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i>  ‎Ships are safe in the harbour but that is not their purpose. Quizzers are safe with Google but that is not their purpose. Don't use Google or anything more than your gray matter.</p>";
-    var elmatrico = "<h1 style='text-align:center'>Elmatrico</h1>\
+    var elmatrico = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Elmatrico</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -2312,7 +2312,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var quadcopter = "<h1 style='text-align:center'>Quadcopter Challenge</h1>\
+    var quadcopter = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Quadcopter Challenge</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
@@ -2359,7 +2359,7 @@ $('.card').on('click',function () {
         </div>\
         </div>\
         ";
-    var paperpt = "<h1 style='text-align:center'>PAPER PRESENTATION</h1> \ <ul  class='nav nav-tabs'>\
+    var paperpt = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>PAPER PRESENTATION</h1> \ <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
         <a style='color:white' href='#1a' data-toggle='tab'><i class='fa fa-align-justify' aria-hidden='true'></i>&nbsp;Introduction</a>\
         </li>\

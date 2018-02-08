@@ -188,6 +188,9 @@ def eventregister(request,eventname):
 		return HttpResponseRedirect("/login")
 
 
+
+
+
 def team_register(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)
