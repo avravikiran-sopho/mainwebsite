@@ -122,6 +122,24 @@ class teamForm(forms.Form):
 	email5 = forms.CharField(required=False,widget = forms.EmailInput(attrs=
 		{'name':"email15",'id':"username",'placeholder':"Email"}))
 
+class teamadminForm(forms.Form):
+	event = forms.ChoiceField(choices=CHOICES)
+
+	elanid1 = forms.CharField(widget = forms.TextInput(attrs=
+		{'name':"elanid1",'id':"elanid1",'placeholder':"Elan ID - Team leader"}))
+	
+	elanid2 = forms.CharField(widget = forms.TextInput(attrs=
+		{'name':"elanid2",'id':"username",'placeholder':"Elan ID"}))
+
+	elanid3 = forms.CharField(required=False,widget = forms.TextInput(attrs=
+		{'name':"elanid3",'id':"username",'placeholder':"Elan ID"}))
+	
+	elanid4 = forms.CharField(required=False,widget = forms.TextInput(attrs=
+		{'name':"elanid4",'id':"username",'placeholder':"Elan ID"}))
+	
+	elanid5 = forms.CharField(required=False,widget = forms.TextInput(attrs=
+		{'name':"elanid5",'id':"username",'placeholder':"Elan ID"}))
+	
 
 class socialForm(forms.Form):
 	name = forms.CharField(widget=forms.TextInput(attrs=

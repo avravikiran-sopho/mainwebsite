@@ -15,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm
+from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm, teamadminForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -325,10 +325,11 @@ def teamregister_admin(request):
 	if request.user.is_authenticated():
 		profile = Profile.objects.get(user = request.user)
 		if request.method == "POST":
-			form = teamForm(request.POST)
+			form = teamadminForm(request.POST)
+			print form.errors
 			if form.is_valid():
 				try:
-					print form.errors
+					
 					data = form.cleaned_data
 					event = data['event']
 					elanid_list = []
@@ -357,7 +358,7 @@ def teamregister_admin(request):
 								return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
 
 					leader_id = elanid_list[0]
-					leader = Profile.objects.get(username = leader_id).user
+					leader = Profile.objects.get(elanids = leader_id).user
 					if TeamLeader.objects.filter(user = leader, event = event).exists():
 						message = "Team leader already exists for this event."
 						print 3
@@ -380,8 +381,8 @@ def teamregister_admin(request):
 							new_object.event = event
 							new_object.uploaded_at = localtime(now())
 							new_object.save()
-						for email in email_list:
-							member = User.objects.get(username = email)
+						for elanid in elanid_list:
+							member = Profile.objects.get(elanids = elanid).user
 							if Team.objects.filter(user = member, event = event):
 								TeamLeader.objects.get(user = leader,event = event).delete()
 								print 4
@@ -405,16 +406,17 @@ def teamregister_admin(request):
 									new_object.save()
 									message = "Done"
 									return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
-				except:
+				except Exception as e: 
+					print(e)
 					message = "Failed"
 					return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
 			else:
-				message = "Failed"
+				message = "Form is not valid"
 				return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
 						
 			
 		else:
-			form = teamForm()
+			form = teamadminForm()
 			return render(request,'webapp/teamregister_admin.html',{'form':form,})
 
 
