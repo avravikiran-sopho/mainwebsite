@@ -27,6 +27,73 @@ CHOICES=[('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
          ('AUTOMOBILE QUIZ','AUTOMOBILE QUIZ'),
 	 ('LINE ROBO','LINE ROBO')]
 
+ALLEVENTS=[
+
+	 	('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
+	 	('BREAKFREE - DUET','BREAKFREE - DUET'),
+	 	('BREAKFREE - SOLO DANCE','BREAKFREE - SOLO DANCE'),
+	 	('BREAKFREE - GROUP DANCE','BREAKFREE - GROUP DANCE'),
+	 	('HELLO WORLD','HELLO WORLD'),
+	 	('ELAN-E-JUNG','ELAN-E-JUNG'),
+	 	('FEMINA','FEMINA'),
+	 	('MANTHAN','MANTHAN'),
+	 	('QUIZ CONCLAVE','QUIZ CONCLAVE'),
+	 	('MR DETECTIVE','MR DETECTIVE'),
+	 	('COFFEE CONVERSATION','COFFEE CONVERSATION'),
+	 	('PAPER PLANE','PAPER PLANE'),
+	 	('WHEEL OF FORTUNE','WHEEL OF FORTUNE'),
+	 	('SOCIAL EXPERIMENT','SOCIAL EXPERIMENT'),
+	 	('WALK THE RAMP','WALK THE RAMP'),
+	 	('MADADS','MADADS'),
+	 	('MINUTE TO WIN IT','MINUTE TO WIN IT'),
+	 	('CASINO','CASINO'),
+	 	('FOODATHON','FOODATHON'),
+	 	('FINAL DESTINATION','FINAL DESTINATION'),
+	 	('LAN GAMING','LAN GAMING'),
+	 	('QUADCOPTER CHALLENGE','QUADCOPTER CHALLENGE'),
+	 	('PAPER PRESENTATION','PAPER PRESENTATION'),
+	 	('ELMATRICO','ELMATRICO'),
+	 	('AUTOMOBILE QUIZ','AUTOMOBILE QUIZ'),
+	 	('SCIENCE QUIZ','SCIENCE QUIZ'),
+	 	('ALGORITHMA','ALGORITHMA'),
+	 	('PRO-QUEST','PRO-QUEST'),
+	 	('HACK-A-MAZE','HACK-A-MAZE'),
+	 	('ENIGMA','ENIGMA'),
+	 	('AQUANUT','AQUANUT'),
+	 	('GALILEO PROJECT','GALILEO PROJECT'),
+	 	('LINE ROBO','LINE ROBO'),
+	 	('ROBO-PIRATES','ROBO-PIRATES'),
+	 	('ROBOSOCCER','ROBOSOCCER'),
+	 	('ROBOWARS','ROBOWARS'),
+	 	('CADPRO','CADPRO'),
+	 	('DRIFT KING','DRIFT KING'),
+	 	('SALESMAN OF FEST','SALESMAN OF FEST'),
+	 	('CROWD PITCH','CROWD PITCH'),
+	 	('BRIDGE BUILDERS','BRIDGE BUILDERS'),
+	 	('JUNKYARD WARS','JUNKYARD WARS'),
+	 	('IOT CHALLENGE','IOT CHALLENGE'),
+	 	('JUGAAD IT','JUGAAD IT'),
+	 	('ELECTRONIC BLOOPERS','ELECTRONIC BLOOPERS'),
+	 	('DTMF RACE','DTMF RACE'),
+	 	('RJ HUNT','RJ HUNT'),
+	 	('CLAY MODELLING','CLAY MODELLING'),
+	 	('MEHENDI','MEHENDI'),
+	 	('NAIL ART','NAIL ART'),
+	 	('ART GALLERY','ART GALLERY'),
+	 	('FACE PAINTING','FACE PAINTING'),
+	 	('PICELECTIC','PICELECTIC'),
+	 	('FILM FARE FIESTA','FILM FARE FIESTA'),
+	 	('LEND YOUR VOICE','LEND YOUR VOICE'),
+	 	('THE STAGE','THE STAGE'),
+	 	('STAND UP','STAND UP'),
+	 	('NUKKAD NAATAK','NUKKAD NAATAK'),
+	 	('DJ WARS','DJ WARS'),
+	 	('OCTAVE','OCTAVE'),
+	 	('VIBRAZIONE','VIBRAZIONE'),
+	 	('STEP UP','STEP UP'),
+	 	('NRITHYANJALI','NRITHYANJALI'),
+	 	('BREAKFREE','BREAKFREE')]
+
 class teamForm(forms.Form):
 	event = forms.ChoiceField(choices=CHOICES)
 
@@ -78,15 +145,11 @@ class spokenwordForm(forms.Form):
 		model = SpokenWord
 		fields = ['name','email','mobile',]
 
-# class eventsForm(forms.ModelForm):
-# 	elanid = forms.CharField(widget=forms.TextInput(attrs=
-#     	{'name':"elanid",'placeholder':"Elanid"}))
-# 	events = forms.ModelChoiceField(queryset=EventName.objects.all())
-# 	class Meta:
-# 		model = EventName
-#         fields = ['name']
-
-
+class eventsForm(forms.Form):
+	elanid = forms.CharField(widget=forms.TextInput(attrs=
+    	{'name':"elanid",'placeholder':"Elan ID"}))
+	events = forms.ChoiceField(choices=ALLEVENTS)
+	
 class deregisterForm(forms.ModelForm):
     reg_events = forms.ModelChoiceField(queryset=EventRegister.objects.none())
     class Meta:

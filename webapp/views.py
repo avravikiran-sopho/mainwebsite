@@ -15,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from .forms import teamForm, socialForm , deregisterForm, spokenwordForm
+from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -187,6 +187,41 @@ def eventregister(request,eventname):
 	else:
 		return HttpResponseRedirect("/login")
 
+def eventregister_admin(request):
+	if request.user.is_authenticated():
+		if request.method == "POST":
+			form = eventsForm(request.POST)
+			if form.is_valid():
+				data = form.cleaned_data
+				elanid = data['elanid']
+				event = data['events']
+				try:
+					elanid = int(data['elanid'][-5:])
+					profile = Profile.objects.get(elanids = elanid)
+					user = profile.user
+					if EventRegister.objects.filter(user = user,event = event).exists():
+						message = "Done !!"
+						return render(request,'webapp/eventregister_admin.html',{'form':form,'message':message})
+					else:
+						new_object = EventRegister()
+						new_object.user = user
+						new_object.event = event
+						new_object.uploaded_at = localtime(now())
+						new_object.save()
+						message = "Done !!"
+						return render(request,'webapp/eventregister_admin.html',{'form':form,'message':message})
+				except:
+					message = "Failed !!!"
+					return render(request,'webapp/eventregister_admin.html',{'form':form,'message':message})
+			else:
+				message = "Failed !!!"
+				return render(request,'webapp/eventregister_admin.html',{'form':form,'message':message})
+		else:
+			form = eventsForm
+			print form.errors
+			return render(request,'webapp/eventregister_admin.html',{'form':form})
+	else:
+		return HttpResponseRedirect("/login")
 
 
 

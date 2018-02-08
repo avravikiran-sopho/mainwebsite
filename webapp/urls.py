@@ -26,7 +26,7 @@ urlpatterns = [
 	url(r'^litfest$', views.litfest),
 	url(r'^spokenword$', views.spokenword),
 	url(r'^associate$', views.associate),
-    # url(r'^eventregister_admin$', views.eventregister_admin),
+    url(r'^eventregister_admin$', views.eventregister_admin),
 	url(r'^ibm$', views.ibm),
 	# url(r'^wnew$', views.workshopnew),
 	url(r'^media/(?P<path>.*)$', serve, {
