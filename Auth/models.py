@@ -25,6 +25,7 @@ class Profile(models.Model):
     zipcode = models.IntegerField()
     gender = models.CharField(choices=GENDER_CHOICES, max_length=128)
     elanids =models.IntegerField()
+    checkin = models.BooleanField(default=False)
     def __str__(self):
        return str(self.user)
 # @receiver(post_save, sender=User)
