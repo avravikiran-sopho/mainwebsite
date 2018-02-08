@@ -1,7 +1,7 @@
 
 {% load static %}
   {% include "base.html" %}
-  <title>Dashboard | ELAN & ηvision 2018</title>
+  <title>Team Registration| ELAN & ηvision 2018</title>
   <!-- FAVICONS -->
 	<link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
 	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon.png' %}">
@@ -32,15 +32,8 @@
     .table td, .table th {
       border:none;
     }
-    .team_table tr td {
-      width:25%;
-    }
 </style>
-{% if message %}
-<script type="text/javascript">
-  alert({{ message }});
-</script>
-{% endif %}
+
 <body>
 
   <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
@@ -56,14 +49,12 @@
     <a class="nav-link" href="/events"><i class="fa fa-trophy" aria-hidden="true"></i>Events</a>
     <a class="nav-link" href="/sponsors"><i class="fa fa-handshake-o" aria-hidden="true"></i>Sponsors</a>
     <a class="nav-link" href="/workshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Workshops</a>
-    <a class="nav-link" href="/freeworkshops"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Free Workshops</a>
     <a class="nav-link" href="/team"><i class="fa fa-users" aria-hidden="true"></i>Team</a>
-    <a class="nav-link" href="/pronites"><i class="fa fa-music" aria-hidden="true"></i>Pronites</a>
-    <a class="nav-link" href="/hackathon"><i class="fa fa-header" aria-hidden="true"></i>Hackathon</a>
+    <a class="nav-link" href="/pronites"><i class="fa fa-fa-music" aria-hidden="true"></i>Pronites</a>
+    <a class="nav-link" href="/hackathon"><i class="fa fa-fa-header" aria-hidden="true"></i>Hackathon</a>
     <a class="nav-link" href="/litfest"><i class="fa fa-pencil" aria-hidden="true"></i>Litfest</a>
   <a class="nav-link" href="/mypledge"><i class="fa fa-envira" aria-hidden="true"></i>Social Cause</a>
   <a class="nav-link" href="/#accomo"><i class="fa fa-bed" aria-hidden="true"></i>Accomodation</a>
-  <a class="nav-link" href="/associate"><i class="fa fa-user-plus" aria-hidden="true"></i>Associate</a>
     <div class="social">
   <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank" class="icon fb"><i class="fa fa-facebook"></i></a>
   <a href="https://twitter.com/elan_nvision" target="_blank" class="icon fb"><i class="fa fa-twitter"></i></a>
@@ -77,73 +68,113 @@
       <div class="line_two"></div>
         <div class="line_three"></div>
 </div>
-
+{% ifequal user.username "admin@elan.org.in" %}
 
 	<div class="logo-div">
       <a href="/"><img src="/static/img/new_logo.png" class="logo"></a>
   </div>
+   <form method="post" action="/teamregister_admin/">{% csrf_token %}
   <div class="row" style="margin-top: 2%;">
 
     <div class="col-md-4 col-sm-12">
-      <p class="left">Welcome, {{ profile.full_name }}.</p><br>
-      <p class="mail">{{ user.username }}</p>
-      <p>Your Elan ID is <b>EN18IITH{{ profile.elanids|stringformat:"05d" }}</b></p>
-      <div class="btn-cont"><a href="/login/logout"><button class="btn1"><i class="fa fa-sign-out"></i> Logout</button></a></div>
+      <p class="left">Select Event</p><br>
+      <p>{{ form.event }}</p>
+      <p id="message_min"></p>
     </div>
 
     <div class="col-md-4 col-sm-12">
 
       <table class="table" style="text-align: center;width: 100%;">
-
           <tbody style="color: white">
             <tr>
-              <td style="font-size:2.5em;font-family: BernardoModaSemibold;">Registered Events</td>
+              <th>Elan ID</th>
+              
+
             </tr>
-            {% if events %}
-            {% for event in events %}
-            <tr><td>{{ event.event }}</td></tr>
-            {% endfor %}
-            {% else %}
-            <tr><td>You haven't registered for any events. Go to our events page to register now!</td></tr>
-            {% endif %}
-          <tbody>
-        </table>
-        <div class="btn-cont"><a href="/deregister"><button class="btn1">Deregitser Event</button></a></div>
-        <div class="btn-cont"><a href="/events"><button class="btn1"><i class="fa fa-trophy"></i> Events</button></a></div>
+
+            <tr><td>{{ form.elanid1 }}</td></tr>
+            <tr><td>{{ form.elanid2 }}</td></td></tr>
+            <tr><td>{{ form.elanid3 }}</td></td></tr>
+            <tr><td>{{ form.elanid4 }}</td></td></tr>
+            <tr><td>{{ form.elanid5 }}</td></td></tr>
+          </tbody>
+
+      </table>
+      <button type="submit" name="submit" class="btn1">Submit</button>
+        
     </div>
+
 
     <div class="col-md-4 col-sm-12">
-      <p class="left">Updates</p><br>
-      <ul style="width: 50%;margin: auto;">
-        <li><a href="https://docs.google.com/spreadsheets/d/19-VNHJGNMULSBy4lfZB2s3RZeVj2NcyVIlEXm8cUEIY/edit?usp=sharing" target="_blank">Events Schedule</a></li>
-      <li><a href="https://docs.google.com/spreadsheets/d/1YvdkuM2X-pfxGRvqcY9t3mfiFm1vMOIw3c6oc7OZ64w/edit?usp=sharing">Results</a> of Paper Presentation!!</li>
-      <li><a href="/cryptex">Cryptex</a> event has ended!!</li>
-      </ul>
+      {% if message %}
+      <h3>Error: {{ message }}</h3>
+      {% endif %}
     </div>
 
   </div>
-  <div class="row">
-   <div class="col-md-12 col-sm-12">
-    <a href="/team_register"><button class="btn1"><i class="fa fa-"></i> Register as a Team for a Event</button></a>
-     <table class="table team_table" style="text-align: center;width: 100%;">
-          <tbody style="color: white;">
-            <tr>
-              <td colspan=4 style="font-size:2.5em;font-family: BernardoModaSemibold;">Teams</td>
-            </tr>
-            {% if team_array %}
-            <tr><th>Team ID</th><th>Team member</th><th>Member ID</th><th>Event</th></tr>
-            {% for member in team_array %}
-            <tr><td>EN18IITHT{{ member.teamids|stringformat:"04d" }}</td><td>{{ member.user }}</td><td>EN18IITH{{ member.user.id|stringformat:"05d" }}</td><td>{{ member.event }}</td></tr>
-            {% endfor %}
-            {% else %}
-            <tr><td>You haven't formed any teams.</td></tr>
-            {% endif %}
-          <tbody>
-        </table>
-   </div>
-
-  </div>
-
+     </form>
+{% else %}
+     <h1>Sorry, you have no permissions.</h1>
+     {% endifequal %}
 </body>
+<script type="text/javascript">
+</script>
 <script type='text/javascript' src="{% static '/js/home/nav.js' %}"></script>
 <script type='text/javascript' src="{% static 'js/home/classie.js' %}"></script>
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.table tr').css({"display":"table-row"})
+    var event = $('#id_event').val();
+    event = event.replace(/ +/g, "");
+    event = (event.replace(/[^a-zA-Z ]/g, ""));
+    console.log(events[event].max);
+    var x = events[event].max-6;
+    console.log(x);
+    $( 'tr:gt(' + ( x ) + ')' ).hide();
+  });
+  var events = {
+    QUADCOPTERCHALLENGE : {min:1, max:5},
+    DTMFRACE : {min:1, max:4},
+    ELECTRONICBLOOPERS : {min:1, max:2},
+    JUGAADIT : {min:1, max:3},
+    IOTCHALLENGE : {min:1, max:3},
+    JUNKYARDWARS : {min:3, max:5},
+    BRIDGEBUILDERS : {min:3, max:5},
+    SALESMANOFFEST : {min:3, max:5},
+    DRIFTKING : {min:1, max:4},
+    CADPRO : {min:1, max:2},
+    ROBOWARS : {min:1, max:4},
+    ROBOSOCCER : {min:1, max:4},
+    ROBOPIRATES : {min:1, max:3},
+    GALILEOPROJECT : {min:1, max:3},
+    AQUANUT : {min:1, max:5},
+    ENIGMA : {min:1, max:2},
+    HACKAMAZE : {min:1, max:2},
+    SCIENCEQUIZ : {min:1, max:2},
+    AUTOMOBILEQUIZ : {min:1, max:2},
+    PAPERPRESENTATION : {min:1, max:3},
+    LINEROBO : {min:1, max:2},
+  }
+
+
+  $(document).on('change', '#id_event', function() {
+    $('.table').css({"display":"block"})
+    $('.table tr').css({"display":"table-row"})
+    var event = $('#id_event').val();
+    event = event.replace(/ +/g, "");
+    event = (event.replace(/[^a-zA-Z ]/g, ""));
+    console.log(events[event].max);
+    var x = events[event].max-6;
+    console.log(x);
+    $( 'tr:gt(' + ( x ) + ')' ).hide();
+    if (events[event].min != 1){
+      $('#message_min').html('Minimum Team members for this event is '+events[event].min)
+    } else {
+      $('#message_min').html('')
+    }
+    // var sliced =  $('.table tr').slice(x,-1).remove();
+    // console.log(sliced);
+
+  });
+
+</script>

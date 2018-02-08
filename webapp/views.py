@@ -321,6 +321,102 @@ def team_register(request):
 			form = teamForm()
 			return render(request,'webapp/teamregister.html',{'form':form,})
 
+def teamregister_admin(request):
+	if request.user.is_authenticated():
+		profile = Profile.objects.get(user = request.user)
+		if request.method == "POST":
+			form = teamForm(request.POST)
+			if form.is_valid():
+				try:
+					print form.errors
+					data = form.cleaned_data
+					event = data['event']
+					elanid_list = []
+					for x in range(1, 6):
+						if data['elanid' + str(x)] != "":
+							elanid_raw = data['elanid' + str(x)]
+							print elanid_raw[:8]
+							if elanid_raw[:8] == "EN18IITH":
+								try:
+									elanid = int(data['elanid' + str(x)][-5:])
+									if Profile.objects.filter(elanids = elanid).exists():
+										profile = Profile.objects.get(elanids = elanid)
+										elanid_list.append(int(data['elanid' + str(x)][-5:]))
+									else:
+										message = "Incorrect ELAN ID."
+										print 2
+										return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+								except:
+									message = "Incorrect ELAN ID"
+									print 8
+									return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+
+							else:
+								message = "Incorrect ELAN ID"
+								print 7
+								return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+
+					leader_id = elanid_list[0]
+					leader = Profile.objects.get(username = leader_id).user
+					if TeamLeader.objects.filter(user = leader, event = event).exists():
+						message = "Team leader already exists for this event."
+						print 3
+						return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+					else:
+						leader_object = TeamLeader()
+						leader_object.user = leader
+						leader_object.event = event
+						leader_object.teamids = 1
+						leader_object.save()
+						teamleader = TeamLeader.objects.get(user = leader,event = event)
+						teamid = teamleader.id
+						teamleader.teamids = teamleader.id
+						teamleader.save()
+						if EventRegister.objects.filter(user = leader,event = event).exists():
+							pass
+						else:
+							new_object = EventRegister()
+							new_object.user = leader
+							new_object.event = event
+							new_object.uploaded_at = localtime(now())
+							new_object.save()
+						for email in email_list:
+							member = User.objects.get(username = email)
+							if Team.objects.filter(user = member, event = event):
+								TeamLeader.objects.get(user = leader,event = event).delete()
+								print 4
+								message = "Some of the team members already formed a team for this event"
+								return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+							else:
+								new_object=Team()
+								new_object.user = member
+								new_object.teamids = teamid
+								new_object.event = event
+								new_object.save()
+								message = "Done"
+								return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+								if EventRegister.objects.filter(user = member,event = event).exists():
+									pass
+								else:
+									new_object = EventRegister()
+									new_object.user = member
+									new_object.event = event
+									new_object.uploaded_at = localtime(now())
+									new_object.save()
+									message = "Done"
+									return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+				except:
+					message = "Failed"
+					return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+			else:
+				message = "Failed"
+				return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+						
+			
+		else:
+			form = teamForm()
+			return render(request,'webapp/teamregister_admin.html',{'form':form,})
+
 
 
 def deregister(request):
