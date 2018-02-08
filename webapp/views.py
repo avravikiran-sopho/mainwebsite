@@ -394,8 +394,7 @@ def teamregister_admin(request):
 								new_object.teamids = teamid
 								new_object.event = event
 								new_object.save()
-								message = "Done"
-								return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+								
 								if EventRegister.objects.filter(user = member,event = event).exists():
 									pass
 								else:
@@ -404,8 +403,8 @@ def teamregister_admin(request):
 									new_object.event = event
 									new_object.uploaded_at = localtime(now())
 									new_object.save()
-									message = "Done"
-									return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})
+					message = "Done"
+					return render(request,'webapp/teamregister_admin.html',{'form':form,'message':message})					
 				except Exception as e: 
 					print(e)
 					message = "Failed"
