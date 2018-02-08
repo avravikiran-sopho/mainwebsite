@@ -48,4 +48,35 @@ class RegisterForm(forms.ModelForm):
 		model = User
 		fields = ['username','email','password1','password2']
 
+class ProfileadminForm(forms.ModelForm):
+  college = forms.CharField(widget=forms.TextInput(attrs=
+    {'name':"college",'id':"college",'placeholder':"college"}))
+  full_name = forms.CharField(widget=forms.TextInput(attrs=
+    {'name':"full_name",'id':"full_name",'placeholder':"Full name"}))
+  mobile = forms.CharField(widget=forms.NumberInput(attrs=
+    {'name':"mobile",'id':"mobile",'placeholder':"Mobile"}))
+  city = forms.CharField(required=False,widget=forms.TextInput(attrs=
+    {'name':"city",'id':"city",'placeholder':"City",'rows':"3"}))
+  adress = forms.CharField(required=False,widget=forms.TextInput(attrs=
+    {'name':"city1",'id':"city1",'placeholder':"Address",'rows':"3"}))
+  gender = forms.ChoiceField(required=False,choices=CHOICES, widget=forms.RadioSelect(attrs=
+    {'name':"gender",'id':"gender",}))
+  zipcode = forms.CharField(required=False,widget=forms.NumberInput(attrs=
+    {'name':"zipcode",'id':"zipcode",'placeholder':"Zipcode"}))
+  class Meta:
+    model = Profile
+    fields = ['college', 'mobile','city','gender','zipcode']
+
+class RegisteradminForm(forms.ModelForm):
+  password1 = forms.CharField(required=False,widget=forms.PasswordInput(attrs=
+    {'name':'password','id':'password1','class':'form-control','placeholder':'Password'}))
+  password2 = forms.CharField(required=False,widget=forms.PasswordInput(attrs=
+    {'name':'confirm-password','id':'confirm-password','class':'form-control','placeholder':'Confirm Password'}))
+  username = forms.CharField(widget=forms.EmailInput(attrs=
+    {'name':"username",'id':"name",'tabindex':"1",'class':"form-control",'placeholder':"Email"}))
+  
+  class Meta:
+    model = User
+    fields = ['username','email','password1','password2']
+
 
