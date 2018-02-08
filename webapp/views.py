@@ -16,6 +16,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm, teamadminForm
+from Auth.forms import RegisteradminForm, ProfileadminForm
 
 def handler404(request):
     response = render_to_response('404.html', {},
@@ -434,3 +435,66 @@ def deregister(request):
 
     else:
         return HttpResponseRedirect("/login")
+
+
+def register_admin(request):
+	register = 'register'
+	if request.method == "POST":
+		form1 = RegisteradminForm(request.POST)
+		form2 = ProfileadminForm(request.POST)
+		print form1.errors
+		print form2.errors
+		if form1.is_valid() & form2.is_valid():
+			user = form1.save(commit=False)
+			user.is_active = False
+			username = form1.cleaned_data['username']
+			password1 = "elan&nvision2018"
+			password2 = "elan&nvision2018"
+			if password1 == password2:
+				user.set_password(password1)
+				user.email = username
+				user.save()
+				new_object=Profile()
+				# recent_user = authenticate(username=username,password=password1)
+				user = User.objects.get(username=username)
+				new_object.user = User.objects.get(username=username)
+				new_object.college = form2.cleaned_data['college']
+				new_object.mobile = form2.cleaned_data['mobile']
+				new_object.adress = ""
+				new_object.city = ""
+				new_object.zipcode = 0
+				new_object.checkin = True
+				new_object.country = ""
+				new_object.gender = "Male"
+				new_object.full_name = form2.cleaned_data['full_name']
+				new_object.elanids = user.id
+				new_object.save()
+				# try:
+				# 	current_site = get_current_site(request)
+				# 	mesage = render_to_string('acc_active_email.html', {
+				# 		'user':user, 
+				# 		'domain':current_site.domain,
+				# 		'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+				# 		'token': account_activation_token.make_token(user),
+				# 	})		
+				# 	mail_subject = 'Activate your ElanNvision account.'
+				# 	to_email = form1.cleaned_data.get('username')
+				# 	email = EmailMessage(mail_subject, mesage, to=[to_email])
+				# 	email.send()
+				# 	#login(request,user)
+				# 	return render(request,'webapp/openmail.html')
+				# except Exception,e:
+    #                                     print str(e)
+				user = User.objects.get(username=username)
+				user.is_active = True
+				user.save()
+				message = "Done"
+				return render(request,'webapp/login_admin.html',{'RegisterForm':RegisteradminForm,'ProfileForm':ProfileadminForm,'message':message,'register':register})
+			else:
+				message = "Password dont match"
+				return render(request,'webapp/login_admin.html',{'RegisterForm':RegisteradminForm,'ProfileForm':ProfileadminForm,'message':message,'register':register})
+		else:
+			message = "Email already exists"
+			return render(request,'webapp/login_admin.html',{'RegisterForm':RegisteradminForm,'ProfileForm':ProfileadminForm,'message':message,'register':register})
+	else:
+		return render(request,'webapp/login_admin.html',{'RegisterForm':RegisteradminForm,'ProfileForm':ProfileadminForm,'register':register})

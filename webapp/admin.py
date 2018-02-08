@@ -29,12 +29,22 @@ class DisplayEventRegister(admin.ModelAdmin):
 	get_elanid.short_description = 'Elanid'
 
 class  DisplayTeamLeader(admin.ModelAdmin):
-	list_display = ('user','teamids','event')
+	list_display = ('user','get_elanid','teamids','event')
 	search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids','teamids']
+	ordering = ('teamids',)
+	def get_elanid(self, obj):
+		return obj.user.profile.elanids
+	get_elanid.short_description = 'Elanid'
+
 
 class  DisplayTeam(admin.ModelAdmin):
-	list_display = ('user','teamids','event')
+	list_display = ('user','get_elanid','teamids','event')
 	search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids','teamids']
+	ordering = ('teamids',)
+	def get_elanid(self, obj):
+		return obj.user.profile.elanids
+	get_elanid.short_description = 'Elanid'
+
 
 class  DisplaySocial(admin.ModelAdmin):
 	list_display = ('name','email','message')
