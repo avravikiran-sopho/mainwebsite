@@ -2193,6 +2193,19 @@ $('.card').on('click',function () {
         <p><i class='fa fa-circle' style='font-size:8px;'></i> Partners will be assigned by random chits.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Participants will be given 10 minutes with their partners.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The most correct answers will win.</p>";
+    var socialnet = "<h1 style='text-align:center'>Social Networking</h1>\
+        <h1>ABOUT</h1>\
+        <p>Meet and connect with students in a fun way to build a new network.<br>\
+        You only get 4 minutes with each student to maximize the number of students you meet<br>\
+        <h1>RULES</h1>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> You'll be given 4 minutes to talk and socialize with the student sitting with you.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Make the best use of those 4 minutes with new people and build your network. <br>\</p>";
+    var harlemshake = "<h1 style='text-align:center'>Coffee Conversation</h1>\
+        <h1>ABOUT</h1>\
+        <p>Know about the Harlem Shake ? If not Youtube it! else you will be missing out on something really fun!<br>\
+        Student Networking Festival brings Harlem Shake challenge to Elan & Nvision 2018 where we see how crazy and creative you can get!<br>\
+        <h1>CONTACT</h1>\
+        <p><i class='fa fa-circle' style='font-size:8px;'></i> 8919710359<br>\</p>";
     var elanejung = "<h1 style='text-align:center'>Elan-E-Jung</h1><p>\
         Travel on a double bass and riff through the jungle which has creatures who are calm like a bomb. Elan is back with its signature Event, the metal battle. Get ready to put the stage on Wildfire.<br>\
         'For those about to rock, we salute you!'' - AC/DC<br>\
@@ -2515,6 +2528,10 @@ $('.card').on('click',function () {
       $('#details').html(plane);
     }else if (name == "coffee") {
       $('#details').html(coffee);
+    }else if (name == "socialnet") {
+      $('#details').html(socialnet);
+    }else if (name == "harlemshake") {
+      $('#details').html(harlemshake);
     }else if (name == "elanejung") {
       $('#details').html(elanejung);
     }else if (name == "manthan") {
