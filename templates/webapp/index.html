@@ -61,6 +61,17 @@ img.emoji {
 }
 </style>
 
+<style>
+.effect8
+{
+	-webkit-box-shadow: -26px -16px 27px -6px rgba(0,0,0,0.48);
+-moz-box-shadow: -26px -16px 27px -6px rgba(0,0,0,0.48);
+box-shadow: -26px -16px 27px -6px rgba(0,0,0,0.48);
+top:8%;
+}
+
+</style>
+
 <!-- MORE STYLESHEETS & SCRIPTS -->
 
 <link rel='stylesheet' id='responsiveslides-css'  href="{% static '/js/home/responsiveslides/responsiveslides.css_ver=4.6.9.css' %}" type='text/css' media='all' />
@@ -451,18 +462,18 @@ Everything to have you sway with the beat.</p>
 
 	</ul>
 </div>
-<div class="section9" style="background:#9BCA3E;">
+<div class="section9" style="height:100vh;background:url('{% static 'img/home/env412.png' %}');">
 	<div class="parallax-window" style='background-image:url("");'>
-		<div class="paragraph">
-					<h1>Social Cause</h1>
-			<p><p class="socialtext" style="width: 400px;">Our world is going into a deep abyss day by day…<br>
+		<div class="paragraph" style="margin-top:4em;bottom:8%">
+					<h1 style="color:#fff;font-weight:bold;">Social Cause</h1><hr>
+			<p><p class="socialtext" style="color:#fff;width: 400px;font-size:28px;line-height:35px;font-weight:bold">Our world is going into a deep abyss day by day…<br>
 Climate change and global warming a strangling our planet slowly. Our environment is polluted and all the fuels are running out... <br>
-But what is the solution? <br>
-<h1 style="text-transform:lowercase;">#my_ecopledge</h1></p><br><a href="/mypledge"><button class="btn1" style="font-size:25px;border:white solid 3px;"><span style="color:white;">Know More</span></button></a><br>
+But what is the solution? <br><br>
+<h1 style="text-transform:lowercase;color:#fff;font-size:60px;font-weight: bolder;">#my_ecopledge</h1></p><br><a href="/mypledge"><button class="btn1" style="font-size:25px;border:white solid 3px;"><span style="color:white;">Know More</span></button></a><br>
 	</p>
 		</div>
-		<div class="equipe1"><img src="{% static 'img/home/social11.jpg' %}"></div>
-		<div class="equipe2"><img src="{% static 'img/home/social.png' %}"></div>
+		<div class="equipe1 effect8"><img style="border-radius:5px;" src="{% static 'img/home/social11.jpg' %}"></div>
+		<!-- <div class="equipe2"><img src="{% static 'img/home/social.png' %}"></div> -->
 		<!-- <div class="equipe3"><img src="{% static 'img/home/social.png' %}"></div> -->
 	</div>
 
@@ -531,17 +542,17 @@ But what is the solution? <br>
 
 				<div class="horaires" style="margin-bottom1%;">
 					<div class="title" style="width:100%;margin-bottom:10px;">
-												<h2>Accomodation</h2>
+												<h2>Accomodation</h2><hr style="max-width:60%;"><br>
 												<p style="font-size:1.5em;font-weight:bold;line-height:1.5em;">
 								Accommodation during ELAN & nvision will be provided from 9th to 11th Feb. Accommodation will start from 9th Feb 6:00 pm.<br>
-							<a target="_blank" href="{% static 'pdf/rules.pdf' %}"><button style="border: white solid 3px;padding:0.3em;" class="btn1"><span style="color:white;font-size:0.6em;">Rules to be followed in the campus</span></button></a>
+							<a target="_blank" href="{% static 'pdf/RulesOfAccomodation_Elan2k18.pdf' %}"><button style="border: white solid 3px;padding:0.3em;" class="btn1"><span style="color:white;font-size:0.6em;">Rules of Accomodation</span></button></a>
 							<a target="_blank" href="{% static 'pdf/transport_elan2k18.pdf' %}"><button style="border: white solid 3px;padding:0.3em;" class="btn1"><span style="color:white;font-size:0.6em;">Transport details</span></button></a>
 
 					</div>
 				</div>
 
 				<div class="phone" style="margin:1%";>
-					<h2>Venue</h2>
+					<h2>Venue</h2><hr style="max-width:60%;">	<br>
 					<p style="font-size:1.5em;;font-weight:bold;">Indian Institute of Technology Hyderabad<br><br>
 					Kandi, Sangareddy 502285<br><br>
 					Telangana, INDIA</p>
