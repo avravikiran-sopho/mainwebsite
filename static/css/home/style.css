@@ -975,7 +975,7 @@ h1{
 
 .bg1{
 /*	background-color: #cde4b0;*/
-	background: url('/static/img/home/33.png');
+	background: url('/static/img/home/33.jpg');
 	background-size: contain;
 	z-index: -5;
 	width: 101%;
@@ -988,7 +988,7 @@ h1{
 .bg2{
 
 /*	background-color: #0f5152;*/
-	background: url('/static/img/home/32.png');
+	background: url('/static/img/home/32.jpg');
 	background-size: contain;
 	z-index: -4;
 	width: 101%;
@@ -1004,7 +1004,7 @@ h1{
 }
 .bg3{
 /*	background-color: #ffe09c;*/
-    background: url('/static/img/home/36.png');
+    background: url('/static/img/home/36.jpg');
     background-size: contain;
 	z-index: -3;
 	width: 101%;
