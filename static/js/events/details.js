@@ -2256,7 +2256,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i>  Soundness of the explanation offered - Both logically and in ability to explain various narrative events.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i>  Time taken to come up with explanation.</p>";
     var conclave = "<h1 style='text-align:center'>Quiz Conclave</h1><p>\
-        Jack of all trades or master of one ? Find out at quiz conclave which pampers and punishes participants with a choice of x quizzes in x different fields. In this quizzes, the quizmaster will make you call in your inner pop culture guru to reveal just exactly how much anime you binge watched. Do you feel lucky , may the odds be with you.</p>\
+        Jack of all trades or master of one ? Find out at quiz conclave which pampers and punishes participants with a choice of 7 quizzes in 7 different fields. In this quizzes, the quizmaster will make you call in your inner pop culture guru to reveal just exactly how much anime you binge watched. Do you feel lucky ? May the odds be with you.</p>\
         <h1>Rules:</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i>  This obviously is an offline event.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i>  The first rule of the Quiz Club is quizmaster's decision is final.<br>\
