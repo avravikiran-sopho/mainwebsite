@@ -2520,6 +2520,8 @@ $('.card').on('click',function () {
       $('#details').html(food);
     }else if (name == "casino") {
       $('#details').html(casino);
+    }else if (name == "ramp") {
+      $('#details').html(ramp);
     }else if (name == "minute") {
       $('#details').html(minute);
     }else if (name == "madads") {
