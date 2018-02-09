@@ -2538,6 +2538,8 @@ $('.card').on('click',function () {
       $('#details').html(manthan);
     }else if (name == "femina") {
       $('#details').html(femina);
+    }else if (name == "ramp") {
+      $('#details').html(ramp);
     }else if (name == "conclave") {
       $('#details').html(conclave);
     }else if (name == "detective") {
