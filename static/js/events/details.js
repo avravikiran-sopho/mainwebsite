@@ -2097,6 +2097,9 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> The games will be held in a tournament style format.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> In case of malpractice the concerned team will be disqualified.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all</p>\
+        <h1>ORGANISERS</h1>\
+        <p>Binaya - 9583312374<br>\
+        Apoorve - 7382200037</p>\
         ";
     var destination = "<h1 style='text-align:center'>Final Destiantion</h1>\
         <h1>ABOUT</h1><p>\
@@ -2110,7 +2113,11 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Without solving one clue you can't move to the next.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The first two teams to complete every task and bag maximum points will be rewarded.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Malpractice will lead to disqualification.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>\
+        <h1>ORGANISERS</h1>\
+        <p>Aarushi - 9205321270<br>\
+        Saurabh - 8889466682</p>\
+        ";
     var food= "<h1 style='text-align:center'>Foodathon</h1>\
         <h1>ABOUT</h1>\
         <p>Haters will hate but 'Food is not a word, It’s a religion'.<br>\
@@ -2120,14 +2127,17 @@ $('.card').on('click',function () {
         <h1>RULES</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Individual participation.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Onspot registration with limited number of entries.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>\
+        <p>Joel - 9121635775<br>\
+        Raniya - 9030222710</p>";
     var casino = "<h1 style='text-align:center'>Casino</h1><h1>ABOUT</h1><p>\
         Got the perfect poker face? Think you’re luckier than the rest?<br>\
         Put it to the test at the Casino!<br><br>\
         For those who have aces up their sleeves, to those who just want to have some fun,the excitement of gambling never dies.<br>\
         Whether it’s the spin of the roulette wheel that catches your eye,<br>\
         or the shouts of ‘hit’ and ‘stay’ from the blackjack table that draw you in, the<br>\
-        casino just won’t let you leave. May the odds be ever in your favour!</p>";
+        casino just won’t let you leave. May the odds be ever in your favour!</p>\
+        <h1>Organizers</h1><p>Dharmagya-857040404<br>Chandrasekhar-9772791814</p>";
     var minute = "<h1 style='text-align:center'>Minute To Win It</h1>\
         <h1>ABOUT</h1><p>\
         Fun and Goodies, what a great combination!\
@@ -2135,7 +2145,10 @@ $('.card').on('click',function () {
         Get ready to grab some goodies!</p>\  <h1>RULES</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The events can be performed single or in a group depending on the event.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> No malpractices.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organizers is final.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i> The decision of the organizers is final.</p>\
+        <h1>ORGANISERS</h1>\
+        <p>Sanchana - 8639410082<br>\
+        Anupam - 8966819081</p>";
     var madads = "<h1 style='text-align:center'>Mad Ads</h1>\
         <h1>ABOUT</h1><p>\
         Mad Ads is all about having fun, it’s about laughing and having a good time.<br>\
@@ -2149,6 +2162,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> The ad should be 3 minutes in length.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> No vulgarity allowed and sportsmanship to be followed.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.</p>\
+        <h1>Organizers</h1><p>Raktim-8255061193</p>\
         ";
     var ramp = "<h1 style='text-align:center'>Walk The Ramp</h1>\
         <h1>ABOUT</h1>\
@@ -2159,11 +2173,16 @@ $('.card').on('click',function () {
         Winners take home the titles of Mr and Ms Elan.</p>\
         <h1>RULES</h1><p>\
         Online as well as on-spot registration.<br>\ Judges decision is final.</p>\
-        ";
+        <h1>ORGANISERS</h1>\
+        <p>Parvath - 9618556557<br>\
+        Charu - 9049609529</p>";
     var social = "<h1 style='text-align:center'>Social Experiment</h1>\
         <h1>ABOUT</h1>\ <p>Have you were been PRANKED before ?<br>\
         Have you were been asked random general questions ?<br>\
-        If NO is your answer to these, get ready to experience them soon:P</p>";
+        If NO is your answer to these, get ready to experience them soon:P</p>\
+        <h1>ORGANISERS</h1>\
+        <p>Sandy - 9495783470<br>\
+        Stavan - 9974017449</p>";
     var wheel = "<h1 style='text-align:center'>Wheel-Of-Fortune</h1>\
         <h1>ABOUT</h1><p>\
         Like to quiz? Here’s a chance to put those grey cells to work.<br>\
@@ -2173,20 +2192,23 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Participation in teams of 2.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s decision final and binding to all.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Online and On-spot registration with limited number of entries.</p>\
-        ";
+        <h1>Organizers</h1><p>Karthik-8790713920<br>Raagini-9739390045</p>";
     var snakes = "<h1 style='text-align:center'>Snakes and Ladders</h1>\
         <h1>ABOUT</h1><p>\
         The name says it all doesn’t it?<br>\
         Indulge yourself in in the favourite board games of all times.</p>\
         <h1>RULES</h1><p>\
         Onspot registration.<br>\
-        Organiser’s decision final and binding to all.</p>";
+        Organiser’s decision final and binding to all.</p>\
+        <h1>Organizers</h1>\
+        <p>Raktim-8255061193<br>Charu-9049609529</p>";
     var plane ="<h1>Paper Plane</h1>\
         <h1>ABOUT</h1><p>\
         Get ready to give life to the piece of paper to fly higher with the help of your creative and engineering skills.<p>\
         <h1>RULES</h1>\
         <p><i class='fa fa-circle' style='font-size:8px;'></i> Onspot registration.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Organiser’s will describe the rules.</p>\
+        <h1>Organizers</h1><p>Bhavya-9540443692<br>Aayush-7382201104</p>\
         ";
     var coffee = "<h1 style='text-align:center'>Coffee Conversation</h1>\
         <h1>ABOUT</h1>\
@@ -2198,7 +2220,11 @@ $('.card').on('click',function () {
         <h1>RULES</h1>\
         <p><i class='fa fa-circle' style='font-size:8px;'></i> Partners will be assigned by random chits.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Participants will be given 10 minutes with their partners.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i> The most correct answers will win.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i> The most correct answers will win.</p>\
+        <h1>ORGANISERS</h1>\
+        <p>Sakshi - 9619268986<br>\
+        Vignatha - 9121386955\
+        Alekya - 9121002980</p>";
     var socialnet = "<h1 style='text-align:center'>Social Networking</h1>\
         <h1>ABOUT</h1>\
         <p>Meet and connect with students in a fun way to build a new network.<br>\
@@ -2211,7 +2237,7 @@ $('.card').on('click',function () {
         <p>Know about the Harlem Shake ? If not Youtube it! else you will be missing out on something really fun!<br>\
         Student Networking Festival brings Harlem Shake challenge to Elan & Nvision 2018 where we see how crazy and creative you can get!<br>\
         <h1>CONTACT</h1>\
-        <p><i class='fa fa-circle' style='font-size:8px;'></i> 8919710359<br>\</p>";
+        <p><i class='fa fa-circle' style='font-size:8px;'></i>Tejas- 8919710359<br>\</p>";
     var elanejung = "<h1 style='text-align:center'>Elan-E-Jung</h1><p>\
         Travel on a double bass and riff through the jungle which has creatures who are calm like a bomb. Elan is back with its signature Event, the metal battle. Get ready to put the stage on Wildfire.<br>\
         'For those about to rock, we salute you!'' - AC/DC<br>\
@@ -2280,7 +2306,8 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i>  This obviously is an offline event.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i>  The first rule of the Quiz Club is quizmaster's decision is final.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i>  No peeking. We call on your quizzer's honor.<br>\
-        <i class='fa fa-circle' style='font-size:8px;'></i>  ‎Ships are safe in the harbour but that is not their purpose. Quizzers are safe with Google but that is not their purpose. Don't use Google or anything more than your gray matter.</p>";
+        <i class='fa fa-circle' style='font-size:8px;'></i>  ‎Ships are safe in the harbour but that is not their purpose. Quizzers are safe with Google but that is not their purpose. Don't use Google or anything more than your gray matter.</p>\
+        <h1>Organizers</h1><p>Nikihl-9912229839<br>Rishika-9963093434</p>";
     var elmatrico = "<a href='http://www.greenkogroup.com/' target='_blank'><img src='static/img/events/greenko.png' style='width:15%;'></a><h1 style='text-align:center;display:inline-block;width:70%;'>Elmatrico</h1>\
         <ul  class='nav nav-tabs'>\
         <li class='active' style='font-size: 1.1em;margin: 1%;'>\
