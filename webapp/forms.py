@@ -176,3 +176,10 @@ class deregisterForm(forms.ModelForm):
     def __init__(self, user, *args, **kwargs):
         super(deregisterForm, self).__init__(*args, **kwargs)
         self.fields['reg_events'].queryset = EventRegister.objects.filter(user=user).values_list('event',flat=True)
+
+
+class addteamForm(forms.Form):
+	elanid = forms.CharField(widget=forms.TextInput(attrs=
+    	{'name':"elanid",'placeholder':"Elan ID"}))
+	teamid = forms.CharField(widget=forms.TextInput(attrs=
+    	{'name':"teamid",'placeholder':"Team ID"}))

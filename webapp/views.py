@@ -15,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm, teamadminForm
+from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm, teamadminForm, addteamForm
 from Auth.forms import RegisteradminForm, ProfileadminForm
 
 def handler404(request):
@@ -187,6 +187,43 @@ def eventregister(request,eventname):
 		return HttpResponseRedirect("/dashboard")
 	else:
 		return HttpResponseRedirect("/login")
+
+def addteam_admin(request):
+    if request.user.is_authenticated():
+    	if request.method == "POST":
+    		form = addteamForm(request.POST)
+    		if form.is_valid():
+	    		try:
+	    			
+		    		data = form.cleaned_data
+		    		elanid = data['elanid'][-5:]
+		    		teamid = data['teamid'][-4:]
+		    		reg_event = TeamLeader.objects.get(teamids = teamid)
+		    		print reg_event.event
+		    		new_object = Team()
+		    		new_object.user = Profile.objects.get(elanids = elanid).user
+		    		new_object.teamids = teamid
+		    		new_object.event = reg_event
+		    		new_object.save()
+		    		form = addteamForm()
+		    		message = "Done"
+		    		return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
+		    	except Exception as e:
+		    		print(e)
+		    		form = addteamForm()
+		    		message = "Failed"
+		    		print "aaaaaaaaaaaaaa"
+		    		return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
+			message="Failed!!"
+			form = addteamForm()
+			return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})    
+		message=""
+		form = addteamForm()
+		return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
+	message = ""
+	form = addteamForm()
+	return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
+
 
 def eventregister_admin(request):
 	if request.user.is_authenticated():

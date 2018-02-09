@@ -26,6 +26,7 @@ urlpatterns = [
 	url(r'^litfest$', views.litfest),
 	url(r'^spokenword$', views.spokenword),
 	url(r'^associate$', views.associate),
+	url(r'^addteam_admin/$', views.addteam_admin),
     url(r'^register_admin/$', views.register_admin),
     url(r'^eventregister_admin$', views.eventregister_admin),
     url(r'^teamregister_admin/$', views.teamregister_admin),

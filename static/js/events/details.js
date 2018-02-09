@@ -1255,6 +1255,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Semi-classical/ classical on Bollywood songs are strictly not allowed.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Live music is not allowed.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> The participants will perform on pre-recorded music which should be brought in a pen drive by the participants.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants would be given a maximum performance time of 7 minutes and the performance should last for a minimum of 4  mins, anyone exceeding this time limit will get penalty of points.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Participants would be given a maximum performance time of 10 minutes and the performance should last for a minimum of 5 mins, anyone exceeding this time limit will get penalty of points.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> There will be a small weightage for costumes. Dance should consist of both Nritya and Abhinaya.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Participants will have to bring their own costumes, accessories and make-up for the competition.<br>\
@@ -1344,6 +1345,7 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> Registrations can be online or on-spot during Elan & ηvision 2018.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> This competition consists of 2 rounds- prelims and finals.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Depending on the prelims performance 10 participants would be selected for the finals.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants can sing any song of his/her choice of any genre (preferably bollywood music/film music).<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Participants can sing any song of his/her choice of genre bollywood music/film music.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Prelims Round: To participate in the Vibrazione, you must have 5 songs that you know very well and must be ready to perform any of those 5 songs for the competition. If someone else has chosen your song, or something does not work out with your first choice, you will need to be ready to sing your other choice.<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Finals: For finals participant can sing any bollywood or film song of his/her own choice.<br>\
@@ -1407,6 +1409,10 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> On-spot registrations would be closed 1 hour before the event.<br>\ Duration of each performance in the first round: 6 min (empty stage to empty stage).<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Duration of each performance in the second round: as long as the backing track lasts (empty stage to empty stage).<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> There will be two categories. Melody and percussion instruments.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> There would be only one round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Participants will be given 6 minutes to play anything they want.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Based on the scores of the first round 2 participants from each category progresses into the second round.<br>\
+        <i class='fa fa-circle' style='font-size:8px;'></i> Overshooting the time limit will result in a penalty.<br.\
         <i class='fa fa-circle' style='font-size:8px;'></i> Round 1:<br>\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class='fa fa-circle' style='font-size:8px;'></i>  Participants will be given 6 minutes to play anything they want.<br>\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Based on the scores of the first round 2 participants from each category progresses into the second round.<br>\
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-circle' style='font-size:8px;'></i> Overshooting the time limit will result in a penalty.<br>\
