@@ -212,7 +212,7 @@ position:absolute;
 			</div>
 			<div class="s1btn" id="events-btn" style="margin-top: 1%;"><a href="/events" class="ghost-button-thick-border cartoon">Events</a></div>
 			<div class="s1btn" id="events-btn" style="margin-top: 1%;"><a href="https://docs.google.com/spreadsheets/d/19-VNHJGNMULSBy4lfZB2s3RZeVj2NcyVIlEXm8cUEIY/edit?usp=sharing" class="ghost-button-thick-border cartoon" style="font-size: 0.9em">Events Schedule</a></div>
-			<div class="s1btn" id="events-btn" style="margin-top: 1%;"><a href="https://docs.google.com/spreadsheets/d/1_pAAQth-vlSJ_-xLirppM1svB2u3LdvS9sdumq4aboQ/edit?usp=sharing" class="ghost-button-thick-border cartoon" style="font-size: 0.9em">Bus Schedule</a></div>
+			<div class="s1btn" id="events-btn" style="margin-top: 1%;"><a href="{% static 'pdf/transport.pdf' %}" class="ghost-button-thick-border cartoon" style="font-size: 0.9em">Bus Schedule</a></div>
 			{% if user.is_authenticated %}
 			
 			{% else %}
