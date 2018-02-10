@@ -6,9 +6,12 @@ from .models import Profile
 # Register your models here.
 
 class DisplayProfile(admin.ModelAdmin):
-	list_display = ('user','full_name','college','mobile','country','elanids','checkin','get_joined','get_active',)
+	list_display = ('user','full_name','college','mobile','country', 'get_elanids','checkin','get_joined','get_active',)
 	def get_joined(self, obj):
 		return obj.user.date_joined
+	get_joined.short_description = 'Joined'
+	def get_elanids(self, obj):
+		return "EN18IITH" + format(obj.user.profile.elanids, "05d")
 	get_joined.short_description = 'Joined'
 	def get_active(self, obj):
 		return obj.user.is_active

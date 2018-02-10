@@ -73,32 +73,19 @@
 	<div class="logo-div">
       <a href="/"><img src="/static/img/new_logo.png" class="logo"></a>
   </div>
-   <form method="post" action="/register_admin/">{% csrf_token %}
+   <form method="post" action="/addteam_admin/">{% csrf_token %}
+    <h1>ADD TEAM MEMBER TO EXISTING TEAM</h1>
   <div class="row" style="margin-top: 2%;">
 
     <div class="col-md-4 col-sm-12">
-      <p class="left">Register User admin</p><br>
-      <p>{{ form.event }}</p>
+      <p class="left">Elan ID</p><br>
+      <p>{{ form.elanid }}</p>
       <p id="message_min"></p>
     </div>
 
     <div class="col-md-4 col-sm-12">
-
-      <table class="table" style="text-align: center;width: 100%;">
-          <tbody style="color: white">
-            <tr>
-              <th></th>
-              <th></th>
-
-            </tr>
-
-            <tr><td>Name:</td><td>{{ ProfileForm.full_name }}</td></tr>
-            <tr><td>Mobile:</td><td>{{ ProfileForm.mobile }}</td></tr>
-            <tr><td>College:</td><td>{{ ProfileForm.college }}</td></tr>
-            <tr><td>Email:</td><td>{{ RegisterForm.username }}</td><tr>
-          </tbody>
-
-      </table>
+      <p class="left">team ID</p><br>
+      <p>{{ form.teamid }}</p>
       <button type="submit" name="submit" class="btn1">Submit</button>
         
     </div>

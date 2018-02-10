@@ -25,25 +25,31 @@ class DisplayEventRegister(admin.ModelAdmin):
 	get_mobile.short_description = 'Mobile'
 
 	def get_elanid(self, obj):
-		return obj.user.profile.elanids
+		return "EN18IITH" + format(obj.user.profile.elanids, "05d")
 	get_elanid.short_description = 'Elanid'
 
 class  DisplayTeamLeader(admin.ModelAdmin):
-	list_display = ('user','get_elanid','teamids','event')
+	list_display = ('user','get_elanid','get_teamids','event')
 	search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids','teamids']
 	ordering = ('teamids',)
 	def get_elanid(self, obj):
-		return obj.user.profile.elanids
+		return "EN18IITH" + format(obj.user.profile.elanids, "05d")
 	get_elanid.short_description = 'Elanid'
+	def get_teamids(self, obj):
+		return "EN18IITHT" + format(obj.teamids, "04d")
+	get_elanid.short_description = 'Teamid'
 
 
 class  DisplayTeam(admin.ModelAdmin):
-	list_display = ('user','get_elanid','teamids','event')
+	list_display = ('user','get_elanid','get_teamids','event')
 	search_fields = ['event','user__username','user__profile__full_name','user__profile__college','user__profile__mobile','user__profile__elanids','teamids']
 	ordering = ('teamids',)
 	def get_elanid(self, obj):
-		return obj.user.profile.elanids
+		return "EN18IITH" + format(obj.user.profile.elanids, "05d")
 	get_elanid.short_description = 'Elanid'
+	def get_teamids(self, obj):
+		return "EN18IITHT" + format(obj.teamids, "04d")
+	get_elanid.short_description = 'Teamid'
 
 
 class  DisplaySocial(admin.ModelAdmin):

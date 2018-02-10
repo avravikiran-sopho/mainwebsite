@@ -15,7 +15,7 @@ from django.utils.timezone import localtime, now
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm, teamadminForm
+from .forms import teamForm, socialForm , deregisterForm, spokenwordForm, eventsForm, teamadminForm, addteamForm
 from Auth.forms import RegisteradminForm, ProfileadminForm
 
 def handler404(request):
@@ -435,6 +435,37 @@ def deregister(request):
 
     else:
         return HttpResponseRedirect("/login")
+
+def addteam_admin(request):
+    if request.user.is_authenticated():
+        if request.method == "POST":
+        	form = addteamForm(request.POST)
+        	if form.is_valid():
+	            data = form.cleaned_data
+	            teamid = data['teamid'][-4:]
+	            elanid = data['elanid'][-5:]
+	            print teamid
+	            print elanid   	
+	            event = TeamLeader.objects.get(teamids = teamid).event
+	            new_object = Team()
+	            member = Profile.objects.get(elanids = elanid).user
+	            new_object.user =member
+	            new_object.teamids = teamid
+	            new_object.event = event
+	            new_object.save()
+	            message = "Done!!!"
+	            form = addteamForm()
+	            return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
+	        message = "Failed!!!"
+	        return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
+
+    	message = ""
+    	form = addteamForm()
+    	return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
+
+	message = ""
+	form = addteamForm()
+	return render(request,'webapp/addteam_admin.html',{'form':form,'message':message})
 
 
 def register_admin(request):
