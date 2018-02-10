@@ -167,6 +167,12 @@ class eventsForm(forms.Form):
 	elanid = forms.CharField(widget=forms.TextInput(attrs=
     	{'name':"elanid",'placeholder':"Elan ID"}))
 	events = forms.ChoiceField(choices=ALLEVENTS)
+
+class addteamForm(forms.Form):
+	elanid = forms.CharField(widget=forms.TextInput(attrs=
+    	{'name':"elanid",'placeholder':"Elan ID"}))
+	teamid = forms.CharField(widget=forms.TextInput(attrs=
+    	{'name':"teamid",'placeholder':"Team ID"}))
 	
 class deregisterForm(forms.ModelForm):
     reg_events = forms.ModelChoiceField(queryset=EventRegister.objects.none())
